@@ -26,4 +26,4 @@ Normcore::normalizeRecordLabel('Picadilly Records, LLC'); // picadilly
 ## Contributions
 
 Contributions and patches are welcome, and are subject to the BFF.fm developer code of
-conduct: https://developer.bff.fm/about/developer-code.
+conduct: https://developer.bff.fm/about/code-of-conduct.
