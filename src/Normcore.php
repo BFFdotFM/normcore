@@ -11,23 +11,23 @@ namespace BFFdotFM\Normcore;
  */
 class Normcore {
 
-  static function normalizeArtistName($string) {
+  static function normalizeArtistName(string $string) : string {
 
   }
 
-  static function normalizeTrackTitle($string) {
+  static function normalizeTrackTitle(string $string) : string {
 
   }
 
-  static function normalizeAlbumTitle($string) {
+  static function normalizeAlbumTitle(string $string) : string {
 
   }
 
-  static function normalizeRecordLabelName($string) {
+  static function normalizeRecordLabelName(string $string) : string {
 
   }
 
-  protected static function transform($string, array $transforms = array()) {
+  protected static function transform(string $string, array $transforms = array()) {
     $stages = array(
       'setup' => array(),
       'optimize' => array(),
@@ -49,7 +49,8 @@ class Normcore {
       }
     }, $string);
 
-    $transformedString = array_reduce($stages['setup'], function($inputString, $function) {
+    # optimize (iterate until nothing)
+    $transformedString = array_reduce($stages['optimize'], function($inputString, $function) {
       $newVal = trim(Transforms::$function($inputString));
       if (!empty($newVal)) {
         return $newVal;
@@ -58,11 +59,17 @@ class Normcore {
       }
     }, $string);
 
-
-
-
-    # optimize (iterate until nothing)
     # finally (clean-up)
+    $finishedString = array_reduce($stages['finish'], function($inputString, $function) {
+      $newVal = trim(Transforms::$function($inputString));
+      if (!empty($newVal)) {
+        return $newVal;
+      } else {
+        return $inputString;
+      }
+    }, $string);
+
+    return $finishedString;
   }
 
 }
