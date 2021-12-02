@@ -37,6 +37,13 @@ class Transforms {
     return preg_replace('/[^a-z\d\s]+/i', '', $string);
   }
 
+  /**
+   * Remove non-string characters from the beginning and end of the string
+   */
+  static function trimPunctuation(string $string) : string {
+    return trim($string, " \n\r\t\v\0,.:;&()[]/\\\"'-");
+  }
+
   public const REDUNDANT_WORDS = array('the', 'and');
   # 'and' must go else clashes with '&'
   # not sure impact of 'the'?
@@ -59,7 +66,7 @@ class Transforms {
    * Remove additional credited artists from a string, e.g. “The Rolling Stones (feat. Pitbull)
    */
   static function discardContributors(string $string) : string {
-    $parts = preg_split('/\s(?:ft|feat|featuring)\.?\s/i', $string);
+    $parts = preg_split('/\s(?:,\s|\()?(?:ft|feat|featuring)\.?\s/i', $string);
     return array_shift($parts);
   }
 

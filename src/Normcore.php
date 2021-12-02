@@ -14,7 +14,10 @@ class Normcore {
   #!!! Functions to clean display of metadata
 
   public static function cleanArtistName(string $string) : string {
-    return 'Clean Name';
+    return self::transform($string, array(
+      'removePunctuation',
+      'discardContributors'
+    ));
   }
 
   public static function cleanTrackTitle(string $string) : string {
@@ -47,14 +50,14 @@ class Normcore {
     return '';
   }
 
-  protected static function transform(string $string, array $transforms = array()) {
+  protected static function transform(string $string, array $transforms = array()) : string {
     $stages = array(
       'setup' => array(),
       'optimize' => array(),
       'finish' => array()
     );
 
-    if (array_has_key('setup', $transforms) || array_has_key('optimize', $transforms) || array_has_key('finish', $transforms)) {
+    if (array_key_exists('setup', $transforms) || array_key_exists('optimize', $transforms) || array_key_exists('finish', $transforms)) {
       array_merge($stages, $transforms);
     } else {
       $stages['optimize'] = $transforms;

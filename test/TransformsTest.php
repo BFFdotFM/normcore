@@ -32,6 +32,14 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('Death From Above 1969', Transforms::removePunctuation('Death From Above 1969'));
   }
 
+  public function testTrimsPunctuation(): void {
+    $this->assertEquals('Enter: a bear', Transforms::trimPunctuation('Enter: a bear.'));
+    $this->assertEquals('Godspeed You! Black Emperor', Transforms::trimPunctuation('Godspeed You! Black Emperor'));
+    $this->assertEquals('And You Will Know Us By', Transforms::trimPunctuation('And You Will Know Us By...'));
+    $this->assertEquals('The Strokes', Transforms::trimPunctuation(', The Strokes.'));
+    $this->assertEquals('Franz Ferdinand', Transforms::trimPunctuation('Franz Ferdinand: '));
+  }
+
   public function testFiltersRedundantWords(): void {
     $this->assertEquals('belle sebastian', Transforms::filterRedundantWords('belle and sebastian'));
     $this->assertEquals('the strokes', Transforms::filterRedundantWords('the strokes'));
@@ -42,6 +50,7 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('Open Mike Eagle', Transforms::discardContributors('Open Mike Eagle feat. Video Dave'));
     $this->assertEquals('Open Mike Eagle', Transforms::discardContributors('Open Mike Eagle ft. Kari Faux'));
     $this->assertEquals('Open Mike Eagle', Transforms::discardContributors('Open Mike Eagle featuring Lil A$e'));
+    $this->assertEquals('Open Mike Eagle', Transforms::discardContributors('Open Mike Eagle (feat. Video Dave)'));
   }
 
   public function testDiscardLicensingBlurb() : void {
