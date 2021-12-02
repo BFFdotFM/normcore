@@ -11,3 +11,9 @@ test:
 	@echo "Running tests..."
 	@echo
 	@./vendor/bin/phpunit --testdox test
+
+.PHONY: generate
+generate:
+	@echo "Generated reference data..."
+	@echo
+	@php ./script/generate-reference-data.php
