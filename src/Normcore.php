@@ -43,7 +43,7 @@ class Normcore {
       'discardLicensingBlurb',
       'removeTrailingYear',
       'discardCopyright',
-      'removePunctuation',
+      'removePhrasePunctuation',
       'discardIncorporation',
       'discardOrganizationGroup',
       'discardLabelNameRedundancies',
@@ -54,50 +54,53 @@ class Normcore {
 
   public static function keyArtistName(string $string) : string {
     return self::transform($string, array(
+      'flattenStylisticCharacters',
       'downCase',
       'normalizeUnicode',
-      'flattenStylisticCharacters',
-      'removePunctuation',
       'discardContributors',
       'filterRedundantWords',
+      'removePunctuation',
       'removeWhitespace'
     ));
   }
 
   public static function keyTrackTitle(string $string) : string {
     return self::transform($string, array(
+      'flattenStylisticCharacters',
       'downCase',
       'normalizeUnicode',
-      'removePunctuation',
       'discardContributors',
       'filterRedundantWords',
+      'removePunctuation',
       'removeWhitespace'
     ));
   }
 
   public static function keyAlbumTitle(string $string) : string {
     return self::transform($string, array(
+      'flattenStylisticCharacters',
       'downCase',
       'normalizeUnicode',
-      'removePunctuation',
       'discardContributors',
       'filterRedundantWords',
+      'removePunctuation',
       'removeWhitespace'
     ));
   }
 
   public static function keyRecordLabelName(string $string) : string {
     return self::transform($string, array(
+      'flattenStylisticCharacters',
       'downCase',
+      'discardCopyright',
       'normalizeUnicode',
-      'removePunctuation',
       'discardLicensingBlurb',
       'removeTrailingYear',
-      'discardCopyright',
       'discardIncorporation',
       'discardOrganizationGroup',
       'discardLabelNameRedundancies',
       'filterRedundantWords',
+      'removePunctuation',
       'removeWhitespace'
     ));
   }

@@ -41,6 +41,10 @@ class Transforms {
     return preg_replace('/[^a-z\d\s]+/i', '', $string);
   }
 
+  static function removePhrasePunctuation(string $string) : string {
+    return preg_replace('/[.,"\';:\(\)\[\]\\<>]+/', '', $string);
+  }
+
   /**
    * Remove whitespace characters from the beginning and end of the string
    */
@@ -52,7 +56,7 @@ class Transforms {
    * Remove non-word characters from the beginning and end of the string
    */
   static function trimPunctuation(string $string) : string {
-    return trim($string, " \n\r\t\v\0,.:;&/\\'-");
+    return trim($string, " \n\r\t\v\0,.:;/\\'-");
   }
 
   public const REDUNDANT_WORDS = array('the', 'and');
@@ -87,7 +91,7 @@ class Transforms {
    * Split and discard extraneous licensing blurb sometimes included in label credits pasted from Spotify, etc.
    */
   static function discardLicensingBlurb(string $string) : string {
-    $parts = preg_split('/\s(?:under exclusive license|under license|a division of|marketed by|rights management|in partnership with|in association with)\.?\s/i', $string);
+    $parts = preg_split('/\s(?:under exclusive license|under license|exclusively licensed to|a division of|marketed by|rights management|in partnership with|in association with)\.?\s/i', $string);
     return array_shift($parts);
   }
 
