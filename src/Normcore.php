@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace BFFdotFM\Normcore;
 
@@ -11,20 +11,40 @@ namespace BFFdotFM\Normcore;
  */
 class Normcore {
 
-  static function normalizeArtistName(string $string) : string {
+  #!!! Functions to clean display of metadata
 
+  public static function cleanArtistName(string $string) : string {
+    return 'Clean Name';
   }
 
-  static function normalizeTrackTitle(string $string) : string {
-
+  public static function cleanTrackTitle(string $string) : string {
+    return '';
   }
 
-  static function normalizeAlbumTitle(string $string) : string {
-
+  public static function cleanAlbumTitle(string $string) : string {
+    return '';
   }
 
-  static function normalizeRecordLabelName(string $string) : string {
+  public static function cleanRecordLabelName(string $string) : string {
+    return '';
+  }
 
+  #!!! Functions to create common normalized keys for metaata
+
+  public static function keyArtistName(string $string) : string {
+    return 'keyname';
+  }
+
+  public static function keyTrackTitle(string $string) : string {
+    return '';
+  }
+
+  public static function keyAlbumTitle(string $string) : string {
+    return '';
+  }
+
+  public static function keyRecordLabelName(string $string) : string {
+    return '';
   }
 
   protected static function transform(string $string, array $transforms = array()) {
