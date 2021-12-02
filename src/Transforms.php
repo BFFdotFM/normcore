@@ -53,7 +53,7 @@ class Transforms {
 
   #!!! Artist Cleaning
 
-  # Must match the insides of words.
+  # Must not match the insides of words.
   # Should this depend on punctuation for ft. and feat. ? Query all 'featuring' and 'feat' examples from DB
   /**
    * Remove additional credited artists from a string, e.g. “The Rolling Stones (feat. Pitbull)
