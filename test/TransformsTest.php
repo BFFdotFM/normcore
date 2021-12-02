@@ -6,41 +6,72 @@ use BFFdotFM\Normcore\Transforms;
 final class TransformsTest extends TestCase {
 
   public function testTransformsStringToLowercase(): void {
-    $this->assertEquals(Transforms::downCase('HELLO'), 'hello');
+    $this->assertEquals('hello', Transforms::downCase('HELLO'));
   }
 
   # This is probably going to need a lot more tests given the unicode rule soup we're using
   public function testNormalizesExtendedCharactersToAscii(): void {
-    $this->assertEquals(Transforms::normalizeUnicode('Hæloes'), 'Haeloes');
-    $this->assertEquals(Transforms::normalizeUnicode('Mötorhead'), 'Motorhead');
-    $this->assertEquals(Transforms::normalizeUnicode('Françious la Frénch'), 'Francious la French');
-    $this->assertEquals(Transforms::normalizeUnicode('And you will know us by the trail of dead…'), 'And you will know us by the trail of dead...');
-    $this->assertEquals(Transforms::normalizeUnicode('STARGÅTE'), 'STARGATE');
+    $this->assertEquals('Haeloes', Transforms::normalizeUnicode('Hæloes'));
+    $this->assertEquals('Motorhead', Transforms::normalizeUnicode('Mötorhead'));
+    $this->assertEquals('Francious la French', Transforms::normalizeUnicode('Françious la Frénch'));
+    $this->assertEquals('And you will know us by the trail of dead...', Transforms::normalizeUnicode('And you will know us by the trail of dead…'));
+    $this->assertEquals('STARGATE', Transforms::normalizeUnicode('STARGÅTE'));
   }
 
   public function testUnicodeNormalizationDoesNotStripValuableCharacters(): void {
-    $this->assertEquals(Transforms::normalizeUnicode('Sigur Rós - ()'), 'Sigur Ros - ()');
+    $this->assertEquals('Sigur Ros - ()', Transforms::normalizeUnicode('Sigur Rós - ()'));
   }
 
   public function testStylisticNormalizationRemovesAmbiguouslyDecorativeCharacters(): void {
-    $this->assertEquals(Transforms::flattenStylisticCharacters('A$AP Rocky'), 'ASAP Rocky');
+    $this->assertEquals('ASAP Rocky', Transforms::flattenStylisticCharacters('A$AP Rocky'));
   }
 
   public function testRemovesPunctuation(): void {
-    $this->assertEquals(Transforms::removePunctuation('R.E.M.'), 'REM');
-    $this->assertEquals(Transforms::removePunctuation('Godspeed You! Black Emperor'), 'Godspeed You Black Emperor');
-    $this->assertEquals(Transforms::removePunctuation('Death From Above 1969'), 'Death From Above 1969');
+    $this->assertEquals('REM', Transforms::removePunctuation('R.E.M.'));
+    $this->assertEquals('Godspeed You Black Emperor', Transforms::removePunctuation('Godspeed You! Black Emperor'));
+    $this->assertEquals('Death From Above 1969', Transforms::removePunctuation('Death From Above 1969'));
   }
 
   public function testFiltersRedundantWords(): void {
-    $this->assertEquals(Transforms::filterRedundantWords('belle and sebastian'), 'belle sebastian');
-    $this->assertEquals(Transforms::filterRedundantWords('the strokes'), 'the strokes');
-    $this->assertEquals(Transforms::filterRedundantWords('the the'), 'the');
+    $this->assertEquals('belle sebastian', Transforms::filterRedundantWords('belle and sebastian'));
+    $this->assertEquals('the strokes', Transforms::filterRedundantWords('the strokes'));
+    $this->assertEquals('the', Transforms::filterRedundantWords('the the'), 'Transform stripped even when resultant string was empty');
   }
 
   public function testDiscardsFeaturedGuestArtists(): void {
-    $this->assertEquals(Transforms::discardContributors('Open Mike Eagle feat. Video Dave'), 'Open Mike Eagle');
-    $this->assertEquals(Transforms::discardContributors('Open Mike Eagle ft. Kari Faux'), 'Open Mike Eagle');
-    $this->assertEquals(Transforms::discardContributors('Open Mike Eagle featuring Lil A$e'), 'Open Mike Eagle');
+    $this->assertEquals('Open Mike Eagle', Transforms::discardContributors('Open Mike Eagle feat. Video Dave'));
+    $this->assertEquals('Open Mike Eagle', Transforms::discardContributors('Open Mike Eagle ft. Kari Faux'));
+    $this->assertEquals('Open Mike Eagle', Transforms::discardContributors('Open Mike Eagle featuring Lil A$e'));
+  }
+
+  public function testDiscardLicensingBlurb() : void {
+    $this->assertEquals('A&M Records', Transforms::discardLicensingBlurb('A&M Records Under Exclusive License to Concord Music Group, Inc.'));
+    $this->assertEquals('A&M Records', Transforms::discardLicensingBlurb('A&M Records Under License to Concord Music Group, Inc.'));
+  }
+
+  public function testRemoveTrailingYear() : void {
+    $this->assertEquals('Domino', Transforms::removeTrailingYear('Domino 2020'));
+    $this->assertEquals('4AD', Transforms::removeTrailingYear('4AD'));
+    $this->assertEquals('Matchbox 20', Transforms::removeTrailingYear('Matchbox 20'));
+  }
+
+  public function testDiscardCopyrightStatements() : void {
+    $this->assertEquals('4AD', Transforms::discardCopyright('(c) 2020 4AD'));
+    $this->assertEquals('4AD', Transforms::discardCopyright('(P) 2020 4AD'));
+    $this->assertEquals('4AD', Transforms::discardCopyright('© 2020 4AD'));
+    $this->assertEquals('4AD', Transforms::discardCopyright('℗ 1979 2019 4AD'));
+    $this->assertEquals('4AD', Transforms::discardCopyright('℗ 1979 4AD Copyright Control'));
+  }
+
+  public function testDiscardIncorporation() : void {
+    $this->assertEquals('Warner Brothers', Transforms::discardIncorporation('Warner Brothers, Inc'));
+    $this->assertEquals('Warner Brothers', Transforms::discardIncorporation('Warner Brothers LLC'));
+    $this->assertEquals('Domino Records', Transforms::discardIncorporation('Domino Records Ltd'));
+  }
+
+  public function testDiscardLabelNameRedundancies() : void {
+    $this->assertEquals('Domino', Transforms::discardLabelNameRedundancies('Domino Records'));
+    $this->assertEquals('XL', Transforms::discardLabelNameRedundancies('XL Recordings'));
   }
 }
+
