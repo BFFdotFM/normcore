@@ -15,84 +15,102 @@ class Normcore {
 
   public static function cleanArtistName(string $string) : string {
     return self::transform($string, array(
-      'removePunctuation',
-      'discardContributors'
+      'trimWhitespace',
+      'discardContributors',
+      'trimPunctuation'
     ));
   }
 
   public static function cleanTrackTitle(string $string) : string {
-    return '';
+    return self::transform($string, array(
+      'trimWhitespace',
+      'discardContributors',
+      'trimPunctuation'
+    ));
   }
 
   public static function cleanAlbumTitle(string $string) : string {
-    return '';
+    return self::transform($string, array(
+      'trimWhitespace',
+      'discardContributors',
+      'trimPunctuation'
+    ));
   }
 
   public static function cleanRecordLabelName(string $string) : string {
-    return '';
+    return self::transform($string, array(
+      'trimWhitespace',
+      'discardLicensingBlurb',
+      'removeTrailingYear',
+      'discardCopyright',
+      'removePunctuation',
+      'discardIncorporation',
+      'discardOrganizationGroup',
+      'discardLabelNameRedundancies',
+    ));
   }
 
   #!!! Functions to create common normalized keys for metaata
 
   public static function keyArtistName(string $string) : string {
-    return 'keyname';
+    return self::transform($string, array(
+      'downCase',
+      'normalizeUnicode',
+      'flattenStylisticCharacters',
+      'removePunctuation',
+      'discardContributors',
+      'filterRedundantWords',
+      'removeWhitespace'
+    ));
   }
 
   public static function keyTrackTitle(string $string) : string {
-    return '';
+    return self::transform($string, array(
+      'downCase',
+      'normalizeUnicode',
+      'removePunctuation',
+      'discardContributors',
+      'filterRedundantWords',
+      'removeWhitespace'
+    ));
   }
 
   public static function keyAlbumTitle(string $string) : string {
-    return '';
+    return self::transform($string, array(
+      'downCase',
+      'normalizeUnicode',
+      'removePunctuation',
+      'discardContributors',
+      'filterRedundantWords',
+      'removeWhitespace'
+    ));
   }
 
   public static function keyRecordLabelName(string $string) : string {
-    return '';
+    return self::transform($string, array(
+      'downCase',
+      'normalizeUnicode',
+      'removePunctuation',
+      'discardLicensingBlurb',
+      'removeTrailingYear',
+      'discardCopyright',
+      'discardIncorporation',
+      'discardOrganizationGroup',
+      'discardLabelNameRedundancies',
+      'filterRedundantWords',
+      'removeWhitespace'
+    ));
   }
 
   protected static function transform(string $string, array $transforms = array()) : string {
-    $stages = array(
-      'setup' => array(),
-      'optimize' => array(),
-      'finish' => array()
-    );
-
-    if (array_key_exists('setup', $transforms) || array_key_exists('optimize', $transforms) || array_key_exists('finish', $transforms)) {
-      array_merge($stages, $transforms);
-    } else {
-      $stages['optimize'] = $transforms;
-    }
-
-    $preparedString = array_reduce($stages['setup'], function($inputString, $function) {
-      $newVal = trim(Transforms::$function($inputString));
+    return array_reduce($transforms, function($inputString, $function) {
+      $newVal = Transforms::$function($inputString);
       if (!empty($newVal)) {
         return $newVal;
       } else {
         return $inputString;
       }
     }, $string);
-
-    # optimize (iterate until nothing)
-    $transformedString = array_reduce($stages['optimize'], function($inputString, $function) {
-      $newVal = trim(Transforms::$function($inputString));
-      if (!empty($newVal)) {
-        return $newVal;
-      } else {
-        return $inputString;
-      }
-    }, $string);
-
-    # finally (clean-up)
-    $finishedString = array_reduce($stages['finish'], function($inputString, $function) {
-      $newVal = trim(Transforms::$function($inputString));
-      if (!empty($newVal)) {
-        return $newVal;
-      } else {
-        return $inputString;
-      }
-    }, $string);
-
-    return $finishedString;
   }
 
 }

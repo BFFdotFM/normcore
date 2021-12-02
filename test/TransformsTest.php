@@ -60,6 +60,8 @@ final class TransformsTest extends TestCase {
 
   public function testRemoveTrailingYear() : void {
     $this->assertEquals('Domino', Transforms::removeTrailingYear('Domino 2020'));
+    $this->assertEquals('Domino', Transforms::removeTrailingYear('Domino (1997)'));
+    $this->assertEquals('Domino', Transforms::removeTrailingYear('Domino (1997/2021)'));
     $this->assertEquals('4AD', Transforms::removeTrailingYear('4AD'));
     $this->assertEquals('Matchbox 20', Transforms::removeTrailingYear('Matchbox 20'));
   }
@@ -70,10 +72,12 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('4AD', Transforms::discardCopyright('© 2020 4AD'));
     $this->assertEquals('4AD', Transforms::discardCopyright('℗ 1979 2019 4AD'));
     $this->assertEquals('4AD', Transforms::discardCopyright('℗ 1979 4AD Copyright Control'));
+    $this->assertEquals('4AD', Transforms::discardCopyright('℗ 1979 4AD All Rights Reserved'));
+    $this->assertEquals('4AD', Transforms::discardCopyright('℗ 1979 4AD Copyright Control All Rights Reserved'));
   }
 
   public function testDiscardIncorporation() : void {
-    $this->assertEquals('Warner Brothers', Transforms::discardIncorporation('Warner Brothers, Inc'));
+    $this->assertEquals('Warner Brothers,', Transforms::discardIncorporation('Warner Brothers, Inc'));
     $this->assertEquals('Warner Brothers', Transforms::discardIncorporation('Warner Brothers LLC'));
     $this->assertEquals('Domino Records', Transforms::discardIncorporation('Domino Records Ltd'));
   }

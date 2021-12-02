@@ -6,6 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * Execute Normcore against the batch CSV data files in /test/data
+ * @group Batch
  */
 final class NormcoreBatchTest extends TestCase {
 

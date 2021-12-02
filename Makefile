@@ -8,7 +8,13 @@ dev:
 
 .PHONY: test
 test:
-	@echo "Running tests..."
+	@echo "Running unit tests..."
+	@echo
+	@./vendor/bin/phpunit --exclude-group Batch --testdox test
+
+.PHONY: testall
+testall:
+	@echo "Running all tests including batch comparisons..."
 	@echo
 	@./vendor/bin/phpunit --testdox test
 

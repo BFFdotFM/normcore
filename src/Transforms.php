@@ -10,8 +10,8 @@ class Transforms {
   /**
    * Generic function to remove string suffixes from the end of a string
    */
-  protected static function removeSuffix(string $string, array $suffixes, array $separators = array(), bool $matchCase = true) : string {
-    $pattern = sprintf('/(?:%s)?\s(?:%s)$/%s', empty($separators) ? '' : implode('|', $separators), implode('|', $suffixes), $matchCase ? '' : 'i');
+  protected static function removeSuffix(string $string, array $suffixes, bool $matchCase = true) : string {
+    $pattern = sprintf('/\s(?:%s)$/%s', implode('|', $suffixes), $matchCase ? '' : 'i');
     return preg_replace($pattern, '', $string);
   }
 
@@ -23,7 +23,11 @@ class Transforms {
 
   static function normalizeUnicode(string $string) : string {
     $transliterator = Transliterator::createFromRules(':: Any-Latin; :: Latin-ASCII; :: NFD; :: [:Nonspacing Mark:] Remove; :: NFC;', Transliterator::FORWARD);
-    return $transliterator->transliterate($string);
+    $result = $transliterator->transliterate($string);
+    if ($result === false) {
+      return '';
+    }
+    return trim($result);
   }
 
   static function flattenStylisticCharacters(string $string) : string {
@@ -38,10 +42,17 @@ class Transforms {
   }
 
   /**
-   * Remove non-string characters from the beginning and end of the string
+   * Remove whitespace characters from the beginning and end of the string
+   */
+  static function trimWhitespace(string $string) : string {
+    return trim($string);
+  }
+
+  /**
+   * Remove non-word characters from the beginning and end of the string
    */
   static function trimPunctuation(string $string) : string {
-    return trim($string, " \n\r\t\v\0,.:;&()[]/\\\"'-");
+    return trim($string, " \n\r\t\v\0,.:;&/\\'-");
   }
 
   public const REDUNDANT_WORDS = array('the', 'and');
@@ -76,7 +87,7 @@ class Transforms {
    * Split and discard extraneous licensing blurb sometimes included in label credits pasted from Spotify, etc.
    */
   static function discardLicensingBlurb(string $string) : string {
-    $parts = preg_split('/\s(?:under exclusive license|under license)\.?\s/i', $string);
+    $parts = preg_split('/\s(?:under exclusive license|under license|a division of|marketed by|rights management|in partnership with|in association with)\.?\s/i', $string);
     return array_shift($parts);
   }
 
@@ -84,7 +95,7 @@ class Transforms {
    * Remove a four-digit number from the end of the string, where someone has included the copyright or release year in label credit
    */
   static function removeTrailingYear(string $string) : string {
-    return preg_replace('/\s+\d{4}$/', '', $string);
+    return preg_replace('/\s+\(?\d{4}(?:\/\d{4})?\)?$/', '', $string);
   }
 
   static function discardCopyright(string $string) : string {
@@ -92,25 +103,25 @@ class Transforms {
     # (c) 2020
     # (p) 2019
     # © 1982 2020
-    $stringCopyPrefix = preg_replace('/^(?:\(c\)|\(p\)|©|℗)\s+(?:\d{4}\s)+/i', '', $string);
+    $stringCopyPrefix = preg_replace('/^(?:\(c\)|\(p\)|©|℗)\s*(?:\d{4}\s)+/i', '', $string);
 
     # Remove 'Copyright Control' text from end of string
-    return preg_replace('/\s(?:Copyright Control)$/i', '', $stringCopyPrefix);
+    return preg_replace('/\s(?:Copyright Control)?\s*(?:All Rights Reserved)?$/i', '', $stringCopyPrefix);
   }
 
-  public const CORP_SUFFIXES = array('LLC', 'LLCs', 'LTD', 'Limited', 'Unlimited', 'Inc');
+  public const CORP_SUFFIXES = array('LLC', 'LLCs', 'LTD', 'Limited', 'Unlimited', 'Inc', 'Corporation', 'Corp');
   static function discardIncorporation(string $string) : string {
-    return self::removeSuffix($string, self::CORP_SUFFIXES, array(','), false);
+    return self::removeSuffix($string, self::CORP_SUFFIXES, false);
   }
 
-  public const SOFT_GROUP_SUFFIXES = array('Co', 'Group');
+  public const SOFT_GROUP_SUFFIXES = array('Co', 'Group', 'Recording Company', 'Recording Co', 'Record Label', 'Publishing', 'Music', 'Music Group', 'Music Publishing', 'International');
   static function discardOrganizationGroup(string $string) : string {
-    return self::removeSuffix($string, self::SOFT_GROUP_SUFFIXES, array(), false);
+    return self::removeSuffix($string, self::SOFT_GROUP_SUFFIXES, false);
   }
 
   public const REDUNDANT_NAME_SUFFIXES = array('Records', 'Recordings');
   static function discardLabelNameRedundancies(string $string) : string {
-    return self::removeSuffix($string, self::REDUNDANT_NAME_SUFFIXES, array(), false);
+    return self::removeSuffix($string, self::REDUNDANT_NAME_SUFFIXES, false);
   }
 
 }
