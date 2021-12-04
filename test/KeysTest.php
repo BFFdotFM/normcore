@@ -41,11 +41,13 @@ final class KeysTest extends TestCase {
     $this->assertEquals('baxterduryetiennedecrecydelilahholliday', Normcore::keyArtistName('Baxter Dury & Étienne de Crécy & Delilah Holliday'));
     $this->assertEquals('caro', Normcore::keyArtistName('caro♡'));
 
+
     # Thanks, FourTet... Thortet.
     # This is the kind of Unicode we're happy to have behave … oddly … outside the bounds of the design, so this test exists to
     # ensure behaviour doesn't change unexpectedly
     $this->assertEquals('1111111', Normcore::keyAlbumTitle('̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉'));
     $this->assertEquals('cmpilatin4martinhellstpsurgeryvisa', Normcore::keyAlbumTitle('🍼🍇🎀​~​C🌚MPILATI🌐N 4 MARTIN HELL\'S T🌍P SURGERY & VISA 💖🏀✨'));
+    $this->assertEquals('o', Normcore::keyArtistName('Ω'));
   }
 
   public function testKeyFlattensStylisticCharacters() : void {
@@ -58,7 +60,6 @@ final class KeysTest extends TestCase {
     $this->assertEquals('bettertomorrow', Normcore::keyAlbumTitle('A Better Tomorrow - EP'));
     $this->assertEquals('bluemonday', Normcore::keyAlbumTitle('Blue Monday 12"'));
     $this->assertEquals('almostready', Normcore::keyAlbumTitle('Almost Ready 7"'));
-
   }
 
 
