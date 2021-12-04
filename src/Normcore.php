@@ -17,6 +17,7 @@ class Normcore {
     return self::transform($string, array(
       'trimWhitespace',
       'discardContributors',
+      'normalizeStylisticCharacters',
       'trimPunctuation'
     ));
   }
@@ -25,6 +26,7 @@ class Normcore {
     return self::transform($string, array(
       'trimWhitespace',
       'discardContributors',
+      'normalizeStylisticCharacters',
       'trimPunctuation'
     ));
   }
@@ -33,6 +35,7 @@ class Normcore {
     return self::transform($string, array(
       'trimWhitespace',
       'discardContributors',
+      'normalizeStylisticCharacters',
       'trimPunctuation'
     ));
   }
@@ -40,6 +43,7 @@ class Normcore {
   public static function cleanRecordLabelName(string $string) : string {
     return self::transform($string, array(
       'trimWhitespace',
+      'handleDistroKidLabels',
       'discardLicensingBlurb',
       'removeTrailingYear',
       'discardCopyright',
@@ -47,62 +51,43 @@ class Normcore {
       'discardIncorporation',
       'discardOrganizationGroup',
       'discardLabelNameRedundancies',
+      'discardYearPrefix',
+      'trimPunctuation'
     ));
   }
 
-  #!!! Functions to create common normalized keys for metaata
+  #!!! Functions to create common normalized keys for metadata
 
-  public static function keyArtistName(string $string) : string {
+  /**
+   * Shared set of transformations to turn any cleaned string into a key
+   */
+  protected static function convertToKey(string $string) : string {
     return self::transform($string, array(
+      'normalizeUnicode',
       'flattenStylisticCharacters',
       'downCase',
-      'normalizeUnicode',
-      'discardContributors',
       'filterRedundantWords',
       'removePunctuation',
       'removeWhitespace'
     ));
+  }
+
+  public static function keyArtistName(string $string) : string {
+    return self::convertToKey(self::cleanArtistName($string));
   }
 
   public static function keyTrackTitle(string $string) : string {
-    return self::transform($string, array(
-      'flattenStylisticCharacters',
-      'downCase',
-      'normalizeUnicode',
-      'discardContributors',
-      'filterRedundantWords',
-      'removePunctuation',
-      'removeWhitespace'
-    ));
+    return self::convertToKey(self::cleanTrackTitle($string));
   }
 
   public static function keyAlbumTitle(string $string) : string {
-    return self::transform($string, array(
-      'flattenStylisticCharacters',
-      'downCase',
-      'normalizeUnicode',
-      'discardContributors',
-      'filterRedundantWords',
-      'removePunctuation',
-      'removeWhitespace'
-    ));
+    return self::convertToKey(
+      self::transform(self::cleanAlbumTitle($string), array('discardEpLpSuffix'))
+    );
   }
 
   public static function keyRecordLabelName(string $string) : string {
-    return self::transform($string, array(
-      'flattenStylisticCharacters',
-      'downCase',
-      'discardCopyright',
-      'normalizeUnicode',
-      'discardLicensingBlurb',
-      'removeTrailingYear',
-      'discardIncorporation',
-      'discardOrganizationGroup',
-      'discardLabelNameRedundancies',
-      'filterRedundantWords',
-      'removePunctuation',
-      'removeWhitespace'
-    ));
+    return self::convertToKey(self::cleanRecordLabelName($string));
   }
 
   protected static function transform(string $string, array $transforms = array()) : string {

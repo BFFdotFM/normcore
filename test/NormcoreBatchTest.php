@@ -10,7 +10,6 @@ use PHPUnit\Framework\TestCase;
  */
 final class NormcoreBatchTest extends TestCase {
 
-
   private function getTestData(string $name) : Reader {
     $csv = Reader::createFromPath(__DIR__ . "/data/$name.csv", 'r');
     $csv->setDelimiter("\t");
