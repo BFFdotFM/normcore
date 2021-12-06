@@ -34,6 +34,7 @@ class Normcore {
   public static function cleanAlbumTitle(string $string) : string {
     return self::transform($string, array(
       'trimWhitespace',
+      'normalizeVolumes',
       'discardContributors',
       'normalizeStylisticCharacters',
       'trimPunctuation'

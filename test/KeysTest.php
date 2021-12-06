@@ -50,6 +50,10 @@ final class KeysTest extends TestCase {
     $this->assertEquals('o', Normcore::keyArtistName('Ω'));
   }
 
+  public function testUnicodeRemainsWhereNoCharacterMatches() : void {
+    $this->assertEquals('💿', Normcore::keyArtistName('💿'));
+  }
+
   public function testKeyFlattensStylisticCharacters() : void {
     $this->assertEquals('asaprocky', Normcore::keyArtistName('A$AP Rocky'));
     $this->assertEquals('tydollasign', Normcore::keyArtistName('Ty Dolla $ign'));
@@ -62,5 +66,8 @@ final class KeysTest extends TestCase {
     $this->assertEquals('almostready', Normcore::keyAlbumTitle('Almost Ready 7"'));
   }
 
+  public function testAlbumsNormalizeVolumes() : void {
+    $this->assertEquals('almostreadyvolume3', Normcore::keyAlbumTitle('Almost Ready (Volume III)'));
+  }
 
 }

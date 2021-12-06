@@ -96,6 +96,29 @@ class Transforms {
     return preg_replace('/\s(?:EP|LP|12"|7")$/i', '', $string);
   }
 
+  static function discardDiscNumber(string $string) : string {
+    '/(?:\[|\(|\s)?Dis[ck] \d+(?:\]|\)|\s)/';
+  }
+
+
+  static function normalizeVolumes(string $string) : string {
+    return preg_replace_callback('/\s?(?:\[|\(|\s)?Vol(?:ume)?\.?\s(?:(\d+)|(I+))(?:\]|\)|\b)(\s?)/i', function ($matches) {
+      # 0: Match
+      # 1: Numeric match
+      # 2: III match
+
+      if (isset($matches[2]) && !empty($matches[2])) {
+        # Convert III to number
+        # We only support “III”, not full Roman numerals, so just count how many
+        $volume = strlen($matches[2]);
+      } else {
+        $volume = $matches[1];
+      }
+
+      return sprintf(' (Volume %d)%s', $volume, $matches[3] ?? '');
+    }, $string);
+  }
+
   #!!! Label/Organization Clean Functions
 
   /**
