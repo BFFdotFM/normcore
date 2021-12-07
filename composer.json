@@ -1,4 +1,23 @@
 {
+    "name": "bffdotfm/normcore",
+    "description": "A text wrangling library to help normalize music metadata",
+    "homepage": "https://github.com/bffdotfm/normcore",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben Ward",
+            "homepage": "https://benward.uk"
+        }
+    ],
+    "funding": [
+        {
+            "url": "https://bff.fm/donate",
+            "type": "custom"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+    }
     "autoload": {
         "psr-4": {
             "BFFdotFM\\Normcore\\": "src/"
