@@ -101,13 +101,17 @@ class Transforms {
   }
 
 
+  private const NUMBER_WORDS = array('_', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten');
+
   static function normalizeVolumes(string $string) : string {
-    return preg_replace_callback('/\s?(?:\[|\(|\s)?Vol(?:ume)?\.?\s(?:(\d+)|(I+))(?:\]|\)|\b)(\s?)/i', function ($matches) {
+    return preg_replace_callback('/\s?(?:\[|\(|\s)?Vol(?:ume)?\.?\s(?:(\d+)|(I+)|(one|two|three|four|five|six|seven|eight|nine|ten))(?:\]|\)|\b)(\s?)/i', function ($matches) {
       # 0: Match
       # 1: Numeric match
       # 2: III match
 
-      if (isset($matches[2]) && !empty($matches[2])) {
+      if (isset($matches[3]) && $index = array_search(strtolower($matches[3]), self::NUMBER_WORDS)) {
+        $volume = $index;
+      } elseif (isset($matches[2]) && !empty($matches[2])) {
         # Convert III to number
         # We only support “III”, not full Roman numerals, so just count how many
         $volume = strlen($matches[2]);
@@ -115,7 +119,7 @@ class Transforms {
         $volume = $matches[1];
       }
 
-      return sprintf(' (Volume %d)%s', $volume, $matches[3] ?? '');
+      return sprintf(' (Volume %d)%s', $volume, $matches[4] ?? '');
     }, $string);
   }
 

@@ -152,6 +152,11 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('The Greatest Hits (Volume 3)', Transforms::normalizeVolumes('The Greatest Hits Volume III'));
     $this->assertEquals('The Greatest Hits (Volume 1)', Transforms::normalizeVolumes('The Greatest Hits[Volume I]'));
     $this->assertEquals('The Greatest Hits (Volume 3) [Gold]', Transforms::normalizeVolumes('The Greatest Hits [Volume III] [Gold]'));
+
+    $this->assertEquals('The Greatest Hits (Volume 1)', Transforms::normalizeVolumes('The Greatest Hits Volume One'));
+    $this->assertEquals('The Greatest Hits (Volume 5)', Transforms::normalizeVolumes('The Greatest Hits Volume Five'));
+    $this->assertEquals('The Greatest Hits (Volume 10)', Transforms::normalizeVolumes('The Greatest Hits Volume Ten'));
+
     $this->assertEquals('The Greatest Hits [Volume IV]', Transforms::normalizeVolumes('The Greatest Hits [Volume IV]'), 'Not expected to support full Roman Numerals implementation');
   }
 }
