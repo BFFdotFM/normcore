@@ -58,6 +58,7 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('Open Mike Eagle', Transforms::discardContributors('Open Mike Eagle ft. Kari Faux'));
     $this->assertEquals('Open Mike Eagle', Transforms::discardContributors('Open Mike Eagle featuring Lil A$e'));
     $this->assertEquals('Open Mike Eagle', Transforms::discardContributors('Open Mike Eagle (feat. Video Dave)'));
+    $this->assertEquals('100 gecs - gecgecgec (Remix)', Transforms::discardContributors('100 gecs - gecgecgec (Remix) [feat. Lil West and Tony Velour]'));
   }
 
   public function testDiscardLicensingBlurb() : void {

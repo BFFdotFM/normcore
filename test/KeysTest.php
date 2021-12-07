@@ -17,6 +17,14 @@ final class KeysTest extends TestCase {
     $this->assertEquals('Africa Bambaata', Normcore::cleanArtistName('Africa Bambaata featuring Sonic Soul Force'));
   }
 
+  public function testDiscardsFeaturedGuestArtists(): void {
+    $this->assertEquals('Open Mike Eagle', Normcore::cleanArtistName('Open Mike Eagle feat. Video Dave'));
+    $this->assertEquals('Open Mike Eagle', Normcore::cleanArtistName('Open Mike Eagle ft. Kari Faux'));
+    $this->assertEquals('Open Mike Eagle', Normcore::cleanArtistName('Open Mike Eagle featuring Lil A$e'));
+    $this->assertEquals('Open Mike Eagle', Normcore::cleanArtistName('Open Mike Eagle (feat. Video Dave)'));
+    $this->assertEquals('100 gecs - gecgecgec (Remix)', Normcore::cleanTrackTitle('100 gecs - gecgecgec (Remix) [feat. Lil West and Tony Velour]'));
+  }
+
   public function testKeyRemovesPunctuation() : void {
     $this->assertEquals('youwillknowusbytrailofdead', Normcore::keyArtistName('...And You Will Know Us By The Trail Of Dead'));
     $this->assertEquals('actresslondoncontemporaryorchestra', Normcore::keyArtistName('Actress & The London Contemporary Orchestra'));
@@ -69,5 +77,4 @@ final class KeysTest extends TestCase {
   public function testAlbumsNormalizeVolumes() : void {
     $this->assertEquals('almostreadyvolume3', Normcore::keyAlbumTitle('Almost Ready (Volume III)'));
   }
-
 }

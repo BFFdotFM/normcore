@@ -86,7 +86,7 @@ class Transforms {
    * Remove additional credited artists from a string, e.g. “The Rolling Stones (feat. Pitbull)
    */
   static function discardContributors(string $string) : string {
-    $parts = preg_split('/\s(?:,\s|\()?(?:ft|feat|featuring|w\/)\.?\s/i', $string);
+    $parts = preg_split('/\s(?:,\s|\(|\[)?(?:ft|feat|featuring|w\/)\.?\s/i', $string);
     return array_shift($parts);
   }
 
