@@ -4,9 +4,9 @@ use BFFdotFM\Normcore\Normcore;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test Generic of Keys
+ * Testing Normcore integration of transforms
  */
-final class KeysTest extends TestCase {
+final class NormcoreTest extends TestCase {
 
   public function testArtistExamples() : void {
     $this->assertEquals('Fat Boys', Normcore::cleanArtistName('Fat Boys, ft. The Beach Boys'));
@@ -76,5 +76,13 @@ final class KeysTest extends TestCase {
 
   public function testAlbumsNormalizeVolumes() : void {
     $this->assertEquals('almostreadyvolume3', Normcore::keyAlbumTitle('Almost Ready (Volume III)'));
+  }
+
+  public function testAlbumsNormalizeEditions() : void {
+    $this->assertEquals('Life After Death', Normcore::cleanAlbumTitle('Life After Death (Remastered Edition)'));
+  }
+
+  public function testTracksDropContentWarnings() : void {
+    $this->assertEquals('Mama Said Knock You Out', Normcore::cleanTrackTitle('Mama Said Knock You Out [Clean]'));
   }
 }
