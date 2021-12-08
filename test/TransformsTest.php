@@ -160,5 +160,65 @@ final class TransformsTest extends TestCase {
 
     $this->assertEquals('The Greatest Hits [Volume IV]', Transforms::normalizeVolumes('The Greatest Hits [Volume IV]'), 'Not expected to support full Roman Numerals implementation');
   }
+
+  public function testRemovesRemaster() : void {
+    $this->assertEquals('Movement Era Singles', Transforms::discardRemasters('Movement Era Singles (2008 Remaster)'));
+    $this->assertEquals('1983-1988', Transforms::discardRemasters('1983-1988 Remastered'));
+    $this->assertEquals('20/20', Transforms::discardRemasters('20/20 (Remastered)'));
+    $this->assertEquals('Aladdin Sane', Transforms::discardRemasters('Aladdin Sane [Remastered 2013]'));
+    $this->assertEquals('Aladdin Sane', Transforms::discardRemasters('Aladdin Sane [Remastered]'));
+    $this->assertEquals('Garbage (20th Anniversary Super Deluxe Edition)', Transforms::discardRemasters('Garbage (20th Anniversary Super Deluxe Edition) [Remastered]'));
+    $this->assertEquals('Life After Death', Transforms::discardRemasters('Life After Death (Remastered Edition)'));
+  }
+
+  public function testDiscardEpLpSuffixes() : void {
+    $this->assertEquals('The Optimist', Transforms::discardEpLpSuffix('The Optimist LP'));
+    $this->assertEquals('The Optimist', Transforms::discardEpLpSuffix('The Optimist EP'));
+    $this->assertEquals('The Optimist', Transforms::discardEpLpSuffix('The Optimist 7"'));
+    $this->assertEquals('The Optimist', Transforms::discardEpLpSuffix('The Optimist 12" Version'));
+  }
+
+  public function testDiscardDeluxeEditions() : void {
+    $this->assertEquals('Special Edition Grand Master Deluxe', Transforms::discardSpecialEditions('Special Edition Grand Master Deluxe'));
+    $this->assertEquals('The Contino Sessions', Transforms::discardSpecialEditions('The Contino Sessions (Special Edition)'));
+    $this->assertEquals('Blue', Transforms::discardSpecialEditions('Blue [Special Edition]'));
+    $this->assertEquals('forevher', Transforms::discardSpecialEditions('forevher (deluxe edition)'));
+    $this->assertEquals('Garbage [Remastered]', Transforms::discardSpecialEditions('Garbage (Super Deluxe Edition) [Remastered]'));
+
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album (Deluxe)'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album [Deluxe]'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album - Deluxe'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album - Special Edition'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album - Deluxe Edition'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album (Deluxe Version)'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album (Super Deluxe Version)'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album - 9th Anniversary Edition'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album (Expanded 12th Anniversary Version)'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album (20th Anniversary Deluxe Edition)'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album (3rd Anniversary Deluxe Edition)'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album (101st Anniversary Deluxe Edition)'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album (10 Year Anniversary Deluxe Edition)'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album (Expanded Edition)'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album (Extended 2021 Version)'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album (Limited Edition)'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album [Legacy Edition]'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album (Collector\'s Edition)'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album (2020 Collectors Edition)'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album (Gold Edition)'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album [Gold Silver Edition]'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album - Chrome Edition'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album (Platinum Version)'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album - Definitive Edition'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album (1998 Version)'));
+    $this->assertEquals('The Album', Transforms::discardSpecialEditions('The Album Special Edition'));
+  }
+
+  public function testExplicitContentWarningsAreRemoved() : void {
+    $this->assertEquals('This Song Spits Fire', Transforms::discardExplicitWarning('This Song Spits Fire (Radio Edit)'));
+    $this->assertEquals('This Song Spits Fire', Transforms::discardExplicitWarning('This Song Spits Fire [Clean]'));
+    $this->assertEquals('This Song Spits Fire', Transforms::discardExplicitWarning('This Song Spits Fire [Explicit]'));
+    $this->assertEquals('This Song Spits Fire', Transforms::discardExplicitWarning('This Song Spits Fire [Clean Version]'));
+    $this->assertEquals('This Song Spits Fire', Transforms::discardExplicitWarning('This Song Spits Fire (clean edits)'));
+  }
 }
 

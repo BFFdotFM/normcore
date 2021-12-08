@@ -12,16 +12,22 @@ final class NormcoreBatchTest extends TestCase {
 
   private function getTestData(string $name) : Reader {
     $csv = Reader::createFromPath(__DIR__ . "/data/$name.csv", 'r');
+    $csv->skipInputBOM();
     $csv->setDelimiter("\t");
     return $csv;
   }
 
   private function batchTestGeneric(string $dataName, string $functionName, int $dataIndex) : void {
     $csv = $this->getTestData($dataName);
-    foreach ($csv as $row) {
+    foreach ($csv as $index => $row) {
+      # Ignore the BOM/Header line:
+      if ($index === 0) {
+        continue;
+      }
+
       $input = $row[0];
       $expectedClean = $row[$dataIndex];
-      $this->assertEquals($expectedClean, Normcore::$functionName($input), "Expected `$input` transform to `$expectedClean`");
+      $this->assertEquals($expectedClean, Normcore::$functionName($input), "[Row $index] Expected `$input` transform to `$expectedClean`");
     }
   }
 
