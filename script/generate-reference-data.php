@@ -25,6 +25,8 @@ foreach ($mappings as $filename => $function) {
 
   $dataPath = __DIR__ . '/../test/data/' . $filename;
   $csv = Reader::createFromPath($dataPath, 'r');
+  $csv->skipInputBOM();
+  $bom = $csv->getInputBOM();
   $csv->setDelimiter("\t");
 
   $csvOut = Writer::createFromFileObject(new SplTempFileObject());
@@ -32,7 +34,13 @@ foreach ($mappings as $filename => $function) {
   $csvOut->addFormatter($encoder);
   $csvOut->setDelimiter("\t");
 
-  foreach ($csv as $row) {
+  $csvOut->insertOne(array('Original Data', 'Clean', 'Key'));
+
+  foreach ($csv as $index => $row) {
+    # Ignore the BOM/Header line:
+    if ($index === 0) {
+      continue;
+    }
     $inputString = $row[0];
 
     $csvOut->insertOne(array(
