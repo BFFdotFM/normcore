@@ -97,7 +97,7 @@ class Transforms {
   }
 
   static function discardDiscNumber(string $string) : string {
-    '/(?:\[|\(|\s)?Dis[ck] \d+(?:\]|\)|\s)/';
+    return preg_replace('/\s(?:-\s?|\[|\(|\s)?Dis[ck] \d+(?:[\]\)]|$)/', '', $string);
   }
 
 
@@ -130,7 +130,7 @@ class Transforms {
 
   static function discardRemasters(string $string) : string {
     # Remove remaster tags
-    return preg_replace('/(?:[\s\/]|\s[\(\[])(?:\d{4} )?(?:Digital )?Remaster(?:ed)?( \d{4})?(?: (?:version|edition))?(?:[\s\b\)\]]|$)/i', '', $string);
+    return preg_replace('/(?:[\s\/]|\s[\(\[])(?:\d{4} )?(?:Digital )?Remaster(?:ed)?( \d{4})?(?: (?:version|edition))?(?:[\)\]]|$)/i', '', $string);
   }
 
   static function discardSpecialEditions(string $string) : string {
@@ -158,7 +158,7 @@ class Transforms {
     # Gold/Silver/Chrome/Platinum Edition
     # Definitive Edition
     # (0000 Edition)
-    $matchContent = '(?:(?:Super|Special|Deluxe|(?:\d+[sthrd]{2}|\d+ Year)? Anniversary|Expanded|Extended|Limited|Legacy|Collector\'?s|Gold|Silver|Chrome|Platinum|Definitive|Remaster(?:ed)?|\d{4}) )+(?:Edition|Version)';
+    $matchContent = '(?:(?:Super|Special|Deluxe|(?:(?:\d+[sthrd]{2}|\d+ Year) )?Anniversary|Expanded|Extended|Limited|Legacy|Collector\'?s|Gold|Silver|Chrome|Platinum|Definitive|Remaster(?:ed)?|\d{4}) )+(?:Edition|Version)';
 
     $working = preg_replace('/ - ' . $matchContent . '$/i', '', $working);
     $working = preg_replace('/\s?(?:\(|\[)' . $matchContent . '(?:\]|\))/i', '', $working);

@@ -220,5 +220,13 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('This Song Spits Fire', Transforms::discardExplicitWarning('This Song Spits Fire [Clean Version]'));
     $this->assertEquals('This Song Spits Fire', Transforms::discardExplicitWarning('This Song Spits Fire (clean edits)'));
   }
+
+  public function testRemoveDiscNumbers() : void {
+    $this->assertEquals('The Blue Album', Transforms::discardDiscNumber('The Blue Album (Disk 2)'));
+    $this->assertEquals('The Blue Album', Transforms::discardDiscNumber('The Blue Album [Disk 3]'));
+    $this->assertEquals('The Blue Album', Transforms::discardDiscNumber('The Blue Album - Disk 2)'));
+    $this->assertEquals('The Blue Album', Transforms::discardDiscNumber('The Blue Album (Disk 2)'));
+    $this->assertEquals('The Blue Album (Remastered)', Transforms::discardDiscNumber('The Blue Album (Disk 2) (Remastered)'));
+  }
 }
 

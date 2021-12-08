@@ -37,6 +37,7 @@ class Normcore {
     return self::transform($string, array(
       'trimWhitespace',
       'normalizeVolumes',
+      'discardDiscNumber',
       'discardExplicitWarning',
       'discardSpecialEditions',
       'discardRemasters',
