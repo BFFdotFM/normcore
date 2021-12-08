@@ -25,6 +25,8 @@ class Normcore {
   public static function cleanTrackTitle(string $string) : string {
     return self::transform($string, array(
       'trimWhitespace',
+      'discardExplicitWarning',
+      'discardRemasters',
       'discardContributors',
       'normalizeStylisticCharacters',
       'trimPunctuation'
@@ -35,6 +37,9 @@ class Normcore {
     return self::transform($string, array(
       'trimWhitespace',
       'normalizeVolumes',
+      'discardExplicitWarning',
+      'discardSpecialEditions',
+      'discardRemasters',
       'discardContributors',
       'normalizeStylisticCharacters',
       'trimPunctuation'
