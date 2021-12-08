@@ -93,7 +93,7 @@ class Transforms {
   #!!! Album Name Clean Functions
 
   static function discardEpLpSuffix(string $string) : string {
-    return preg_replace('/\s(?:EP|LP|12"|7")$/i', '', $string);
+    return preg_replace('/\s(?:EP|LP|(?:(?:12"|7")(?: version)?))$/i', '', $string);
   }
 
   static function discardDiscNumber(string $string) : string {
@@ -121,6 +121,51 @@ class Transforms {
 
       return sprintf(' (Volume %d)%s', $volume, $matches[4] ?? '');
     }, $string);
+  }
+
+  # discardExplicit/Clean tags
+  static function discardExplicitWarning(string $string) : string {
+    return preg_replace('/\s?[\[\(](?:clean|explicit|dirty|radio)(?: (?:version|edits?))?[\]\)]/i', '', $string);
+  }
+
+  static function discardRemasters(string $string) : string {
+    # Remove remaster tags
+    return preg_replace('/(?:[\s\/]|\s[\(\[])(?:\d{4} )?(?:Digital )?Remaster(?:ed)?( \d{4})?(?: (?:version|edition))?(?:[\s\b\)\]]|$)/i', '', $string);
+  }
+
+  static function discardSpecialEditions(string $string) : string {
+
+    // '/(?: -|(?:\(|\[))/'
+    // '/(?:\]|\))/'
+
+    # (Deluxe) [Deluxe]
+    $working = preg_replace('/ - Deluxe$/i', '', $string);
+    $working = preg_replace('/\s?(?:\(|\[)Deluxe(?:\]|\))/i', '', $working);
+
+    # Special Edition
+    # Deluxe Edition
+    # Deluxe Version
+    # Super Deluxe Version
+    # xxth Anniversary Edition
+    # Expanded xxth Anniversary Edition
+    # xxth Anniversary Deluxe Edition
+    # 10 Year Anniversary Deluxe Edition
+    # Expanded Edition
+    # Extended Edition
+    # (Limited Edition)
+    # Legacy Edition
+    # Collector's Edition
+    # Gold/Silver/Chrome/Platinum Edition
+    # Definitive Edition
+    # (0000 Edition)
+    $matchContent = '(?:(?:Super|Special|Deluxe|(?:\d+[sthrd]{2}|\d+ Year)? Anniversary|Expanded|Extended|Limited|Legacy|Collector\'?s|Gold|Silver|Chrome|Platinum|Definitive|Remaster(?:ed)?|\d{4}) )+(?:Edition|Version)';
+
+    $working = preg_replace('/ - ' . $matchContent . '$/i', '', $working);
+    $working = preg_replace('/\s?(?:\(|\[)' . $matchContent . '(?:\]|\))/i', '', $working);
+
+    $working = preg_replace('/\s(?:Special|Deluxe) (?:Version|Edition)$/i', '', $working);
+
+    return $working;
   }
 
   #!!! Label/Organization Clean Functions
