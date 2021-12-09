@@ -148,6 +148,7 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('The Greatest Hits (Volume 2)', Transforms::normalizeVolumes('The Greatest Hits (Vol. II)'));
     $this->assertEquals('The Greatest Hits (Volume 2)', Transforms::normalizeVolumes('The Greatest Hits (Vol 2)'));
     $this->assertEquals('The Greatest Hits (Volume 2)', Transforms::normalizeVolumes('The Greatest Hits (Vol. 2)'));
+    $this->assertEquals('The Greatest Hits (Volume 2)', Transforms::normalizeVolumes('The Greatest Hits (Vol.2)'));
     $this->assertEquals('The Greatest Hits (Volume 1)', Transforms::normalizeVolumes('The Greatest Hits [Volume 1]'));
     $this->assertEquals('The Greatest Hits (Volume 1)', Transforms::normalizeVolumes('The Greatest Hits [volume 1]'));
     $this->assertEquals('The Greatest Hits (Volume 3)', Transforms::normalizeVolumes('The Greatest Hits Volume III'));
