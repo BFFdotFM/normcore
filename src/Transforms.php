@@ -102,7 +102,6 @@ class Transforms {
 
 
   private const NUMBER_WORDS = array('_', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten');
-
   static function normalizeVolumes(string $string) : string {
     return preg_replace_callback('/,?\s?(?:\[|\(|\s)?Vol(?:ume)?(?:\.\s?|\s)(?:(\d+)|(I+)|(one|two|three|four|five|six|seven|eight|nine|ten))(?:\]|\)|\b)(\s?)/i', function ($matches) {
       # 0: Match
