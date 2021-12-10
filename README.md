@@ -39,4 +39,4 @@ Normcore reduces metadata down to identifiers — therefore, “featured” art
 
 ## Contributions
 
-Contributions, improvements, and patches are welcome, participation is subject to the BFF.fm [https://developer.bff.fm/about/code-of-conduct](developer code of conduct).
+Contributions, improvements, and patches are welcome, participation is subject to the BFF.fm [developer code of conduct](https://developer.bff.fm/about/code-of-conduct).
