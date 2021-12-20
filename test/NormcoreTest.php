@@ -62,6 +62,15 @@ final class NormcoreTest extends TestCase {
     $this->assertEquals('💿', Normcore::keyArtistName('💿'));
   }
 
+  public function testPunctuationRemainsWhereNoCharacterMatches() : void {
+    $this->assertEquals('()', Normcore::keyAlbumTitle('()'));
+  }
+
+  public function testReturnsEmptyKeyWhereNameIsPlaceholder() : void {
+    $this->assertEquals('', Normcore::keyAlbumTitle('-'));
+    $this->assertEquals('', Normcore::keyRecordLabelName('-'));
+  }
+
   public function testKeyFlattensStylisticCharacters() : void {
     $this->assertEquals('asaprocky', Normcore::keyArtistName('A$AP Rocky'));
     $this->assertEquals('tydollasign', Normcore::keyArtistName('Ty Dolla $ign'));

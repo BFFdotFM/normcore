@@ -75,6 +75,8 @@ class Normcore {
       'downCase',
       'filterRedundantWords',
       'removePunctuation',
+    ), array(
+      'removePlaceholderPunctuation',
       'removeWhitespace'
     ));
   }
@@ -97,8 +99,9 @@ class Normcore {
     return self::convertToKey(self::cleanRecordLabelName($string));
   }
 
-  protected static function transform(string $string, array $transforms = array()) : string {
-    return array_reduce($transforms, function($inputString, $function) {
+  protected static function transform(string $string, array $transforms = array(), array $finishers = array()) : string {
+    # Perform transforms, which will be applied so long as the returned string is not empty
+    $transformed = array_reduce($transforms, function($inputString, $function) {
       $newVal = Transforms::$function($inputString);
       if (!empty($newVal)) {
         return $newVal;
@@ -106,6 +109,11 @@ class Normcore {
         return $inputString;
       }
     }, $string);
+
+    # Perform finishers, which will be applied even if an empty response results
+    return array_reduce($finishers, function($inputString, $function) {
+      return Transforms::$function($inputString);
+    }, $transformed);
   }
 
 }
