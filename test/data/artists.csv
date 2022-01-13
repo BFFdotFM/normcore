@@ -1,6 +1,6 @@
 ﻿"Original Data"	Clean	Key
 "Fat Boys, ft. The Beach Boys"	"Fat Boys"	fatboys
-"  / / / /"	"/ / / /"	"   "
+"  / / / /"	"/ / / /"	
 "  Fermata"	Fermata	fermata
 "  Makaya McCraven"	"Makaya McCraven"	makayamccraven
 "  Max Würden"	"Max Würden"	maxwurden
@@ -574,14 +574,14 @@
 " Zonae"	Zonae	zonae
 " Zopelar"	Zopelar	zopelar
 `	`	`
-_	_	_
-___	___	___
+_	_	
+___	___	
 _BY.ALEXANDER	_BY.ALEXANDER	byalexander
 "_BY.ALEXANDER, 070 Shake"	"_BY.ALEXANDER, 070 Shake"	byalexander070shake
 "_By.Alexander, Tanerélle"	"_By.Alexander, Tanerélle"	byalexandertanerelle
 _ensnare_	_ensnare_	ensnare
 _juno	_juno	juno
--	-	-
+-	-	
 "- AMEN The Producer ("	"AMEN The Producer ("	amenproducer
 "- Chikovanni"	Chikovanni	chikovanni
 "- dBridge X Itti X Kabuki X Undefined"	"dBridge X Itti X Kabuki X Undefined"	dbridgexittixkabukixundefined
@@ -598,13 +598,13 @@ _juno	_juno	juno
 "- UID (Distro Remix)   (Single -"	"UID (Distro Remix)   (Single"	uiddistroremixsingle
 "- Velaluna"	Velaluna	velaluna
 "- Wildkatz ("	"Wildkatz ("	wildkatz
---	--	--
+--	--	
 "-- dot dash"	"dot dash"	dotdash
----	---	---
+---	---	
 -M-	M	m
 "-M-, Fatoumata Diawara, Toumani Diabaté, Sidiki Diabaté, Laplage"	"M-, Fatoumata Diawara, Toumani Diabaté, Sidiki Diabaté, Laplage"	mfatoumatadiawaratoumanidiabatesidikidiabatelaplage
 "-Mike Gip & DJ Jayhood"	"Mike Gip & DJ Jayhood"	mikegipdjjayhood
-"・ ・-・ ・- ・・・ ・ -・・"	"・ ・-・ ・- ・・・ ・ -・・"	"     "
+"・ ・-・ ・- ・・・ ・ -・・"	"・ ・-・ ・- ・・・ ・ -・・"	
 ": Wumpscut:"	Wumpscut	wumpscut
 :3lON	3lON	3lon
 :wumpscut:	wumpscut	wumpscut
@@ -614,15 +614,15 @@ _juno	_juno	juno
 "¡All-Time Quarterback!"	"¡All-Time Quarterback!"	alltimequarterback
 "¡Ay Carmela!"	"¡Ay Carmela!"	aycarmela
 ¡Esquivel!	¡Esquivel!	esquivel
-?	?	?
+?	?	
 "? & the Mysterians"	"? & the Mysterians"	mysterians
 "? and the Mysterians"	"? and the Mysterians"	mysterians
 "? and The Mysterions"	"? and The Mysterions"	mysterions
-?!	?!	?!
-??	??	??
-???	???	???
-????	????	????
-?????	?????	?????
+?!	?!	!
+??	??	
+???	???	
+????	????	
+?????	?????	
 ?1	?1	1
 ¿Téo?	¿Téo?	teo
 ¿téo?,	¿téo?	teo
@@ -709,7 +709,7 @@ _juno	_juno	juno
 "*NSYNC and Lisa Lopez"	"*NSYNC and Lisa Lopez"	nsynclisalopez
 "*repeat repeat"	"*repeat repeat"	repeatrepeat
 *shels	*shels	shels
-"/ / / /"	"/ / / /"	"   "
+"/ / / /"	"/ / / /"	
 "// P E N T I U M 2 // ダニ"	"P E N T I U M 2 // ダニ"	pentium2dani
 "///'Horse MacGyver\"
 //Tense//
