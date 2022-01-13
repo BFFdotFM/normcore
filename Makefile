@@ -23,3 +23,9 @@ generate:
 	@echo "Generated reference data..."
 	@echo
 	@php ./script/generate-reference-data.php
+
+.PHONY: benchmark
+benchmark:
+	@echo "Running benchmark..."
+	@echo
+	@php ./script/benchmark.php

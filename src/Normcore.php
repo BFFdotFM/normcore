@@ -108,4 +108,42 @@ class Normcore {
     }, $string);
   }
 
+
+  protected static $analysis = array();
+
+  /**
+   * Run transform against data, recording execution time for each transform
+   */
+  public static function analyzeTransforms(string $string, array $transforms = array()) : string {
+    return array_reduce($transforms, function($inputString, $function) {
+      $start = microtime(true);
+      $newVal = Transforms::$function($inputString);
+      $execTime = microtime(true) - $start;
+      if (!isset(self::$analysis[$function])) {
+        self::$analysis[$function] = array();
+      }
+      self::$analysis[$function][] = $execTime;
+
+      if (!empty($newVal)) {
+        return $newVal;
+      } else {
+        return $inputString;
+      }
+    }, $string);
+  }
+
+  public static function getAnalysis() {
+    return array_map(function ($func) {
+      return array(
+        'function' => $func,
+        'calls' => count(self::$analysis[$func]),
+        'time' => array_sum(self::$analysis[$func])
+      );
+    }, array_keys(self::$analysis));
+  }
+
+  public static function resetAnalysis() {
+    self::$analysis = array();
+  }
+
 }
