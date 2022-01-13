@@ -229,24 +229,20 @@ class Transforms {
     return preg_replace('/\s(?:Copyright Control)?\s*(?:All Rights Reserved)?$/i', '', $string);
   }
 
-  private const CORP_PATTERN = '/\s(?:llcs?|ltd|(?:un)?limited|inc(?:orporated)?|corp(?:oration)?)\.?$/i';
   static function discardIncorporation(string $string) : string {
-    return preg_replace(self::CORP_PATTERN, '', $string);
+    return preg_replace('/\s(?:llcs?|ltd|(?:un)?limited|inc(?:orporated)?|corp(?:oration)?)\.?$/i', '', $string);
   }
 
-  private const ORG_GROUP_PATTERN = '/\s(?:Co|Group|Record(?:ing)? Co(?:mpany)?|Record Label|Publishing(?: Group)?|Productions|Music(?: (?:Group|Publishing))?|International|Entertainment(?: Group)?)$/i';
   static function discardOrganizationGroup(string $string) : string {
-    return preg_replace(self::ORG_GROUP_PATTERN, '', $string);
+    return preg_replace('/\s(?:Co|Group|Record(?:ing)? Co(?:mpany)?|Record Label|Publishing(?: Group)?|Productions|Music(?: (?:Group|Publishing))?|International|Entertainment(?: Group)?)$/i', '', $string);
   }
 
-  private const DISCARD_LABEL_REDUNDANCIES_PATTERN = '/\s(?:Records|Recordings)$/i';
   static function discardLabelNameRedundancies(string $string) : string {
-    return preg_replace(self::DISCARD_LABEL_REDUNDANCIES_PATTERN, '', $string);
+    return preg_replace('/\s(?:Records|Recordings)$/i', '', $string);
   }
 
-  private const DISCARD_COUNTRY_PATTERN = '/\s(?:USA|UK|France|Japan|Germany)$/i';
   static function discardCountrySuffixes(string $string) : string {
-    return preg_replace(self::DISCARD_COUNTRY_PATTERN, '', $string);
+    return preg_replace('/\s(?:USA|UK|France|Japan|Germany)$/i', '', $string);
   }
 
 }
