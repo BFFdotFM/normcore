@@ -59,6 +59,10 @@ class Transforms {
     return preg_replace('/[.,"\';:\(\)\[\]\\<>]+/', '', $string);
   }
 
+  static function removePlaceholderPunctuation(string $string) : string {
+    return preg_replace('/[\-_\?]+/', '', $string);
+  }
+
   /**
    * Remove whitespace characters from the beginning and end of the string
    */

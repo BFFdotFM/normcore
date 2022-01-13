@@ -36,6 +36,14 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('Death From Above 1969', Transforms::removePunctuation('Death From Above 1969'));
   }
 
+  public function testRemovesPlaceholderPunctuation(): void {
+    $this->assertEquals('', Transforms::removePlaceholderPunctuation('-'));
+    $this->assertEquals('', Transforms::removePlaceholderPunctuation('?'));
+    $this->assertEquals('', Transforms::removePlaceholderPunctuation('_'));
+    $this->assertEquals('WHY', Transforms::removePunctuation('WHY?'));
+    $this->assertEquals('NeOh', Transforms::removePunctuation('Ne-Oh'));
+  }
+
   public function testTrimsPunctuation(): void {
     $this->assertEquals('Enter: a bear', Transforms::trimPunctuation('Enter: a bear.'));
     $this->assertEquals('Godspeed You! Black Emperor', Transforms::trimPunctuation('Godspeed You! Black Emperor'));
