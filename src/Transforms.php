@@ -22,10 +22,16 @@ class Transforms {
     return strtolower($string);
   }
 
-  /** Converty Unicode to ASCII representation  */
+  /** Store the unicode transliterator */
+  private static $ut = null;
+
+  /** Convert Unicode to ASCII representation  */
   static function normalizeUnicode(string $string) : string {
-    $transliterator = Transliterator::createFromRules(':: Any-Latin; :: Latin-ASCII; :: NFD; :: [:Nonspacing Mark:] Remove; :: NFC;', Transliterator::FORWARD);
-    $result = $transliterator->transliterate($string);
+    # Only instantiate one transliterator per run, as the creation is very expensive.
+    if (!isset(self::$ut)) {
+      self::$ut = Transliterator::createFromRules(':: Any-Latin; :: Latin-ASCII; :: NFD; :: [:Nonspacing Mark:] Remove; :: NFC;', Transliterator::FORWARD);
+    }
+    $result = self::$ut->transliterate($string);
     if ($result === false) {
       return '';
     }
