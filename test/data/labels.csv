@@ -958,13 +958,13 @@
 " エレックレコード"	エレックレコード	erekkurekodo
 " 中国唱片"	中国唱片	zhongguochangpian
 " 胎内レーベル"	胎内レーベル	taineireberu
-`	`	`
-"`exit records"	`exit	exit
-`Interscope	`Interscope	interscope
+`	`	
+"`exit records"	exit	exit
+`Interscope	Interscope	interscope
 _	_	
 __	__	
 "_________ & ___"	"_________ & ___"	
-__z`	__z`	z
+__z`	__z	z
 _-	_	
 -	-	
 "-   1080P"	1080P	1080p
@@ -20983,7 +20983,7 @@ Kiso	Kiso	kiso
 "Kiss of Death"	"Kiss of Death"	kissofdeath
 Kissability	Kissability	kissability
 "Kisseffect Music"	Kisseffect	kisseffect
-"Kistune` France"	"Kistune` France"	kistunefrance
+"Kistune` France"	"Kistune France"	kistunefrance
 Kit	Kit	kit
 "Kit Grill"	"Kit Grill"	kitgrill
 "Kit records"	Kit	kit
@@ -29006,7 +29006,7 @@ Pole	Pole	pole
 Polydoor	Polydoor	polydoor
 "Polydoor Records"	Polydoor	polydoor
 Polydor	Polydor	polydor
-"Polydor (1`973)"	"Polydor 1`973"	polydor1973
+"Polydor (1`973)"	"Polydor 1973"	polydor1973
 "Polydor (1967)"	Polydor	polydor
 "Polydor (1969)"	Polydor	polydor
 "Polydor (1970)"	Polydor	polydor
