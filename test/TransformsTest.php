@@ -40,6 +40,7 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('', Transforms::removePlaceholderPunctuation('-'));
     $this->assertEquals('', Transforms::removePlaceholderPunctuation('?'));
     $this->assertEquals('', Transforms::removePlaceholderPunctuation('_'));
+    $this->assertEquals('', Transforms::removePlaceholderPunctuation('`'));
     $this->assertEquals('WHY', Transforms::removePunctuation('WHY?'));
     $this->assertEquals('NeOh', Transforms::removePunctuation('Ne-Oh'));
   }

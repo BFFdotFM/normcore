@@ -56,11 +56,11 @@ class Transforms {
   }
 
   static function removePhrasePunctuation(string $string) : string {
-    return preg_replace('/[.,"\';:\(\)\[\]\\<>]+/', '', $string);
+    return preg_replace('/[.,"\'`;:\(\)\[\]\\<>]+/', '', $string);
   }
 
   static function removePlaceholderPunctuation(string $string) : string {
-    return preg_replace('/[\-_\?]+/', '', $string);
+    return preg_replace('/[\-_\?`]+/', '', $string);
   }
 
   /**
