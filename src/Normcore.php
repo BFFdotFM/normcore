@@ -15,6 +15,7 @@ class Normcore {
 
   public static function cleanArtistName(string $string) : string {
     return self::transform($string, array(
+      'removeControlCharacters',
       'trimWhitespace',
       'discardContributors',
       'normalizeStylisticCharacters',
@@ -24,6 +25,7 @@ class Normcore {
 
   public static function cleanTrackTitle(string $string) : string {
     return self::transform($string, array(
+      'removeControlCharacters',
       'trimWhitespace',
       'discardExplicitWarning',
       'discardRemasters',
@@ -35,6 +37,7 @@ class Normcore {
 
   public static function cleanAlbumTitle(string $string) : string {
     return self::transform($string, array(
+      'removeControlCharacters',
       'trimWhitespace',
       'normalizeVolumes',
       'discardDiscNumber',
@@ -49,6 +52,7 @@ class Normcore {
 
   public static function cleanRecordLabelName(string $string) : string {
     return self::transform($string, array(
+      'removeControlCharacters',
       'trimWhitespace',
       'handleDistroKidLabels',
       'discardLicensingBlurb',

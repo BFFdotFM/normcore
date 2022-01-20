@@ -94,4 +94,8 @@ final class NormcoreTest extends TestCase {
   public function testTracksDropContentWarnings() : void {
     $this->assertEquals('Mama Said Knock You Out', Normcore::cleanTrackTitle('Mama Said Knock You Out [Clean]'));
   }
+
+  public function testTracksDropJunkCharacters() : void {
+    $this->assertEquals('Delete This!', Normcore::cleanTrackTitle("Delete\tThis!"));
+  }
 }

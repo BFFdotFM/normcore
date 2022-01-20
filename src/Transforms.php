@@ -48,9 +48,11 @@ class Transforms {
     return str_replace('...', '…', $string);
   }
 
-  # TODO: Determine if this should strip to no punctuation or extra whitespace
-  # e.g. R.E.M. should be REM, not R E M?
-  # Will we ultimately drop all whitespace, in which case …moot?
+  static function removeControlCharacters(string $string) : string {
+    $string = str_replace(array("\n", "\t"), ' ', $string);
+    return preg_replace('/[[:cntrl:]]/', '', $string);
+  }
+
   static function removePunctuation(string $string) : string {
     return preg_replace('/[^a-z\d\s]+/i', '', $string);
   }

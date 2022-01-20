@@ -30,6 +30,15 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('ASAP Rocky', Transforms::flattenStylisticCharacters('A$AP Rocky'));
   }
 
+  public function testRemovesControlCharacters(): void {
+    $this->assertEquals('Under Control', Transforms::removeControlCharacters('Under Control'));
+    $this->assertEquals('Under Control', Transforms::removeControlCharacters('Under Control'));
+    $this->assertEquals('Under Control', Transforms::removeControlCharacters("Under\tControl"));
+    $this->assertEquals('Under Control', Transforms::removeControlCharacters("Under\nControl"));
+    $this->assertEquals('Under Control', Transforms::removeControlCharacters("Under\r\nControl"));
+    $this->assertEquals('Under Control', Transforms::removeControlCharacters("Under Control\r"));
+  }
+
   public function testRemovesPunctuation(): void {
     $this->assertEquals('REM', Transforms::removePunctuation('R.E.M.'));
     $this->assertEquals('Godspeed You Black Emperor', Transforms::removePunctuation('Godspeed You! Black Emperor'));
