@@ -98,4 +98,10 @@ final class NormcoreTest extends TestCase {
   public function testTracksDropJunkCharacters() : void {
     $this->assertEquals('Delete This!', Normcore::cleanTrackTitle("Delete\tThis!"));
   }
+
+  public function testRemoveCopyrightPrefix() : void {
+    $this->assertEquals('Flower Moon', Normcore::cleanRecordLabelName('℗ 2001 Flower Moon'));
+    $this->assertEquals('Sony', Normcore::cleanRecordLabelName('℗ Originally Released 1958 1959 Sony Music'));
+    $this->assertEquals('Sony', Normcore::cleanRecordLabelName('℗ Originally Released 1966 Sony Music'));
+  }
 }

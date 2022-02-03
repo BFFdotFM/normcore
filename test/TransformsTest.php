@@ -102,10 +102,14 @@ final class TransformsTest extends TestCase {
   public function testRemovesYearPrefixes() : void {
     $this->assertEquals('4AD', Transforms::discardYearPrefix('(c) 2020 4AD'));
     $this->assertEquals('4AD', Transforms::discardYearPrefix('(P) 2020 4AD'));
+    $this->assertEquals('4AD', Transforms::discardYearPrefix('P 2020 4AD'));
+    $this->assertEquals('4AD', Transforms::discardYearPrefix('C 2020 4AD'));
     $this->assertEquals('4AD', Transforms::discardYearPrefix('© 2020 4AD'));
     $this->assertEquals('4AD', Transforms::discardYearPrefix('℗ 1979 2019 4AD'));
     $this->assertEquals('4AD', Transforms::discardYearPrefix('2019 4AD'));
-
+    $this->assertEquals('Flower Moon', Transforms::discardYearPrefix('℗ 2001 Flower Moon'));
+    $this->assertEquals('Sony Music', Transforms::discardYearPrefix('℗ Originally Released 1958 1959 Sony Music'));
+    $this->assertEquals('Sony Music', Transforms::discardYearPrefix('℗ Originally Released 1966 Sony Music'));
   }
 
   public function testDiscardIncorporation() : void {

@@ -76,7 +76,7 @@ class Transforms {
    * Remove non-word characters from the beginning and end of the string
    */
   static function trimPunctuation(string $string) : string {
-    return trim($string, " \n\r\t\v\0,.:;/\\'-");
+    return trim($string, " \n\r\t\v\0,.:;/\\'-*");
   }
 
   /**
@@ -227,7 +227,7 @@ class Transforms {
     # (p) 2019
     # © 1982 2020
     # 1975
-    return preg_replace('/^(?:\(c\)|\(p\)|©|℗)?\s*(?:\d{4}\s)+/i', '', $string);
+    return preg_replace('/^(?:c |p |\(c\)|\(p\)|©|℗)?(?: originally released(?: by)?)?\s*(?:\d{4}\s)+/i', '', $string);
   }
 
   static function discardCopyright(string $string) : string {
