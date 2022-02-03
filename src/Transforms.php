@@ -227,7 +227,7 @@ class Transforms {
     # (p) 2019
     # © 1982 2020
     # 1975
-    return preg_replace('/^(?:c |p |\(c\)|\(p\)|©|℗)?(?: originally released(?: by)?)?\s*(?:\d{4}\s)+/i', '', $string);
+    return preg_replace('/^(?:c |p |\(c\)|\(p\)|©|℗)?(?: originally released(?: by| in)?)?\s*(?:\d{4}\s)+/i', '', $string);
   }
 
   static function discardCopyright(string $string) : string {

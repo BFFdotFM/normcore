@@ -1153,9 +1153,9 @@ _-	_
 "@1995 CD Presents"	"@1995 CD Presents"	1995cdpresents
 *	*	*
 **	**	**
-"**********records, tokyo / Nippon Columbia Co."	"**********records tokyo / Nippon Columbia"	recordstokyonipponcolumbia
-*inchworm	*inchworm	inchworm
-*inchworm.	*inchworm	inchworm
+"**********records, tokyo / Nippon Columbia Co."	"records tokyo / Nippon Columbia"	recordstokyonipponcolumbia
+*inchworm	inchworm	inchworm
+*inchworm.	inchworm	inchworm
 /	/	/
 &Friends	&Friends	friends
 "#1 Hits!"	"#1 Hits!"	1hits
@@ -1686,16 +1686,16 @@ _-	_
 "℗ 2021 XXIM Records, a label of Sony Music Entertainment"	"XXIM Records a label of Sony Music"	xximrecordslabelofsonymusic
 "℗ 2022 Mexican Summer, LLC"	"Mexican Summer"	mexicansummer
 "℗ Mom+Pop/NEET"	"℗ Mom+Pop/NEET"	pmompopneet
-"℗ Originally Released 1958, 1959 Sony Music Entertainment Inc."	"℗ Originally Released 1958 1959 Sony Music"	poriginallyreleased19581959sonymusic
-"℗ Originally released 1963, 1965, 1966, 1969, 1970, 1971 Sony Music Entertainment / (P) 1972, 1975, 1980, 1985, 1988, 1991, 1993, 1995, 1997, 1999 Sony Music Entertainment"	"℗ Originally released 1963 1965 1966 1969 1970 1971 Sony Music Entertainment / P 1972 1975 1980 1985 1988 1991 1993 1995 1997 1999 Sony Music"	poriginallyreleased196319651966196919701971sonymusicentertainmentp1972197519801985198819911993199519971999sonymusic
-"℗ Originally Released 1964 Sony Music Entertainment Inc."	"℗ Originally Released 1964 Sony Music"	poriginallyreleased1964sonymusic
-"℗ Originally Released 1965 Sony Music Entertainment Inc."	"℗ Originally Released 1965 Sony Music"	poriginallyreleased1965sonymusic
-"℗ Originally Released 1965, 1966, 1967, 1968, 1969, 1970, 1971 (P) 2003 Sony Music Entertainment Inc."	"℗ Originally Released 1965 1966 1967 1968 1969 1970 1971 P 2003 Sony Music"	poriginallyreleased1965196619671968196919701971p2003sonymusic
-"℗ Originally Released 1966 Sony Music Entertainment Inc."	"℗ Originally Released 1966 Sony Music"	poriginallyreleased1966sonymusic
-"℗ Originally released 1967. All rights reserved by Sony Music Entertainment"	"℗ Originally released 1967 All rights reserved by Sony Music"	poriginallyreleased1967allrightsreservedbysonymusic
-"℗ Originally Released 1968. Originally Recorded 1967. All rights reserved by SONY BMG MUSIC ENTERTAINMENT, (P) 1995, 2006 SONY BMG MUSIC ENTERTAINMENT"	"℗ Originally Released 1968 Originally Recorded 1967 All rights reserved by SONY BMG MUSIC ENTERTAINMENT P 1995 2006 SONY BMG MUSIC"	poriginallyreleased1968originallyrecorded1967allrightsreservedbysonybmgmusicentertainmentp19952006sonybmgmusic
-"℗ Originally released 1969. All rights reserved by Columbia Records, a division of Sony Music Entertainment"	"℗ Originally released 1969 All rights reserved by Columbia"	poriginallyreleased1969allrightsreservedbycolumbia
-"℗ Originally released in 1969, 1971. All rights reserved by SONY BMG MUSIC ENTERTAINMENT. (P) 2007 SONY BMG MUSIC ENTERTAINMENT."	"℗ Originally released in 1969 1971 All rights reserved by SONY BMG MUSIC ENTERTAINMENT P 2007 SONY BMG MUSIC"	poriginallyreleasedin19691971allrightsreservedbysonybmgmusicentertainmentp2007sonybmgmusic
+"℗ Originally Released 1958, 1959 Sony Music Entertainment Inc."	"Sony Music"	sonymusic
+"℗ Originally released 1963, 1965, 1966, 1969, 1970, 1971 Sony Music Entertainment / (P) 1972, 1975, 1980, 1985, 1988, 1991, 1993, 1995, 1997, 1999 Sony Music Entertainment"	"Sony Music Entertainment / P 1972 1975 1980 1985 1988 1991 1993 1995 1997 1999 Sony Music"	sonymusicentertainmentp1972197519801985198819911993199519971999sonymusic
+"℗ Originally Released 1964 Sony Music Entertainment Inc."	"Sony Music"	sonymusic
+"℗ Originally Released 1965 Sony Music Entertainment Inc."	"Sony Music"	sonymusic
+"℗ Originally Released 1965, 1966, 1967, 1968, 1969, 1970, 1971 (P) 2003 Sony Music Entertainment Inc."	"P 2003 Sony Music"	p2003sonymusic
+"℗ Originally Released 1966 Sony Music Entertainment Inc."	"Sony Music"	sonymusic
+"℗ Originally released 1967. All rights reserved by Sony Music Entertainment"	"All rights reserved by Sony Music"	allrightsreservedbysonymusic
+"℗ Originally Released 1968. Originally Recorded 1967. All rights reserved by SONY BMG MUSIC ENTERTAINMENT, (P) 1995, 2006 SONY BMG MUSIC ENTERTAINMENT"	"Originally Recorded 1967 All rights reserved by SONY BMG MUSIC ENTERTAINMENT P 1995 2006 SONY BMG MUSIC"	originallyrecorded1967allrightsreservedbysonybmgmusicentertainmentp19952006sonybmgmusic
+"℗ Originally released 1969. All rights reserved by Columbia Records, a division of Sony Music Entertainment"	"All rights reserved by Columbia"	allrightsreservedbycolumbia
+"℗ Originally released in 1969, 1971. All rights reserved by SONY BMG MUSIC ENTERTAINMENT. (P) 2007 SONY BMG MUSIC ENTERTAINMENT."	"All rights reserved by SONY BMG MUSIC ENTERTAINMENT P 2007 SONY BMG MUSIC"	allrightsreservedbysonybmgmusicentertainmentp2007sonybmgmusic
 "℗ This compilation (P) 2011 Arista Records, LLC"	"℗ This compilation P 2011 Arista"	pthiscompilationp2011arista
 "℗ This compilation (P) 2016 Sony Music Entertainment"	"℗ This compilation P 2016 Sony Music"	pthiscompilationp2016sonymusic
 "℗ Western Vinyl"	"℗ Western Vinyl"	pwesternvinyl
@@ -3138,7 +3138,7 @@ ABC-Paramount	ABC-Paramount	abcparamount
 ABC/Dunhill	ABC/Dunhill	abcdunhill
 ABC/MCA	ABC/MCA	abcmca
 ABCDEFG	ABCDEFG	abcdefg
-abcdefg*	abcdefg*	abcdefg
+abcdefg*	abcdefg	abcdefg
 abcdefg*record	abcdefg*record	abcdefgrecord
 ABCKO	ABCKO	abcko
 "ABCKO Music and Records"	"ABCKO Music and"	abckomusicand
@@ -5749,7 +5749,7 @@ Basenji	Basenji	basenji
 "BaseWorld Records"	BaseWorld	baseworld
 BASF	BASF	basf
 "BASF (1971)"	BASF	basf
-Bash*	Bash*	bash
+Bash*	Bash	bash
 "Basic Channel"	"Basic Channel"	basicchannel
 "Basic House - Government"	"Basic House - Government"	basichousegovernment
 "Basic Replay"	"Basic Replay"	basicreplay
@@ -15942,7 +15942,7 @@ Geffen	Geffen	geffen
 "Geffen Records Inc"	Geffen	geffen
 "Geffen Records Inc."	Geffen	geffen
 "Geffen Records, Inc."	Geffen	geffen
-"Geffen* Records"	Geffen*	geffen
+"Geffen* Records"	Geffen	geffen
 Geffen/CBS/Sire/Brothers	Geffen/CBS/Sire/Brothers	geffencbssirebrothers
 Geffen/Chess/Checkers	Geffen/Chess/Checkers	geffenchesscheckers
 Geffen/Virgin	Geffen/Virgin	geffenvirgin
@@ -33645,7 +33645,7 @@ SMARTBOMB	SMARTBOMB	smartbomb
 Smartguy	Smartguy	smartguy
 "Smartguy Records"	Smartguy	smartguy
 Smartpunk	Smartpunk	smartpunk
-Smartt*	Smartt*	smartt
+Smartt*	Smartt	smartt
 Smash	Smash	smash
 "Smash (1968)"	Smash	smash
 "Smash Records"	Smash	smash

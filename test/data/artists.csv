@@ -539,7 +539,7 @@
 " tom vr"	"tom vr"	tomvr
 " tomu and kyra"	"tomu and kyra"	tomukyra
 " Tomu DJ"	"Tomu DJ"	tomudj
-" Tony ''Dr. Edit'' Garcia* Feat. Lil Suzy "	"Tony ''Dr. Edit'' Garcia*"	tonydreditgarcia
+" Tony ''Dr. Edit'' Garcia* Feat. Lil Suzy "	"Tony ''Dr. Edit'' Garcia"	tonydreditgarcia
 " Tracey Ullman"	"Tracey Ullman"	traceyullman
 " Traxman"	Traxman	traxman
 " tsuruda"	tsuruda	tsuruda
@@ -703,12 +703,12 @@ _juno	_juno	juno
 @Peace	@Peace	peace
 *	*	*
 **	**	**
-*16yrold	*16yrold	16yrold
-"*AM Stereo"	"*AM Stereo"	amstereo
-*NSYNC	*NSYNC	nsync
-"*NSYNC and Lisa Lopez"	"*NSYNC and Lisa Lopez"	nsynclisalopez
-"*repeat repeat"	"*repeat repeat"	repeatrepeat
-*shels	*shels	shels
+*16yrold	16yrold	16yrold
+"*AM Stereo"	"AM Stereo"	amstereo
+*NSYNC	NSYNC	nsync
+"*NSYNC and Lisa Lopez"	"NSYNC and Lisa Lopez"	nsynclisalopez
+"*repeat repeat"	"repeat repeat"	repeatrepeat
+*shels	shels	shels
 "/ / / /"	"/ / / /"	
 "// P E N T I U M 2 // ダニ"	"P E N T I U M 2 // ダニ"	pentium2dani
 "///'Horse MacGyver\"
@@ -15644,7 +15644,7 @@ D.R.A.M	D.R.A.M	dram
 D.R.A.M.	D.R.A.M	dram
 "D.R.A.M., SZA"	"D.R.A.M., SZA"	dramsza
 D.Tiffany	D.Tiffany	dtiffany
-D.V.S*	D.V.S*	dvs
+D.V.S*	D.V.S	dvs
 D'african	D'african	dafrican
 D'Angelo	D'Angelo	dangelo
 "D'Angelo (!)"	"D'Angelo (!)"	dangelo
@@ -21181,7 +21181,7 @@ Ekzander	Ekzander	ekzander
 "El Remelon"	"El Remelon"	elremelon
 "El Shirota"	"El Shirota"	elshirota
 "El Super Nuevo"	"El Super Nuevo"	elsupernuevo
-"El Super Show De Los Vaskez*"	"El Super Show De Los Vaskez*"	elsupershowdelosvaskez
+"El Super Show De Los Vaskez*"	"El Super Show De Los Vaskez"	elsupershowdelosvaskez
 "El Teatro Campsino"	"El Teatro Campsino"	elteatrocampsino
 "El Tempos"	"El Tempos"	eltempos
 "El Ten Eleven"	"El Ten Eleven"	elteneleven
@@ -24247,7 +24247,7 @@ Footswitch	Footswitch	footswitch
 "Forbidden Lover"	"Forbidden Lover"	forbiddenlover
 "Force & Styles"	"Force & Styles"	forcestyles
 "Force M.D.'s"	"Force M.D.'s"	forcemds
-"Force M.D.’s*"	"Force M.D.’s*"	forcemds
+"Force M.D.’s*"	"Force M.D.’s"	forcemds
 "Force One"	"Force One"	forceone
 "Force Placement"	"Force Placement"	forceplacement
 "Forced Metaphor"	"Forced Metaphor"	forcedmetaphor
@@ -64103,7 +64103,7 @@ Stef	Stef	stef
 "Stef Conner, Hanna Marti, Everlasting Voices, Christopher O'Gorman, Jamie Wright & Graham Bier"	"Stef Conner, Hanna Marti, Everlasting Voices, Christopher O'Gorman, Jamie Wright & Graham Bier"	stefconnerhannamartieverlastingvoiceschristopherogormanjamiewrightgrahambier
 "Stef Conner, Hanna Marti, Peyee Chen, Elspeth Piggott, Everlasting Voices & Ana Beard Fernández"	"Stef Conner, Hanna Marti, Peyee Chen, Elspeth Piggott, Everlasting Voices & Ana Beard Fernández"	stefconnerhannamartipeyeechenelspethpiggotteverlastingvoicesanabeardfernandez
 "Stef Conner, Robin Bier, Lisa Coates, Toby Ward, Everlasting Voices & Louis Marlowe"	"Stef Conner, Robin Bier, Lisa Coates, Toby Ward, Everlasting Voices & Louis Marlowe"	stefconnerrobinbierlisacoatestobywardeverlastingvoiceslouismarlowe
-STEFA*	STEFA*	stefa
+STEFA*	STEFA	stefa
 Stefan	Stefan	stefan
 "Stefan Christensen"	"Stefan Christensen"	stefanchristensen
 "Stefan Fraunberger"	"Stefan Fraunberger"	stefanfraunberger
@@ -64142,7 +64142,7 @@ Stella	Stella	stella
 "Stella Donnely"	"Stella Donnely"	stelladonnely
 "Stella Elle Ola"	"Stella Elle Ola"	stellaelleola
 "Stella Sommer, Sophia Kennedy"	"Stella Sommer, Sophia Kennedy"	stellasommersophiakennedy
-stellastarr*	stellastarr*	stellastarr
+stellastarr*	stellastarr	stellastarr
 Stellius	Stellius	stellius
 stello	stello	stello
 StéLouse	StéLouse	stelouse
@@ -65750,7 +65750,7 @@ Sylvia	Sylvia	sylvia
 "Sylvia Smith"	"Sylvia Smith"	sylviasmith
 "Sylvia Striplin"	"Sylvia Striplin"	sylviastriplin
 "Sylvia Tella, Longsley D"	"Sylvia Tella, Longsley D"	sylviatellalongsleyd
-Sylvia*	Sylvia*	sylvia
+Sylvia*	Sylvia	sylvia
 "Sylvie & Marina Allen"	"Sylvie & Marina Allen"	sylviemarinaallen
 "Sylvie Simmons"	"Sylvie Simmons"	sylviesimmons
 "Sylvie Vartan"	"Sylvie Vartan"	sylvievartan
