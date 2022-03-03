@@ -192,7 +192,7 @@ class Transforms {
    * Where these are entered into a database, treat them as “Self Released”.
    */
   static function handleDistroKidLabels(string $string) : string {
-    if (preg_match('/\d{6,} Records(?: DK)?/i', $string)) {
+    if (preg_match('/\d{5,} (Record(?:ing)?s(?: DK)?|DK)/i', $string)) {
       return 'Self Released';
     }
     return $string;

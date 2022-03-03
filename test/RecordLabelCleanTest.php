@@ -35,7 +35,7 @@ final class RecordLabelCleanTest extends TestCase {
 
   public function testRemovesPrecedingYearOfRelease() : void {
     $this->assertEquals('1985', Normcore::cleanRecordLabelName('1985 Music'));
-    $this->assertEquals('1984', Normcore::cleanRecordLabelName('1984 Records'));
+    $this->assertEquals('1984', Normcore::cleanRecordLabelName('1984 Record Company'));
     $this->assertEquals('Sub Pop', Normcore::cleanRecordLabelName('© 2017 Sub Pop Records'));
     $this->assertEquals('King', Normcore::cleanRecordLabelName('℗ 1978 King Record Co., Ltd.'));
     $this->assertEquals('Beggars Banquet', Normcore::cleanRecordLabelName('℗ 1985 Beggars Banquet Records Ltd'));

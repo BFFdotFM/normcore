@@ -152,6 +152,8 @@ final class TransformsTest extends TestCase {
 
   public function testDistroKidSelfReleases() : void {
     $this->assertEquals('Self Released', Transforms::handleDistroKidLabels('123456 Records DK'));
+    $this->assertEquals('Self Released', Transforms::handleDistroKidLabels('12345 Recordings DK'));
+    $this->assertEquals('Self Released', Transforms::handleDistroKidLabels('12345 DK'));
     # Matches in the case where other junk data is prefixed
     $this->assertEquals('Self Released', Transforms::handleDistroKidLabels('2010 123456 Records DK'));
     # Some entires in our database have “DK2” as the suffix
@@ -161,8 +163,8 @@ final class TransformsTest extends TestCase {
     # Allow longer IDs
     $this->assertEquals('Self Released', Transforms::handleDistroKidLabels('12345678 Records'));
 
-    # Require 6-digit ID
-    $this->assertEquals('12345 Records', Transforms::handleDistroKidLabels('12345 Records'));
+    # Require 4+ digit ID
+    $this->assertEquals('123 Records', Transforms::handleDistroKidLabels('123 Records'));
   }
 
   public function testNormalizeVolumes() : void {

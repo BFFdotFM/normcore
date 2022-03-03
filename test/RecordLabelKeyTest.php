@@ -39,7 +39,7 @@ final class RecordLabelKeyTest extends TestCase {
 
   public function testRemovesPrecedingYearOfRelease() : void {
     $this->assertEquals('1985', Normcore::keyRecordLabelName('1985 Music'));
-    $this->assertEquals('1984', Normcore::keyRecordLabelName('1984 Records'));
+    $this->assertEquals('1984', Normcore::keyRecordLabelName('1984 Record Company'));
     $this->assertEquals('subpop', Normcore::keyRecordLabelName('© 2017 Sub Pop Records'));
     $this->assertEquals('king', Normcore::keyRecordLabelName('℗ 1978 King Record Co., Ltd.'));
     $this->assertEquals('beggarsbanquet', Normcore::keyRecordLabelName('℗ 1985 Beggars Banquet Records Ltd'));
