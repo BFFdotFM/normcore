@@ -56,6 +56,34 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('Under Control', Transforms::removeControlCharacters("Under Control\r"));
   }
 
+  public function testRemovesInvisibleFormatCharacters(): void {
+    # Format characters (Cf) are not control characters and survive [[:cntrl:]]. A trailing
+    # LRM otherwise wedges a space open against trim(); removing it lets the space go too.
+    $this->assertEquals('Backs Records ', Transforms::removeControlCharacters("Backs Records \u{200E}"));
+    $this->assertEquals('Backs Records', trim(Transforms::removeControlCharacters("Backs Records \u{200E}")));
+    $this->assertEquals('Trout', Transforms::removeControlCharacters("\u{200E}Trout"));
+    $this->assertEquals('abc', Transforms::removeControlCharacters("a\u{200B}b\u{FEFF}c")); # ZWSP, BOM
+    $this->assertEquals('softhyphen', Transforms::removeControlCharacters("soft\u{00AD}hyphen"));
+  }
+
+  public function testNormalizesExoticWhitespaceToSpace(): void {
+    # Separator characters (Zs/Zl/Zp) become a regular space so trim/whitespace steps catch them.
+    # The space + NBSP yields two spaces here; the point is the NBSP is no longer a
+    # non-breaking separator, so trim() can collapse the trailing run.
+    $this->assertEquals('Chiya and my songs  ', Transforms::removeControlCharacters("Chiya and my songs \u{00A0}")); # NBSP
+    $this->assertEquals('Chiya and my songs', trim(Transforms::removeControlCharacters("Chiya and my songs \u{00A0}")));
+    $this->assertEquals('a b', Transforms::removeControlCharacters("a\u{2009}b")); # thin space
+  }
+
+  public function testNormalizesSmartQuotes(): void {
+    $this->assertEquals("Don't Be Afraid", Transforms::normalizeQuoteCharacters("Don\u{2019}t Be Afraid"));
+    $this->assertEquals("'quoted'", Transforms::normalizeQuoteCharacters("\u{2018}quoted\u{2019}"));
+    $this->assertEquals('"T" Texas Tyler', Transforms::normalizeQuoteCharacters("\u{201C}T\u{201D} Texas Tyler"));
+    $this->assertEquals("\"low\" 'high'", Transforms::normalizeQuoteCharacters("\u{201E}low\u{201F} \u{201A}high\u{201B}"));
+    # Primes are left untouched so the 7"/12" suffix matching is unaffected.
+    $this->assertEquals("12\u{2033}", Transforms::normalizeQuoteCharacters("12\u{2033}"));
+  }
+
   public function testRemovesPunctuation(): void {
     $this->assertEquals('REM', Transforms::removePunctuation('R.E.M.'));
     $this->assertEquals('Godspeed You Black Emperor', Transforms::removePunctuation('Godspeed You! Black Emperor'));
@@ -77,6 +105,14 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('And You Will Know Us By', Transforms::trimPunctuation('And You Will Know Us By...'));
     $this->assertEquals('The Strokes', Transforms::trimPunctuation(', The Strokes.'));
     $this->assertEquals('Franz Ferdinand', Transforms::trimPunctuation('Franz Ferdinand: '));
+  }
+
+  public function testRemovePhrasePunctuationRetainsApostrophes(): void {
+    # Apostrophes are kept so label names stay readable; other phrase punctuation goes.
+    $this->assertEquals("Don't Be Afraid", Transforms::removePhrasePunctuation("Don't Be Afraid"));
+    $this->assertEquals('Fools Gold', Transforms::removePhrasePunctuation('Fool`s Gold')); # backtick still stripped
+    $this->assertEquals('T Texas Tyler', Transforms::removePhrasePunctuation('"T" Texas Tyler')); # double quotes stripped
+    $this->assertEquals('REM', Transforms::removePhrasePunctuation('R.E.M.'));
   }
 
   public function testFiltersRedundantWords(): void {

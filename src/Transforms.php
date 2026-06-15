@@ -56,8 +56,33 @@ class Transforms {
     return preg_replace('/\.{3,}/', '…', $string);
   }
 
+  /** Fold typographic (smart) quotes onto their ASCII equivalents */
+  static function normalizeQuoteCharacters(string $string) : string {
+    # Primes (U+2032 ′ / U+2033 ″) are intentionally excluded — mapping ″ to " would
+    # collide with the 7"/12" matching in discardEpLpSuffix.
+    return str_replace(
+      array("\u{2018}", "\u{2019}", "\u{201A}", "\u{201B}",   # ‘ ’ ‚ ‛  -> '
+            "\u{201C}", "\u{201D}", "\u{201E}", "\u{201F}"),   # “ ” „ ‟  -> "
+      array("'", "'", "'", "'", '"', '"', '"', '"'),
+      $string
+    );
+  }
+
+  /**
+   * Strip non-printing characters and normalise exotic whitespace.
+   *
+   * Does more than its name suggests: newlines/tabs become spaces, Unicode format
+   * characters (Cf — LRM/RLM, zero-width space/joiner, BOM, soft hyphen) are removed,
+   * Unicode separators (Zs/Zl/Zp — NBSP, narrow/figure spaces, line/paragraph separators)
+   * collapse to a regular space for the subsequent trim/whitespace steps, and remaining
+   * C0/C1 control characters (Cc) are removed. The POSIX [[:cntrl:]] / category Cc class
+   * does NOT match Cf or Zs, which is why those are handled explicitly — a trailing LRM
+   * after a space (e.g. "Backs Records ‎") otherwise blocks trim() and persists noise.
+   */
   static function removeControlCharacters(string $string) : string {
     $string = str_replace(array("\n", "\t"), ' ', $string);
+    $string = preg_replace('/\p{Cf}/u', '', $string);
+    $string = preg_replace('/[\p{Zs}\p{Zl}\p{Zp}]/u', ' ', $string);
     return preg_replace('/[[:cntrl:]]/', '', $string);
   }
 
@@ -66,7 +91,9 @@ class Transforms {
   }
 
   static function removePhrasePunctuation(string $string) : string {
-    return preg_replace('/[.,"\'`;:\(\)\[\]\\<>]+/', '', $string);
+    # Apostrophes (') are intentionally retained so label names like "Don't Be Afraid"
+    # stay readable and curly/straight variants converge on the apostrophe'd form.
+    return preg_replace('/[.,"`;:\(\)\[\]\\<>]+/', '', $string);
   }
 
   static function removePlaceholderPunctuation(string $string) : string {

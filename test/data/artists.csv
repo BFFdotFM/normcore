@@ -121,7 +121,7 @@
 " CYBEREALITY"	CYBEREALITY	cybereality
 " Cybereality ("	"Cybereality ("	cybereality
 " D!ANA"	D!ANA	dana
-" D’TCH"	D’TCH	dtch
+" D’TCH"	D'TCH	dtch
 " Da Intalex"	"Da Intalex"	daintalex
 " Dajae"	Dajae	dajae
 " Dance System & Heavee"	"Dance System & Heavee"	dancesystemheavee
@@ -139,7 +139,7 @@
 " DFNKT"	DFNKT	dfnkt
 " Dillinja"	Dillinja	dillinja
 " Dinner"	Dinner	dinner
-" Dionne Warwick"	" Dionne Warwick"	dionnewarwick
+" Dionne Warwick"	"Dionne Warwick"	dionnewarwick
 " Disclosure [Posk Bootleg]"	"Disclosure [Posk Bootleg]"	disclosureposkbootleg
 " DJ Aphrodite and Micky Finn"	"DJ Aphrodite and Micky Finn"	djaphroditemickyfinn
 " DJ Assault (DJ Suzmo Edit)"	"DJ Assault (DJ Suzmo Edit)"	djassaultdjsuzmoedit
@@ -240,7 +240,7 @@
 " G Panic"	"G Panic"	gpanic
 " GAGSMILE"	GAGSMILE	gagsmile
 " Gant-Man"	Gant-Man	gantman
-" Gary Lucas And Jozef Van Wissem ‎"	"Gary Lucas And Jozef Van Wissem ‎"	garylucasjozefvanwissem
+" Gary Lucas And Jozef Van Wissem ‎"	"Gary Lucas And Jozef Van Wissem"	garylucasjozefvanwissem
 " GILA"	GILA	gila
 " girl in red"	"girl in red"	girlinred
 " Glances"	Glances	glances
@@ -295,7 +295,7 @@
 " Jason Wool"	"Jason Wool"	jasonwool
 " Jean Dupuy"	"Jean Dupuy"	jeandupuy
 " Jeigo"	Jeigo	jeigo
-" Jerry Butler & Brenda Lee Eager"	"Jerry Butler & Brenda Lee Eager"	jerrybutlerbrendaleeeager
+" Jerry Butler & Brenda Lee Eager"	"Jerry Butler & Brenda Lee Eager"	jerrybutlerbrendaleeeager
 " Jio"	Jio	jio
 " Jlin"	Jlin	jlin
 " Joan baez"	"Joan baez"	joanbaez
@@ -510,7 +510,7 @@
 " Stray"	Stray	stray
 " Sun People"	"Sun People"	sunpeople
 " Surly"	Surly	surly
-" Sylvia Robinson"	" Sylvia Robinson"	sylviarobinson
+" Sylvia Robinson"	"Sylvia Robinson"	sylviarobinson
 " Taj Mahal Travellers"	"Taj Mahal Travellers"	tajmahaltravellers
 " TĀKARO TECHNO CLUB"	"TĀKARO TECHNO CLUB"	takarotechnoclub
 " Tanukichan"	Tanukichan	tanukichan
@@ -658,11 +658,11 @@ _juno	_juno	juno
 """Bald"" Bill Hagan And His Trocaderons"	"""Bald"" Bill Hagan And His Trocaderons"	baldbillhaganhistrocaderons
 """Blue"" Gene Tyranny"	"""Blue"" Gene Tyranny"	bluegenetyranny
 """D"" And the Sugar Cane Factory"	"""D"" And the Sugar Cane Factory"	dsugarcanefactory
-"""Little"" Louie & Marc Anthony ‎"	"""Little"" Louie & Marc Anthony ‎"	littlelouiemarcanthony
+"""Little"" Louie & Marc Anthony ‎"	"""Little"" Louie & Marc Anthony"	littlelouiemarcanthony
 """Om"" Alec Khaoli"	"""Om"" Alec Khaoli"	omaleckhaoli
 """Traps"" (Armeria Remix)"	"""Traps"" (Armeria Remix)"	trapsarmeriaremix
 """Weird Al"" Yankovic"	"""Weird Al"" Yankovic"	weirdalyankovic
-"“T” Texas Tyler"	"“T” Texas Tyler"	ttexastyler
+"“T” Texas Tyler"	"""T"" Texas Tyler"	ttexastyler
 "((( O )))"	"((( O )))"	o
 (((o)))	(((o)))	o
 (((sssurrounddd)))	(((sssurrounddd)))	sssurrounddd
@@ -1080,7 +1080,7 @@ $unrise 2 Nitefall (feat. Nimsins & FeatherLoad)
 "4hero, jack davey"	"4hero, jack davey"	4herojackdavey
 4ntler	4ntler	4ntler
 "4Real4Real (feat. Da Brat)"	4Real4Real	4real4real
-"4th Coming ‎"	"4th Coming ‎"	4thcoming
+"4th Coming ‎"	"4th Coming"	4thcoming
 "4th Curtis"	"4th Curtis"	4thcurtis
 4TLR	4TLR	4tlr
 "5 Billion In Diamonds"	"5 Billion In Diamonds"	5billionindiamonds
@@ -1529,7 +1529,7 @@ ABC	ABC	abc
 "Abe Hollow"	"Abe Hollow"	abehollow
 "Abe Lagrimas Jr."	"Abe Lagrimas Jr"	abelagrimasjr
 "Abe Lagrimas, Jr."	"Abe Lagrimas, Jr"	abelagrimasjr
-"Abe Lyman’s California Orchestra"	"Abe Lyman’s California Orchestra"	abelymanscaliforniaorchestra
+"Abe Lyman’s California Orchestra"	"Abe Lyman's California Orchestra"	abelymanscaliforniaorchestra
 "Abe Vigoda"	"Abe Vigoda"	abevigoda
 Abecedarians	Abecedarians	abecedarians
 "Abel Antonio Villa"	"Abel Antonio Villa"	abelantoniovilla
@@ -2244,7 +2244,7 @@ Air	Air	air
 "AIR Krew"	"AIR Krew"	airkrew
 "Air Liquide"	"Air Liquide"	airliquide
 "Air Max '97"	"Air Max '97"	airmax97
-"Air Max ’97"	"Air Max ’97"	airmax97
+"Air Max ’97"	"Air Max '97"	airmax97
 "Air Max 97"	"Air Max 97"	airmax97
 "Air Miami"	"Air Miami"	airmiami
 "Air Review"	"Air Review"	airreview
@@ -2334,7 +2334,7 @@ AK	AK	ak
 "AK Skillz"	"AK Skillz"	akskillz
 Ak'chamel	Ak'chamel	akchamel
 "Ak'chamel, The Giver Of Illness"	"Ak'chamel, The Giver Of Illness"	akchamelgiverofillness
-"Ak’chamel, The Giver Of Illness"	"Ak’chamel, The Giver Of Illness"	akchamelgiverofillness
+"Ak’chamel, The Giver Of Illness"	"Ak'chamel, The Giver Of Illness"	akchamelgiverofillness
 AK13	AK13	ak13
 "AK13 ft Saher Melody"	AK13	ak13
 AKA	AKA	aka
@@ -2572,7 +2572,7 @@ Alberich	Alberich	alberich
 "Albert Hammond Jr."	"Albert Hammond Jr"	alberthammondjr
 "Albert Hammond, Jr."	"Albert Hammond, Jr"	alberthammondjr
 "Albert King"	"Albert King"	albertking
-"Albert Marcœur ‎"	"Albert Marcœur ‎"	albertmarcoeur
+"Albert Marcœur ‎"	"Albert Marcœur"	albertmarcoeur
 "Albert Marcour	"	"Albert Marcour"	albertmarcour
 "Albert Negredo"	"Albert Negredo"	albertnegredo
 "Albert Washington"	"Albert Washington"	albertwashington
@@ -2773,8 +2773,8 @@ Alexander	Alexander	alexander
 "Alexander Lewis."	"Alexander Lewis"	alexanderlewis
 "Alexander Mack"	"Alexander Mack"	alexandermack
 "Alexander O'Neal"	"Alexander O'Neal"	alexanderoneal
-"Alexander O’ Neal"	"Alexander O’ Neal"	alexanderoneal
-"Alexander O’Neal"	"Alexander O’Neal"	alexanderoneal
+"Alexander O’ Neal"	"Alexander O' Neal"	alexanderoneal
+"Alexander O’Neal"	"Alexander O'Neal"	alexanderoneal
 "Alexander Robotnick"	"Alexander Robotnick"	alexanderrobotnick
 "Alexander Saykov, La Rose"	"Alexander Saykov, La Rose"	alexandersaykovlarose
 "Alexander Skip Spence"	"Alexander Skip Spence"	alexanderskipspence
@@ -3131,7 +3131,7 @@ Allyn	Allyn	allyn
 "Allyson Foster"	"Allyson Foster"	allysonfoster
 ALMA	ALMA	alma
 "Alma & Mater"	"Alma & Mater"	almamater
-"Alma Ekmečić ‎"	"Alma Ekmečić ‎"	almaekmecic
+"Alma Ekmečić ‎"	"Alma Ekmečić"	almaekmecic
 "Alma Elste"	"Alma Elste"	almaelste
 "ALMA NEGRA"	"ALMA NEGRA"	almanegra
 "Alma Rosae"	"Alma Rosae"	almarosae
@@ -4133,7 +4133,7 @@ aninoko	aninoko	aninoko
 "Anita O'Day"	"Anita O'Day"	anitaoday
 "Anita O'Day, Billy Strayhorn, Marty Paich & His Orchestra"	"Anita O'Day, Billy Strayhorn, Marty Paich & His Orchestra"	anitaodaybillystrayhornmartypaichhisorchestra
 "Anita O'Day, Cal Tjader"	"Anita O'Day, Cal Tjader"	anitaodaycaltjader
-"Anita O’Day and Roy Eldridge with Gene Krupa and his Orchestra"	"Anita O’Day and Roy Eldridge with Gene Krupa and his Orchestra"	anitaodayroyeldridgewithgenekrupahisorchestra
+"Anita O’Day and Roy Eldridge with Gene Krupa and his Orchestra"	"Anita O'Day and Roy Eldridge with Gene Krupa and his Orchestra"	anitaodayroyeldridgewithgenekrupahisorchestra
 "Anita Ward"	"Anita Ward"	anitaward
 Anitek	Anitek	anitek
 Anitflvx	Anitflvx	anitflvx
@@ -4342,7 +4342,7 @@ Ant	Ant	ant
 "Ant Clemons, Kehlani"	"Ant Clemons, Kehlani"	antclemonskehlani
 "Ant Saunders"	"Ant Saunders"	antsaunders
 ant'lrd	ant'lrd	antlrd
-Ant’lrd	Ant’lrd	antlrd
+Ant’lrd	Ant'lrd	antlrd
 Antae	Antae	antae
 "Antananarivo, Madagascar"	"Antananarivo, Madagascar"	antananarivomadagascar
 "Antarctigo Vespucci"	"Antarctigo Vespucci"	antarctigovespucci
@@ -7359,7 +7359,7 @@ BENNI	BENNI	benni
 "BENNI JERROD"	"BENNI JERROD"	bennijerrod
 "Bennie Green and Orchestra (Bud Johnson; Louiguy; Piaf)"	"Bennie Green and Orchestra (Bud Johnson; Louiguy; Piaf)"	benniegreenorchestrabudjohnsonlouiguypiaf
 "Bennie Maupin"	"Bennie Maupin"	benniemaupin
-"Bennie Moten’s Kansas City Orchestra"	"Bennie Moten’s Kansas City Orchestra"	benniemotenskansascityorchestra
+"Bennie Moten’s Kansas City Orchestra"	"Bennie Moten's Kansas City Orchestra"	benniemotenskansascityorchestra
 "Bennie Spellman"	"Bennie Spellman"	benniespellman
 "Benno Blome, Hopperider"	"Benno Blome, Hopperider"	bennoblomehopperider
 "Benny Atlas"	"Benny Atlas"	bennyatlas
@@ -7383,7 +7383,7 @@ BENNI	BENNI	benni
 "Benny Goodman Quintet"	"Benny Goodman Quintet"	bennygoodmanquintet
 "Benny Goodman Sextet"	"Benny Goodman Sextet"	bennygoodmansextet
 "Benny Goodman Trio"	"Benny Goodman Trio"	bennygoodmantrio
-"Benny Goodman’s Quintet"	"Benny Goodman’s Quintet"	bennygoodmansquintet
+"Benny Goodman’s Quintet"	"Benny Goodman's Quintet"	bennygoodmansquintet
 "Benny Joy"	"Benny Joy"	bennyjoy
 "benny l;"	"benny l"	bennyl
 "Benny Madones"	"Benny Madones"	bennymadones
@@ -7786,7 +7786,7 @@ Bifannah	Bifannah	bifannah
 "Big In Japan"	"Big In Japan"	biginjapan
 "Big Jade"	"Big Jade"	bigjade
 "Big Jay McNeely"	"Big Jay McNeely"	bigjaymcneely
-"Big Jay McSheely’s Blue Jays"	"Big Jay McSheely’s Blue Jays"	bigjaymcsheelysbluejays
+"Big Jay McSheely’s Blue Jays"	"Big Jay McSheely's Blue Jays"	bigjaymcsheelysbluejays
 "Big Joanie"	"Big Joanie"	bigjoanie
 "big joe king tubby"	"big joe king tubby"	bigjoekingtubby
 "Big Joe Turner"	"Big Joe Turner"	bigjoeturner
@@ -7917,7 +7917,7 @@ BILK	BILK	bilk
 "Bill Andress"	"Bill Andress"	billandress
 "Bill Baird"	"Bill Baird"	billbaird
 "Bill Black's Combo"	"Bill Black's Combo"	billblackscombo
-"Bill Black’s Combo"	"Bill Black’s Combo"	billblackscombo
+"Bill Black’s Combo"	"Bill Black's Combo"	billblackscombo
 "Bill Botting & The Two Drink Minimums"	"Bill Botting & The Two Drink Minimums"	billbottingtwodrinkminimums
 "Bill Boyd and his Cowboy Ramblers"	"Bill Boyd and his Cowboy Ramblers"	billboydhiscowboyramblers
 "Bill Callahan"	"Bill Callahan"	billcallahan
@@ -8240,7 +8240,7 @@ Bit.Trip	Bit.Trip	bittrip
 "bitchin' bajas"	"bitchin' bajas"	bitchinbajas
 "Bitchin' Bajas & Bonnie Prince Billy"	"Bitchin' Bajas & Bonnie Prince Billy"	bitchinbajasbonnieprincebilly
 "bitchin' bajas and olivia Wyatt"	"bitchin' bajas and olivia Wyatt"	bitchinbajasoliviawyatt
-"Bitchin’ Bajas"	"Bitchin’ Bajas"	bitchinbajas
+"Bitchin’ Bajas"	"Bitchin' Bajas"	bitchinbajas
 Bitcrush	Bitcrush	bitcrush
 "Bite Marx"	"Bite Marx"	bitemarx
 "Bite Me Bambi"	"Bite Me Bambi"	bitemebambi
@@ -8284,7 +8284,7 @@ BJORN	BJORN	bjorn
 "Bjorn Meyer"	"Bjorn Meyer"	bjornmeyer
 "Bjorn Torske, Sun Araw"	"Bjorn Torske, Sun Araw"	bjorntorskesunaraw
 "Björn Ulvaeus & Benny Andersson"	"Björn Ulvaeus & Benny Andersson"	bjornulvaeusbennyandersson
-"Björninen Band ‎"	"Björninen Band ‎"	bjorninenband
+"Björninen Band ‎"	"Björninen Band"	bjorninenband
 "Bjørn Torske"	"Bjørn Torske"	bjorntorske
 "Bjørn Torske & Crystal Bois"	"Bjørn Torske & Crystal Bois"	bjorntorskecrystalbois
 "Bjørn Torske & Prins Thomas"	"Bjørn Torske & Prins Thomas"	bjorntorskeprinsthomas
@@ -8546,7 +8546,7 @@ Blacklisters	Blacklisters	blacklisters
 "Blackroad Gee"	"Blackroad Gee"	blackroadgee
 Blackrock	Blackrock	blackrock
 "Blacks' Myths"	"Blacks' Myths"	blacksmyths
-"Blacks’ Myths"	"Blacks’ Myths"	blacksmyths
+"Blacks’ Myths"	"Blacks' Myths"	blacksmyths
 Blacksage	Blacksage	blacksage
 BlackSheepMixtape	BlackSheepMixtape	blacksheepmixtape
 Blacksmif	Blacksmif	blacksmif
@@ -9433,7 +9433,7 @@ Bonjay	Bonjay	bonjay
 Bonnie	Bonnie	bonnie
 "Bonnie ""Prince"" Billy"	"Bonnie ""Prince"" Billy"	bonnieprincebilly
 "Bonnie ""Prince"" Billy & Matt Sweeney"	"Bonnie ""Prince"" Billy & Matt Sweeney"	bonnieprincebillymattsweeney
-"Bonnie “Prince” Billy"	"Bonnie “Prince” Billy"	bonnieprincebilly
+"Bonnie “Prince” Billy"	"Bonnie ""Prince"" Billy"	bonnieprincebilly
 "Bonnie & The Bang Bang"	"Bonnie & The Bang Bang"	bonniebangbang
 "Bonnie and Sheila"	"Bonnie and Sheila"	bonniesheila
 "Bonnie and the Bang Bang"	"Bonnie and the Bang Bang"	bonniebangbang
@@ -9554,7 +9554,7 @@ Bootsy	Bootsy	bootsy
 "Bootsy Collins"	"Bootsy Collins"	bootsycollins
 "Bootsy Collins, Larry Graham"	"Bootsy Collins, Larry Graham"	bootsycollinslarrygraham
 "Bootsy Collins, Larry Graham, Uche' Ndubizu, Branford Marsalis"	"Bootsy Collins, Larry Graham, Uche' Ndubizu, Branford Marsalis"	bootsycollinslarrygrahamuchendubizubranfordmarsalis
-"Bootsy Collins, Larry Graham, Uche’ Ndubizu, Branford Marsalis"	"Bootsy Collins, Larry Graham, Uche’ Ndubizu, Branford Marsalis"	bootsycollinslarrygrahamuchendubizubranfordmarsalis
+"Bootsy Collins, Larry Graham, Uche’ Ndubizu, Branford Marsalis"	"Bootsy Collins, Larry Graham, Uche' Ndubizu, Branford Marsalis"	bootsycollinslarrygrahamuchendubizubranfordmarsalis
 "Bootsy Phelps and Gary"	"Bootsy Phelps and Gary"	bootsyphelpsgary
 "Bootsy's Rubber Band"	"Bootsy's Rubber Band"	bootsysrubberband
 BOOTY-BUSTER	BOOTY-BUSTER	bootybuster
@@ -10727,7 +10727,7 @@ BUMPER	BUMPER	bumper
 "Bunji Garlin"	"Bunji Garlin"	bunjigarlin
 "Bunk Johnson and his Band"	"Bunk Johnson and his Band"	bunkjohnsonhisband
 "Bunk Johnson And His New Orleans Band"	"Bunk Johnson And His New Orleans Band"	bunkjohnsonhisneworleansband
-"Bunk Johnson’s Original Superior Band"	"Bunk Johnson’s Original Superior Band"	bunkjohnsonsoriginalsuperiorband
+"Bunk Johnson’s Original Superior Band"	"Bunk Johnson's Original Superior Band"	bunkjohnsonsoriginalsuperiorband
 "Bunker Hill"	"Bunker Hill"	bunkerhill
 "Bunky Green"	"Bunky Green"	bunkygreen
 "Bunny DeBarge"	"Bunny DeBarge"	bunnydebarge
@@ -11281,7 +11281,7 @@ Camps	Camps	camps
 Can	Can	can
 "Can't Swim"	"Can't Swim"	cantswim
 "Can't Think of Nothing"	"Can't Think of Nothing"	cantthinkofnothing
-"Can’t Swim"	"Can’t Swim"	cantswim
+"Can’t Swim"	"Can't Swim"	cantswim
 "Canada Effervescent"	"Canada Effervescent"	canadaeffervescent
 "Canadian Parliment"	"Canadian Parliment"	canadianparliment
 "Canalon de Timbiqui"	"Canalon de Timbiqui"	canalondetimbiqui
@@ -12021,7 +12021,7 @@ CeaseTone	CeaseTone	ceasetone
 "CeCe Peniston, Steve ""Silk"" Hurley"	"CeCe Peniston, Steve ""Silk"" Hurley"	cecepenistonstevesilkhurley
 CÉCI	CÉCI	ceci
 "Ceci Bastida"	"Ceci Bastida"	cecibastida
-"Cecil Campbell’s Tennessee Ramblers"	"Cecil Campbell’s Tennessee Ramblers"	cecilcampbellstennesseeramblers
+"Cecil Campbell’s Tennessee Ramblers"	"Cecil Campbell's Tennessee Ramblers"	cecilcampbellstennesseeramblers
 "cecil McBee"	"cecil McBee"	cecilmcbee
 "Cecil Parker"	"Cecil Parker"	cecilparker
 "Cecil Taylor"	"Cecil Taylor"	ceciltaylor
@@ -12369,7 +12369,7 @@ Charles	Charles	charles
 "Charles Earland"	"Charles Earland"	charlesearland
 "Charles Earland And Oddysey"	"Charles Earland And Oddysey"	charlesearlandoddysey
 "Charles Earland, Freddie Hubbard, Joe"	"Charles Earland, Freddie Hubbard, Joe"	charlesearlandfreddiehubbardjoe
-"Charles Ferguson & Company ‎"	"Charles Ferguson & Company ‎"	charlesfergusoncompany
+"Charles Ferguson & Company ‎"	"Charles Ferguson & Company"	charlesfergusoncompany
 "Charles Fox and Norman Gimbel"	"Charles Fox and Norman Gimbel"	charlesfoxnormangimbel
 "Charles Howl"	"Charles Howl"	charleshowl
 "Charles Irwin"	"Charles Irwin"	charlesirwin
@@ -13172,7 +13172,7 @@ Christeene	Christeene	christeene
 "Christian Atunde Adjuah"	"Christian Atunde Adjuah"	christianatundeadjuah
 "Christian Bland & the Revelators"	"Christian Bland & the Revelators"	christianblandrevelators
 "Christian Bland and the Revelators"	"Christian Bland and the Revelators"	christianblandrevelators
-"Christian Bruhn ‎"	"Christian Bruhn ‎"	christianbruhn
+"Christian Bruhn ‎"	"Christian Bruhn"	christianbruhn
 "Christian Chevalier & Allan Feanch"	"Christian Chevalier & Allan Feanch"	christianchevalierallanfeanch
 "Christian Death"	"Christian Death"	christiandeath
 "Christian Engh"	"Christian Engh"	christianengh
@@ -14021,7 +14021,7 @@ Cochonne	Cochonne	cochonne
 "Cockney Rejects"	"Cockney Rejects"	cockneyrejects
 Cockpit	Cockpit	cockpit
 Cocksure	Cocksure	cocksure
-"Cocktail d’Amore"	"Cocktail d’Amore"	cocktaildamore
+"Cocktail d’Amore"	"Cocktail d'Amore"	cocktaildamore
 Cocktails	Cocktails	cocktails
 Coco	Coco	coco
 "Coco & Breezy, Dawn Richard"	"Coco & Breezy, Dawn Richard"	cocobreezydawnrichard
@@ -14110,7 +14110,7 @@ COIN	COIN	coin
 Coke	Coke	coke
 "coke weed"	"coke weed"	cokeweed
 Coki	Coki	coki
-"Coko & Misha Panfilov Sound Combo ‎"	"Coko & Misha Panfilov Sound Combo ‎"	cokomishapanfilovsoundcombo
+"Coko & Misha Panfilov Sound Combo ‎"	"Coko & Misha Panfilov Sound Combo"	cokomishapanfilovsoundcombo
 Col3trane	Col3trane	col3trane
 "Col3trane & Ebenezer"	"Col3trane & Ebenezer"	col3traneebenezer
 "Col3trane & FKJ"	"Col3trane & FKJ"	col3tranefkj
@@ -14176,7 +14176,7 @@ Coleen	Coleen	coleen
 "Coleman Hawkins & Ben Webster"	"Coleman Hawkins & Ben Webster"	colemanhawkinsbenwebster
 "Coleman Hawkins Orchestra"	"Coleman Hawkins Orchestra"	colemanhawkinsorchestra
 "Coleman Hawkins Quartet"	"Coleman Hawkins Quartet"	colemanhawkinsquartet
-"Coleman Hawkins’ Orchestra"	"Coleman Hawkins’ Orchestra"	colemanhawkinsorchestra
+"Coleman Hawkins’ Orchestra"	"Coleman Hawkins' Orchestra"	colemanhawkinsorchestra
 "Coletivo da Aldeia Nova Esperança"	"Coletivo da Aldeia Nova Esperança"	coletivodaaldeianovaesperanca
 "Colette Mars"	"Colette Mars"	colettemars
 "Colfax Speed Queen"	"Colfax Speed Queen"	colfaxspeedqueen
@@ -15664,9 +15664,9 @@ D'Cruze	D'Cruze	dcruze
 "D's Licks"	"D's Licks"	dslicks
 D'Swooners	D'Swooners	dswooners
 D'Zyre	D'Zyre	dzyre
-D’Angelo	D’Angelo	dangelo
-"D’Angelo and The Vanguard"	"D’Angelo and The Vanguard"	dangelovanguard
-D’Cruze	D’Cruze	dcruze
+D’Angelo	D'Angelo	dangelo
+"D’Angelo and The Vanguard"	"D'Angelo and The Vanguard"	dangelovanguard
+D’Cruze	D'Cruze	dcruze
 D/P/I	D/P/I	dpi
 D/R/U/G/S	D/R/U/G/S	drugs
 "D&D All Stars"	"D&D All Stars"	ddallstars
@@ -15855,7 +15855,7 @@ damad	damad	damad
 Damae	Damae	damae
 "Damaged Bug"	"Damaged Bug"	damagedbug
 "DAMAGED BUG -"	"DAMAGED BUG"	damagedbug
-"Damaskas ‎"	"Damaskas ‎"	damaskas
+"Damaskas ‎"	Damaskas	damaskas
 Dambuilders	Dambuilders	dambuilders
 Dame	Dame	dame
 "Dame Area"	"Dame Area"	damearea
@@ -17623,7 +17623,7 @@ Derxan	Derxan	derxan
 DES	DES	des
 "Des Ark"	"Des Ark"	desark
 "Des Demonas"	"Des Demonas"	desdemonas
-"Des O’Connor"	"Des O’Connor"	desoconnor
+"Des O’Connor"	"Des O'Connor"	desoconnor
 "Des Vu"	"Des Vu"	desvu
 Des'ree	Des'ree	desree
 "Désaccord Majeur"	"Désaccord Majeur"	desaccordmajeur
@@ -17693,7 +17693,7 @@ Destiny	Destiny	destiny
 "Destiny's Child"	"Destiny's Child"	destinyschild
 "Destiny's Child feat. Missy Elliott"	"Destiny's Child"	destinyschild
 "Destiny's Child, Timbaland"	"Destiny's Child, Timbaland"	destinyschildtimbaland
-"Destiny’s Child"	"Destiny’s Child"	destinyschild
+"Destiny’s Child"	"Destiny's Child"	destinyschild
 Destoryer	Destoryer	destoryer
 "Destra French"	"Destra French"	destrafrench
 Destroy	Destroy	destroy
@@ -19684,7 +19684,7 @@ Dowsing	Dowsing	dowsing
 "Doxa Sinistra"	"Doxa Sinistra"	doxasinistra
 DOXX	DOXX	doxx
 Doxxed	Doxxed	doxxed
-"Doye O’Dell"	"Doye O’Dell"	doyeodell
+"Doye O’Dell"	"Doye O'Dell"	doyeodell
 DoZzz	DoZzz	dozzz
 "Dølle Jølle"	"Dølle Jølle"	dollejolle
 Dpat	Dpat	dpat
@@ -20516,7 +20516,7 @@ Dzyan	Dzyan	dzyan
 "DZZ / Midnight Smack"	"DZZ / Midnight Smack"	dzzmidnightsmack
 Đ.K.	Đ.K	dk
 "Đorđe Marjanović"	"Đorđe Marjanović"	dordemarjanovic
-"ĐΞɅ+H VɅLLƎҰ ĦIGH"	"ĐΞɅ+H VɅLLƎҰ ĦIGH"	dxhvllhigh
+"ĐΞɅ+H VɅLLƎҰ ĦIGH"	"ĐΞɅ+H VɅLLƎҰ ĦIGH"	dxhvlluhigh
 E	E	e
 "É Arenas"	"É Arenas"	earenas
 "E B U"	"E B U"	ebu
@@ -20821,7 +20821,7 @@ edbl	edbl	edbl
 Eddie	Eddie	eddie
 "Eddie 'Lockjaw' Davis"	"Eddie 'Lockjaw' Davis"	eddielockjawdavis
 "Eddie ""Ski"" White "	"Eddie ""Ski"" White"	eddieskiwhite
-"Eddie “Cleanhead” Vinson"	"Eddie “Cleanhead” Vinson"	eddiecleanheadvinson
+"Eddie “Cleanhead” Vinson"	"Eddie ""Cleanhead"" Vinson"	eddiecleanheadvinson
 "Eddie & Ernie"	"Eddie & Ernie"	eddieernie
 "Eddie & Sunshine"	"Eddie & Sunshine"	eddiesunshine
 "Eddie Arnold and his Guitar"	"Eddie Arnold and his Guitar"	eddiearnoldhisguitar
@@ -20837,7 +20837,7 @@ Eddie	Eddie	eddie
 "Eddie Cochran"	"Eddie Cochran"	eddiecochran
 "Eddie Current Suppression Ring"	"Eddie Current Suppression Ring"	eddiecurrentsuppressionring
 "Eddie Fisher"	"Eddie Fisher"	eddiefisher
-"Eddie Fitzpatrick’s Orchestra"	"Eddie Fitzpatrick’s Orchestra"	eddiefitzpatricksorchestra
+"Eddie Fitzpatrick’s Orchestra"	"Eddie Fitzpatrick's Orchestra"	eddiefitzpatricksorchestra
 "Eddie Floyd"	"Eddie Floyd"	eddiefloyd
 "Eddie Fowlkes"	"Eddie Fowlkes"	eddiefowlkes
 "eddie gale"	"eddie gale"	eddiegale
@@ -20873,7 +20873,7 @@ Eddie	Eddie	eddie
 "Eddie Rabbitt"	"Eddie Rabbitt"	eddierabbitt
 "Eddie Rabbitt with Crystal Gayle"	"Eddie Rabbitt with Crystal Gayle"	eddierabbittwithcrystalgayle
 "Eddie Ray"	"Eddie Ray"	eddieray
-"Eddie Reece & The Hymntime Singers ‎"	"Eddie Reece & The Hymntime Singers ‎"	eddiereecehymntimesingers
+"Eddie Reece & The Hymntime Singers ‎"	"Eddie Reece & The Hymntime Singers"	eddiereecehymntimesingers
 "Eddie Rohosy"	"Eddie Rohosy"	eddierohosy
 "Eddie Senay"	"Eddie Senay"	eddiesenay
 "Eddie Spaghetti"	"Eddie Spaghetti"	eddiespaghetti
@@ -21922,7 +21922,7 @@ Enny	Enny	enny
 "ENNY, Amia Brave"	"ENNY, Amia Brave"	ennyamiabrave
 "Eno / Moebius / Roedelius"	"Eno / Moebius / Roedelius"	enomoebiusroedelius
 "Eno & Hyde"	"Eno & Hyde"	enohyde
-"Eno • Hyde"	"Eno • Hyde"	enohyde
+"Eno • Hyde"	"Eno • Hyde"	enohyde
 "Eno Hyde"	"Eno Hyde"	enohyde
 "Eno Moebius Roedelius"	"Eno Moebius Roedelius"	enomoebiusroedelius
 "Enoch Light"	"Enoch Light"	enochlight
@@ -22596,10 +22596,10 @@ ex-hex	ex-hex	exhex
 Ex-Hyena	Ex-Hyena	exhyena
 Ex-Pyramids	Ex-Pyramids	expyramids
 Ex-Terrestrial	Ex-Terrestrial	exterrestrial
-Ex​-​Vöid	Ex​-​Vöid	exvoid
+Ex​-​Vöid	Ex-Vöid	exvoid
 Ex-Voto	Ex-Voto	exvoto
 Ex:Re	Ex:Re	exre
-"Ex’s With Benefits"	"Ex’s With Benefits"	exswithbenefits
+"Ex’s With Benefits"	"Ex's With Benefits"	exswithbenefits
 Exael	Exael	exael
 "Exael & Arad Acid"	"Exael & Arad Acid"	exaelaradacid
 "Exalt the Anti"	"Exalt the Anti"	exaltanti
@@ -22741,7 +22741,7 @@ Ezri	Ezri	ezri
 eztv	eztv	eztv
 "EZTV & Nic Hessler"	"EZTV & Nic Hessler"	eztvnichessler
 EZVH	EZVH	ezvh
-"EZVH ﻿ლ"	"EZVH ﻿ლ"	ezvhl
+"EZVH ﻿ლ"	"EZVH ლ"	ezvhl
 "Ezza Rose"	"Ezza Rose"	ezzarose
 "F INGERS"	"F INGERS"	fingers
 "F L ♥ R E S フラワーズ"	"F L ♥ R E S フラワーズ"	flresfurawazu
@@ -23276,7 +23276,7 @@ Feelies	Feelies	feelies
 "Feeling Left Out"	"Feeling Left Out"	feelingleftout
 "Feeling Old"	"Feeling Old"	feelingold
 "Feeling U Feeling Me"	"Feeling U Feeling Me"	feelingufeelingme
-"Feeling’ Acid (Layers + FLVP)"	"Feeling’ Acid (Layers + FLVP)"	feelingacidlayersflvp
+"Feeling’ Acid (Layers + FLVP)"	"Feeling' Acid (Layers + FLVP)"	feelingacidlayersflvp
 Feelings	Feelings	feelings
 "Feelings Feelings"	"Feelings Feelings"	feelingsfeelings
 "Feelings/John Krautner"	"Feelings/John Krautner"	feelingsjohnkrautner
@@ -23403,8 +23403,8 @@ Fenech-Soler	Fenech-Soler	fenechsoler
 Fennesz	Fennesz	fennesz
 "Fennesz - Daniell - Buck"	"Fennesz - Daniell - Buck"	fenneszdaniellbuck
 Fenster	Fenster	fenster
-"Fenton “Jonesey” Jones"	"Fenton “Jonesey” Jones"	fentonjoneseyjones
-"Fenton “Jonesy” Jones"	"Fenton “Jonesy” Jones"	fentonjonesyjones
+"Fenton “Jonesey” Jones"	"Fenton ""Jonesey"" Jones"	fentonjoneseyjones
+"Fenton “Jonesy” Jones"	"Fenton ""Jonesy"" Jones"	fentonjonesyjones
 "Fenton Jonesy Jones"	"Fenton Jonesy Jones"	fentonjonesyjones
 "Fenton Robinson"	"Fenton Robinson"	fentonrobinson
 "Fenton String Band"	"Fenton String Band"	fentonstringband
@@ -23459,7 +23459,7 @@ Fetsum	Fetsum	fetsum
 "Fetty Wap ft. Quavo"	"Fetty Wap"	fettywap
 "Fetty Wap ft. Sky Lynn"	"Fetty Wap"	fettywap
 "Fetty Wrap"	"Fetty Wrap"	fettywrap
-"Fetus Productions ‎"	"Fetus Productions ‎"	fetusproductions
+"Fetus Productions ‎"	"Fetus Productions"	fetusproductions
 "Feu Ma Mere"	"Feu Ma Mere"	feumamere
 "Feu Thérèse"	"Feu Thérèse"	feutherese
 "Feu! Chatterton"	"Feu! Chatterton"	feuchatterton
@@ -24209,7 +24209,7 @@ Foolie	Foolie	foolie
 "Foolish Atoms"	"Foolish Atoms"	foolishatoms
 Fools	Fools	fools
 "Fools Dance"	"Fools Dance"	foolsdance
-Foom​/​Foam	Foom​/​Foam	foomfoam
+Foom​/​Foam	Foom/Foam	foomfoam
 "Foos Gone Wild"	"Foos Gone Wild"	foosgonewild
 "Foot SOS"	"Foot SOS"	footsos
 "Foot Village"	"Foot Village"	footvillage
@@ -24247,7 +24247,7 @@ Footswitch	Footswitch	footswitch
 "Forbidden Lover"	"Forbidden Lover"	forbiddenlover
 "Force & Styles"	"Force & Styles"	forcestyles
 "Force M.D.'s"	"Force M.D.'s"	forcemds
-"Force M.D.’s*"	"Force M.D.’s"	forcemds
+"Force M.D.’s*"	"Force M.D.'s"	forcemds
 "Force One"	"Force One"	forceone
 "Force Placement"	"Force Placement"	forceplacement
 "Forced Metaphor"	"Forced Metaphor"	forcedmetaphor
@@ -24547,7 +24547,7 @@ Francobollo	Francobollo	francobollo
 "François Chaplin"	"François Chaplin"	francoischaplin
 "François de Roubaix"	"François de Roubaix"	francoisderoubaix
 "Francois Hardy"	"Francois Hardy"	francoishardy
-"François J. Bonnet & Stephen F. O’Malley"	"François J. Bonnet & Stephen F. O’Malley"	francoisjbonnetstephenfomalley
+"François J. Bonnet & Stephen F. O’Malley"	"François J. Bonnet & Stephen F. O'Malley"	francoisjbonnetstephenfomalley
 "François J. Bonnet & Stephen O'Malley"	"François J. Bonnet & Stephen O'Malley"	francoisjbonnetstephenomalley
 "François Misse Ngoh"	"François Misse Ngoh"	francoismissengoh
 "François THOLLOT"	"François THOLLOT"	francoisthollot
@@ -24668,7 +24668,7 @@ Frankfurt	Frankfurt	frankfurt
 "Frankie Hi-NRG MC"	"Frankie Hi-NRG MC"	frankiehinrgmc
 "Frankie J"	"Frankie J"	frankiej
 "Frankie Knuckles"	"Frankie Knuckles"	frankieknuckles
-"Frankie Knuckles pres. Director’s Cut feat. Jamie Principle"	"Frankie Knuckles pres. Director’s Cut"	frankieknucklespresdirectorscut
+"Frankie Knuckles pres. Director’s Cut feat. Jamie Principle"	"Frankie Knuckles pres. Director's Cut"	frankieknucklespresdirectorscut
 "Frankie Laine"	"Frankie Laine"	frankielaine
 "Frankie Lane"	"Frankie Lane"	frankielane
 "Frankie Lymon"	"Frankie Lymon"	frankielymon
@@ -26315,7 +26315,7 @@ GHSTSHRK	GHSTSHRK	ghstshrk
 "Giant Peach"	"Giant Peach"	giantpeach
 "Giant Sand"	"Giant Sand"	giantsand
 "Giant Swan"	"Giant Swan"	giantswan
-"Giant’s Chair"	"Giant’s Chair"	giantschair
+"Giant’s Chair"	"Giant's Chair"	giantschair
 "Giants Chair"	"Giants Chair"	giantschair
 "Giants In The Trees"	"Giants In The Trees"	giantsintrees
 "Giants' Nest"	"Giants' Nest"	giantsnest
@@ -26378,7 +26378,7 @@ Gilberto	Gilberto	gilberto
 "Gilberto Gil & Jorge Ben Jor"	"Gilberto Gil & Jorge Ben Jor"	gilbertogiljorgebenjor
 "Gilberto Rodriguez y Los Intocables"	"Gilberto Rodriguez y Los Intocables"	gilbertorodriguezylosintocables
 "Gild The Mourn"	"Gild The Mourn"	gildmourn
-"Gilda Radner ‎"	"Gilda Radner ‎"	gildaradner
+"Gilda Radner ‎"	"Gilda Radner"	gildaradner
 "Giles Brothers Band"	"Giles Brothers Band"	gilesbrothersband
 "Giles Corey"	"Giles Corey"	gilescorey
 "Giles, Giles & Fripp"	"Giles, Giles & Fripp"	gilesgilesfripp
@@ -29168,7 +29168,7 @@ Henry	Henry	henry
 "Henry Nowhere"	"Henry Nowhere"	henrynowhere
 "Henry Rollins"	"Henry Rollins"	henryrollins
 "Henry Rollins/Rollins Band"	"Henry Rollins/Rollins Band"	henryrollinsrollinsband
-"Henry S. Jacob’s Camp"	"Henry S. Jacob’s Camp"	henrysjacobscamp
+"Henry S. Jacob’s Camp"	"Henry S. Jacob's Camp"	henrysjacobscamp
 "Henry Saiz"	"Henry Saiz"	henrysaiz
 "Henry Saiz & Band & Henry Saiz"	"Henry Saiz & Band & Henry Saiz"	henrysaizbandhenrysaiz
 "Henry Saiz, Pional"	"Henry Saiz, Pional"	henrysaizpional
@@ -29199,7 +29199,7 @@ Her	Her	her
 "Her Space Holiday"	"Her Space Holiday"	herspaceholiday
 "Her We Go Magic"	"Her We Go Magic"	herwegomagic
 Her's	Her's	hers
-Her’s	Her’s	hers
+Her’s	Her's	hers
 "Herb Albert"	"Herb Albert"	herbalbert
 "Herb Albert & The Tijuana Brass"	"Herb Albert & The Tijuana Brass"	herbalberttijuanabrass
 "Herb Alpert"	"Herb Alpert"	herbalpert
@@ -29423,7 +29423,7 @@ Hierophants	Hierophants	hierophants
 "High Hoops"	"High Hoops"	highhoops
 "HIGH HØØPS"	"HIGH HØØPS"	highhoops
 "HIGH IMPACT SEXUAL VIOLENCE"	"HIGH IMPACT SEXUAL VIOLENCE"	highimpactsexualviolence
-"High Inergy "	"High Inergy "	highinergy
+"High Inergy "	"High Inergy"	highinergy
 "High Klassified"	"High Klassified"	highklassified
 "High Like Five"	"High Like Five"	highlikefive
 "High on Fire"	"High on Fire"	highonfire
@@ -30117,7 +30117,7 @@ Houseboy	Houseboy	houseboy
 Houseghost	Houseghost	houseghost
 "HOUSEHEAD SAMIRA"	"HOUSEHEAD SAMIRA"	househeadsamira
 Household	Household	household
-"Household Name ‎"	"Household Name ‎"	householdname
+"Household Name ‎"	"Household Name"	householdname
 Houses	Houses	houses
 "Houses of Heaven"	"Houses of Heaven"	housesofheaven
 "Houses with Neil Young"	"Houses with Neil Young"	houseswithneilyoung
@@ -30166,7 +30166,7 @@ HOWLE	HOWLE	howle
 "Howlin' Wilson"	"Howlin' Wilson"	howlinwilson
 "Howlin' Wolf"	"Howlin' Wolf"	howlinwolf
 "Howlin' Wolf, Eric Clapton"	"Howlin' Wolf, Eric Clapton"	howlinwolfericclapton
-"Howlin’ Wolf"	"Howlin’ Wolf"	howlinwolf
+"Howlin’ Wolf"	"Howlin' Wolf"	howlinwolf
 Howling	Howling	howling
 "Howling Bells"	"Howling Bells"	howlingbells
 "Howling Tides"	"Howling Tides"	howlingtides
@@ -31996,7 +31996,7 @@ Jack	Jack	jack
 "Jack White"	"Jack White"	jackwhite
 "Jack Wilkins"	"Jack Wilkins"	jackwilkins
 "Jack's Mannequin"	"Jack's Mannequin"	jacksmannequin
-"Jack’s Mannequin"	"Jack’s Mannequin"	jacksmannequin
+"Jack’s Mannequin"	"Jack's Mannequin"	jacksmannequin
 "Jackal Onasis"	"Jackal Onasis"	jackalonasis
 "Jackal Onassis"	"Jackal Onassis"	jackalonassis
 JACKBOYS	JACKBOYS	jackboys
@@ -32633,7 +32633,7 @@ Jane	Jane	jane
 "Jane Wiedlin & Epiqe"	"Jane Wiedlin & Epiqe"	janewiedlinepiqe
 "Jane's Addiction"	"Jane's Addiction"	janesaddiction
 "Jane's Additction"	"Jane's Additction"	janesadditction
-"Jane’s Addiction"	"Jane’s Addiction"	janesaddiction
+"Jane’s Addiction"	"Jane's Addiction"	janesaddiction
 "Janek Schaefer"	"Janek Schaefer"	janekschaefer
 Janelane	Janelane	janelane
 "Janelle Kroll"	"Janelle Kroll"	janellekroll
@@ -33163,7 +33163,7 @@ Jeezy	Jeezy	jeezy
 "Jeff Tobias"	"Jeff Tobias"	jefftobias
 "Jeff Turner"	"Jeff Turner"	jeffturner
 "Jeff Tweedy"	"Jeff Tweedy"	jefftweedy
-"Jeff Wayne ‎"	"Jeff Wayne ‎"	jeffwayne
+"Jeff Wayne ‎"	"Jeff Wayne"	jeffwayne
 "Jeff Wootton"	"Jeff Wootton"	jeffwootton
 "Jeff Zagers"	"Jeff Zagers"	jeffzagers
 "Jefferey Osborne"	"Jefferey Osborne"	jeffereyosborne
@@ -33398,7 +33398,7 @@ Jerreau	Jerreau	jerreau
 "Jerry Lee Trio"	"Jerry Lee Trio"	jerryleetrio
 "Jerry McCain and his upstarts"	"Jerry McCain and his upstarts"	jerrymccainhisupstarts
 "Jerry Moon"	"Jerry Moon"	jerrymoon
-"Jerry Murad’s Harmonicats"	"Jerry Murad’s Harmonicats"	jerrymuradsharmonicats
+"Jerry Murad’s Harmonicats"	"Jerry Murad's Harmonicats"	jerrymuradsharmonicats
 "Jerry Paper"	"Jerry Paper"	jerrypaper
 "Jerry Paper & Easy Feelings Unlimited"	"Jerry Paper & Easy Feelings Unlimited"	jerrypapereasyfeelingsunlimited
 "Jerry Paper, Weyes Blood"	"Jerry Paper, Weyes Blood"	jerrypaperweyesblood
@@ -33684,7 +33684,7 @@ jim	jim	jim
 "Jim-E Stack, Empress Of"	"Jim-E Stack, Empress Of"	jimestackempressof
 "Jim-E Stack, Empress Of, Rostam"	"Jim-E Stack, Empress Of, Rostam"	jimestackempressofrostam
 "Jim-E Stack, Kacy Hill"	"Jim-E Stack, Kacy Hill"	jimestackkacyhill
-"Jim-Stick Revelation ‎"	"Jim-Stick Revelation ‎"	jimstickrevelation
+"Jim-Stick Revelation ‎"	"Jim-Stick Revelation"	jimstickrevelation
 "Jim's Big Ego"	"Jim's Big Ego"	jimsbigego
 "Jim's Younger's Spirit"	"Jim's Younger's Spirit"	jimsyoungersspirit
 "Jimbo Mathus"	"Jimbo Mathus"	jimbomathus
@@ -33710,7 +33710,7 @@ JIMIJAME$	JIMIJAME$	jimijames
 "Jimmie Lunceford and his Orchestra"	"Jimmie Lunceford and his Orchestra"	jimmieluncefordhisorchestra
 "Jimmie Noone"	"Jimmie Noone"	jimmienoone
 "Jimmie Noone and his Orchestra"	"Jimmie Noone and his Orchestra"	jimmienoonehisorchestra
-"Jimmie Noone’s Apex Club Orchestra"	"Jimmie Noone’s Apex Club Orchestra"	jimmienoonesapexcluborchestra
+"Jimmie Noone’s Apex Club Orchestra"	"Jimmie Noone's Apex Club Orchestra"	jimmienoonesapexcluborchestra
 "Jimmie Osborne"	"Jimmie Osborne"	jimmieosborne
 "Jimmie Price"	"Jimmie Price"	jimmieprice
 "Jimmie Revard and his Oklahoma Playboys"	"Jimmie Revard and his Oklahoma Playboys"	jimmierevardhisoklahomaplayboys
@@ -35126,7 +35126,7 @@ JTRA	JTRA	jtra
 JTZ	JTZ	jtz
 "Ju ca"	"Ju ca"	juca
 Ju.	Ju	ju
-"Juan “El Matematico Garza"	"Juan “El Matematico Garza"	juanelmatematicogarza
+"Juan “El Matematico Garza"	"Juan ""El Matematico Garza"	juanelmatematicogarza
 "Juan Atkins"	"Juan Atkins"	juanatkins
 "Juan de la Cruz Band"	"Juan de la Cruz Band"	juandelacruzband
 "JUAN DE SOL"	"JUAN DE SOL"	juandesol
@@ -35978,7 +35978,7 @@ Kanot	Kanot	kanot
 Kansado	Kansado	kansado
 "Kansan Uutiset"	"Kansan Uutiset"	kansanuutiset
 Kansas	Kansas	kansas
-"Kansas City Express ‎"	"Kansas City Express ‎"	kansascityexpress
+"Kansas City Express ‎"	"Kansas City Express"	kansascityexpress
 "Kansas Plains"	"Kansas Plains"	kansasplains
 Kantana	Kantana	kantana
 "Kanya West"	"Kanya West"	kanyawest
@@ -36767,7 +36767,7 @@ Kennelmus	Kennelmus	kennelmus
 "Kenny Rogers and the First Editions"	"Kenny Rogers and the First Editions"	kennyrogersfirsteditions
 "Kenny Segal"	"Kenny Segal"	kennysegal
 "Kenny Segal and Serengeti"	"Kenny Segal and Serengeti"	kennysegalserengeti
-"Kenny Summit & Director’s Cut pres. Yasmeen"	"Kenny Summit & Director’s Cut pres. Yasmeen"	kennysummitdirectorscutpresyasmeen
+"Kenny Summit & Director’s Cut pres. Yasmeen"	"Kenny Summit & Director's Cut pres. Yasmeen"	kennysummitdirectorscutpresyasmeen
 "Kenny Tudrick"	"Kenny Tudrick"	kennytudrick
 "Kenny Warden"	"Kenny Warden"	kennywarden
 KennyHoopla	KennyHoopla	kennyhoopla
@@ -36867,7 +36867,7 @@ kev	kev	kev
 "Kevin Drew"	"Kevin Drew"	kevindrew
 "Kevin Drumm"	"Kevin Drumm"	kevindrumm
 "Kevin Dunn"	"Kevin Dunn"	kevindunn
-"Kevin Dunn And The Regiment Of Women ‎"	"Kevin Dunn And The Regiment Of Women ‎"	kevindunnregimentofwomen
+"Kevin Dunn And The Regiment Of Women ‎"	"Kevin Dunn And The Regiment Of Women"	kevindunnregimentofwomen
 "Kevin Florez & Captain Planet"	"Kevin Florez & Captain Planet"	kevinflorezcaptainplanet
 "Kevin Fowler"	"Kevin Fowler"	kevinfowler
 "Kevin Gan Yuen"	"Kevin Gan Yuen"	kevinganyuen
@@ -37700,7 +37700,7 @@ Knotwork	Knotwork	knotwork
 "Know V.A."	"Know V.A"	knowva
 "Know Your Chicken"	"Know Your Chicken"	knowyourchicken
 "Knowing we'll never grow up"	"Knowing we'll never grow up"	knowingwellnevergrowup
-"Knowing We’ll Never Grow Up"	"Knowing We’ll Never Grow Up"	knowingwellnevergrowup
+"Knowing We’ll Never Grow Up"	"Knowing We'll Never Grow Up"	knowingwellnevergrowup
 Knowledge	Knowledge	knowledge
 Knowmadic	Knowmadic	knowmadic
 KnowSleep	KnowSleep	knowsleep
@@ -38380,8 +38380,8 @@ L'Rain	L'Rain	lrain
 L'Resorts	L'Resorts	lresorts
 L'Roneous	L'Roneous	lroneous
 L'Trimm	L'Trimm	ltrimm
-L’objectif	L’objectif	lobjectif
-"L’Ordre Chazili D’Egypte"	"L’Ordre Chazili D’Egypte"	lordrechazilidegypte
+L’objectif	L'objectif	lobjectif
+"L’Ordre Chazili D’Egypte"	"L'Ordre Chazili D'Egypte"	lordrechazilidegypte
 "L*Roneous Da Versifier"	"L*Roneous Da Versifier"	lroneousdaversifier
 "L*Roneous, Brycon"	"L*Roneous, Brycon"	lroneousbrycon
 L2	L2	l2
@@ -38534,7 +38534,7 @@ l987	l987	l987
 "LA WOMEN"	"LA WOMEN"	lawomen
 "La zowi"	"La zowi"	lazowi
 la-goons	la-goons	lagoons
-La’Fez	La’Fez	lafez
+La’Fez	La'Fez	lafez
 Laaraji	Laaraji	laaraji
 LAARS	LAARS	laars
 Laarsen	Laarsen	laarsen
@@ -39370,7 +39370,7 @@ Lee	Lee	lee
 "Lee ""Scratch"" Perry & The Subatomic Sound System"	"Lee ""Scratch"" Perry & The Subatomic Sound System"	leescratchperrysubatomicsoundsystem
 "Lee ""Scratch"" Perry & The Upsetters"	"Lee ""Scratch"" Perry & The Upsetters"	leescratchperryupsetters
 "Lee ""Scratch"" Perry & Vin Gordon"	"Lee ""Scratch"" Perry & Vin Gordon"	leescratchperryvingordon
-"Lee “Scratch” Perry"	"Lee “Scratch” Perry"	leescratchperry
+"Lee “Scratch” Perry"	"Lee ""Scratch"" Perry"	leescratchperry
 "Lee (Asano + Ryhuei)"	"Lee (Asano + Ryhuei)"	leeasanoryhuei
 "Lee Alfred"	"Lee Alfred"	leealfred
 "Lee Andrew & The Hearts"	"Lee Andrew & The Hearts"	leeandrewhearts
@@ -39756,7 +39756,7 @@ Leprechaun	Leprechaun	leprechaun
 "Les Rallizes Dénudés"	"Les Rallizes Dénudés"	lesrallizesdenudes
 "Les Rapaces"	"Les Rapaces"	lesrapaces
 "Les Rita Mitsouko"	"Les Rita Mitsouko"	lesritamitsouko
-"Les Rita Mitsouko & Sparks ‎"	"Les Rita Mitsouko & Sparks ‎"	lesritamitsoukosparks
+"Les Rita Mitsouko & Sparks ‎"	"Les Rita Mitsouko & Sparks"	lesritamitsoukosparks
 "Les Rita Mitsoukos"	"Les Rita Mitsoukos"	lesritamitsoukos
 "Les Rita Mutsouko"	"Les Rita Mutsouko"	lesritamutsouko
 "Les Rythmes Digitales"	"Les Rythmes Digitales"	lesrythmesdigitales
@@ -43585,7 +43585,7 @@ Maricón	Maricón	maricon
 "Marie Davids"	"Marie Davids"	mariedavids
 "Marie Davidson"	"Marie Davidson"	mariedavidson
 "Marie Davidson & L'Oeil Nu"	"Marie Davidson & L'Oeil Nu"	mariedavidsonloeilnu
-"Marie Davidson & L’Œil Nu"	"Marie Davidson & L’Œil Nu"	mariedavidsonloeilnu
+"Marie Davidson & L’Œil Nu"	"Marie Davidson & L'Œil Nu"	mariedavidsonloeilnu
 "Marie Davidson, L'Œil Nu"	"Marie Davidson, L'Œil Nu"	mariedavidsonloeilnu
 "Marie Dubas"	"Marie Dubas"	mariedubas
 "Marie Et Les GarÇons"	"Marie Et Les GarÇons"	marieetlesgarcons
@@ -43925,7 +43925,7 @@ Martin	Martin	martin
 "Martin Brodin"	"Martin Brodin"	martinbrodin
 "Martin Buttrich"	"Martin Buttrich"	martinbuttrich
 "Martin Carthy"	"Martin Carthy"	martincarthy
-"Martin Cooper + David A. Hughes"	"Martin Cooper + David A. Hughes"	martincooperdavidahughes
+"Martin Cooper + David A. Hughes"	"Martin Cooper + David A. Hughes"	martincooperdavidahughes
 "Martin Courtney"	"Martin Courtney"	martincourtney
 "Martin Denny"	"Martin Denny"	martindenny
 "Martin Dumas Jr"	"Martin Dumas Jr"	martindumasjr
@@ -43992,7 +43992,7 @@ Marvelettes	Marvelettes	marvelettes
 Marville	Marville	marville
 Marvin	Marvin	marvin
 "Marvin & Guy"	"Marvin & Guy"	marvinguy
-"Marvin & Jay “Dusty” Smith"	"Marvin & Jay “Dusty” Smith"	marvinjaydustysmith
+"Marvin & Jay “Dusty” Smith"	"Marvin & Jay ""Dusty"" Smith"	marvinjaydustysmith
 "Marvin Frank"	"Marvin Frank"	marvinfrank
 "Marvin Franklin With Kimo And The Guys"	"Marvin Franklin With Kimo And The Guys"	marvinfranklinwithkimoguys
 "Marvin Gay"	"Marvin Gay"	marvingay
@@ -44519,7 +44519,7 @@ MAX	MAX	max
 "Max Kane, Coultrain"	"Max Kane, Coultrain"	maxkanecoultrain
 "Max Knouse"	"Max Knouse"	maxknouse
 "Max Lawrence"	"Max Lawrence"	maxlawrence
-"Max Leake ‎"	"Max Leake ‎"	maxleake
+"Max Leake ‎"	"Max Leake"	maxleake
 "Max Leone"	"Max Leone"	maxleone
 "Max Meser"	"Max Meser"	maxmeser
 "Max Mool"	"Max Mool"	maxmool
@@ -44696,7 +44696,7 @@ Mbulelo	Mbulelo	mbulelo
 "MC Chris"	"MC Chris"	mcchris
 "MC Dopestyle & DJ4AM"	"MC Dopestyle & DJ4AM"	mcdopestyledj4am
 "MC Dopestyle, Pro The Leader, Opio (Hieroglyphics)"	"MC Dopestyle, Pro The Leader, Opio (Hieroglyphics)"	mcdopestyleproleaderopiohieroglyphics
-"Mc Federado e Os Lelek’s"	"Mc Federado e Os Lelek’s"	mcfederadoeosleleks
+"Mc Federado e Os Lelek’s"	"Mc Federado e Os Lelek's"	mcfederadoeosleleks
 "Mc Fioti"	"Mc Fioti"	mcfioti
 "MC Frontalot"	"MC Frontalot"	mcfrontalot
 "MC Gw"	"MC Gw"	mcgw
@@ -44760,7 +44760,7 @@ MCFERRDOG	MCFERRDOG	mcferrdog
 "McKinley Dixon, Sean Price"	"McKinley Dixon, Sean Price"	mckinleydixonseanprice
 "McKinley Mitchell"	"McKinley Mitchell"	mckinleymitchell
 "Mckinley-Kennedy Interaction Program"	"Mckinley-Kennedy Interaction Program"	mckinleykennedyinteractionprogram
-"McKinney’s Cotton Pickers"	"McKinney’s Cotton Pickers"	mckinneyscottonpickers
+"McKinney’s Cotton Pickers"	"McKinney's Cotton Pickers"	mckinneyscottonpickers
 "MCL (Micro Chip League)"	"MCL (Micro Chip League)"	mclmicrochipleague
 Mclusky	Mclusky	mclusky
 "McNulty's Curse"	"McNulty's Curse"	mcnultyscurse
@@ -44934,7 +44934,7 @@ Meiko	Meiko	meiko
 "Meilyr Jones"	"Meilyr Jones"	meilyrjones
 "Meishi Smile"	"Meishi Smile"	meishismile
 Meitei	Meitei	meitei
-"Meitei   冥丁"	"Meitei   冥丁"	meiteimingding
+"Meitei   冥丁"	"Meitei   冥丁"	meiteimingding
 "Meitei 冥丁"	"Meitei 冥丁"	meiteimingding
 mejiwåhn	mejiwåhn	mejiwahn
 "Mejiwahn, Shungu"	"Mejiwahn, Shungu"	mejiwahnshungu
@@ -44983,8 +44983,8 @@ Melba	Melba	melba
 Meldamor	Meldamor	meldamor
 Melé	Melé	mele
 Melenas	Melenas	melenas
-"Meli'sa Morgan ‎"	"Meli'sa Morgan ‎"	melisamorgan
-"Meli’sa Morgan"	"Meli’sa Morgan"	melisamorgan
+"Meli'sa Morgan ‎"	"Meli'sa Morgan"	melisamorgan
+"Meli’sa Morgan"	"Meli'sa Morgan"	melisamorgan
 Melii	Melii	melii
 "Melii & Smoove'L"	"Melii & Smoove'L"	meliismoovel
 Meliii	Meliii	meliii
@@ -45038,7 +45038,7 @@ Melody	Melody	melody
 "Melody Parker"	"Melody Parker"	melodyparker
 "Melody's Echo Chamber"	"Melody's Echo Chamber"	melodysechochamber
 "Melody's Echo Chambre"	"Melody's Echo Chambre"	melodysechochambre
-"Melody’s Echo Chamber"	"Melody’s Echo Chamber"	melodysechochamber
+"Melody’s Echo Chamber"	"Melody's Echo Chamber"	melodysechochamber
 Melon	Melon	melon
 MELONYX	MELONYX	melonyx
 Melophobia	Melophobia	melophobia
@@ -45235,7 +45235,7 @@ Mesarthim	Mesarthim	mesarthim
 "Meschiya Lake and the Little Big Horns"	"Meschiya Lake and the Little Big Horns"	meschiyalakelittlebighorns
 Mesck	Mesck	mesck
 MESH	MESH	mesh
-"Meshell N’Degeocello & Chris Dave"	"Meshell N’Degeocello & Chris Dave"	meshellndegeocellochrisdave
+"Meshell N’Degeocello & Chris Dave"	"Meshell N'Degeocello & Chris Dave"	meshellndegeocellochrisdave
 "Meshell Ndegeocello"	"Meshell Ndegeocello"	meshellndegeocello
 Mesita	Mesita	mesita
 Mess	Mess	mess
@@ -45295,7 +45295,7 @@ Metric	Metric	metric
 Metrik	Metrik	metrik
 Métrika	Métrika	metrika
 Metrist	Metrist	metrist
-"Metrô ‎"	"Metrô ‎"	metro
+"Metrô ‎"	Metrô	metro
 "Metro Area"	"Metro Area"	metroarea
 "Metro Boomin"	"Metro Boomin"	metroboomin
 "Metro Cult"	"Metro Cult"	metrocult
@@ -46248,7 +46248,7 @@ Miracle	Miracle	miracle
 "Miracle Drug"	"Miracle Drug"	miracledrug
 "Miracle Fortress"	"Miracle Fortress"	miraclefortress
 "Miracle Legion"	"Miracle Legion"	miraclelegion
-"miracle of ‘86"	"miracle of ‘86"	miracleof86
+"miracle of ‘86"	"miracle of '86"	miracleof86
 "Miracle of 86"	"Miracle of 86"	miracleof86
 Miracles	Miracles	miracles
 "Miracles of Modern Science"	"Miracles of Modern Science"	miraclesofmodernscience
@@ -46736,7 +46736,7 @@ Moji	Moji	moji
 "Mojo Nixon and Skid Roper"	"Mojo Nixon and Skid Roper"	mojonixonskidroper
 Mokhov	Mokhov	mokhov
 "Mokika Kruse"	"Mokika Kruse"	mokikakruse
-"Moko · Beaver · Olive  "	"Moko · Beaver · Olive  "	mokobeaverolive
+"Moko · Beaver · Olive  "	"Moko · Beaver · Olive"	mokobeaverolive
 "Moko Beaver and Olive"	"Moko Beaver and Olive"	mokobeaverolive
 Mokoa	Mokoa	mokoa
 Mokona	Mokona	mokona
@@ -47176,7 +47176,7 @@ MORGAN	MORGAN	morgan
 "Morgan Delt"	"Morgan Delt"	morgandelt
 "Morgan Evans-Weiler"	"Morgan Evans-Weiler"	morganevansweiler
 "morgan fisher"	"morgan fisher"	morganfisher
-"Morgan Freeman reads Rep. John Lewis’ last words"	"Morgan Freeman reads Rep. John Lewis’ last words"	morganfreemanreadsrepjohnlewislastwords
+"Morgan Freeman reads Rep. John Lewis’ last words"	"Morgan Freeman reads Rep. John Lewis' last words"	morganfreemanreadsrepjohnlewislastwords
 "Morgan Geist"	"Morgan Geist"	morgangeist
 "Morgan Guryan"	"Morgan Guryan"	morganguryan
 "Morgan Hendry"	"Morgan Hendry"	morganhendry
@@ -48172,7 +48172,7 @@ N.R.G	N.R.G	nrg
 N.R.G.	N.R.G	nrg
 N.W.A	N.W.A	nwa
 N.W.A.	N.W.A	nwa
-"N.Y. House’n Authority"	"N.Y. House’n Authority"	nyhousenauthority
+"N.Y. House’n Authority"	"N.Y. House'n Authority"	nyhousenauthority
 N'Dambi	N'Dambi	ndambi
 "N'Draman Blintch"	"N'Draman Blintch"	ndramanblintch
 "N'Guni musicians"	"N'Guni musicians"	ngunimusicians
@@ -50104,7 +50104,7 @@ Nosuchname	Nosuchname	nosuchname
 "Not Sure. Not Yet"	"Not Sure. Not Yet"	notsurenotyet
 "Not the 1s"	"Not the 1s"	not1s
 "Not Waving"	"Not Waving"	notwaving
-"Not Waving : Jim O’Rourke"	"Not Waving : Jim O’Rourke"	notwavingjimorourke
+"Not Waving : Jim O’Rourke"	"Not Waving : Jim O'Rourke"	notwavingjimorourke
 "Not Waving & Jim O'Rourke"	"Not Waving & Jim O'Rourke"	notwavingjimorourke
 "Not Waving & Romance"	"Not Waving & Romance"	notwavingromance
 "Not Waving, Dark Mark"	"Not Waving, Dark Mark"	notwavingdarkmark
@@ -50678,7 +50678,7 @@ Ofusc	Ofusc	ofusc
 "Og Swaggerdick"	"Og Swaggerdick"	ogswaggerdick
 "Ogbert the Nerd"	"Ogbert the Nerd"	ogbertnerd
 "Ogikubo Station"	"Ogikubo Station"	ogikubostation
-"Ogoya Nengo And The Dodo Women’s Group"	"Ogoya Nengo And The Dodo Women’s Group"	ogoyanengododowomensgroup
+"Ogoya Nengo And The Dodo Women’s Group"	"Ogoya Nengo And The Dodo Women's Group"	ogoyanengododowomensgroup
 Ogranya	Ogranya	ogranya
 "OGRE YOU ASSHOLE"	"OGRE YOU ASSHOLE"	ogreyouasshole
 "Oh Blue Minium"	"Oh Blue Minium"	ohblueminium
@@ -50921,7 +50921,7 @@ OLIVIA	OLIVIA	olivia
 "Olivia Tremor Control"	"Olivia Tremor Control"	oliviatremorcontrol
 "Olivia-Neutron John"	"Olivia-Neutron John"	olivianeutronjohn
 "Olivia's World"	"Olivia's World"	oliviasworld
-"Olivia’s World"	"Olivia’s World"	oliviasworld
+"Olivia’s World"	"Olivia's World"	oliviasworld
 Oliviaway	Oliviaway	oliviaway
 "Olivier Alary & Johannes Malfatti"	"Olivier Alary & Johannes Malfatti"	olivieralaryjohannesmalfatti
 "Olivier Berge"	"Olivier Berge"	olivierberge
@@ -51471,7 +51471,7 @@ Otik	Otik	otik
 "Otis Murphy, Pacifica Quartet"	"Otis Murphy, Pacifica Quartet"	otismurphypacificaquartet
 "Otis Reddeing"	"Otis Reddeing"	otisreddeing
 "Otis Redding"	"Otis Redding"	otisredding
-"Otis Redding & Al “Brisco” Clark"	"Otis Redding & Al “Brisco” Clark"	otisreddingalbriscoclark
+"Otis Redding & Al “Brisco” Clark"	"Otis Redding & Al ""Brisco"" Clark"	otisreddingalbriscoclark
 "Otis Redding & Carla Thomas"	"Otis Redding & Carla Thomas"	otisreddingcarlathomas
 "Otis Redding and Carla Thomas"	"Otis Redding and Carla Thomas"	otisreddingcarlathomas
 "Otis Redding, Al ""Brisco"" Clark"	"Otis Redding, Al ""Brisco"" Clark"	otisreddingalbriscoclark
@@ -51640,7 +51640,7 @@ OXZ	OXZ	oxz
 Oy	Oy	oy
 "Oya Noire"	"Oya Noire"	oyanoire
 Oyama	Oyama	oyama
-"oyce moreno, nelson angelo"	"oyce moreno, nelson angelo"	oycemorenonelsonangelo
+"oyce moreno, nelson angelo"	"oyce moreno, nelson angelo"	oycemorenonelsonangelo
 Oyenga	Oyenga	oyenga
 "Oystein Sevag, Barbara Buchholz"	"Oystein Sevag, Barbara Buchholz"	oysteinsevagbarbarabuchholz
 "Oyster Kids"	"Oyster Kids"	oysterkids
@@ -52261,7 +52261,7 @@ Pastels	Pastels	pastels
 "Pasteur Lappe"	"Pasteur Lappe"	pasteurlappe
 Pastiche	Pastiche	pastiche
 Pastilla	Pastilla	pastilla
-"Pastor T. L. Barrett And The Youth For Christ Choir ‎"	"Pastor T. L. Barrett And The Youth For Christ Choir ‎"	pastortlbarrettyouthforchristchoir
+"Pastor T. L. Barrett And The Youth For Christ Choir ‎"	"Pastor T. L. Barrett And The Youth For Christ Choir"	pastortlbarrettyouthforchristchoir
 "Pastor T.L. Barrett"	"Pastor T.L. Barrett"	pastortlbarrett
 "Pastor T.L. Barrett and The Youth for Christ Choir"	"Pastor T.L. Barrett and The Youth for Christ Choir"	pastortlbarrettyouthforchristchoir
 "Pat & Pats"	"Pat & Pats"	patpats
@@ -52444,7 +52444,7 @@ Patti	Patti	patti
 "Paul Cauthen"	"Paul Cauthen"	paulcauthen
 "Paul Cherry"	"Paul Cherry"	paulcherry
 "Paul Clayton"	"Paul Clayton"	paulclayton
-"Paul Clayton And The Foc’sle Singers"	"Paul Clayton And The Foc’sle Singers"	paulclaytonfocslesingers
+"Paul Clayton And The Foc’sle Singers"	"Paul Clayton And The Foc'sle Singers"	paulclaytonfocslesingers
 "Paul Cogle"	"Paul Cogle"	paulcogle
 "Paul Collins"	"Paul Collins"	paulcollins
 "Paul Collins Beat"	"Paul Collins Beat"	paulcollinsbeat
@@ -52600,7 +52600,7 @@ Payolas	Payolas	payolas
 "Payroll Giovanni"	"Payroll Giovanni"	payrollgiovanni
 "Payroll Giovanni & Cardo"	"Payroll Giovanni & Cardo"	payrollgiovannicardo
 "Paysage D'Hiver"	"Paysage D'Hiver"	paysagedhiver
-"Paysage D’Hiver"	"Paysage D’Hiver"	paysagedhiver
+"Paysage D’Hiver"	"Paysage D'Hiver"	paysagedhiver
 "Paza Rahm"	"Paza Rahm"	pazarahm
 PBDY	PBDY	pbdy
 "PBK & Jim O'Rourke"	"PBK & Jim O'Rourke"	pbkjimorourke
@@ -52877,7 +52877,7 @@ Perennial	Perennial	perennial
 "Perera Elsewhere"	"Perera Elsewhere"	pereraelsewhere
 "Perera Elsewhere, Chino Amobi"	"Perera Elsewhere, Chino Amobi"	pereraelsewherechinoamobi
 "Peret Mako"	"Peret Mako"	peretmako
-"Perez “Prez” Prado and his Orchestra"	"Perez “Prez” Prado and his Orchestra"	perezprezpradohisorchestra
+"Perez “Prez” Prado and his Orchestra"	"Perez ""Prez"" Prado and his Orchestra"	perezprezpradohisorchestra
 "Perez Prada y su Orquesta"	"Perez Prada y su Orquesta"	perezpradaysuorquesta
 "Perez Prado"	"Perez Prado"	perezprado
 "Perez Prado & His Orchestra"	"Perez Prado & His Orchestra"	perezpradohisorchestra
@@ -53286,7 +53286,7 @@ Phibes	Phibes	phibes
 "Phil Bodner"	"Phil Bodner"	philbodner
 "Phil Cohran and the Artistic Heritage Ensemble"	"Phil Cohran and the Artistic Heritage Ensemble"	philcohranartisticheritageensemble
 "Phil Collins"	"Phil Collins"	philcollins
-"Phil Collins (12” Inch Mix)"	"Phil Collins (12” Inch Mix)"	philcollins12inchmix
+"Phil Collins (12” Inch Mix)"	"Phil Collins (12"" Inch Mix)"	philcollins12inchmix
 "Phil Collins & Philip Bailey"	"Phil Collins & Philip Bailey"	philcollinsphilipbailey
 "Phil Collins and Marilyn Martin"	"Phil Collins and Marilyn Martin"	philcollinsmarilynmartin
 "Phil Collins with Phillip Bailey"	"Phil Collins with Phillip Bailey"	philcollinswithphillipbailey
@@ -54681,7 +54681,7 @@ Prince	Prince	prince
 "Prince Buster"	"Prince Buster"	princebuster
 "Prince Buster And The All Stars"	"Prince Buster And The All Stars"	princebusterallstars
 "Prince Casimiro"	"Prince Casimiro"	princecasimiro
-"Prince Charles And The City Beat Band ‎"	"Prince Charles And The City Beat Band ‎"	princecharlescitybeatband
+"Prince Charles And The City Beat Band ‎"	"Prince Charles And The City Beat Band"	princecharlescitybeatband
 "Prince Cobra"	"Prince Cobra"	princecobra
 "Prince Covers Joni Mitchell"	"Prince Covers Joni Mitchell"	princecoversjonimitchell
 "Prince Daddy & The Hyena"	"Prince Daddy & The Hyena"	princedaddyhyena
@@ -55515,7 +55515,7 @@ R.Seiliog	R.Seiliog	rseiliog
 "R.Stevie Moore"	"R.Stevie Moore"	rsteviemoore
 R.tyme	R.tyme	rtyme
 R.Y.A.N.	R.Y.A.N	ryan
-"R​.​Y​.​A​.​N. x Surfin Serf"	"R​.​Y​.​A​.​N. x Surfin Serf"	ryanxsurfinserf
+"R​.​Y​.​A​.​N. x Surfin Serf"	"R.Y.A.N. x Surfin Serf"	ryanxsurfinserf
 R+R=NOW	R+R=NOW	rrnow
 R2bees	R2bees	r2bees
 "Ra Ra Riot"	"Ra Ra Riot"	rarariot
@@ -56872,7 +56872,7 @@ Ribzy	Ribzy	ribzy
 "Ricci Rucker"	"Ricci Rucker"	riccirucker
 "Ricci Rucker & Mike Boo"	"Ricci Rucker & Mike Boo"	ricciruckermikeboo
 "Ricci Rucker, Mike Boo"	"Ricci Rucker, Mike Boo"	ricciruckermikeboo
-"Rice Brothers’ Gang"	"Rice Brothers’ Gang"	ricebrothersgang
+"Rice Brothers’ Gang"	"Rice Brothers' Gang"	ricebrothersgang
 RICEWINE	RICEWINE	ricewine
 "Rich and Famous"	"Rich and Famous"	richfamous
 "Rich Aucoin"	"Rich Aucoin"	richaucoin
@@ -57288,7 +57288,7 @@ RLYR	RLYR	rlyr
 "RM Francis"	"RM Francis"	rmfrancis
 "RM of BTS"	"RM of BTS"	rmofbts
 RMFC	RMFC	rmfc
-"RMFTM & 10​​,​​000 Russos"	"RMFTM & 10​​,​​000 Russos"	rmftm10000russos
+"RMFTM & 10​​,​​000 Russos"	"RMFTM & 10,000 Russos"	rmftm10000russos
 RMR	RMR	rmr
 RNDSVGE	RNDSVGE	rndsvge
 rndysvge	rndysvge	rndysvge
@@ -58386,7 +58386,7 @@ RuPaul	RuPaul	rupaul
 "rupie edwards allstars"	"rupie edwards allstars"	rupieedwardsallstars
 "Rural Alberta Advantage"	"Rural Alberta Advantage"	ruralalbertaadvantage
 "Rural Aurora"	"Rural Aurora"	ruralaurora
-"Ruriko Ohgami ‎"	"Ruriko Ohgami ‎"	rurikoohgami
+"Ruriko Ohgami ‎"	"Ruriko Ohgami"	rurikoohgami
 Ruru	Ruru	ruru
 Rusangano	Rusangano	rusangano
 Rush	Rush	rush
@@ -59264,7 +59264,7 @@ Sandy	Sandy	sandy
 "Sandy Pussy"	"Sandy Pussy"	sandypussy
 "Sandy Salisbury"	"Sandy Salisbury"	sandysalisbury
 Sandy's	Sandy's	sandys
-Sandy’s	Sandy’s	sandys
+Sandy’s	Sandy's	sandys
 "Sanford Clark"	"Sanford Clark"	sanfordclark
 "Sanford Clarke"	"Sanford Clarke"	sanfordclarke
 Sanfuentes	Sanfuentes	sanfuentes
@@ -59574,7 +59574,7 @@ Saweetie	Saweetie	saweetie
 "Sawyer Brown"	"Sawyer Brown"	sawyerbrown
 Saxon	Saxon	saxon
 "Saxon Shore"	"Saxon Shore"	saxonshore
-"Say “No!” To Architecture"	"Say “No!” To Architecture"	saynotoarchitecture
+"Say “No!” To Architecture"	"Say ""No!"" To Architecture"	saynotoarchitecture
 "Say Anything"	"Say Anything"	sayanything
 "say aything"	"say aything"	sayaything
 "Say Hi"	"Say Hi"	sayhi
@@ -59949,7 +59949,7 @@ Seams	Seams	seams
 "Sean Nicholas Savagw"	"Sean Nicholas Savagw"	seannicholassavagw
 "Sean Nicolas Savage"	"Sean Nicolas Savage"	seannicolassavage
 "Sean O'Hagan"	"Sean O'Hagan"	seanohagan
-"Sean O’Hagan"	"Sean O’Hagan"	seanohagan
+"Sean O’Hagan"	"Sean O'Hagan"	seanohagan
 "Sean Paine"	"Sean Paine"	seanpaine
 "Sean Paul"	"Sean Paul"	seanpaul
 "Sean Paul feat Sasha"	"Sean Paul"	seanpaul
@@ -60357,7 +60357,7 @@ Sessa	Sessa	sessa
 "Sesso Matto"	"Sesso Matto"	sessomatto
 "Set & Setting"	"Set & Setting"	setsetting
 "Set Fire to Flames"	"Set Fire to Flames"	setfiretoflames
-"Set The Tone ‎"	"Set The Tone ‎"	settone
+"Set The Tone ‎"	"Set The Tone"	settone
 "Set Your Goals"	"Set Your Goals"	setyourgoals
 "Set-Top Box"	"Set-Top Box"	settopbox
 "Seth Augustus"	"Seth Augustus"	sethaugustus
@@ -62458,7 +62458,7 @@ Sneazzy	Sneazzy	sneazzy
 Sneeze	Sneeze	sneeze
 "Sneeze Attack"	"Sneeze Attack"	sneezeattack
 "Snievlling Shits"	"Snievlling Shits"	snievllingshits
-"Sniff ‘n’ the Tears"	"Sniff ‘n’ the Tears"	sniffntears
+"Sniff ‘n’ the Tears"	"Sniff 'n' the Tears"	sniffntears
 "Sniff N' The Tears"	"Sniff N' The Tears"	sniffntears
 "Sniffle Party"	"Sniffle Party"	sniffleparty
 Sniglabandið	Sniglabandið	sniglabandid
@@ -62818,7 +62818,7 @@ Somehow	Somehow	somehow
 "Somerset Thrower"	"Somerset Thrower"	somersetthrower
 somesurprises	somesurprises	somesurprises
 "Somethin' Sanctified "	"Somethin' Sanctified"	somethinsanctified
-"Somethin’ Smith and The Redheads"	"Somethin’ Smith and The Redheads"	somethinsmithredheads
+"Somethin’ Smith and The Redheads"	"Somethin' Smith and The Redheads"	somethinsmithredheads
 "Something Anorak"	"Something Anorak"	somethinganorak
 "Something Corporate"	"Something Corporate"	somethingcorporate
 "Something To Do"	"Something To Do"	somethingtodo
@@ -63244,7 +63244,7 @@ Soundwire	Soundwire	soundwire
 "Source Direct"	"Source Direct"	sourcedirect
 Sourpatch	Sourpatch	sourpatch
 Soursob	Soursob	soursob
-"Sousa’s Band"	"Sousa’s Band"	sousasband
+"Sousa’s Band"	"Sousa's Band"	sousasband
 Souskay	Souskay	souskay
 "South Central Cartel"	"South Central Cartel"	southcentralcartel
 "South London Ordnance"	"South London Ordnance"	southlondonordnance
@@ -63670,7 +63670,7 @@ Spowder	Spowder	spowder
 SPQR	SPQR	spqr
 "Spragga Benz"	"Spragga Benz"	spraggabenz
 Sprain	Sprain	sprain
-"Spray Orchestra ‎"	"Spray Orchestra ‎"	sprayorchestra
+"Spray Orchestra ‎"	"Spray Orchestra"	sprayorchestra
 "Spray Paint"	"Spray Paint"	spraypaint
 "Spray Pals"	"Spray Pals"	spraypals
 Spraynard	Spraynard	spraynard
@@ -63812,7 +63812,7 @@ STACCATISSIMO	STACCATISSIMO	staccatissimo
 STACEY	STACEY	stacey
 "Stacey Q"	"Stacey Q"	staceyq
 Stacian	Stacian	stacian
-"Stack Medeiros Band ‎"	"Stack Medeiros Band ‎"	stackmedeirosband
+"Stack Medeiros Band ‎"	"Stack Medeiros Band"	stackmedeirosband
 "Stacked Like Pancakes"	"Stacked Like Pancakes"	stackedlikepancakes
 "stacking pennies"	"stacking pennies"	stackingpennies
 Stackridge	Stackridge	stackridge
@@ -64180,7 +64180,7 @@ Stéphane	Stéphane	stephane
 "Stephanie Wells"	"Stephanie Wells"	stephaniewells
 Stephaniesid	Stephaniesid	stephaniesid
 Stephen	Stephen	stephen
-"Stephen “Tin Tin” Duffy"	"Stephen “Tin Tin” Duffy"	stephentintinduffy
+"Stephen “Tin Tin” Duffy"	"Stephen ""Tin Tin"" Duffy"	stephentintinduffy
 "Stephen A. Clark"	"Stephen A. Clark"	stephenaclark
 "Stephen Beebout"	"Stephen Beebout"	stephenbeebout
 "Stephen Bishop"	"Stephen Bishop"	stephenbishop
@@ -64348,7 +64348,7 @@ Stevedreez	Stevedreez	stevedreez
 "Steven Warwick"	"Steven Warwick"	stevenwarwick
 "Steven Weston"	"Steven Weston"	stevenweston
 "Steven Wilson"	"Steven Wilson"	stevenwilson
-"Steven’s Life"	"Steven’s Life"	stevenslife
+"Steven’s Life"	"Steven's Life"	stevenslife
 "Stevens & Foster"	"Stevens & Foster"	stevensfoster
 "Stevie & Jay ""Dusty"" Smith"	"Stevie & Jay ""Dusty"" Smith"	steviejaydustysmith
 "Stevie B"	"Stevie B"	stevieb
@@ -65909,9 +65909,9 @@ T.S.O.L.	T.S.O.L	tsol
 T.Williams	T.Williams	twilliams
 T.Y.E.	T.Y.E	tye
 T'Pau	T'Pau	tpau
-T’Pau	T’Pau	tpau
+T’Pau	T'Pau	tpau
 "T/\P"	"T/\P"	tp
-Ť•Ťc’é	Ť•Ťc’é	ttce
+Ť•Ťc’é	Ť•Ťc'é	ttce
 T0W3RS	T0W3RS	t0w3rs
 T2	T2	t2
 T4PES	T4PES	t4pes
@@ -66270,7 +66270,7 @@ TARA	TARA	tara
 "tara clerkin"	"tara clerkin"	taraclerkin
 "Tara Clerkin Trio"	"Tara Clerkin Trio"	taraclerkintrio
 "Tara Jane O'Neil"	"Tara Jane O'Neil"	tarajaneoneil
-"Tara Jane O’Neil"	"Tara Jane O’Neil"	tarajaneoneil
+"Tara Jane O’Neil"	"Tara Jane O'Neil"	tarajaneoneil
 "Tara Jane ONeil"	"Tara Jane ONeil"	tarajaneoneil
 "Tara King H"	"Tara King H"	tarakingh
 "Tara King Lr"	"Tara King Lr"	tarakinglr
@@ -66491,7 +66491,7 @@ Tecnoville	Tecnoville	tecnoville
 Tecumseh	Tecumseh	tecumseh
 Tecwan	Tecwan	tecwan
 "Ted Cassidy"	"Ted Cassidy"	tedcassidy
-"Ted Daffan’s Texans"	"Ted Daffan’s Texans"	teddaffanstexans
+"Ted Daffan’s Texans"	"Ted Daffan's Texans"	teddaffanstexans
 "Ted Greene"	"Ted Greene"	tedgreene
 "Ted Harkins"	"Ted Harkins"	tedharkins
 "Ted Hawkins"	"Ted Hawkins"	tedhawkins
@@ -66532,7 +66532,7 @@ TEDDMAN	TEDDMAN	teddman
 "Teddy Riley feat. Tammy Lucas"	"Teddy Riley"	teddyriley
 "Teddy Wilson and his Orchestra"	"Teddy Wilson and his Orchestra"	teddywilsonhisorchestra
 "Teddy Wilson Quartet"	"Teddy Wilson Quartet"	teddywilsonquartet
-"Teddy Wilson’s Quartet"	"Teddy Wilson’s Quartet"	teddywilsonsquartet
+"Teddy Wilson’s Quartet"	"Teddy Wilson's Quartet"	teddywilsonsquartet
 teddy<3	teddy<3	teddy3
 "teddy<3 & Teddy Geiger"	"teddy<3 & Teddy Geiger"	teddy3teddygeiger
 "teddy<3, Teddy Geiger"	"teddy<3, Teddy Geiger"	teddy3teddygeiger
@@ -67314,7 +67314,7 @@ Thao	Thao	thao
 "The Aynsley Dunbar Retaliation"	"The Aynsley Dunbar Retaliation"	aynsleydunbarretaliation
 "The B Sharps"	"The B Sharps"	bsharps
 "The B-52's"	"The B-52's"	b52s
-"The B-52’s"	"The B-52’s"	b52s
+"The B-52’s"	"The B-52's"	b52s
 "The B-52s"	"The B-52s"	b52s
 "The B-Girls"	"The B-Girls"	bgirls
 "The B-Sharps"	"The B-Sharps"	bsharps
@@ -68488,7 +68488,7 @@ Thao	Thao	thao
 "The Easy Leaves"	"The Easy Leaves"	easyleaves
 "The Easy Rocker"	"The Easy Rocker"	easyrocker
 "The Easybeats"	"The Easybeats"	easybeats
-"The Eat ‎"	"The Eat ‎"	eat
+"The Eat ‎"	"The Eat"	eat
 "The Ebb & Flow"	"The Ebb & Flow"	ebbflow
 "The Ebbtides"	"The Ebbtides"	ebbtides
 "The Eboni Band"	"The Eboni Band"	eboniband
@@ -68731,7 +68731,7 @@ Thao	Thao	thao
 "The Flames"	"The Flames"	flames
 "The Flamin Lips"	"The Flamin Lips"	flaminlips
 "The Flamin' Groovies"	"The Flamin' Groovies"	flamingroovies
-"The Flamin’ Groovies"	"The Flamin’ Groovies"	flamingroovies
+"The Flamin’ Groovies"	"The Flamin' Groovies"	flamingroovies
 "The Flaming Lips"	"The Flaming Lips"	flaminglips
 "The Flaming Tsunamis"	"The Flaming Tsunamis"	flamingtsunamis
 "The Flamingos"	"The Flamingos"	flamingos
@@ -68994,7 +68994,7 @@ Thao	Thao	thao
 "The Go! Team"	"The Go! Team"	goteam
 "THE GOA EXPRESS"	"THE GOA EXPRESS"	goaexpress
 "The Goalie's Anxiety at the Penalty Kick"	"The Goalie's Anxiety at the Penalty Kick"	goaliesanxietyatpenaltykick
-"The Goalie’s Anxiety at the Penalty Kick"	"The Goalie’s Anxiety at the Penalty Kick"	goaliesanxietyatpenaltykick
+"The Goalie’s Anxiety at the Penalty Kick"	"The Goalie's Anxiety at the Penalty Kick"	goaliesanxietyatpenaltykick
 "THE GOASTT"	"THE GOASTT"	goastt
 "The Godfathers"	"The Godfathers"	godfathers
 "The Godrays"	"The Godrays"	godrays
@@ -69678,7 +69678,7 @@ Thao	Thao	thao
 "The KVB"	"The KVB"	kvb
 "The Kyle Sowashes"	"The Kyle Sowashes"	kylesowashes
 "The La's"	"The La's"	las
-"The La’s"	"The La’s"	las
+"The La’s"	"The La's"	las
 "The Labrynth"	"The Labrynth"	labrynth
 "The Laces"	"The Laces"	laces
 "The Lad Mags"	"The Lad Mags"	ladmags
@@ -69998,7 +69998,7 @@ Thao	Thao	thao
 "The Mallard"	"The Mallard"	mallard
 "The Mama's & The Papa's"	"The Mama's & The Papa's"	mamaspapas
 "The Mama's & The Papas"	"The Mama's & The Papas"	mamaspapas
-"The Mama’s & The Papa’s"	"The Mama’s & The Papa’s"	mamaspapas
+"The Mama’s & The Papa’s"	"The Mama's & The Papa's"	mamaspapas
 "The Mamas & Papas"	"The Mamas & Papas"	mamaspapas
 "The Mamas & The Papas"	"The Mamas & The Papas"	mamaspapas
 "The Mamas and the Papas"	"The Mamas and the Papas"	mamaspapas
@@ -70454,7 +70454,7 @@ Thao	Thao	thao
 "The O'Jays"	"The O'Jays"	ojays
 "the o'my's"	"the o'my's"	omys
 "The O'Reillys and the Paddyhats"	"The O'Reillys and the Paddyhats"	oreillyspaddyhats
-"The O’Jays"	"The O’Jays"	ojays
+"The O’Jays"	"The O'Jays"	ojays
 "The Oath"	"The Oath"	oath
 "The Obelisk Gleam"	"The Obelisk Gleam"	obeliskgleam
 "The OBGMs"	"The OBGMs"	obgms
@@ -71299,7 +71299,7 @@ Thao	Thao	thao
 "The Sharp Shadows"	"The Sharp Shadows"	sharpshadows
 "the She-Devils"	"the She-Devils"	shedevils
 "The She's"	"The She's"	shes
-"The She’s"	"The She’s"	shes
+"The She’s"	"The She's"	shes
 "The Sheepdogs"	"The Sheepdogs"	sheepdogs
 "The Sheikhs"	"The Sheikhs"	sheikhs
 "The Sheiks"	"The Sheiks"	sheiks
@@ -71504,7 +71504,7 @@ Thao	Thao	thao
 "The Soul Clan"	"The Soul Clan"	soulclan
 "The Soul Investigators"	"The Soul Investigators"	soulinvestigators
 "The Soul Leaders"	"The Soul Leaders"	soulleaders
-"The Soul Messengers ‎"	"The Soul Messengers ‎"	soulmessengers
+"The Soul Messengers ‎"	"The Soul Messengers"	soulmessengers
 "The Soul Rebels"	"The Soul Rebels"	soulrebels
 "The Soul Saints Orchestra"	"The Soul Saints Orchestra"	soulsaintsorchestra
 "The Soul Searchers"	"The Soul Searchers"	soulsearchers
@@ -71877,7 +71877,7 @@ Thao	Thao	thao
 "The Three Kwakabani Brothers and Hassan Al Zabeede"	"The Three Kwakabani Brothers and Hassan Al Zabeede"	threekwakabanibrothershassanalzabeede
 "The Three Lions"	"The Three Lions"	threelions
 "The Three O'Clock"	"The Three O'Clock"	threeoclock
-"The Three O’Clock"	"The Three O’Clock"	threeoclock
+"The Three O’Clock"	"The Three O'Clock"	threeoclock
 "The Three Sounds"	"The Three Sounds"	threesounds
 "The Three Stooges"	"The Three Stooges"	threestooges
 "The Three Wisemen (aka XTC)"	"The Three Wisemen (aka XTC)"	threewisemenakaxtc
@@ -72390,7 +72390,7 @@ Thao	Thao	thao
 "The Y Axes, Studio_Dad"	"The Y Axes, Studio_Dad"	yaxesstudiodad
 "The Y-Axes"	"The Y-Axes"	yaxes
 "The Yah Mos"	"The Yah Mos"	yahmos
-"The Yan Tregger Group ‎"	"The Yan Tregger Group ‎"	yantreggergroup
+"The Yan Tregger Group ‎"	"The Yan Tregger Group"	yantreggergroup
 "The Yardbirds"	"The Yardbirds"	yardbirds
 "The Yawpers"	"The Yawpers"	yawpers
 "the yearning"	"the yearning"	yearning
@@ -72583,7 +72583,7 @@ Therukural	Therukural	therukural
 "These Arms Are Snakes"	"These Arms Are Snakes"	thesearmsaresnakes
 "These Bastards"	"These Bastards"	thesebastards
 "These Endless Tapeworms"	"These Endless Tapeworms"	theseendlesstapeworms
-"These Eyes ‎"	"These Eyes ‎"	theseeyes
+"These Eyes ‎"	"These Eyes"	theseeyes
 "These Furrows"	"These Furrows"	thesefurrows
 "These Ghosts"	"These Ghosts"	theseghosts
 "These Hidden Hands"	"These Hidden Hands"	thesehiddenhands
@@ -72667,7 +72667,7 @@ ThinLips	ThinLips	thinlips
 "Third Man"	"Third Man"	thirdman
 "Third Sight"	"Third Sight"	thirdsight
 "Third Son"	"Third Son"	thirdson
-"Third World War ‎"	"Third World War ‎"	thirdworldwar
+"Third World War ‎"	"Third World War"	thirdworldwar
 Thirdstory	Thirdstory	thirdstory
 "Thirdstory, Eryn Allen Kane"	"Thirdstory, Eryn Allen Kane"	thirdstoryerynallenkane
 "Thirsty Beats"	"Thirsty Beats"	thirstybeats
@@ -76567,7 +76567,7 @@ W-X	W-X	wx
 W!LL	W!LL	wll
 "w. baer"	"w. baer"	wbaer
 "W. H. Lung"	"W. H. Lung"	whlung
-"W. Lee O’Daniel"	"W. Lee O’Daniel"	wleeodaniel
+"W. Lee O’Daniel"	"W. Lee O'Daniel"	wleeodaniel
 W.A.L.A.	W.A.L.A	wala
 W.A.S.P.	W.A.S.P	wasp
 "W.C. Fields and Mae West"	"W.C. Fields and Mae West"	wcfieldsmaewest
@@ -76746,7 +76746,7 @@ Warhaus	Warhaus	warhaus
 Warhead	Warhead	warhead
 Warhol.SS	Warhol.SS	warholss
 Warik	Warik	warik
-"Waring’s Pennsylvanians"	"Waring’s Pennsylvanians"	waringspennsylvanians
+"Waring’s Pennsylvanians"	"Waring's Pennsylvanians"	waringspennsylvanians
 Warish	Warish	warish
 Warlord	Warlord	warlord
 WARM	WARM	warm
@@ -77629,7 +77629,7 @@ william	william	william
 "William Basinski, Lawrence English"	"William Basinski, Lawrence English"	williambasinskilawrenceenglish
 "William Baskinski"	"William Baskinski"	williambaskinski
 "William Bell"	"William Bell"	williambell
-"William Bell and Mavis Staples"	"William Bell and Mavis Staples"	williambellmavisstaples
+"William Bell and Mavis Staples"	"William Bell and Mavis Staples"	williambellmavisstaples
 "William Bell feat Judy Clay"	"William Bell"	williambell
 "William Bell,Judy Clay"	"William Bell,Judy Clay"	williambelljudyclay
 "william bolton, dillon ashton"	"william bolton, dillon ashton"	williamboltondillonashton
@@ -78327,7 +78327,7 @@ Xolo	Xolo	xolo
 Xorcist	Xorcist	xorcist
 Xosar	Xosar	xosar
 Xothist	Xothist	xothist
-"Xperience, Zikki Carr, Jesus Chris’, Candid, Free Whiskey, Hash Addams,  Swamp Tiger"	"Xperience, Zikki Carr, Jesus Chris’, Candid, Free Whiskey, Hash Addams,  Swamp Tiger"	xperiencezikkicarrjesuschriscandidfreewhiskeyhashaddamsswamptiger
+"Xperience, Zikki Carr, Jesus Chris’, Candid, Free Whiskey, Hash Addams,  Swamp Tiger"	"Xperience, Zikki Carr, Jesus Chris', Candid, Free Whiskey, Hash Addams,  Swamp Tiger"	xperiencezikkicarrjesuschriscandidfreewhiskeyhashaddamsswamptiger
 Xperiment	Xperiment	xperiment
 xphresh	xphresh	xphresh
 "Xray Eyeballs"	"Xray Eyeballs"	xrayeyeballs
@@ -79179,7 +79179,7 @@ yusef	yusef	yusef
 "Yusuke Yamamoto"	"Yusuke Yamamoto"	yusukeyamamoto
 "Yuta Nagashima"	"Yuta Nagashima"	yutanagashima
 "Yuta Orisaka"	"Yuta Orisaka"	yutaorisaka
-"YUTAoshimiO (ウタオシミオ）　"	"YUTAoshimiO (ウタオシミオ）　"	yutaoshimioutaoshimio
+"YUTAoshimiO (ウタオシミオ）　"	"YUTAoshimiO (ウタオシミオ）"	yutaoshimioutaoshimio
 "Yutie Lee"	"Yutie Lee"	yutielee
 "Yuuca - Tabrill Remix"	"Yuuca - Tabrill Remix"	yuucatabrillremix
 "Yuuki Matthews"	"Yuuki Matthews"	yuukimatthews
@@ -79207,7 +79207,7 @@ YVETTE	YVETTE	yvette
 "Yvette Michelle"	"Yvette Michelle"	yvettemichelle
 "Yvette Young"	"Yvette Young"	yvetteyoung
 Yvois	Yvois	yvois
-"Yvonne Archer ‎"	"Yvonne Archer ‎"	yvonnearcher
+"Yvonne Archer ‎"	"Yvonne Archer"	yvonnearcher
 "Yvonne Archer, Jura Soundsystem"	"Yvonne Archer, Jura Soundsystem"	yvonnearcherjurasoundsystem
 "Yvonne Baker"	"Yvonne Baker"	yvonnebaker
 "Yvonne Carroll"	"Yvonne Carroll"	yvonnecarroll
@@ -79670,7 +79670,7 @@ Zzzz...	Zzzz…	zzzz
 "الفنانه جميله سعد حبنا"	"الفنانه جميله سعد حبنا"	alfnanhjmylhsdhbna
 "تونس مفتاح"	"تونس مفتاح"	twnsmftah
 "عمر دياب"	"عمر دياب"	mrdyab
-ᕦ​(​ò_óˇ​)​ᕤ	ᕦ​(​ò_óˇ​)​ᕤ	oo
+ᕦ​(​ò_óˇ​)​ᕤ	ᕦ(ò_óˇ)ᕤ	oo
 ᗅᗺᗷᗅ	ᗅᗺᗷᗅ	ᗅᗺᗷᗅ
 "ᗪﾌ ㄒ卂Ҝ乇 匚ㄖ几ㄒ尺ㄖㄥ"	"ᗪﾌ ㄒ卂Ҝ乇 匚ㄖ几ㄒ尺ㄖㄥ"	fuxxuntuofangri1jixchireng1
 いらないもの	いらないもの	iranaimono
@@ -79719,7 +79719,7 @@ Zzzz...	Zzzz…	zzzz
 吉村弘	吉村弘	jicunhong
 "吉田美奈子 Minako Yoshida"	"吉田美奈子 Minako Yoshida"	jitianmeinaiziminakoyoshida
 園まり	園まり	yuanmari
-地盤沈下	地盤沈下	depanchenxia
+地盤沈下	地盤沈下	depanshenxia
 坂本九	坂本九	banbenjiu
 外神田Deepspace	外神田Deepspace	waishentiandeepspace
 夜空	夜空	yekong

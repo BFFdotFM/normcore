@@ -17,6 +17,7 @@ class Normcore {
     return self::transform($string, array(
       'removeControlCharacters',
       'trimWhitespace',
+      'normalizeQuoteCharacters',
       'discardContributors',
       'normalizeStylisticCharacters',
       'trimPunctuation'
@@ -27,6 +28,7 @@ class Normcore {
     return self::transform($string, array(
       'removeControlCharacters',
       'trimWhitespace',
+      'normalizeQuoteCharacters',
       'discardExplicitWarning',
       'discardRemasters',
       'discardContributors',
@@ -39,6 +41,7 @@ class Normcore {
     return self::transform($string, array(
       'removeControlCharacters',
       'trimWhitespace',
+      'normalizeQuoteCharacters',
       'normalizeVolumes',
       'discardDiscNumber',
       'discardExplicitWarning',
@@ -54,6 +57,7 @@ class Normcore {
     return self::transform($string, array(
       'removeControlCharacters',
       'trimWhitespace',
+      'normalizeQuoteCharacters',
       'handleDistroKidLabels',
       'discardLicensingBlurb',
       'removeTrailingYear',

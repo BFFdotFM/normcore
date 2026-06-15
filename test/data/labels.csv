@@ -35,7 +35,7 @@
 "	Japan Record"	"Japan Record"	japanrecord
 "	King Records"	King	king
 "	Kitty Records"	Kitty	kitty
-"	L'Illustration Musicale, L'Illustration Musicale"	"LIllustration Musicale LIllustration Musicale"	lillustrationmusicalelillustrationmusicale
+"	L'Illustration Musicale, L'Illustration Musicale"	"L'Illustration Musicale L'Illustration Musicale"	lillustrationmusicalelillustrationmusicale
 "	Mareco Inc"	Mareco	mareco
 "	Medical Records LLC"	Medical	medical
 "	Midi Inc."	Midi	midi
@@ -178,11 +178,11 @@
 " Awal Digital"	"Awal Digital"	awaldigital
 " Aware/Columbia"	Aware/Columbia	awarecolumbia
 " Ba Da Bing!"	"Ba Da Bing!"	badabing
-" Backs Records ‎"	"Backs Records ‎"	backsrecords
+" Backs Records ‎"	Backs	backs
 " Bad Boy"	"Bad Boy"	badboy
 " Bad Boy Records"	"Bad Boy"	badboy
 " Bad Boy Records LLC"	"Bad Boy"	badboy
-" Balearic ‎ (2016)"	"Balearic ‎"	balearic
+" Balearic ‎ (2016)"	Balearic	balearic
 " Baltimore Club"	"Baltimore Club"	baltimoreclub
 " Bass Agenda)"	"Bass Agenda"	bassagenda
 " Bastard Jazz Recordings"	"Bastard Jazz"	bastardjazz
@@ -224,7 +224,7 @@
 " BSTS"	BSTS	bsts
 " Bull Durham Dynasty Productions"	"Bull Durham Dynasty"	bulldurhamdynasty
 " Bun The Grid"	"Bun The Grid"	bungrid
-" Bureau B ‎"	"Bureau B ‎"	bureaub
+" Bureau B ‎"	"Bureau B"	bureaub
 " Burger Records"	Burger	burger
 " Buzz Records"	Buzz	buzz
 " Canyon"	Canyon	canyon
@@ -235,12 +235,12 @@
 " Castle Face Records"	"Castle Face"	castleface
 " Casual Gabberz"	"Casual Gabberz"	casualgabberz
 " CBS"	CBS	cbs
-" CBS/Sony ‎"	"CBS/Sony ‎"	cbssony
+" CBS/Sony ‎"	CBS/Sony	cbssony
 " Cha Cha Records"	"Cha Cha"	chacha
 " Charly R&B"	"Charly R&B"	charlyrb
 " Chiaroscuro Records"	Chiaroscuro	chiaroscuro
 " childsplay"	childsplay	childsplay
-" Chronicles ‎"	"Chronicles ‎"	chronicles
+" Chronicles ‎"	Chronicles	chronicles
 " Cinematic"	Cinematic	cinematic
 " Cinematic Music Group / Free Nation"	"Cinematic Music Group / Free Nation"	cinematicmusicgroupfreenation
 " Circular Jaw"	"Circular Jaw"	circularjaw
@@ -302,7 +302,7 @@
 " Domo Records"	Domo	domo
 " Don Giovanni"	"Don Giovanni"	dongiovanni
 " Don Giovanni Records"	"Don Giovanni"	dongiovanni
-" Don’t Be Afraid Recordings"	"Don’t Be Afraid"	dontbeafraid
+" Don’t Be Afraid Recordings"	"Don't Be Afraid"	dontbeafraid
 " double double whammy"	"double double whammy"	doubledoublewhammy
 " dred collective"	"dred collective"	dredcollective
 " Drive-In Records"	Drive-In	drivein
@@ -326,12 +326,12 @@
 " EMI"	EMI	emi
 " Empire"	Empire	empire
 " Empire Distribution & Ventwood Entertainment"	"Empire Distribution & Ventwood"	empiredistributionventwood
-" Envelope Collective ‎/ Knockturne"	"Envelope Collective ‎/ Knockturne"	envelopecollectiveknockturne
+" Envelope Collective ‎/ Knockturne"	"Envelope Collective / Knockturne"	envelopecollectiveknockturne
 " Enyx"	Enyx	enyx
 " Epi"	Epi	epi
 " Epic"	Epic	epic
 " Epic Records"	Epic	epic
-" Epic/Sony ‎"	"Epic/Sony ‎"	epicsony
+" Epic/Sony ‎"	Epic/Sony	epicsony
 " Epitaph"	Epitaph	epitaph
 " EQ Why)"	"EQ Why"	eqwhy
 " Equalized"	Equalized	equalized
@@ -357,7 +357,7 @@
 " Flora"	Flora	flora
 " FLTBYS"	FLTBYS	fltbys
 " Flying Nun Records"	"Flying Nun"	flyingnun
-" Fo' Real"	"Fo Real"	foreal
+" Fo' Real"	"Fo' Real"	foreal
 " For You. Records"	"For You"	foryou
 " Forbidden Trax"	"Forbidden Trax"	forbiddentrax
 " Fractal Fantasy"	"Fractal Fantasy"	fractalfantasy
@@ -483,17 +483,17 @@
 " Kill/Hurt Records"	Kill/Hurt	killhurt
 " KING CREATIVE"	"KING CREATIVE"	kingcreative
 " King Record Co. Ltd"	King	king
-" King Records ‎"	"King Records ‎"	kingrecords
+" King Records ‎"	King	king
 " Kinniku-Bijo"	Kinniku-Bijo	kinnikubijo
 " Kino"	Kino	kino
-" Kitchenware Records ‎"	"Kitchenware Records ‎"	kitchenwarerecords
+" Kitchenware Records ‎"	Kitchenware	kitchenware
 " Kitty Records"	Kitty	kitty
 " Kiwis & Coconuts"	"Kiwis & Coconuts"	kiwiscoconuts
 " Knightwerk"	Knightwerk	knightwerk
 " Knightwerk)"	Knightwerk	knightwerk
 " KTTF"	KTTF	kttf
 " Kultura Collective"	"Kultura Collective"	kulturacollective
-" L’R du Trésor"	"L’R du Trésor"	lrdutresor
+" L’R du Trésor"	"L'R du Trésor"	lrdutresor
 " La Cacha Sounds"	"La Cacha Sounds"	lacachasounds
 " label"	label	label
 " Landland Colportage (2016)"	"Landland Colportage"	landlandcolportage
@@ -508,12 +508,12 @@
 " Lewis"	Lewis	lewis
 " Lex Records Ltd"	Lex	lex
 " Libellula"	Libellula	libellula
-" Liberty ‎"	"Liberty ‎"	liberty
+" Liberty ‎"	Liberty	liberty
 " Library Records"	Library	library
 " Life-Lite Concepts"	"Life-Lite Concepts"	lifeliteconcepts
 " Light In The Attic"	"Light In The Attic"	lightinattic
 " Like That Records"	"Like That"	likethat
-" lil' chief records"	"lil chief"	lilchief
+" lil' chief records"	"lil' chief"	lilchief
 " Liquid V]"	"Liquid V"	liquidv
 " Lit City Trax"	"Lit City Trax"	litcitytrax
 " Little Mixtape"	"Little Mixtape"	littlemixtape
@@ -535,7 +535,7 @@
 " mad Lab)"	"mad Lab"	madlab
 " Màgia Roja / BFE"	"Màgia Roja / BFE"	magiarojabfe
 " Majestic"	Majestic	majestic
-" Make Do And Mend ‎"	"Make Do And Mend ‎"	makedomend
+" Make Do And Mend ‎"	"Make Do And Mend"	makedomend
 " Makinmovs X Matraca"	"Makinmovs X Matraca"	makinmovsxmatraca
 " Mall Music Inc"	Mall	mall
 " Malmö Inre"	"Malmö Inre"	malmoinre
@@ -654,10 +654,10 @@
 " Peerless"	Peerless	peerless
 " Peggy Deathbomb Arc"	"Peggy Deathbomb Arc"	peggydeathbombarc
 " Pelican Fly"	"Pelican Fly"	pelicanfly
-" People's Intelligent Arts"	"Peoples Intelligent Arts"	peoplesintelligentarts
+" People's Intelligent Arts"	"People's Intelligent Arts"	peoplesintelligentarts
 " Peptalk Records"	Peptalk	peptalk
 " Phil L.A. of Soul"	"Phil LA of Soul"	phillaofsoul
-" Philadelphia International Records ‎"	"Philadelphia International Records ‎"	philadelphiainternationalrecords
+" Philadelphia International Records ‎"	"Philadelphia International"	philadelphiainternational
 " Philips"	Philips	philips
 " Philips Records"	Philips	philips
 " Philmore Sound"	"Philmore Sound"	philmoresound
@@ -694,7 +694,7 @@
 " Program And Control/P.A.C."	"Program And Control/PAC"	programcontrolpac
 " Promesses]"	Promesses	promesses
 " Psychotic Break"	"Psychotic Break"	psychoticbreak
-" PVC Records ‎"	"PVC Records ‎"	pvcrecords
+" PVC Records ‎"	PVC	pvc
 " Pye International"	Pye	pye
 " Quartet Records"	Quartet	quartet
 " Queen Diva Music"	"Queen Diva"	queendiva
@@ -722,7 +722,7 @@
 " Rise Above"	"Rise Above"	riseabove
 " Roadrunner"	Roadrunner	roadrunner
 " Roadrunner Records"	Roadrunner	roadrunner
-" Rootin' Tootin' Records"	"Rootin Tootin"	rootintootin
+" Rootin' Tootin' Records"	"Rootin' Tootin"	rootintootin
 " Rostrum Records"	Rostrum	rostrum
 " Rough Trade"	"Rough Trade"	roughtrade
 " Rough Trade Records"	"Rough Trade"	roughtrade
@@ -736,7 +736,7 @@
 " Saddle Creek"	"Saddle Creek"	saddlecreek
 " Saint Records"	Saint	saint
 " Salty Dog Records"	"Salty Dog"	saltydog
-" Samadhisound ‎"	"Samadhisound ‎"	samadhisound
+" Samadhisound ‎"	Samadhisound	samadhisound
 " Samsara Beats"	"Samsara Beats"	samsarabeats
 " Sanctuary"	Sanctuary	sanctuary
 " Sandyams"	Sandyams	sandyams
@@ -792,7 +792,7 @@
 " Specialist Subject Records"	"Specialist Subject"	specialistsubject
 " Splasc(H) Records"	SplascH	splasch
 " squareglass"	squareglass	squareglass
-" St. Vitus's Dance"	"St Vituss Dance"	stvitussdance
+" St. Vitus's Dance"	"St Vitus's Dance"	stvitussdance
 " Staatsakt 2010"	Staatsakt	staatsakt
 " Starburst Records"	Starburst	starburst
 " Stax"	Stax	stax
@@ -840,8 +840,8 @@
 " The Dreamers Recordings]"	"The Dreamers"	dreamers
 " the footwork jungle"	"the footwork jungle"	footworkjungle
 " The Greater Recording Co., Inc."	"The Greater"	greater
-" the I.L.Y's"	"the ILYs"	ilys
-" The Impossible Recordworks ‎"	"The Impossible Recordworks ‎"	impossiblerecordworks
+" the I.L.Y's"	"the ILY's"	ilys
+" The Impossible Recordworks ‎"	"The Impossible Recordworks"	impossiblerecordworks
 " The Island Def Jam Music Group"	"The Island Def Jam"	islanddefjam
 " The KVB"	"The KVB"	kvb
 " The Only Label In The World"	"The Only Label In The World"	onlylabelinworld
@@ -876,7 +876,7 @@
 " Trouble In Mind Records"	"Trouble In Mind"	troubleinmind
 " True Panther Sounds"	"True Panther Sounds"	truepanthersounds
 " Tubtone Records"	Tubtone	tubtone
-" Tzadik ‎"	"Tzadik ‎"	tzadik
+" Tzadik ‎"	Tzadik	tzadik
 " Ubiquity Records"	Ubiquity	ubiquity
 " Unchained Recordings"	Unchained	unchained
 " Union Records"	Union	union
@@ -969,9 +969,9 @@ _-	_
 -	-	
 "-   1080P"	1080P	1080p
 "- -"	"- -"	
-"- a london-based artist soulful -years&years - kinda like sam smith-style crooning but more enjoyable in my opinion - song came out last Monday via Annie Mac's Free Music Monday program, so i"	"a london-based artist soulful -years&years - kinda like sam smith-style crooning but more enjoyable in my opinion - song came out last Monday via Annie Macs Free Music Monday program so i"	londonbasedartistsoulfulyearsyearskindalikesamsmithstylecrooningbutmoreenjoyableinmyopinionsongcameoutlastmondayviaanniemacsfreemusicmondayprogramsoi
+"- a london-based artist soulful -years&years - kinda like sam smith-style crooning but more enjoyable in my opinion - song came out last Monday via Annie Mac's Free Music Monday program, so i"	"a london-based artist soulful -years&years - kinda like sam smith-style crooning but more enjoyable in my opinion - song came out last Monday via Annie Mac's Free Music Monday program so i"	londonbasedartistsoulfulyearsyearskindalikesamsmithstylecrooningbutmoreenjoyableinmyopinionsongcameoutlastmondayviaanniemacsfreemusicmondayprogramsoi
 "- Astrophonica)"	Astrophonica	astrophonica
-"- Brooke Ferguson x Kidwaste - slo county's very own Brooke Ferguson - Kidswaste has other familiar songs that we have played on the show before like the remix of the clams casino song "	"Brooke Ferguson x Kidwaste - slo countys very own Brooke Ferguson - Kidswaste has other familiar songs that we have played on the show before like the remix of the clams casino song"	brookefergusonxkidwasteslocountysveryownbrookefergusonkidswastehasotherfamiliarsongsthatwehaveplayedonshowbeforelikeremixofclamscasinosong
+"- Brooke Ferguson x Kidwaste - slo county's very own Brooke Ferguson - Kidswaste has other familiar songs that we have played on the show before like the remix of the clams casino song "	"Brooke Ferguson x Kidwaste - slo county's very own Brooke Ferguson - Kidswaste has other familiar songs that we have played on the show before like the remix of the clams casino song"	brookefergusonxkidwasteslocountysveryownbrookefergusonkidswastehasotherfamiliarsongsthatwehaveplayedonshowbeforelikeremixofclamscasinosong
 "- Dance Trax"	"Dance Trax"	dancetrax
 "- District 160"	"District 160"	district160
 "- Extensión"	Extensión	extension
@@ -1039,7 +1039,7 @@ _-	_
 """Better than Chewing Ice"""	"Better than Chewing Ice"	betterthanchewingice
 """cleaverheads"" media"	"cleaverheads media"	cleaverheadsmedia
 """O"" Records"	O	o
-"""Remember to meet back at our spot. I'm going to the bar."	"Remember to meet back at our spot Im going to the bar"	remembertomeetbackatourspotimgoingtobar
+"""Remember to meet back at our spot. I'm going to the bar."	"Remember to meet back at our spot I'm going to the bar"	remembertomeetbackatourspotimgoingtobar
 (-_-)	_	
 "((Cave)) Recordings"	Cave	cave
 "(1985 Music)"	1985	1985
@@ -1067,7 +1067,7 @@ _-	_
 (Hommega)	Hommega	hommega
 "(Hotline Recordings)"	Hotline	hotline
 (Hyperdub)	Hyperdub	hyperdub
-"(I Don’t Give A Fuck)"	"I Don’t Give A Fuck"	idontgivefuck
+"(I Don’t Give A Fuck)"	"I Don't Give A Fuck"	idontgivefuck
 "(Ikiume Records)"	Ikiume	ikiume
 "(Independent Release)"	"Independent Release"	independentrelease
 (Independent)	Independent	independent
@@ -1433,7 +1433,7 @@ _-	_
 "℗ 2013 Thrill Jockey"	"Thrill Jockey"	thrilljockey
 "℗ 2013 Universal Music Ltda"	"Universal Music Ltda"	universalmusicltda
 "℗ 2013 Westminster Choir College"	"Westminster Choir College"	westminsterchoircollege
-"℗ 2013 What's Your Rupture?"	"Whats Your Rupture?"	whatsyourrupture
+"℗ 2013 What's Your Rupture?"	"What's Your Rupture?"	whatsyourrupture
 "℗ 2013 Wichita Recordings"	Wichita	wichita
 "℗ 2014 A&M Records"	A&M	am
 "℗ 2014 AMDISCS: Futures Reserve Label. www.amdiscs.com"	"AMDISCS Futures Reserve Label wwwamdiscscom"	amdiscsfuturesreservelabelwwwamdiscscom
@@ -1466,7 +1466,7 @@ _-	_
 "℗ 2015 Jenny Hval Music & Kelly Lee Owens Music"	"Jenny Hval Music & Kelly Lee Owens"	jennyhvalmusickellyleeowens
 "℗ 2015 Jones/Tintoretto Entertainment Co, LLC under exclusive license to Parlophone Records Ltd, a Warner Music Group Company"	"Parlophone Records Ltd a Warner Music Group Company"	parlophonerecordsltdwarnermusicgroupcompany
 "℗ 2015 Jones/Tintoretto Entertainment Company LLC under exclusive licence to Parlophone Records Ltd, a Warner Music Group Company"	"Jones/Tintoretto Entertainment Company LLC under exclusive licence to Parlophone Records Ltd a Warner Music Group Company"	jonestintorettoentertainmentcompanyllcunderexclusivelicencetoparlophonerecordsltdwarnermusicgroupcompany
-"℗ 2015 L'Impératrice"	LImpératrice	limperatrice
+"℗ 2015 L'Impératrice"	L'Impératrice	limperatrice
 "℗ 2015 MCA Nashville"	"MCA Nashville"	mcanashville
 "℗ 2015 Motown Records, a Division of UMG Recordings, Inc."	Motown	motown
 "℗ 2015 Nothing/Interscope Records"	Nothing/Interscope	nothinginterscope
@@ -1861,7 +1861,7 @@ $RZ&$	$RZ&$	srzs
 12XU	12XU	12xu
 "12XU Records"	12XU	12xu
 13	13	13
-"13 O'Clock Records"	"13 OClock"	13oclock
+"13 O'Clock Records"	"13 O'Clock"	13oclock
 "13 owls 20"	"13 owls 20"	13owls20
 "1303252 Records DK"	"Self Released"	selfreleased
 "1304882 Records DK"	"Self Released"	selfreleased
@@ -2035,7 +2035,7 @@ $RZ&$	$RZ&$	srzs
 1985Music	1985Music	1985music
 1986	1986	1986
 "1986 CBS Inc."	CBS	cbs
-1986'd	1986d	1986d
+1986'd	1986'd	1986d
 1987	1987	1987
 "1987 (2006)"	1987	1987
 1987/2011	1987/2011	19872011
@@ -2134,7 +2134,7 @@ $RZ&$	$RZ&$	srzs
 2009	2009	2009
 "2009 20/20/20"	20/20/20	202020
 2010	2010	2010
-"2010 Ne'Astra Music"	NeAstra	neastra
+"2010 Ne'Astra Music"	Ne'Astra	neastra
 2011	2011	2011
 "2011 4AD"	4AD	4ad
 "2011 blues babes records, llc"	"blues babes"	bluesbabes
@@ -2204,7 +2204,7 @@ $RZ&$	$RZ&$	srzs
 "2016 616133 Records DK"	"Self Released"	selfreleased
 "2016 B3SCI Records"	B3SCI	b3sci
 "2016 Dreamville, Inc. under exclusive license to Roc Nation Records"	"Roc Nation"	rocnation
-"2016 Fool's Gold Records"	"Fools Gold"	foolsgold
+"2016 Fool's Gold Records"	"Fool's Gold"	foolsgold
 "2016 HW&W Recordings, LLC / Ultra Records, LLC"	"HW&W Recordings LLC / Ultra"	hwwrecordingsllcultra
 "2016 Interscope Records (Top Dawg Entertainment)"	"Interscope Records Top Dawg"	interscoperecordstopdawg
 "2016 Mom+Pop Under Exclusive  License from Future Classic"	"Mom+Pop Under Exclusive  License from Future Classic"	mompopunderexclusivelicensefromfutureclassic
@@ -2235,7 +2235,7 @@ $RZ&$	$RZ&$	srzs
 "2017 Carpark Records"	Carpark	carpark
 "2017 Columbia Records, a Division of Sony Music Entertainment, as exclusive licensee"	Columbia	columbia
 "2017 Def Jam Recordings, a division of UMG Recordings, Inc."	"Def Jam"	defjam
-"2017 Dilla’s Girls"	"Dilla’s Girls"	dillasgirls
+"2017 Dilla’s Girls"	"Dilla's Girls"	dillasgirls
 "2017 Epic Records, a division of Sony Music Entertainment with A1 / Freebandz"	Epic	epic
 "2017 GAZI World / EMPIRE"	"GAZI World / EMPIRE"	gaziworldempire
 "2017 Glorious Dead Recordings"	"Glorious Dead"	gloriousdead
@@ -2460,7 +2460,7 @@ $RZ&$	$RZ&$	srzs
 415	415	415
 "415 Records"	415	415
 "42 Records/Global Hybrid Records"	"42 Records/Global Hybrid"	42recordsglobalhybrid
-"42's Record"	"42s Record"	42srecord
+"42's Record"	"42's Record"	42srecord
 429	429	429
 "429 Records"	429	429
 "44,100Hz Social Club"	"44100Hz Social Club"	44100hzsocialclub
@@ -2524,12 +2524,12 @@ $RZ&$	$RZ&$	srzs
 4qtrs	4qtrs	4qtrs
 4Star	4Star	4star
 4Starr	4Starr	4starr
-"4th & B'way Records"	"4th & Bway"	4thbway
+"4th & B'way Records"	"4th & B'way"	4thbway
 "4th & Broadway"	"4th & Broadway"	4thbroadway
 "4th & Broadway (1987)"	"4th & Broadway"	4thbroadway
 "4th & Broadway (1996)"	"4th & Broadway"	4thbroadway
 "4th & Broadway/UMG Licensed"	"4th & Broadway/UMG Licensed"	4thbroadwayumglicensed
-"4th and B'way"	"4th and Bway"	4thbway
+"4th and B'way"	"4th and B'way"	4thbway
 "4th and Broadway"	"4th and Broadway"	4thbroadway
 "4th and Broadway (1987)"	"4th and Broadway"	4thbroadway
 "4th and Griots"	"4th and Griots"	4thgriots
@@ -2728,7 +2728,7 @@ $RZ&$	$RZ&$	srzs
 "7 West"	"7 West"	7west
 "7-inches For"	"7-inches For"	7inchesfor
 "7-inches for (TM)"	"7-inches for TM"	7inchesfortm
-"70's Groove"	"70s Groove"	70sgroove
+"70's Groove"	"70's Groove"	70sgroove
 "700707 records"	"Self Released"	selfreleased
 "701227 Records DK"	"Self Released"	selfreleased
 "701582 Records DK"	"Self Released"	selfreleased
@@ -2805,7 +2805,7 @@ $RZ&$	$RZ&$	srzs
 7clouds	7clouds	7clouds
 7e.p.	7ep	7ep
 7K!	7K!	7k
-"7T's Records"	7Ts	7ts
+"7T's Records"	7T's	7ts
 "7th Cloud"	"7th Cloud"	7thcloud
 "7th Storey Projects"	"7th Storey Projects"	7thstoreyprojects
 7Ts	7Ts	7ts
@@ -2941,7 +2941,7 @@ A	A	a
 "A certain ratio/mute artists Ltd."	"A certain ratio/mute artists"	certainratiomuteartists
 "A Colourful Storm"	"A Colourful Storm"	colourfulstorm
 "A Common Enemy"	"A Common Enemy"	commonenemy
-"A Cruel Angel's Thesis"	"A Cruel Angels Thesis"	cruelangelsthesis
+"A Cruel Angel's Thesis"	"A Cruel Angel's Thesis"	cruelangelsthesis
 "A Deaux"	"A Deaux"	deaux
 "A Decca"	"A Decca"	decca
 "A Diamond Heart"	"A Diamond Heart"	diamondheart
@@ -3035,8 +3035,8 @@ A.O.I.	AOI	aoi
 "A.T.P. Recordings"	ATP	atp
 "A.V. Arts"	"AV Arts"	avarts
 A.V.Club	AVClub	avclub
-A'daleis	Adaleis	adaleis
-a‚Äù	a‚Äù	aau
+A'daleis	A'daleis	adaleis
+a‚Äù	a'Äù	aau
 "A&1 Records"	A&1	a1
 A&E	A&E	ae
 "A&E Records"	A&E	ae
@@ -3587,8 +3587,8 @@ Alaya	Alaya	alaya
 Albany	Albany	albany
 Albert	Albert	albert
 "Albert Productions"	Albert	albert
-"Albert's Favourite"	"Alberts Favourite"	albertsfavourite
-"Albert's Favourites Ltd."	"Alberts Favourites"	albertsfavourites
+"Albert's Favourite"	"Albert's Favourite"	albertsfavourite
+"Albert's Favourites Ltd."	"Albert's Favourites"	albertsfavourites
 Albion	Albion	albion
 "Albion Records"	Albion	albion
 ALC	ALC	alc
@@ -3622,7 +3622,7 @@ Alert	Alert	alert
 "Alex Frankel"	"Alex Frankel"	alexfrankel
 "Alex Lahey"	"Alex Lahey"	alexlahey
 "Alex Merck Music"	"Alex Merck"	alexmerck
-"alex o'connor t/a rex orange county"	"alex oconnor t/a rex orange county"	alexoconnortrexorangecounty
+"alex o'connor t/a rex orange county"	"alex o'connor t/a rex orange county"	alexoconnortrexorangecounty
 "Alex Whiler"	"Alex Whiler"	alexwhiler
 "Alex Whitelaw"	"Alex Whitelaw"	alexwhitelaw
 "Alex Wiley / EMPIRE"	"Alex Wiley / EMPIRE"	alexwileyempire
@@ -3744,7 +3744,7 @@ Alkalinear	Alkalinear	alkalinear
 "All The Time"	"All The Time"	alltime
 "All The Time/ Human Re Sources"	"All The Time/ Human Re Sources"	alltimehumanresources
 "All Time Low"	"All Time Low"	alltimelow
-"All Tomorrow’s"	"All Tomorrow’s"	alltomorrows
+"All Tomorrow’s"	"All Tomorrow's"	alltomorrows
 "All Tomorrows Parties"	"All Tomorrows Parties"	alltomorrowsparties
 "All Trap Music/AEI Music"	"All Trap Music/AEI"	alltrapmusicaei
 "all we have is now"	"all we have is now"	allwehaveisnow
@@ -4152,7 +4152,7 @@ Anchorless	Anchorless	anchorless
 "Ancient Methods"	"Ancient Methods"	ancientmethods
 "Ancient Monarchy"	"Ancient Monarchy"	ancientmonarchy
 "ANCL Lincor"	"ANCL Lincor"	ancllincor
-"and it's not cause we pooped our pants"	"and its not cause we pooped our pants"	itsnotcausewepoopedourpants
+"and it's not cause we pooped our pants"	"and it's not cause we pooped our pants"	itsnotcausewepoopedourpants
 "And More Bears"	"And More Bears"	morebears
 "And More Sound"	"And More Sound"	moresound
 "and nuts"	"and nuts"	nuts
@@ -4249,7 +4249,7 @@ Anna	Anna	anna
 "Anna Burch"	"Anna Burch"	annaburch
 "Anna of the North"	"Anna of the North"	annaofnorth
 "Anna Wise"	"Anna Wise"	annawise
-"Anna's RV"	"Annas RV"	annasrv
+"Anna's RV"	"Anna's RV"	annasrv
 "Anne Dereaux"	"Anne Dereaux"	annedereaux
 "Annibale Records"	Annibale	annibale
 "Annie Mac Presents"	"Annie Mac Presents"	anniemacpresents
@@ -4303,7 +4303,7 @@ Anthology	Anthology	anthology
 "Anthology of Recorded Music"	"Anthology of Recorded"	anthologyofrecorded
 "Anthology Recordings"	Anthology	anthology
 "Anthology Recordings/ Kemado Records"	"Anthology Recordings/ Kemado"	anthologyrecordingskemado
-Anthology's	Anthologys	anthologys
+Anthology's	Anthology's	anthologys
 Anthony	Anthony	anthony
 "Anthony Assi"	"Anthony Assi"	anthonyassi
 "Anthony Banks / Rhino"	"Anthony Banks / Rhino"	anthonybanksrhino
@@ -4391,8 +4391,8 @@ Anxious	Anxious	anxious
 "Any Other City"	"Any Other City"	anyothercity
 "Any Other City Records"	"Any Other City"	anyothercity
 "Anya Production"	"Anya Production"	anyaproduction
-"Anybody's Flowers"	"Anybodys Flowers"	anybodysflowers
-"anybody's records"	anybodys	anybodys
+"Anybody's Flowers"	"Anybody's Flowers"	anybodysflowers
+"anybody's records"	anybody's	anybodys
 "Anyee Wright"	"Anyee Wright"	anyeewright
 Anyi/Epitaph	Anyi/Epitaph	anyiepitaph
 Anyines	Anyines	anyines
@@ -4496,7 +4496,7 @@ apt404	apt404	apt404
 "AQUA STONE THRONE"	"AQUA STONE THRONE"	aquastonethrone
 "Aquarii Records"	Aquarii	aquarii
 aquarius	aquarius	aquarius
-"Aquarius Int'l Music"	"Aquarius Intl"	aquariusintl
+"Aquarius Int'l Music"	"Aquarius Int'l"	aquariusintl
 Aquawave	Aquawave	aquawave
 "Aquawave Records"	Aquawave	aquawave
 Aquemeni	Aquemeni	aquemeni
@@ -4569,8 +4569,8 @@ Ardent/Stax	Ardent/Stax	ardentstax
 "area 25"	"area 25"	area25
 "Area10 / Big on Blue Ent."	"Area10 / Big on Blue Ent"	area10bigonblueent
 Areito	Areito	areito
-"aren't you hungry?"	"arent you hungry?"	arentyouhungry
-"Aren't you too busy crying?"	"Arent you too busy crying?"	arentyoutoobusycrying
+"aren't you hungry?"	"aren't you hungry?"	arentyouhungry
+"Aren't you too busy crying?"	"Aren't you too busy crying?"	arentyoutoobusycrying
 "Arena Music Productions, LLC"	"Arena Music"	arenamusic
 "Arena Rock"	"Arena Rock"	arenarock
 "Arena Rock (2004)"	"Arena Rock"	arenarock
@@ -4915,7 +4915,7 @@ Asyncro	Asyncro	asyncro
 "At the Ave. Records"	"At the Ave"	atave
 "At the Dojo Records"	"At the Dojo"	atdojo
 "At The Harm Farm"	"At The Harm Farm"	atharmfarm
-"At War With False Noise ‎/ Basses Frequences ‎/ BloodLust! ‎/ Small Doses"	"At War With False Noise ‎/ Basses Frequences ‎/ BloodLust! ‎/ Small Doses"	atwarwithfalsenoisebassesfrequencesbloodlustsmalldoses
+"At War With False Noise ‎/ Basses Frequences ‎/ BloodLust! ‎/ Small Doses"	"At War With False Noise / Basses Frequences / BloodLust! / Small Doses"	atwarwithfalsenoisebassesfrequencesbloodlustsmalldoses
 Ata	Ata	ata
 "ATA Records"	ATA	ata
 "Ata Tak"	"Ata Tak"	atatak
@@ -4960,7 +4960,7 @@ Atlantic	Atlantic	atlantic
 "Atlantic / 300 Enterntainment"	"Atlantic / 300 Enterntainment"	atlantic300enterntainment
 "Atlantic / 300 Entertainment"	"Atlantic / 300"	atlantic300
 "Atlantic / Blackground"	"Atlantic / Blackground"	atlanticblackground
-"Atlantic / Creator's Way / Big Beat"	"Atlantic / Creators Way / Big Beat"	atlanticcreatorswaybigbeat
+"Atlantic / Creator's Way / Big Beat"	"Atlantic / Creator's Way / Big Beat"	atlanticcreatorswaybigbeat
 "Atlantic / Vampire On A Pony"	"Atlantic / Vampire On A Pony"	atlanticvampireonpony
 "Atlantic / Warner"	"Atlantic / Warner"	atlanticwarner
 "Atlantic 1963"	Atlantic	atlantic
@@ -5584,7 +5584,7 @@ Balatonic	Balatonic	balatonic
 Balboa	Balboa	balboa
 "Baldilocks LLC"	Baldilocks	baldilocks
 Balearic	Balearic	balearic
-"Balearic ‎ (2016)"	"Balearic ‎"	balearic
+"Balearic ‎ (2016)"	Balearic	balearic
 "Bali Baby"	"Bali Baby"	balibaby
 "Balihu Records"	Balihu	balihu
 Balkanton	Balkanton	balkanton
@@ -5707,7 +5707,7 @@ Barnaby	Barnaby	barnaby
 "Barnaby Records"	Barnaby	barnaby
 "Barnaby Records, Inc."	Barnaby	barnaby
 "Barney Artists"	"Barney Artists"	barneyartists
-"Barney’s Records"	Barney’s	barneys
+"Barney’s Records"	Barney's	barneys
 Barnone	Barnone	barnone
 Baro	Baro	baro
 Barometer	Barometer	barometer
@@ -5718,7 +5718,7 @@ Baroquen	Baroquen	baroquen
 Barrett	Barrett	barrett
 "Barretto Music"	Barretto	barretto
 "Barrio Manouche"	"Barrio Manouche"	barriomanouche
-"Barry Can't Swim"	"Barry Cant Swim"	barrycantswim
+"Barry Can't Swim"	"Barry Can't Swim"	barrycantswim
 "Barry Gib"	"Barry Gib"	barrygib
 "Barry Gibb"	"Barry Gibb"	barrygibb
 "Barry Gibb, The Estate of Robin Gibb & Yvonne Gibb"	"Barry Gibb The Estate of Robin Gibb & Yvonne Gibb"	barrygibbestateofrobingibbyvonnegibb
@@ -5743,7 +5743,7 @@ Basement	Basement	basement
 "Basement Front Records"	"Basement Front"	basementfront
 "Basement Leak"	"Basement Leak"	basementleak
 "Basement Records"	Basement	basement
-"Basement's Basement"	"Basements Basement"	basementsbasement
+"Basement's Basement"	"Basement's Basement"	basementsbasement
 Basenji	Basenji	basenji
 "bases loaded"	"bases loaded"	basesloaded
 "BaseWorld Records"	BaseWorld	baseworld
@@ -5995,7 +5995,7 @@ Because	Because	because
 Because/Elektra	Because/Elektra	becauseelektra
 "Because/Phantasy Sound"	"Because/Phantasy Sound"	becausephantasysound
 Becca	Becca	becca
-"Becka's Mix #1"	"Beckas Mix #1"	beckasmix1
+"Becka's Mix #1"	"Becka's Mix #1"	beckasmix1
 "becket records"	becket	becket
 "Beckham Dinero"	"Beckham Dinero"	beckhamdinero
 "Beckoning Candle Productions"	"Beckoning Candle"	beckoningcandle
@@ -6038,8 +6038,8 @@ Beeswing	Beeswing	beeswing
 "Beford Records"	Beford	beford
 "Before The Brave"	"Before The Brave"	beforebrave
 "Beggar Banquets"	"Beggar Banquets"	beggarbanquets
-"Beggar's Banquet"	"Beggars Banquet"	beggarsbanquet
-"Beggar's Banquet 1988"	"Beggars Banquet"	beggarsbanquet
+"Beggar's Banquet"	"Beggar's Banquet"	beggarsbanquet
+"Beggar's Banquet 1988"	"Beggar's Banquet"	beggarsbanquet
 Beggars	Beggars	beggars
 "Beggars (on behalf of XL Recordings)"	"Beggars on behalf of XL"	beggarsonbehalfofxl
 "Beggars Banque"	"Beggars Banque"	beggarsbanque
@@ -6132,7 +6132,7 @@ Bemisbrain	Bemisbrain	bemisbrain
 bendigedig	bendigedig	bendigedig
 "Beneath the Surface Music"	"Beneath the Surface"	beneathsurface
 "Benefit compilation"	"Benefit compilation"	benefitcompilation
-"Benelux Int'l"	"Benelux Intl"	beneluxintl
+"Benelux Int'l"	"Benelux Int'l"	beneluxintl
 "benét nutall // cameron smith"	"benét nutall // cameron smith"	benetnutallcameronsmith
 "Benga Beats"	"Benga Beats"	bengabeats
 "Bengal Sound"	"Bengal Sound"	bengalsound
@@ -6166,7 +6166,7 @@ Bernache	Bernache	bernache
 Berreto	Berreto	berreto
 "Berreto Music"	Berreto	berreto
 "Berrito Music"	Berrito	berrito
-"berry's room"	"berrys room"	berrysroom
+"berry's room"	"berry's room"	berrysroom
 "Bersa Discos"	"Bersa Discos"	bersadiscos
 Berserk	Berserk	berserk
 "Berserk Records"	Berserk	berserk
@@ -6217,11 +6217,11 @@ Bethlehem	Bethlehem	bethlehem
 "between the seems music"	"between the seems"	betweenseems
 Beulah	Beulah	beulah
 "Beverley Records"	Beverley	beverley
-"Beverley's Records"	Beverleys	beverleys
-"Beverley's Records/Trojan"	"Beverleys Records/Trojan"	beverleysrecordstrojan
+"Beverley's Records"	Beverley's	beverleys
+"Beverley's Records/Trojan"	"Beverley's Records/Trojan"	beverleysrecordstrojan
 Beverleys	Beverleys	beverleys
 "Beverly Glen Music"	"Beverly Glen"	beverlyglen
-"Beverly's Records"	Beverlys	beverlys
+"Beverly's Records"	Beverly's	beverlys
 Bexy	Bexy	bexy
 "Beyoğlu Metropol"	"Beyoğlu Metropol"	beyoglumetropol
 Beyond	Beyond	beyond
@@ -6342,7 +6342,7 @@ Bias	Bias	bias
 "Big Ghost Ltd. Musi"	"Big Ghost Ltd Musi"	bigghostltdmusi
 "Big Ghost Ltd. Music"	"Big Ghost Ltd"	bigghostltd
 "Big Gigantic"	"Big Gigantic"	biggigantic
-"big girl's bedroom"	"big girls bedroom"	biggirlsbedroom
+"big girl's bedroom"	"big girl's bedroom"	biggirlsbedroom
 "big girls bedroom"	"big girls bedroom"	biggirlsbedroom
 "big girls bedroom Recods"	"big girls bedroom Recods"	biggirlsbedroomrecods
 "big girls bedroom Records"	"big girls bedroom"	biggirlsbedroom
@@ -6461,7 +6461,7 @@ Bird	Bird	bird
 "Bird Flu Kitchen"	"Bird Flu Kitchen"	birdflukitchen
 "Bird Parliament"	"Bird Parliament"	birdparliament
 "Bird Tapes"	"Bird Tapes"	birdtapes
-"Bird's Robe Records"	"Birds Robe"	birdsrobe
+"Bird's Robe Records"	"Bird's Robe"	birdsrobe
 Birdman	Birdman	birdman
 "Birdman Recording Group"	"Birdman Recording"	birdmanrecording
 "Birdman Records"	Birdman	birdman
@@ -6844,7 +6844,7 @@ Blossöm	Blossöm	blossom
 "Blow the Fuse"	"Blow the Fuse"	blowfuse
 "Blow the Fuse Records"	"Blow the Fuse"	blowfuse
 "Blow Up"	"Blow Up"	blowup
-"Blow Up ‎1982"	"Blow Up ‎1982"	blowup1982
+"Blow Up ‎1982"	"Blow Up"	blowup
 "Blow Up Disco"	"Blow Up Disco"	blowupdisco
 "Blow Up Records"	"Blow Up"	blowup
 "Bloxham Tapes"	"Bloxham Tapes"	bloxhamtapes
@@ -6943,7 +6943,7 @@ Bluesleep	Bluesleep	bluesleep
 Bluesway/ABC	Bluesway/ABC	blueswayabc
 Bluku	Bluku	bluku
 "Bluku Music"	Bluku	bluku
-"Blumenkraft ‎"	"Blumenkraft ‎"	blumenkraft
+"Blumenkraft ‎"	Blumenkraft	blumenkraft
 "Blunted Funk"	"Blunted Funk"	bluntedfunk
 "blunts and blondes x blawldy"	"blunts and blondes x blawldy"	bluntsblondesxblawldy
 "Bluper Entertainment"	Bluper	bluper
@@ -7010,7 +7010,7 @@ BMG	BMG	bmg
 "BMG UK & Ireland"	"BMG UK & Ireland"	bmgukireland
 "BMG UK & Ireland Ltd"	"BMG UK & Ireland"	bmgukireland
 "BMG UK & Ireland Ltd."	"BMG UK & Ireland"	bmgukireland
-"BMG, Martha's Music"	"BMG Marthas"	bmgmarthas
+"BMG, Martha's Music"	"BMG Martha's"	bmgmarthas
 BMG/Infectious	BMG/Infectious	bmginfectious
 "BMG/Montreux Jazz Festival"	"BMG/Montreux Jazz Festival"	bmgmontreuxjazzfestival
 BMG/Vagrant	BMG/Vagrant	bmgvagrant
@@ -7021,7 +7021,7 @@ BMMUSIC	BMMUSIC	bmmusic
 "BNR Trax"	"BNR Trax"	bnrtrax
 "bo burnham"	"bo burnham"	boburnham
 "Bo Sound"	"Bo Sound"	bosound
-"Bo'Weavil Recordings"	BoWeavil	boweavil
+"Bo'Weavil Recordings"	Bo'Weavil	boweavil
 "Boa Music"	Boa	boa
 Boardwalk	Boardwalk	boardwalk
 "Boardwalk Entertainment"	Boardwalk	boardwalk
@@ -7061,7 +7061,7 @@ Bodog	Bodog	bodog
 Bodyhigh	Bodyhigh	bodyhigh
 Bodysync	Bodysync	bodysync
 Bogalusa	Bogalusa	bogalusa
-"Bohannon's Records"	Bohannons	bohannons
+"Bohannon's Records"	Bohannon's	bohannons
 "bohemain drips"	"bohemain drips"	bohemaindrips
 "bohemian drifts"	"bohemian drifts"	bohemiandrifts
 "Bohemian Drips"	"Bohemian Drips"	bohemiandrips
@@ -7113,7 +7113,7 @@ Bondage	Bondage	bondage
 "Bone Voyage"	"Bone Voyage"	bonevoyage
 Boner	Boner	boner
 "Boner Records"	Boner	boner
-"Bonfa's Productions"	Bonfas	bonfas
+"Bonfa's Productions"	Bonfa's	bonfas
 "BonFire Records"	BonFire	bonfire
 "Bong Load"	"Bong Load"	bongload
 "Bong Load Custom"	"Bong Load Custom"	bongloadcustom
@@ -7301,7 +7301,7 @@ boxedldn	boxedldn	boxedldn
 "Boy Toy Inc"	"Boy Toy"	boytoy
 "Boy Toy Inc., Live Nation Worldwide, Interscope"	"Boy Toy Inc Live Nation Worldwide Interscope"	boytoyinclivenationworldwideinterscope
 "Boy Toy, Inc."	"Boy Toy"	boytoy
-"Boy's Don't Cry"	"Boys Dont Cry"	boysdontcry
+"Boy's Don't Cry"	"Boy's Don't Cry"	boysdontcry
 Boyd	Boyd	boyd
 "Boyfriend Island"	"Boyfriend Island"	boyfriendisland
 Boyhood	Boyhood	boyhood
@@ -7311,13 +7311,13 @@ Boyish	Boyish	boyish
 boylife	boylife	boylife
 "Boys & Girls"	"Boys & Girls"	boysgirls
 "Boys Age"	"Boys Age"	boysage
-"Boys Don't Cry"	"Boys Dont Cry"	boysdontcry
-"Boys Don't Cry / Def Jam"	"Boys Dont Cry / Def Jam"	boysdontcrydefjam
-"Boys Don't Cry, Universal Music Publishing"	"Boys Dont Cry Universal"	boysdontcryuniversal
-"Boys Don't Cry/ Def Jam"	"Boys Dont Cry/ Def Jam"	boysdontcrydefjam
-"Boys Don't Cry/Def Jam"	"Boys Dont Cry/Def Jam"	boysdontcrydefjam
-"Boys Don't Cry/DefJam"	"Boys Dont Cry/DefJam"	boysdontcrydefjam
-"Boys Don’t Cry"	"Boys Don’t Cry"	boysdontcry
+"Boys Don't Cry"	"Boys Don't Cry"	boysdontcry
+"Boys Don't Cry / Def Jam"	"Boys Don't Cry / Def Jam"	boysdontcrydefjam
+"Boys Don't Cry, Universal Music Publishing"	"Boys Don't Cry Universal"	boysdontcryuniversal
+"Boys Don't Cry/ Def Jam"	"Boys Don't Cry/ Def Jam"	boysdontcrydefjam
+"Boys Don't Cry/Def Jam"	"Boys Don't Cry/Def Jam"	boysdontcrydefjam
+"Boys Don't Cry/DefJam"	"Boys Don't Cry/DefJam"	boysdontcrydefjam
+"Boys Don’t Cry"	"Boys Don't Cry"	boysdontcry
 "boys dont cry"	"boys dont cry"	boysdontcry
 "Boys next Door"	"Boys next Door"	boysnextdoor
 "Boys Noize"	"Boys Noize"	boysnoize
@@ -7343,7 +7343,7 @@ BR-Klassik	BR-Klassik	brklassik
 "brace yourself records"	"brace yourself"	braceyourself
 Bractune	Bractune	bractune
 "Brad Grammar"	"Brad Grammar"	bradgrammar
-"Brad's Workshop"	"Brads Workshop"	bradsworkshop
+"Brad's Workshop"	"Brad's Workshop"	bradsworkshop
 "Braddock Hit Factory"	"Braddock Hit Factory"	braddockhitfactory
 Braeburn	Braeburn	braeburn
 Brah	Brah	brah
@@ -7368,7 +7368,7 @@ Brainfeeder	Brainfeeder	brainfeeder
 "Brainfeeder (2020)"	Brainfeeder	brainfeeder
 "Brainfeeder Records"	Brainfeeder	brainfeeder
 "Brainfeeder Records)"	Brainfeeder	brainfeeder
-"Brainfeeder, Just Isn’t Music"	"Brainfeeder Just Isn’t"	brainfeederjustisnt
+"Brainfeeder, Just Isn’t Music"	"Brainfeeder Just Isn't"	brainfeederjustisnt
 Brainfeeder)	Brainfeeder	brainfeeder
 Brainfeeer	Brainfeeer	brainfeeer
 Braingum	Braingum	braingum
@@ -7413,7 +7413,7 @@ Brawl	Brawl	brawl
 "Brazilian Girls under license to Siz Degrees Records"	"Siz Degrees"	sizdegrees
 "Brazilian House Grooves"	"Brazilian House Grooves"	brazilianhousegrooves
 "Bread Winners Association"	"Bread Winners Association"	breadwinnersassociation
-"Bread Winners' Association"	"Bread Winners Association"	breadwinnersassociation
+"Bread Winners' Association"	"Bread Winners' Association"	breadwinnersassociation
 "Breadwinna GDawg"	"Breadwinna GDawg"	breadwinnagdawg
 "Break All Records, Freedom Sounds"	"Break All Records Freedom Sounds"	breakallrecordsfreedomsounds
 "Break Glass"	"Break Glass"	breakglass
@@ -7839,9 +7839,9 @@ Buzz	Buzz	buzz
 "Buzz Records / Partisan Records"	"Buzz Records / Partisan"	buzzrecordspartisan
 "Buzz/Kanine/Memphis Industries"	"Buzz/Kanine/Memphis Industries"	buzzkaninememphisindustries
 "Buzzed Tree"	"Buzzed Tree"	buzzedtree
-"Buzzin' Fly"	"Buzzin Fly"	buzzinfly
-"Buzzin' Fly Records"	"Buzzin Fly"	buzzinfly
-"Buzzing' Fly"	"Buzzing Fly"	buzzingfly
+"Buzzin' Fly"	"Buzzin' Fly"	buzzinfly
+"Buzzin' Fly Records"	"Buzzin' Fly"	buzzinfly
+"Buzzing' Fly"	"Buzzing' Fly"	buzzingfly
 Buzzworl	Buzzworl	buzzworl
 "Buzzy Point)"	"Buzzy Point"	buzzypoint
 BuzzyPoint	BuzzyPoint	buzzypoint
@@ -7882,9 +7882,9 @@ C.o.m.b.i.	Combi	combi
 "C.P. Record"	"CP Record"	cprecord
 "C.R. Digital Contents"	"CR Digital Contents"	crdigitalcontents
 "C.W. Stoneking"	"CW Stoneking"	cwstoneking
-"C'est la Mort"	"Cest la Mort"	cestlamort
-"C'est La Morte"	"Cest La Morte"	cestlamorte
-"c'mon let's drift"	"cmon lets drift"	cmonletsdrift
+"C'est la Mort"	"C'est la Mort"	cestlamort
+"C'est La Morte"	"C'est La Morte"	cestlamorte
+"c'mon let's drift"	"c'mon let's drift"	cmonletsdrift
 "c/p Cass."	"c/p Cass"	cpcass
 C/Z	C/Z	cz
 "C/Z (1992)"	C/Z	cz
@@ -8013,9 +8013,9 @@ Campilongo	Campilongo	campilongo
 "Campo Artists"	"Campo Artists"	campoartists
 Can	Can	can
 "Can You Feel The Sun"	"Can You Feel The Sun"	canyoufeelsun
-"can't mistake that voice"	"cant mistake that voice"	cantmistakethatvoice
-"Can't Stop Productions"	"Cant Stop"	cantstop
-"Can't Stop Productions Inc."	"Cant Stop"	cantstop
+"can't mistake that voice"	"can't mistake that voice"	cantmistakethatvoice
+"Can't Stop Productions"	"Can't Stop"	cantstop
+"Can't Stop Productions Inc."	"Can't Stop"	cantstop
 CANADA	CANADA	canada
 "Canada Editorial"	"Canada Editorial"	canadaeditorial
 "Canada Quality Records"	"Canada Quality"	canadaquality
@@ -8117,7 +8117,7 @@ Capitol	Capitol	capitol
 "Capitol, Roswell"	"Capitol Roswell"	capitolroswell
 "Capitol, Roswell Records"	"Capitol Roswell"	capitolroswell
 "Capitol, UMG"	"Capitol UMG"	capitolumg
-"Capitol/Beggar's Banquet"	"Capitol/Beggars Banquet"	capitolbeggarsbanquet
+"Capitol/Beggar's Banquet"	"Capitol/Beggar's Banquet"	capitolbeggarsbanquet
 Capitol/EMI	Capitol/EMI	capitolemi
 "Capitol/Grand Royal"	"Capitol/Grand Royal"	capitolgrandroyal
 "Capitol/Grand Royal (1998)"	"Capitol/Grand Royal"	capitolgrandroyal
@@ -8134,7 +8134,7 @@ Capricorn	Capricorn	capricorn
 CAPSOUL	CAPSOUL	capsoul
 "captain beef heart records"	"captain beef heart"	captainbeefheart
 "Captain Records"	Captain	captain
-"Captain's Records"	Captains	captains
+"Captain's Records"	Captain's	captains
 "captains of industry"	"captains of industry"	captainsofindustry
 Captcha	Captcha	captcha
 "captcha records"	captcha	captcha
@@ -8354,7 +8354,7 @@ Cat	Cat	cat
 "Cat Records"	Cat	cat
 "Cat Shit Records"	"Cat Shit"	catshit
 "Cat Werk Imprint"	"Cat Werk Imprint"	catwerkimprint
-"Cat's Eyes"	"Cats Eyes"	catseyes
+"Cat's Eyes"	"Cat's Eyes"	catseyes
 "Catalytic Sound"	"Catalytic Sound"	catalyticsound
 Catapult	Catapult	catapult
 Catawba	Catawba	catawba
@@ -8522,8 +8522,8 @@ Chacra	Chacra	chacra
 "Chained Library"	"Chained Library"	chainedlibrary
 Chainsaw	Chainsaw	chainsaw
 "Chainsaw Records"	Chainsaw	chainsaw
-Chairkicker's	Chairkickers	chairkickers
-"Chairkicker's Music"	Chairkickers	chairkickers
+Chairkicker's	Chairkicker's	chairkickers
+"Chairkicker's Music"	Chairkicker's	chairkickers
 "Chairkickers Union"	"Chairkickers Union"	chairkickersunion
 "Chairkickers' Music"	Chairkickers	chairkickers
 "Chakeiya Records"	Chakeiya	chakeiya
@@ -8608,7 +8608,7 @@ Charley	Charley	charley
 "Charley Acquisition lcd"	"Charley Acquisition lcd"	charleyacquisitionlcd
 Charlie	Charlie	charlie
 "charlie hunter"	"charlie hunter"	charliehunter
-"Charlie's Records"	Charlies	charlies
+"Charlie's Records"	Charlie's	charlies
 "Charlotte Day Wilson"	"Charlotte Day Wilson"	charlottedaywilson
 Charly	Charly	charly
 "Charly Acquisitions"	"Charly Acquisitions"	charlyacquisitions
@@ -8641,7 +8641,7 @@ Chatterbot	Chatterbot	chatterbot
 "Chatterbox Records"	Chatterbox	chatterbox
 "Chayn-Reaction Productions"	Chayn-Reaction	chaynreaction
 "Chaz Bundick"	"Chaz Bundick"	chazbundick
-"chaz bundick's company records "	"chaz bundicks company"	chazbundickscompany
+"chaz bundick's company records "	"chaz bundick's company"	chazbundickscompany
 "Cheap Lullaby"	"Cheap Lullaby"	cheaplullaby
 "Cheap Records"	Cheap	cheap
 "Cheap Thrills"	"Cheap Thrills"	cheapthrills
@@ -8795,7 +8795,7 @@ Chiswick	Chiswick	chiswick
 Chiverin	Chiverin	chiverin
 "Chives Viria"	"Chives Viria"	chivesviria
 Chiwax	Chiwax	chiwax
-"Chiya and my songs  "	"Chiya and my songs  "	chiyamysongs
+"Chiya and my songs  "	"Chiya and my songs"	chiyamysongs
 "Chocadog Records"	Chocadog	chocadog
 Choclaty	Choclaty	choclaty
 "choco dog records"	"choco dog"	chocodog
@@ -8821,7 +8821,7 @@ Choke	Choke	choke
 "choo choo train"	"choo choo train"	choochootrain
 "Choo Choo Train Records"	"Choo Choo Train"	choochootrain
 Chookie	Chookie	chookie
-"Choop's Tunez"	"Choops Tunez"	choopstunez
+"Choop's Tunez"	"Choop's Tunez"	choopstunez
 "Chop Haus Records"	"Chop Haus"	chophaus
 "Chop House Records"	"Chop House"	chophouse
 "Chop Shop / Island Records"	"Chop Shop / Island"	chopshopisland
@@ -8946,11 +8946,11 @@ Cinquefoil	Cinquefoil	cinquefoil
 "Cintas Pepe"	"Cintas Pepe"	cintaspepe
 Cinvox	Cinvox	cinvox
 Circa	Circa	circa
-"Circa '99/ Last Gang Records Inc."	"Circa 99/ Last Gang"	circa99lastgang
+"Circa '99/ Last Gang Records Inc."	"Circa '99/ Last Gang"	circa99lastgang
 "Circa 13 / Def Jam"	"Circa 13 / Def Jam"	circa13defjam
 "Circa Records"	Circa	circa
 "CIRCA TRAX"	"CIRCA TRAX"	circatrax
-"Circa' 99 / eOne Music UK"	"Circa 99 / eOne Music UK"	circa99eonemusicuk
+"Circa' 99 / eOne Music UK"	"Circa' 99 / eOne Music UK"	circa99eonemusicuk
 Circa/Virgin	Circa/Virgin	circavirgin
 "Circadian Rhythms"	"Circadian Rhythms"	circadianrhythms
 Circle	Circle	circle
@@ -8978,7 +8978,7 @@ Citizen	Citizen	citizen
 "Citizen/Alternate Side"	"Citizen/Alternate Side"	citizenalternateside
 "Citizens Loft"	"Citizens Loft"	citizensloft
 "Citizens Of Vice"	"Citizens Of Vice"	citizensofvice
-"Citizens' Loft"	"Citizens Loft"	citizensloft
+"Citizens' Loft"	"Citizens' Loft"	citizensloft
 "Citrus Ci"	"Citrus Ci"	citrusci
 "Citrus City"	"Citrus City"	citruscity
 "Citrus City 2017"	"Citrus City"	citruscity
@@ -9260,8 +9260,8 @@ Cobraside	Cobraside	cobraside
 "Cobraside Distribution"	"Cobraside Distribution"	cobrasidedistribution
 "Cochlea Music"	Cochlea	cochlea
 "Cochon Records"	Cochon	cochon
-"CockTail d'Amore Music"	"CockTail dAmore"	cocktaildamore
-"Cocktail d'Amore x Muting The Noise"	"Cocktail dAmore x Muting The Noise"	cocktaildamorexmutingnoise
+"CockTail d'Amore Music"	"CockTail d'Amore"	cocktaildamore
+"Cocktail d'Amore x Muting The Noise"	"Cocktail d'Amore x Muting The Noise"	cocktaildamorexmutingnoise
 "Coco Records"	Coco	coco
 "Coco Time"	"Coco Time"	cocotime
 "coco time music"	"coco time"	cocotime
@@ -9360,8 +9360,8 @@ Collectables	Collectables	collectables
 "Collective Jyrk"	"Collective Jyrk"	collectivejyrk
 "Collective Resonance"	"Collective Resonance"	collectiveresonance
 "Collective Rhythm Network"	"Collective Rhythm Network"	collectiverhythmnetwork
-"Collector's Choice"	"Collectors Choice"	collectorschoice
-"Collector's Choice Music"	"Collectors Choice"	collectorschoice
+"Collector's Choice"	"Collector's Choice"	collectorschoice
+"Collector's Choice Music"	"Collector's Choice"	collectorschoice
 Colleen	Colleen	colleen
 "College Music"	College	college
 "College Music Journal"	"College Music Journal"	collegemusicjournal
@@ -9625,7 +9625,7 @@ Confetti	Confetti	confetti
 "Confetti Records"	Confetti	confetti
 "Conflict Records"	Conflict	conflict
 Conforce	Conforce	conforce
-"Confuse Records ‎"	"Confuse Records ‎"	confuserecords
+"Confuse Records ‎"	Confuse	confuse
 "confuso editions"	"confuso editions"	confusoeditions
 "Cong Burn"	"Cong Burn"	congburn
 "Congo Natty"	"Congo Natty"	congonatty
@@ -9731,7 +9731,7 @@ Cool	Cool	cool
 "Cool World"	"Cool World"	coolworld
 "Cool World Records"	"Cool World"	coolworld
 "Cool, Nice."	"Cool Nice"	coolnice
-"Coolin' By Sound"	"Coolin By Sound"	coolinbysound
+"Coolin' By Sound"	"Coolin' By Sound"	coolinbysound
 CoolNote	CoolNote	coolnote
 "Coolranch Records"	Coolranch	coolranch
 Cooltempo	Cooltempo	cooltempo
@@ -9771,7 +9771,7 @@ CoraSon	CoraSon	corason
 "Cordelia Records"	Cordelia	cordelia
 "Cordova Records"	Cordova	cordova
 "Corey Crellin"	"Corey Crellin"	coreycrellin
-"Corinthian Records ‎"	"Corinthian Records ‎"	corinthianrecords
+"Corinthian Records ‎"	Corinthian	corinthian
 Corite	Corite	corite
 Corleone	Corleone	corleone
 "Corleone Records"	Corleone	corleone
@@ -9829,7 +9829,7 @@ Cosmica	Cosmica	cosmica
 "Cosmica Records/Intolerancia Records"	"Cosmica Records/Intolerancia"	cosmicarecordsintolerancia
 "CosmicSkies BMI"	"CosmicSkies BMI"	cosmicskiesbmi
 "Cosmo Rhythmatic"	"Cosmo Rhythmatic"	cosmorhythmatic
-"Cosmo's Midnight"	"Cosmos Midnight"	cosmosmidnight
+"Cosmo's Midnight"	"Cosmo's Midnight"	cosmosmidnight
 "Cosmonaut Music"	Cosmonaut	cosmonaut
 "Cosmonaut Records"	Cosmonaut	cosmonaut
 Cosmonostro	Cosmonostro	cosmonostro
@@ -9889,7 +9889,7 @@ Country	Country	country
 "Country Routes"	"Country Routes"	countryroutes
 "Country Teasers"	"Country Teasers"	countryteasers
 County	County	county
-"Coup d'État"	"Coup dÉtat"	coupdetat
+"Coup d'État"	"Coup d'État"	coupdetat
 "Couple Skate"	"Couple Skate"	coupleskate
 "Couple Skate Records"	"Couple Skate"	coupleskate
 "Courage Holdings"	"Courage Holdings"	courageholdings
@@ -10104,7 +10104,7 @@ Crown	Crown	crown
 "Crown Ruler Records"	"Crown Ruler"	crownruler
 "Crowned LLC & 300 Entertainment"	"Crowned LLC & 300"	crownedllc300
 CRS	CRS	crs
-"CRSSD Festival '15"	"CRSSD Festival 15"	crssdfestival15
+"CRSSD Festival '15"	"CRSSD Festival '15"	crssdfestival15
 crucast	crucast	crucast
 "Crucial Blast"	"Crucial Blast"	crucialblast
 "Crude Chapter"	"Crude Chapter"	crudechapter
@@ -10342,7 +10342,7 @@ D.O.C.	DOC	doc
 "D.O.T.S/Zack Fox LLC"	"DOTS/Zack Fox"	dotszackfox
 "D.R. Records"	DR	dr
 "D.U. Records"	DU	du
-D'EAUPE	DEAUPE	deaupe
+D'EAUPE	D'EAUPE	deaupe
 D&D	D&D	dd
 "D1 Entertainment"	D1	d1
 "D12 Loud"	"D12 Loud"	d12loud
@@ -10428,7 +10428,7 @@ Damper	Damper	damper
 "Damu The Fudgemunk"	"Damu The Fudgemunk"	damufudgemunk
 "Dan Burns"	"Dan Burns"	danburns
 "Dan Carew"	"Dan Carew"	dancarew
-"Dan D'Lion "	"Dan DLion"	dandlion
+"Dan D'Lion "	"Dan D'Lion"	dandlion
 "Dan Edmonds"	"Dan Edmonds"	danedmonds
 "dan lissvik"	"dan lissvik"	danlissvik
 "Dan Snaith"	"Dan Snaith"	dansnaith
@@ -10761,7 +10761,7 @@ De-Lite	De-Lite	delite
 "Dead Oceans, Sony"	"Dead Oceans Sony"	deadoceanssony
 "Dead Oceans/Colemine"	"Dead Oceans/Colemine"	deadoceanscolemine
 "Dead Oeans"	"Dead Oeans"	deadoeans
-"Dead People's Choice"	"Dead Peoples Choice"	deadpeopleschoice
+"Dead People's Choice"	"Dead People's Choice"	deadpeopleschoice
 "Dead Pigeon Records"	"Dead Pigeon"	deadpigeon
 "Dead Rabbits"	"Dead Rabbits"	deadrabbits
 "Dead Sea Recordings"	"Dead Sea"	deadsea
@@ -10984,7 +10984,7 @@ Deezer	Deezer	deezer
 "Def Jam"	"Def Jam"	defjam
 "Def Jam (1990)"	"Def Jam"	defjam
 "Def Jam (2012)"	"Def Jam"	defjam
-"def jam / boys don't cry"	"def jam / boys dont cry"	defjamboysdontcry
+"def jam / boys don't cry"	"def jam / boys don't cry"	defjamboysdontcry
 "Def Jam Columbia"	"Def Jam Columbia"	defjamcolumbia
 "Def Jam Music Group"	"Def Jam"	defjam
 "Def Jam Recording"	"Def Jam Recording"	defjamrecording
@@ -11148,10 +11148,10 @@ Denovali	Denovali	denovali
 "Denovali Records"	Denovali	denovali
 "Dense Noire"	"Dense Noire"	densenoire
 "Dense Truth"	"Dense Truth"	densetruth
-"Dent'all Records"	Dentall	dentall
+"Dent'all Records"	Dent'all	dentall
 "Dentall Records"	Dentall	dentall
 "Deon Custom"	"Deon Custom"	deoncustom
-DEP‎	DEP‎	dep
+DEP‎	DEP	dep
 "DEP International"	DEP	dep
 "Dep Records"	Dep	dep
 DEP_Egrem	DEP_Egrem	depegrem
@@ -11242,7 +11242,7 @@ Devaloop	Devaloop	devaloop
 Deviation	Deviation	deviation
 "Deviation Music"	Deviation	deviation
 "Devil In The Woods"	"Devil In The Woods"	devilinwoods
-"devil's inn"	"devils inn"	devilsinn
+"devil's inn"	"devil's inn"	devilsinn
 DevilDuck	DevilDuck	devilduck
 Deville	Deville	deville
 "devils partner"	"devils partner"	devilspartner
@@ -11415,7 +11415,7 @@ DikembeDudes	DikembeDudes	dikembedudes
 Diktator	Diktator	diktator
 "Diktator Records"	Diktator	diktator
 "Dill Records"	Dill	dill
-"Dilla's Girls"	"Dillas Girls"	dillasgirls
+"Dilla's Girls"	"Dilla's Girls"	dillasgirls
 "Dilligence Records"	Dilligence	dilligence
 "Dillusions of Grandeur"	"Dillusions of Grandeur"	dillusionsofgrandeur
 "Dim Mak"	"Dim Mak"	dimmak
@@ -11467,7 +11467,7 @@ Dionysus	Dionysus	dionysus
 "Direct Holdings Americana"	"Direct Holdings Americana"	directholdingsamericana
 "Direct Records"	Direct	direct
 Direction	Direction	direction
-"Director's Notes"	"Directors Notes"	directorsnotes
+"Director's Notes"	"Director's Notes"	directorsnotes
 DIRIDIM	DIRIDIM	diridim
 dirt	dirt	dirt
 "Dirt Crew"	"Dirt Crew"	dirtcrew
@@ -11549,16 +11549,16 @@ Disa	Disa	disa
 "Disc AZ (1977)"	"Disc AZ"	discaz
 "Disc Jockey"	"Disc Jockey"	discjockey
 "Disc Jockey Records"	"Disc Jockey"	discjockey
-"Disc' AZ International"	"Disc AZ"	discaz
-Disc'AZ	DiscAZ	discaz
-"Disc'Az (1967)"	DiscAz	discaz
+"Disc' AZ International"	"Disc' AZ"	discaz
+Disc'AZ	Disc'AZ	discaz
+"Disc'Az (1967)"	Disc'Az	discaz
 Discau	Discau	discau
 Dischi	Dischi	dischi
 "Dischi Autunno"	"Dischi Autunno"	dischiautunno
 "Dischi Numero Uno"	"Dischi Numero Uno"	dischinumerouno
 "Dischi Ricordi"	"Dischi Ricordi"	dischiricordi
 Dischord	Dischord	dischord
-"Dischord ('81/1991)"	"Dischord 81/1991"	dischord811991
+"Dischord ('81/1991)"	"Dischord '81/1991"	dischord811991
 "Dischord (1987)"	Dischord	dischord
 "Dischord (1991)"	Dischord	dischord
 "Dischord (1995)"	Dischord	dischord
@@ -11710,7 +11710,7 @@ Disneyland	Disneyland	disneyland
 "Disques Black and Blue"	"Disques Black and Blue"	disquesblackblue
 "Disques Cinémusique"	"Disques Cinémusique"	disquescinemusique
 "disques corde"	"disques corde"	disquescorde
-"Disques d'Honore"	"Disques dHonore"	disquesdhonore
+"Disques d'Honore"	"Disques d'Honore"	disquesdhonore
 "Disques Dreyfus"	"Disques Dreyfus"	disquesdreyfus
 "Disques Du Crépuscule"	"Disques Du Crépuscule"	disquesducrepuscule
 "Disques Esperance"	"Disques Esperance"	disquesesperance
@@ -11740,8 +11740,8 @@ Distiller	Distiller	distiller
 "Distiller Records"	Distiller	distiller
 "distiller records LLP"	"distiller records LLP"	distillerrecordsllp
 "distiller records ltd"	distiller	distiller
-"Distinct'ive Breaks"	"Distinctive Breaks"	distinctivebreaks
-"Distinct'ive Records"	Distinctive	distinctive
+"Distinct'ive Breaks"	"Distinct'ive Breaks"	distinctivebreaks
+"Distinct'ive Records"	Distinct'ive	distinctive
 "Distinction Music Management"	"Distinction Music Management"	distinctionmusicmanagement
 Distort	Distort	distort
 "Distort Reality"	"Distort Reality"	distortreality
@@ -11919,7 +11919,7 @@ doddleoddle	doddleoddle	doddleoddle
 "Dog Knight Productions"	"Dog Knight"	dogknight
 "Dog Knights"	"Dog Knights"	dogknights
 "Dog Knights Productions"	"Dog Knights"	dogknights
-"Dog N’ Roll"	"Dog N’ Roll"	dognroll
+"Dog N’ Roll"	"Dog N' Roll"	dognroll
 "Dog Party"	"Dog Party"	dogparty
 "Dog Show"	"Dog Show"	dogshow
 "Dog Show Records"	"Dog Show"	dogshow
@@ -11932,11 +11932,11 @@ doddleoddle	doddleoddle	doddleoddle
 "Dog Triumph Ltd."	"Dog Triumph"	dogtriumph
 "dog triumph/cherry tree/interscope"	"dog triumph/cherry tree/interscope"	dogtriumphcherrytreeinterscope
 "Dog Vomit Records"	"Dog Vomit"	dogvomit
-"Dog's Table"	"Dogs Table"	dogstable
-"Dog's Table 2019"	"Dogs Table"	dogstable
-"Dog's Table Records"	"Dogs Table"	dogstable
+"Dog's Table"	"Dog's Table"	dogstable
+"Dog's Table 2019"	"Dog's Table"	dogstable
+"Dog's Table Records"	"Dog's Table"	dogstable
 dogbite	dogbite	dogbite
-"Dogday / Cue's Records"	"Dogday / Cues"	dogdaycues
+"Dogday / Cue's Records"	"Dogday / Cue's"	dogdaycues
 "Dogday records"	Dogday	dogday
 dogfood	dogfood	dogfood
 "Dogfood Music Group"	Dogfood	dogfood
@@ -12066,29 +12066,29 @@ Domo	Domo	domo
 "Don Henley"	"Don Henley"	donhenley
 "Don Pierson"	"Don Pierson"	donpierson
 "Don-Giovani Records"	Don-Giovani	dongiovani
-Don't	Dont	dont
-"Don't Be Afraid"	"Dont Be Afraid"	dontbeafraid
-"Don't Be Afraid 2017"	"Dont Be Afraid"	dontbeafraid
-"Don't Be Afraid Recordings"	"Dont Be Afraid"	dontbeafraid
-"Don't care"	"Dont care"	dontcare
-"Don't Drive Like Me Records"	"Dont Drive Like Me"	dontdrivelikeme
-"Don't Drone Alone"	"Dont Drone Alone"	dontdronealone
-"Don't Fade Away"	"Dont Fade Away"	dontfadeaway
-"Don't Fall Off The Mountain"	"Dont Fall Off The Mountain"	dontfalloffmountain
-"Don't Get It Twisted"	"Dont Get It Twisted"	dontgetittwisted
-"Don't Give Up Productions ‎"	"Dont Give Up Productions ‎"	dontgiveupproductions
-"don't grow up too soon"	"dont grow up too soon"	dontgrowuptoosoon
-"Don't Guess"	"Dont Guess"	dontguess
-"Don't Guess Inc"	"Dont Guess"	dontguess
-"don't know"	"dont know"	dontknow
-"don't know-but pretty cool name huh"	"dont know-but pretty cool name huh"	dontknowbutprettycoolnamehuh
-"Don't Live Like Me"	"Dont Live Like Me"	dontlivelikeme
-"Don't Look Down"	"Dont Look Down"	dontlookdown
-"Don't Sleep"	"Dont Sleep"	dontsleep
-"Don't Sleep Records"	"Dont Sleep"	dontsleep
-"Don't Stop Believin' Records"	"Dont Stop Believin"	dontstopbelievin
-"Don’t Be Afraid"	"Don’t Be Afraid"	dontbeafraid
-"Don’t Be Afraid)"	"Don’t Be Afraid"	dontbeafraid
+Don't	Don't	dont
+"Don't Be Afraid"	"Don't Be Afraid"	dontbeafraid
+"Don't Be Afraid 2017"	"Don't Be Afraid"	dontbeafraid
+"Don't Be Afraid Recordings"	"Don't Be Afraid"	dontbeafraid
+"Don't care"	"Don't care"	dontcare
+"Don't Drive Like Me Records"	"Don't Drive Like Me"	dontdrivelikeme
+"Don't Drone Alone"	"Don't Drone Alone"	dontdronealone
+"Don't Fade Away"	"Don't Fade Away"	dontfadeaway
+"Don't Fall Off The Mountain"	"Don't Fall Off The Mountain"	dontfalloffmountain
+"Don't Get It Twisted"	"Don't Get It Twisted"	dontgetittwisted
+"Don't Give Up Productions ‎"	"Don't Give Up"	dontgiveup
+"don't grow up too soon"	"don't grow up too soon"	dontgrowuptoosoon
+"Don't Guess"	"Don't Guess"	dontguess
+"Don't Guess Inc"	"Don't Guess"	dontguess
+"don't know"	"don't know"	dontknow
+"don't know-but pretty cool name huh"	"don't know-but pretty cool name huh"	dontknowbutprettycoolnamehuh
+"Don't Live Like Me"	"Don't Live Like Me"	dontlivelikeme
+"Don't Look Down"	"Don't Look Down"	dontlookdown
+"Don't Sleep"	"Don't Sleep"	dontsleep
+"Don't Sleep Records"	"Don't Sleep"	dontsleep
+"Don't Stop Believin' Records"	"Don't Stop Believin"	dontstopbelievin
+"Don’t Be Afraid"	"Don't Be Afraid"	dontbeafraid
+"Don’t Be Afraid)"	"Don't Be Afraid"	dontbeafraid
 DonCat	DonCat	doncat
 "Done Deal / Evaclear Music"	"Done Deal / Evaclear"	donedealevaclear
 "Done Giovanni"	"Done Giovanni"	donegiovanni
@@ -12309,9 +12309,9 @@ Dragcity	Dragcity	dragcity
 Dragon	Dragon	dragon
 "dragon noise"	"dragon noise"	dragonnoise
 dragon!	dragon!	dragon
-"Dragon's Eye"	"Dragons Eye"	dragonseye
-"Dragon's Eye / Recorded Fields"	"Dragons Eye / Recorded Fields"	dragonseyerecordedfields
-"Dragon's Eye Recordings"	"Dragons Eye"	dragonseye
+"Dragon's Eye"	"Dragon's Eye"	dragonseye
+"Dragon's Eye / Recorded Fields"	"Dragon's Eye / Recorded Fields"	dragonseyerecordedfields
+"Dragon's Eye Recordings"	"Dragon's Eye"	dragonseye
 Dragonette	Dragonette	dragonette
 dragora/cosmica	dragora/cosmica	dragoracosmica
 Drake	Drake	drake
@@ -12373,7 +12373,7 @@ Dreamville	Dreamville	dreamville
 Dreamville/Interscope	Dreamville/Interscope	dreamvilleinterscope
 "Dreamville/Interscope Records"	Dreamville/Interscope	dreamvilleinterscope
 "Dreamville/Interscope Reocrds"	"Dreamville/Interscope Reocrds"	dreamvilleinterscopereocrds
-Dreamwork's/Geffen	Dreamworks/Geffen	dreamworksgeffen
+Dreamwork's/Geffen	Dreamwork's/Geffen	dreamworksgeffen
 Dreamworks	Dreamworks	dreamworks
 "Dreamworks Animation"	"Dreamworks Animation"	dreamworksanimation
 "Dreamworks Animation LLC"	"Dreamworks Animation"	dreamworksanimation
@@ -12391,7 +12391,7 @@ Dreamzone	Dreamzone	dreamzone
 "Drew Howard & Birthday Boy"	"Drew Howard & Birthday Boy"	drewhowardbirthdayboy
 "Drew Weaver"	"Drew Weaver"	drewweaver
 Drew-Blan	Drew-Blan	drewblan
-"Drew's Entertainment"	Drews	drews
+"Drew's Entertainment"	Drew's	drews
 "Drex Carter"	"Drex Carter"	drexcarter
 Dreyfus	Dreyfus	dreyfus
 "Dreyfus Jazz"	"Dreyfus Jazz"	dreyfusjazz
@@ -12526,7 +12526,7 @@ Duck	Duck	duck
 "Dudbridge Garage International"	"Dudbridge Garage"	dudbridgegarage
 "dude is not making any friends right now......"	"dude is not making any friends right now"	dudeisnotmakinganyfriendsrightnow
 "Dude Records"	Dude	dude
-"Dude, It's Live"	"Dude Its Live"	dudeitslive
+"Dude, It's Live"	"Dude It's Live"	dudeitslive
 "Duel Disk"	"Duel Disk"	dueldisk
 "Duerco Mr. Bongo"	"Duerco Mr Bongo"	duercomrbongo
 "Duff Disco"	"Duff Disco"	duffdisco
@@ -12684,7 +12684,7 @@ E.G.	EG	eg
 "E.G. Phillips"	"EG Phillips"	egphillips
 "E.G. Records"	EG	eg
 "E.L.K. Records"	ELK	elk
-E'G	EG	eg
+E'G	E'G	eg
 "E/N 028"	"E/N 028"	en028
 "E/No 28"	"E/No 28"	eno28
 E&m	E&m	em
@@ -12828,7 +12828,7 @@ EB	EB	eb
 EBB	EBB	ebb
 EBeamz	EBeamz	ebeamz
 "Ebel Germany"	"Ebel Germany"	ebelgermany
-EBGB's	EBGBs	ebgbs
+EBGB's	EBGB's	ebgbs
 Ebirac	Ebirac	ebirac
 "EBK Hotboiiz / Thizzler On The Roof"	"EBK Hotboiiz / Thizzler On The Roof"	ebkhotboiizthizzleronroof
 "ebk-ink creative"	"ebk-ink creative"	ebkinkcreative
@@ -12902,7 +12902,7 @@ ED	ED	ed
 "Ed Banger Records"	"Ed Banger"	edbanger
 "Ed Banger Records u/l Because"	"Ed Banger Records u/l Because"	edbangerrecordsulbecause
 "Ed Banger Records under exclusive license to Because Music"	Because	because
-"Ed's Redeeming Qualities"	"Eds Redeeming Qualities"	edsredeemingqualities
+"Ed's Redeeming Qualities"	"Ed's Redeeming Qualities"	edsredeemingqualities
 "edamame records"	edamame	edamame
 "Edamame Records (2016)"	Edamame	edamame
 "edbl Recordings"	edbl	edbl
@@ -13293,7 +13293,7 @@ Em	Em	em
 "EM (2006)"	EM	em
 "EM (2020)"	EM	em
 "EM / Edition Omega Point"	"EM / Edition Omega Point"	emeditionomegapoint
-"EM Records ‎"	"EM Records ‎"	emrecords
+"EM Records ‎"	EM	em
 "EM Records / Edition Omega Point"	"EM Records / Edition Omega Point"	emrecordseditionomegapoint
 "Emanay Music"	Emanay	emanay
 EmArcy	EmArcy	emarcy
@@ -13312,7 +13312,7 @@ Emerald	Emerald	emerald
 "Emerald City"	"Emerald City"	emeraldcity
 "Emerald City Music"	"Emerald City"	emeraldcity
 "Emerald Coccoon"	"Emerald Coccoon"	emeraldcoccoon
-"Emerald Cocoon ‎"	"Emerald Cocoon ‎"	emeraldcocoon
+"Emerald Cocoon ‎"	"Emerald Cocoon"	emeraldcocoon
 "Emerald International Records"	"Emerald International"	emeraldinternational
 "Emerald Weapon"	"Emerald Weapon"	emeraldweapon
 Emergency	Emergency	emergency
@@ -13411,7 +13411,7 @@ Emissive	Emissive	emissive
 "Emma Java"	"Emma Java"	emmajava
 "Emma Winter"	"Emma Winter"	emmawinter
 "Emma Witmer"	"Emma Witmer"	emmawitmer
-"Emma's House"	"Emmas House"	emmashouse
+"Emma's House"	"Emma's House"	emmashouse
 "Emmanuel Top"	"Emmanuel Top"	emmanueltop
 "Emmanuel Top Editions"	"Emmanuel Top Editions"	emmanueltopeditions
 "Emmegi Records"	Emmegi	emmegi
@@ -13547,7 +13547,7 @@ Enjoyment	Enjoyment	enjoyment
 Enklav	Enklav	enklav
 enmossed	enmossed	enmossed
 Enny	Enny	enny
-"Enoch's Ascension"	"Enochs Ascension"	enochsascension
+"Enoch's Ascension"	"Enoch's Ascension"	enochsascension
 enolagay1916	enolagay1916	enolagay1916
 "Enormous Tunes"	"Enormous Tunes"	enormoustunes
 Enough	Enough	enough
@@ -13585,7 +13585,7 @@ Enterprise/Stax	Enterprise/Stax	enterprisestax
 Entertainment/Atlantic	Entertainment/Atlantic	entertainmentatlantic
 Entity	Entity	entity
 Entopia	Entopia	entopia
-Entr'acte	Entracte	entracte
+Entr'acte	Entr'acte	entracte
 Entracte	Entracte	entracte
 "entraplanetary koncepts"	"entraplanetary koncepts"	entraplanetarykoncepts
 Entreprise	Entreprise	entreprise
@@ -13597,7 +13597,7 @@ Environ	Environ	environ
 "Environ Records"	Environ	environ
 "EO Entertainment"	EO	eo
 "EO Entertainment & Pink Poetry"	"EO Entertainment & Pink Poetry"	eoentertainmentpinkpoetry
-"Eoin O'Callaghan"	"Eoin OCallaghan"	eoinocallaghan
+"Eoin O'Callaghan"	"Eoin O'Callaghan"	eoinocallaghan
 eOne	eOne	eone
 "eOne (2020)"	eOne	eone
 "Eone Canada"	"Eone Canada"	eonecanada
@@ -13687,7 +13687,7 @@ epm	epm	epm
 "EPM Music"	EPM	epm
 Epstein	Epstein	epstein
 "Epstein Records"	Epstein	epstein
-"EPU Records ‎"	"EPU Records ‎"	epurecords
+"EPU Records ‎"	EPU	epu
 EQT	EQT	eqt
 "EQT Recordings"	EQT	eqt
 "EQT Recordings, LLC"	EQT	eqt
@@ -14153,7 +14153,7 @@ Faces	Faces	faces
 "Faces 2010"	Faces	faces
 FACET	FACET	facet
 "Fact Records"	Fact	fact
-"Facteurs d'Ambiance"	"Facteurs dAmbiance"	facteursdambiance
+"Facteurs d'Ambiance"	"Facteurs d'Ambiance"	facteursdambiance
 "Faction Records"	Faction	faction
 "faction records ltd."	faction	faction
 Factory	Factory	factory
@@ -14511,7 +14511,7 @@ Feedelity	Feedelity	feedelity
 "Feel So Real"	"Feel So Real"	feelsoreal
 "Feel Trip"	"Feel Trip"	feeltrip
 "Feel Trip / Old Flame Records"	"Feel Trip / Old Flame"	feeltripoldflame
-"Feelin' Fellows"	"Feelin Fellows"	feelinfellows
+"Feelin' Fellows"	"Feelin' Fellows"	feelinfellows
 "Feelin' Music"	Feelin	feelin
 "Feeling Loudly"	"Feeling Loudly"	feelingloudly
 Feeltrip	Feeltrip	feeltrip
@@ -14552,7 +14552,7 @@ Felte	Felte	felte
 "FEMMEHOUSE / Animal Talk"	"FEMMEHOUSE / Animal Talk"	femmehouseanimaltalk
 "FEMMEHOUSE/ Animal Talk"	"FEMMEHOUSE/ Animal Talk"	femmehouseanimaltalk
 "Fence Records"	Fence	fence
-"fenou / Mo's Ferry Productions"	"fenou / Mos Ferry"	fenoumosferry
+"fenou / Mo's Ferry Productions"	"fenou / Mo's Ferry"	fenoumosferry
 Fenway	Fenway	fenway
 "Fenway Recordings"	Fenway	fenway
 "Feral Ward"	"Feral Ward"	feralward
@@ -14698,7 +14698,7 @@ finesse/empire	finesse/empire	finesseempire
 "Finest Ego"	"Finest Ego"	finestego
 "Finest Gramophone"	"Finest Gramophone"	finestgramophone
 Finger	Finger	finger
-"Finger Lickin’"	"Finger Lickin’"	fingerlickin
+"Finger Lickin’"	"Finger Lickin"	fingerlickin
 Fingerprint	Fingerprint	fingerprint
 Finnadar	Finnadar	finnadar
 "Finnadar Records"	Finnadar	finnadar
@@ -14814,7 +14814,7 @@ Flamante	Flamante	flamante
 Flamebait	Flamebait	flamebait
 flameguy	flameguy	flameguy
 Flameshovel	Flameshovel	flameshovel
-"Flamin' Hotz"	"Flamin Hotz"	flaminhotz
+"Flamin' Hotz"	"Flamin' Hotz"	flaminhotz
 "Flaming Banker"	"Flaming Banker"	flamingbanker
 "Flaming June Records"	"Flaming June"	flamingjune
 Flamingo	Flamingo	flamingo
@@ -14831,7 +14831,7 @@ Flashback	Flashback	flashback
 "Flashback / Rhino"	"Flashback / Rhino"	flashbackrhino
 "flat cap music"	"flat cap"	flatcap
 "Flat Field Records"	"Flat Field"	flatfield
-"Flat Langston's Arkeves"	"Flat Langstons Arkeves"	flatlangstonsarkeves
+"Flat Langston's Arkeves"	"Flat Langston's Arkeves"	flatlangstonsarkeves
 "flat planet"	"flat planet"	flatplanet
 "Flat White Records"	"Flat White"	flatwhite
 Flatspot	Flatspot	flatspot
@@ -14905,7 +14905,7 @@ FloEdCo	FloEdCo	floedco
 Flora	Flora	flora
 Florabelle	Florabelle	florabelle
 "Floridas Dying"	"Floridas Dying"	floridasdying
-"Floriday's Dying"	"Floridays Dying"	floridaysdying
+"Floriday's Dying"	"Floriday's Dying"	floridaysdying
 Florist	Florist	florist
 "Florists Transworld Delivery / Radio & TV Roundup Productions"	"Florists Transworld Delivery / Radio & TV Roundup"	floriststransworlddeliveryradiotvroundup
 "Flourish and Multiply"	"Flourish and Multiply"	flourishmultiply
@@ -15047,7 +15047,7 @@ Fonal	Fonal	fonal
 "Fonal Records"	Fonal	fonal
 "Fonarte Latino"	"Fonarte Latino"	fonartelatino
 "Fond Of Life Productions"	"Fond Of Life"	fondoflife
-"Fondle 'Em Records"	"Fondle Em"	fondleem
+"Fondle 'Em Records"	"Fondle 'Em"	fondleem
 "Fondle Em"	"Fondle Em"	fondleem
 "Fondle Em' "	"Fondle Em"	fondleem
 Fonit	Fonit	fonit
@@ -15071,10 +15071,10 @@ Food	Food	food
 "food fox"	"food fox"	foodfox
 "Food Music"	Food	food
 "Food Records"	Food	food
-"Fool's Gold"	"Fools Gold"	foolsgold
-"Fool's Gold Records"	"Fools Gold"	foolsgold
-"Fool’s Gold"	"Fool’s Gold"	foolsgold
-"Fool’s Gold Records"	"Fool’s Gold"	foolsgold
+"Fool's Gold"	"Fool's Gold"	foolsgold
+"Fool's Gold Records"	"Fool's Gold"	foolsgold
+"Fool’s Gold"	"Fool's Gold"	foolsgold
+"Fool’s Gold Records"	"Fool's Gold"	foolsgold
 "Foolica Records"	Foolica	foolica
 FOOLIE	FOOLIE	foolie
 "Fools Gold"	"Fools Gold"	foolsgold
@@ -15147,7 +15147,7 @@ Foreseen	Foreseen	foreseen
 "Forever Plagued Records"	"Forever Plagued"	foreverplagued
 "Forever Recordingas"	"Forever Recordingas"	foreverrecordingas
 "Forever Recordings"	Forever	forever
-"Forever Records ‎"	"Forever Records ‎"	foreverrecords
+"Forever Records ‎"	Forever	forever
 "Forever Situated"	"Forever Situated"	foreversituated
 "Forever The Family LLC"	"Forever The Family"	foreverfamily
 "Forever Yung"	"Forever Yung"	foreveryung
@@ -15324,7 +15324,7 @@ freaksville	freaksville	freaksville
 "Frederiksberg (1984/2020)"	Frederiksberg	frederiksberg
 "Frederiksberg Records"	Frederiksberg	frederiksberg
 "Frederiksberg Records (1984)"	Frederiksberg	frederiksberg
-"fredo disco's record label"	"fredo discos"	fredodiscos
+"fredo disco's record label"	"fredo disco's"	fredodiscos
 Free	Free	free
 "free 6lack"	"free 6lack"	free6lack
 "FREE AGENT"	"FREE AGENT"	freeagent
@@ -15520,7 +15520,7 @@ FTD	FTD	ftd
 "FTM Records"	FTM	ftm
 FTP	FTP	ftp
 FTP)	FTP	ftp
-"FU'Zzz Collective"	"FUZzz Collective"	fuzzzcollective
+"FU'Zzz Collective"	"FU'Zzz Collective"	fuzzzcollective
 "Fuck Off"	"Fuck Off"	fuckoff
 Fuckboy	Fuckboy	fuckboy
 "fuckin french"	"fuckin french"	fuckinfrench
@@ -15598,7 +15598,7 @@ Funhouse	Funhouse	funhouse
 "Funk na Caixa"	"Funk na Caixa"	funknacaixa
 "Funk Night Worldwide"	"Funk Night Worldwide"	funknightworldwide
 "Funk on Sight"	"Funk on Sight"	funkonsight
-"Funk To The Max ‎"	"Funk To The Max ‎"	funktomax
+"Funk To The Max ‎"	"Funk To The Max"	funktomax
 "Funk Turry Funk"	"Funk Turry Funk"	funkturryfunk
 Funkadelphia	Funkadelphia	funkadelphia
 "Funkadelphia Records"	Funkadelphia	funkadelphia
@@ -15831,7 +15831,7 @@ GAP	GAP	gap
 Gapaphone	Gapaphone	gapaphone
 Gaphals	Gaphals	gaphals
 "Gar Hole Records"	"Gar Hole"	garhole
-"Garage Beat '66"	"Garage Beat 66"	garagebeat66
+"Garage Beat '66"	"Garage Beat '66"	garagebeat66
 "Garage Girls"	"Garage Girls"	garagegirls
 "Garage Masters"	"Garage Masters"	garagemasters
 "Garage Records"	Garage	garage
@@ -15888,7 +15888,7 @@ gawk	gawk	gawk
 "Gay Community Social Services of Seattle"	"Gay Community Social Services of Seattle"	gaycommunitysocialservicesofseattle
 "Gay Community Social Services of Seattle, Inc"	"Gay Community Social Services of Seattle"	gaycommunitysocialservicesofseattle
 "Gaylord Party Music"	"Gaylord Party"	gaylordparty
-"Gaylord's Party Music"	"Gaylords Party"	gaylordsparty
+"Gaylord's Party Music"	"Gaylord's Party"	gaylordsparty
 "gaz coombes ltd"	"gaz coombes"	gazcoombes
 "gaz coombes ltd."	"gaz coombes"	gazcoombes
 "Gazelle Recordings"	Gazelle	gazelle
@@ -15923,7 +15923,7 @@ Gearhead	Gearhead	gearhead
 "GED Soul Records"	"GED Soul"	gedsoul
 "Gee Street"	"Gee Street"	geestreet
 "Gee Street (1994)"	"Gee Street"	geestreet
-"GeeBeeDee ‎"	"GeeBeeDee ‎"	geebeedee
+"GeeBeeDee ‎"	GeeBeeDee	geebeedee
 "Geej Recording Inc."	"Geej Recording"	geejrecording
 Geertruida	Geertruida	geertruida
 GeeStreet	GeeStreet	geestreet
@@ -15958,7 +15958,7 @@ Gema	Gema	gema
 GEMS	GEMS	gems
 "gen z"	"gen z"	genz
 "Gene Dunlap"	"Gene Dunlap"	genedunlap
-"Gene's Liquor"	"Genes Liquor"	genesliquor
+"Gene's Liquor"	"Gene's Liquor"	genesliquor
 Geneon	Geneon	geneon
 "General Purpose"	"General Purpose"	generalpurpose
 "General Roots"	"General Roots"	generalroots
@@ -15990,7 +15990,7 @@ Genius	Genius	genius
 "Gentle Reminder"	"Gentle Reminder"	gentlereminder
 "Gentle Threat"	"Gentle Threat"	gentlethreat
 "gentlereminderrecords.com + romanticstates.bandcamp.com"	"gentlereminderrecordscom + romanticstatesbandcampcom"	gentlereminderrecordscomromanticstatesbandcampcom
-"Gents & Dandy's"	"Gents & Dandys"	gentsdandys
+"Gents & Dandy's"	"Gents & Dandy's"	gentsdandys
 Geoffroy	Geoffroy	geoffroy
 Geographer	Geographer	geographer
 "Geographer Music"	Geographer	geographer
@@ -16125,7 +16125,7 @@ ghoo	ghoo	ghoo
 Ghosteen	Ghosteen	ghosteen
 "Ghosteen Ltd."	Ghosteen	ghosteen
 "Ghostface Killah"	"Ghostface Killah"	ghostfacekillah
-"Ghosthunter's Club"	"Ghosthunters Club"	ghosthuntersclub
+"Ghosthunter's Club"	"Ghosthunter's Club"	ghosthuntersclub
 Ghostlight	Ghostlight	ghostlight
 Ghostly	Ghostly	ghostly
 "Ghostly Internation"	"Ghostly Internation"	ghostlyinternation
@@ -16338,7 +16338,7 @@ GMBLS	GMBLS	gmbls
 GMN	GMN	gmn
 Gnar	Gnar	gnar
 "Gnar Tapes"	"Gnar Tapes"	gnartapes
-"Gnarled Forest ‎/ What We Do Is Secret"	"Gnarled Forest ‎/ What We Do Is Secret"	gnarledforestwhatwedoissecret
+"Gnarled Forest ‎/ What We Do Is Secret"	"Gnarled Forest / What We Do Is Secret"	gnarledforestwhatwedoissecret
 "Gnome Life"	"Gnome Life"	gnomelife
 "Gnome Life Records"	"Gnome Life"	gnomelife
 Gnomelife	Gnomelife	gnomelife
@@ -16393,7 +16393,7 @@ God	God	god
 "God Unknown"	"God Unknown"	godunknown
 God?	God?	god
 "God? Records"	God?	god
-"God's Ghetto"	"Gods Ghetto"	godsghetto
+"God's Ghetto"	"God's Ghetto"	godsghetto
 Godd	Godd	godd
 "Godd Complexx"	"Godd Complexx"	goddcomplexx
 GODDEZZ	GODDEZZ	goddezz
@@ -16439,7 +16439,7 @@ gofod	gofod	gofod
 "Gold Tapes"	"Gold Tapes"	goldtapes
 "Gold Tooth"	"Gold Tooth"	goldtooth
 "Gold Tooth Records"	"Gold Tooth"	goldtooth
-"Gold's Gym"	"Golds Gym"	goldsgym
+"Gold's Gym"	"Gold's Gym"	goldsgym
 "Goldar Records"	Goldar	goldar
 "Goldband Records"	Goldband	goldband
 "Golde Mist Records"	"Golde Mist"	goldemist
@@ -16626,7 +16626,7 @@ Gooom/Mute	Gooom/Mute	gooommute
 "Gop Ton"	"Gop Ton"	gopton
 "Gordon Dufresne"	"Gordon Dufresne"	gordondufresne
 "Gordon N. Stowe & Associates"	"Gordon N Stowe & Associates"	gordonnstoweassociates
-"Gordon's Bay"	"Gordons Bay"	gordonsbay
+"Gordon's Bay"	"Gordon's Bay"	gordonsbay
 Gordy	Gordy	gordy
 "Gordy (1970)"	Gordy	gordy
 "Gordy (1971)"	Gordy	gordy
@@ -16870,7 +16870,7 @@ Greg	Greg	greg
 Grey	Grey	grey
 "Grey / Nothng Forevr"	"Grey / Nothng Forevr"	greynothngforevr
 "GREY Area"	"GREY Area"	greyarea
-"Grey Dog's Records"	"Grey Dogs"	greydogs
+"Grey Dog's Records"	"Grey Dog's"	greydogs
 "Grey Market"	"Grey Market"	greymarket
 "Grey Matter"	"Grey Matter"	greymatter
 "Grey Records"	Grey	grey
@@ -16941,8 +16941,8 @@ Groove	Groove	groove
 Groovefinder	Groovefinder	groovefinder
 "Groovie Records"	Groovie	groovie
 "Groovie Records 2019"	Groovie	groovie
-"Groovin' Crew"	"Groovin Crew"	groovincrew
-"Groovin' High"	"Groovin High"	groovinhigh
+"Groovin' Crew"	"Groovin' Crew"	groovincrew
+"Groovin' High"	"Groovin' High"	groovinhigh
 "Groovy Gang/DUB LIFE"	"Groovy Gang/DUB LIFE"	groovygangdublife
 "Grosso Recordings"	Grosso	grosso
 Grouch	Grouch	grouch
@@ -17172,9 +17172,9 @@ Halogenix	Halogenix	halogenix
 "ham house"	"ham house"	hamhouse
 Hamburger	Hamburger	hamburger
 "Hamburger Records"	Hamburger	hamburger
-"Hamburger Records / Ekler'O'Shock"	"Hamburger Records / EklerOShock"	hamburgerrecordsekleroshock
-"Hamburger Records / Ekler'O'Shock, Caroline International France"	"Hamburger Records / EklerOShock Caroline International France"	hamburgerrecordsekleroshockcarolineinternationalfrance
-"Hamburger Records & Ekler'o'shock"	"Hamburger Records & Ekleroshock"	hamburgerrecordsekleroshock
+"Hamburger Records / Ekler'O'Shock"	"Hamburger Records / Ekler'O'Shock"	hamburgerrecordsekleroshock
+"Hamburger Records / Ekler'O'Shock, Caroline International France"	"Hamburger Records / Ekler'O'Shock Caroline International France"	hamburgerrecordsekleroshockcarolineinternationalfrance
+"Hamburger Records & Ekler'o'shock"	"Hamburger Records & Ekler'o'shock"	hamburgerrecordsekleroshock
 "Hamilton Unlimited"	Hamilton	hamilton
 "Hamilton Uptown"	"Hamilton Uptown"	hamiltonuptown
 "Hamilton Uptown u/l Atlantic"	"Hamilton Uptown u/l Atlantic"	hamiltonuptownulatlantic
@@ -17339,7 +17339,7 @@ Harlan	Harlan	harlan
 Harlequin	Harlequin	harlequin
 Harlot	Harlot	harlot
 "Harlot Records"	Harlot	harlot
-"Harlow's Monkeys"	"Harlows Monkeys"	harlowsmonkeys
+"Harlow's Monkeys"	"Harlow's Monkeys"	harlowsmonkeys
 Harmless	Harmless	harmless
 "harmonia mundi"	"harmonia mundi"	harmoniamundi
 Harmony	Harmony	harmony
@@ -17448,7 +17448,7 @@ HDJ	HDJ	hdj
 "HDM Records"	HDM	hdm
 HDMG	HDMG	hdmg
 "He Loves You Not Recordings"	"He Loves You Not"	helovesyounot
-"He's My Brother She's My Sister"	"Hes My Brother Shes My Sister"	hesmybrothershesmysister
+"He's My Brother She's My Sister"	"He's My Brother She's My Sister"	hesmybrothershesmysister
 Head	Head	head
 "Head Concussion"	"Head Concussion"	headconcussion
 "Head Concussion Records  - Johnny Wonder Digital Distribution"	"Head Concussion Records  - Johnny Wonder Digital Distribution"	headconcussionrecordsjohnnywonderdigitaldistribution
@@ -17614,7 +17614,7 @@ Helium	Helium	helium
 "Hell Yeah"	"Hell Yeah"	hellyeah
 "Hell Yeah Recordings"	"Hell Yeah"	hellyeah
 "Hell Yeah Records"	"Hell Yeah"	hellyeah
-"Hell's Headbangers"	"Hells Headbangers"	hellsheadbangers
+"Hell's Headbangers"	"Hell's Headbangers"	hellsheadbangers
 "Hella Mad"	"Hella Mad"	hellamad
 "Hella Records"	Hella	hella
 "hella schmack"	"hella schmack"	hellaschmack
@@ -17630,7 +17630,7 @@ Hellfyre	Hellfyre	hellfyre
 "Hello Sir"	"Hello Sir"	hellosir
 "Hello Sir Records"	"Hello Sir"	hellosir
 "Hello Sunshine"	"Hello Sunshine"	hellosunshine
-"Hello, I'm Sorry"	"Hello Im Sorry"	helloimsorry
+"Hello, I'm Sorry"	"Hello I'm Sorry"	helloimsorry
 Hello!	Hello!	hello
 Hello!/D.O.T.S	Hello!/DOTS	hellodots
 "Hells Headbangers"	"Hells Headbangers"	hellsheadbangers
@@ -17662,7 +17662,7 @@ Hemlock	Hemlock	hemlock
 "Henson Associates"	"Henson Associates"	hensonassociates
 Heptagram	Heptagram	heptagram
 Heptown	Heptown	heptown
-"Her Majesty's Ship"	"Her Majestys Ship"	hermajestysship
+"Her Majesty's Ship"	"Her Majesty's Ship"	hermajestysship
 "her own recordings"	"her own"	herown
 "Her Songs"	"Her Songs"	hersongs
 Herald	Herald	herald
@@ -17715,7 +17715,7 @@ HGEI	HGEI	hgei
 HHBTM	HHBTM	hhbtm
 "HHBTM Records"	HHBTM	hhbtm
 HHO	HHO	hho
-"HHV / Bockstein Ru'let"	"HHV / Bockstein Rulet"	hhvbocksteinrulet
+"HHV / Bockstein Ru'let"	"HHV / Bockstein Ru'let"	hhvbocksteinrulet
 "HHV 12"""	"HHV 12"	hhv12
 HHV.DE	HHVDE	hhvde
 HHYR6	HHYR6	hhyr6
@@ -17895,7 +17895,7 @@ HIPNOTT	HIPNOTT	hipnott
 Hipswervy	Hipswervy	hipswervy
 HIRA.WORLD	HIRAWORLD	hiraworld
 Hiroshima	Hiroshima	hiroshima
-"His Master's Voice"	"His Masters Voice"	hismastersvoice
+"His Master's Voice"	"His Master's Voice"	hismastersvoice
 "His Masters Voice (1985)"	"His Masters Voice"	hismastersvoice
 hispavox	hispavox	hispavox
 history	history	history
@@ -18068,14 +18068,14 @@ Hommage	Hommage	hommage
 homophobia	homophobia	homophobia
 "Honar Aval"	"Honar Aval"	honaraval
 "Honest Abe"	"Honest Abe"	honestabe
-"Honest Don's"	"Honest Dons"	honestdons
-"Honest Don's/Fat Wreck Chords"	"Honest Dons/Fat Wreck Chords"	honestdonsfatwreckchords
+"Honest Don's"	"Honest Don's"	honestdons
+"Honest Don's/Fat Wreck Chords"	"Honest Don's/Fat Wreck Chords"	honestdonsfatwreckchords
 "Honest Face Records"	"Honest Face"	honestface
-"Honest John's Records"	"Honest Johns"	honestjohns
+"Honest John's Records"	"Honest John's"	honestjohns
 "Honest Johns (2010)"	"Honest Johns"	honestjohns
-"Honest Jon's"	"Honest Jons"	honestjons
-"Honest Jon's Records"	"Honest Jons"	honestjons
-"Honest Jon’s"	"Honest Jon’s"	honestjons
+"Honest Jon's"	"Honest Jon's"	honestjons
+"Honest Jon's Records"	"Honest Jon's"	honestjons
+"Honest Jon’s"	"Honest Jon's"	honestjons
 "Honest Jons"	"Honest Jons"	honestjons
 "Honest Jons Records"	"Honest Jons"	honestjons
 "Honey  soundsystem"	"Honey  soundsystem"	honeysoundsystem
@@ -18089,7 +18089,7 @@ homophobia	homophobia	homophobia
 "Honey Jar Records"	"Honey Jar"	honeyjar
 "Honey Pit"	"Honey Pit"	honeypit
 "Honey Soundsystem"	"Honey Soundsystem"	honeysoundsystem
-"Honey, You're Gonna Be Late"	"Honey Youre Gonna Be Late"	honeyyouregonnabelate
+"Honey, You're Gonna Be Late"	"Honey You're Gonna Be Late"	honeyyouregonnabelate
 Honeybutter	Honeybutter	honeybutter
 "Honeycomb Hideout"	"Honeycomb Hideout"	honeycombhideout
 honeycut	honeycut	honeycut
@@ -18214,7 +18214,7 @@ HOT	HOT	hot
 "HotBOi Records"	HotBOi	hotboi
 "HotBOi Records, Black Book Selects, Ponies & Cavemen"	"HotBOi Records Black Book Selects Ponies & Cavemen"	hotboirecordsblackbookselectsponiescavemen
 HOTBOII	HOTBOII	hotboii
-"Hotdog's Hotdog"	"Hotdogs Hotdog"	hotdogshotdog
+"Hotdog's Hotdog"	"Hotdog's Hotdog"	hotdogshotdog
 "Hotel Eden"	"Hotel Eden"	hoteleden
 "Hotel Motel"	"Hotel Motel"	hotelmotel
 "Hotel Nacional Rio"	"Hotel Nacional Rio"	hotelnacionalrio
@@ -18292,11 +18292,11 @@ Hovercraft	Hovercraft	hovercraft
 "Howells Transmitter	"	"Howells Transmitter"	howellstransmitter
 "Howells Transmitter"	"Howells Transmitter"	howellstransmitter
 "Howl Street Recordings"	"Howl Street"	howlstreet
-HOWL'D	HOWLD	howld
+HOWL'D	HOWL'D	howld
 "Howlin Banana"	"Howlin Banana"	howlinbanana
 "Howlin Banana Records"	"Howlin Banana"	howlinbanana
-"Howlin' Banana"	"Howlin Banana"	howlinbanana
-"Howlin' Banana Records"	"Howlin Banana"	howlinbanana
+"Howlin' Banana"	"Howlin' Banana"	howlinbanana
+"Howlin' Banana Records"	"Howlin' Banana"	howlinbanana
 "Howling Banana Records"	"Howling Banana"	howlingbanana
 "Howling Frequency"	"Howling Frequency"	howlingfrequency
 "howling owl records"	"howling owl"	howlingowl
@@ -18546,7 +18546,7 @@ HUNNY	HUNNY	hunny
 "Hunny Music"	Hunny	hunny
 "Hunny, LLC"	Hunny	hunny
 "Hunter Recordings"	Hunter	hunter
-"Huntley's + Palmers"	"Huntleys + Palmers"	huntleyspalmers
+"Huntley's + Palmers"	"Huntley's + Palmers"	huntleyspalmers
 "Huntleys + Palmers"	"Huntleys + Palmers"	huntleyspalmers
 "Huntleys and Palmers"	"Huntleys and Palmers"	huntleyspalmers
 "Hunya Munya Publishing"	"Hunya Munya"	hunyamunya
@@ -18670,8 +18670,8 @@ I	I	i
 "I Cant dance records"	"I Cant dance"	icantdance
 "I dischi de angelica"	"I dischi de angelica"	idischideangelica
 "I Dischi del Barone"	"I Dischi del Barone"	idischidelbarone
-"I Don't Have One"	"I Dont Have One"	idonthaveone
-"I don't wanna get over love"	"I dont wanna get over love"	idontwannagetoverlove
+"I Don't Have One"	"I Don't Have One"	idonthaveone
+"I don't wanna get over love"	"I don't wanna get over love"	idontwannagetoverlove
 "I gotz a truck, chicken, bales of hay, whiskey"	"I gotz a truck chicken bales of hay whiskey"	igotztruckchickenbalesofhaywhiskey
 "I Had an Accident"	"I Had an Accident"	ihadanaccident
 "I Had An Accident Records"	"I Had An Accident"	ihadanaccident
@@ -18713,22 +18713,22 @@ I.R.S.	IRS	irs
 "I.R.S. Records"	IRS	irs
 I.S.R.S.	ISRS	isrs
 "I.T.P. Records"	ITP	itp
-"I'd like a snocone please"	"Id like a snocone please"	idlikesnoconeplease
-"I'm A Cliche"	"Im A Cliche"	imcliche
-"I'm A Man"	"Im A Man"	imman
-"I'm crying too much to know the label"	"Im crying too much to know the label"	imcryingtoomuchtoknowlabel
-"I'm gonna see them at Levitation!"	"Im gonna see them at Levitation!"	imgonnaseethematlevitation
-"I'm guessing they didn't find him"	"Im guessing they didnt find him"	imguessingtheydidntfindhim
-"I'm Just Bait"	"Im Just Bait"	imjustbait
-"I'm not not saying....."	"Im not not saying"	imnotnotsaying
-"I'm Poppy Records/ Mad Decent"	"Im Poppy Records/ Mad Decent"	impoppyrecordsmaddecent
-"i'm so lonely i can't type in the label"	"im so lonely i cant type in the label"	imsolonelyicanttypeinlabel
-"i'm too busy crying"	"im too busy crying"	imtoobusycrying
-"i'm too busy gabbing"	"im too busy gabbing"	imtoobusygabbing
-"I'm too busy jamming"	"Im too busy jamming"	imtoobusyjamming
-"i'm too busy thinking about losing my ego"	"im too busy thinking about losing my ego"	imtoobusythinkingaboutlosingmyego
-"I'm With Her"	"Im With Her"	imwithher
-"i'mma hungry"	"imma hungry"	immahungry
+"I'd like a snocone please"	"I'd like a snocone please"	idlikesnoconeplease
+"I'm A Cliche"	"I'm A Cliche"	imcliche
+"I'm A Man"	"I'm A Man"	imman
+"I'm crying too much to know the label"	"I'm crying too much to know the label"	imcryingtoomuchtoknowlabel
+"I'm gonna see them at Levitation!"	"I'm gonna see them at Levitation!"	imgonnaseethematlevitation
+"I'm guessing they didn't find him"	"I'm guessing they didn't find him"	imguessingtheydidntfindhim
+"I'm Just Bait"	"I'm Just Bait"	imjustbait
+"I'm not not saying....."	"I'm not not saying"	imnotnotsaying
+"I'm Poppy Records/ Mad Decent"	"I'm Poppy Records/ Mad Decent"	impoppyrecordsmaddecent
+"i'm so lonely i can't type in the label"	"i'm so lonely i can't type in the label"	imsolonelyicanttypeinlabel
+"i'm too busy crying"	"i'm too busy crying"	imtoobusycrying
+"i'm too busy gabbing"	"i'm too busy gabbing"	imtoobusygabbing
+"I'm too busy jamming"	"I'm too busy jamming"	imtoobusyjamming
+"i'm too busy thinking about losing my ego"	"i'm too busy thinking about losing my ego"	imtoobusythinkingaboutlosingmyego
+"I'm With Her"	"I'm With Her"	imwithher
+"i'mma hungry"	"i'mma hungry"	immahungry
 I/AM/ME	I/AM/ME	iamme
 "I/AM/ME (BMG)"	"I/AM/ME BMG"	iammebmg
 I+DMUSIC	I+DMUSIC	idmusic
@@ -18781,7 +18781,7 @@ Icecapades	Icecapades	icecapades
 "Icelandic Music Export"	"Icelandic Music Export"	icelandicmusicexport
 "Ichiban Records"	Ichiban	ichiban
 ICI	ICI	ici
-"Ici D'Ailleurs"	"Ici DAilleurs"	icidailleurs
+"Ici D'Ailleurs"	"Ici D'Ailleurs"	icidailleurs
 "ICI Records"	ICI	ici
 "icky & sticky hb"	"icky & sticky hb"	ickystickyhb
 "Icons Creating Evil Art"	"Icons Creating Evil Art"	iconscreatingevilart
@@ -19512,7 +19512,7 @@ IRL	IRL	irl
 Irma	Irma	irma
 "Irma CasaDiPrimordine"	"Irma CasaDiPrimordine"	irmacasadiprimordine
 "Irma records"	Irma	irma
-"Irmgardz... ‎"	"Irmgardz ‎"	irmgardz
+"Irmgardz... ‎"	Irmgardz	irmgardz
 IROMUSIC	IROMUSIC	iromusic
 "Iron Bonehead"	"Iron Bonehead"	ironbonehead
 "Iron Bonehead Productions"	"Iron Bonehead"	ironbonehead
@@ -19650,25 +19650,25 @@ ISRS	ISRS	isrs
 "It Takes Time"	"It Takes Time"	ittakestime
 "it takes time records"	"it takes time"	ittakestime
 "It Takes Two Records"	"It Takes Two"	ittakestwo
-"It's a Secret Studio"	"Its a Secret Studio"	itssecretstudio
-"It's A Trap!"	"Its A Trap!"	itstrap
-"It's a Trap! Records"	"Its a Trap!"	itstrap
-"It's A wonderful World Music "	"Its A wonderful World"	itswonderfulworld
-"It's Alive"	"Its Alive"	itsalive
-"It's Alive Records"	"Its Alive"	itsalive
-"It's Alive! Records"	"Its Alive!"	itsalive
-"it's bleeding"	"its bleeding"	itsbleeding
-"it's complicated"	"its complicated"	itscomplicated
-"It's Just Great"	"Its Just Great"	itsjustgreat
-"It's ME! ME!"	"Its ME! ME!"	itsmeme
-"It's Never Over Til It's Done"	"Its Never Over Til Its Done"	itsneverovertilitsdone
-"It's Ok"	"Its Ok"	itsok
-"It's OK 2019"	"Its OK"	itsok
-"It's Trash"	"Its Trash"	itstrash
-"It's Trash Records"	"Its Trash"	itstrash
-"It's Trash!"	"Its Trash!"	itstrash
-"it's twisted"	"its twisted"	itstwisted
-"It's War Boys"	"Its War Boys"	itswarboys
+"It's a Secret Studio"	"It's a Secret Studio"	itssecretstudio
+"It's A Trap!"	"It's A Trap!"	itstrap
+"It's a Trap! Records"	"It's a Trap!"	itstrap
+"It's A wonderful World Music "	"It's A wonderful World"	itswonderfulworld
+"It's Alive"	"It's Alive"	itsalive
+"It's Alive Records"	"It's Alive"	itsalive
+"It's Alive! Records"	"It's Alive!"	itsalive
+"it's bleeding"	"it's bleeding"	itsbleeding
+"it's complicated"	"it's complicated"	itscomplicated
+"It's Just Great"	"It's Just Great"	itsjustgreat
+"It's ME! ME!"	"It's ME! ME!"	itsmeme
+"It's Never Over Til It's Done"	"It's Never Over Til It's Done"	itsneverovertilitsdone
+"It's Ok"	"It's Ok"	itsok
+"It's OK 2019"	"It's OK"	itsok
+"It's Trash"	"It's Trash"	itstrash
+"It's Trash Records"	"It's Trash"	itstrash
+"It's Trash!"	"It's Trash!"	itstrash
+"it's twisted"	"it's twisted"	itstwisted
+"It's War Boys"	"It's War Boys"	itswarboys
 "Ital Music"	Ital	ital
 Italdisc	Italdisc	italdisc
 "Italian Beach Babes"	"Italian Beach Babes"	italianbeachbabes
@@ -19691,7 +19691,7 @@ itsFREAKS	itsFREAKS	itsfreaks
 iTunes	iTunes	itunes
 "Ituska Records"	Ituska	ituska
 "Itz Evolving"	"Itz Evolving"	itzevolving
-"Ivana Nwokike, Jessica Nwokike, Skyler Accord, Tyler Acord & D'Anthony Carlos"	"Ivana Nwokike Jessica Nwokike Skyler Accord Tyler Acord & DAnthony Carlos"	ivananwokikejessicanwokikeskyleraccordtyleracorddanthonycarlos
+"Ivana Nwokike, Jessica Nwokike, Skyler Accord, Tyler Acord & D'Anthony Carlos"	"Ivana Nwokike Jessica Nwokike Skyler Accord Tyler Acord & D'Anthony Carlos"	ivananwokikejessicanwokikeskyleraccordtyleracorddanthonycarlos
 IVMO	IVMO	ivmo
 "Ivory Antler"	"Ivory Antler"	ivoryantler
 "Ivory Music Ltd."	Ivory	ivory
@@ -19724,7 +19724,7 @@ J.O.E.	JOE	joe
 "J&R Adventures"	"J&R Adventures"	jradventures
 "J&S (1966)"	J&S	js
 "JA Productions"	JA	ja
-"Ja'rred Up records"	"Jarred Up"	jarredup
+"Ja'rred Up records"	"Ja'rred Up"	jarredup
 Jabalina	Jabalina	jabalina
 "Jabalina Musica"	"Jabalina Musica"	jabalinamusica
 Jabs	Jabs	jabs
@@ -19819,7 +19819,7 @@ Jam	Jam	jam
 "Jam Packed"	"Jam Packed"	jampacked
 "Jam Packed Records"	"Jam Packed"	jampacked
 "Jam Today"	"Jam Today"	jamtoday
-Jam'brio	Jambrio	jambrio
+Jam'brio	Jam'brio	jambrio
 "Jam2 Productions"	Jam2	jam2
 "Jamaica Airlines"	"Jamaica Airlines"	jamaicaairlines
 "Jamaica Music Recording"	"Jamaica Music Recording"	jamaicamusicrecording
@@ -19855,7 +19855,7 @@ Jamla	Jamla	jamla
 "Jamla Records, LLC. Under exclusive license to Roc Nation"	"Roc Nation"	rocnation
 "Jamla Records, LLC., Under exclusive license to Roc Nation"	"Roc Nation"	rocnation
 Jamming!	Jamming!	jamming
-"Jammy's Records"	Jammys	jammys
+"Jammy's Records"	Jammy's	jammys
 Jamrec	Jamrec	jamrec
 "Jamrec Music"	Jamrec	jamrec
 Jams	Jams	jams
@@ -19877,7 +19877,7 @@ japan	japan	japan
 "Japan Import"	"Japan Import"	japanimport
 "Japan Overseas"	"Japan Overseas"	japanoverseas
 "Japan Record"	"Japan Record"	japanrecord
-"Japan Record ‎– JAL-40"	"Japan Record ‎– JAL-40"	japanrecordjal40
+"Japan Record ‎– JAL-40"	"Japan Record – JAL-40"	japanrecordjal40
 "Japan Records"	Japan	japan
 "japanese underground"	"japanese underground"	japaneseunderground
 JAPO/ECM	JAPO/ECM	japoecm
@@ -19972,14 +19972,14 @@ Jdola	Jdola	jdola
 "Je Production"	"Je Production"	jeproduction
 "Jealous Butcher"	"Jealous Butcher"	jealousbutcher
 "Jealous Butcher Records"	"Jealous Butcher"	jealousbutcher
-"jean d'arc"	"jean darc"	jeandarc
+"jean d'arc"	"jean d'arc"	jeandarc
 "Jean Deaux"	"Jean Deaux"	jeandeaux
 "Jean Deaux / EMPIRE"	"Jean Deaux / EMPIRE"	jeandeauxempire
 "Jean Deaux/ empire"	"Jean Deaux/ empire"	jeandeauxempire
 "Jean Grae"	"Jean Grae"	jeangrae
 "Jean Kluger SA"	"Jean Kluger SA"	jeanklugersa
 "Jean Tonique"	"Jean Tonique"	jeantonique
-"jeane d'arc"	"jeane darc"	jeanedarc
+"jeane d'arc"	"jeane d'arc"	jeanedarc
 "jebu records"	jebu	jebu
 Jeepster	Jeepster	jeepster
 "Jeepster (1998)"	Jeepster	jeepster
@@ -20082,8 +20082,8 @@ JIL	JIL	jil
 Jim	Jim	jim
 "Jim Henson Records"	"Jim Henson"	jimhenson
 "Jim Sullivan"	"Jim Sullivan"	jimsullivan
-"Jim's Big Ego"	"Jims Big Ego"	jimsbigego
-"Jim's Pool Room"	"Jims Pool Room"	jimspoolroom
+"Jim's Big Ego"	"Jim's Big Ego"	jimsbigego
+"Jim's Pool Room"	"Jim's Pool Room"	jimspoolroom
 "Jimmy Dias"	"Jimmy Dias"	jimmydias
 "Jimmy Sok"	"Jimmy Sok"	jimmysok
 Jin	Jin	jin
@@ -20142,7 +20142,7 @@ Joda	Joda	joda
 "Joey Pecoraro"	"Joey Pecoraro"	joeypecoraro
 "Joey Purp LLC"	"Joey Purp"	joeypurp
 "Jóhann Jóhannsson under exclusive license to Deutsche Grammophon GmbH, Berlin"	"Deutsche Grammophon GmbH Berlin"	deutschegrammophongmbhberlin
-"Johann's Face"	"Johanns Face"	johannsface
+"Johann's Face"	"Johann's Face"	johannsface
 "Johanna Kustannus"	"Johanna Kustannus"	johannakustannus
 "Johanna Warren"	"Johanna Warren"	johannawarren
 Johannesburg	Johannesburg	johannesburg
@@ -20175,7 +20175,7 @@ Johannesburg	Johannesburg	johannesburg
 "Johnson, Hawkins, Tatum & Durr"	"Johnson Hawkins Tatum & Durr"	johnsonhawkinstatumdurr
 "Joia Moderna"	"Joia Moderna"	joiamoderna
 Joioli/Delabel	Joioli/Delabel	joiolidelabel
-"Joker's Got A Posse"	"Jokers Got A Posse"	jokersgotposse
+"Joker's Got A Posse"	"Joker's Got A Posse"	jokersgotposse
 "Jolanda Moletta"	"Jolanda Moletta"	jolandamoletta
 "Jolly Discs"	"Jolly Discs"	jollydiscs
 "Jolly Jams"	"Jolly Jams"	jollyjams
@@ -20336,7 +20336,7 @@ JUKEunderground	JUKEunderground	jukeunderground
 "JUKEunderground -"	JUKEunderground	jukeunderground
 "Jules Hiero"	"Jules Hiero"	juleshiero
 "Julia Stone Pty"	"Julia Stone Pty"	juliastonepty
-"Julia's War"	"Julias War"	juliaswar
+"Julia's War"	"Julia's War"	juliaswar
 "Julian Amparo"	"Julian Amparo"	julianamparo
 "Juliana Barthwick"	"Juliana Barthwick"	julianabarthwick
 "Julianna Barwick"	"Julianna Barwick"	juliannabarwick
@@ -20354,7 +20354,7 @@ Juliet	Juliet	juliet
 "Jump The Fence"	"Jump The Fence"	jumpfence
 "Jump Up"	"Jump Up"	jumpup
 "Jump Up Records"	"Jump Up"	jumpup
-"Jumpin' & Pumpin'"	"Jumpin & Pumpin"	jumpinpumpin
+"Jumpin' & Pumpin'"	"Jumpin' & Pumpin"	jumpinpumpin
 Jumpsuit	Jumpsuit	jumpsuit
 "Jumpsuit Records"	Jumpsuit	jumpsuit
 "Jumpsuit Records, Inc"	Jumpsuit	jumpsuit
@@ -20363,7 +20363,7 @@ Jun	Jun	jun
 "Jun Records"	Jun	jun
 June	June	june
 "June 15th!!"	"June 15th!!"	june15th
-"June 2nd!..don't sleep!"	"June 2nd!dont sleep!"	june2nddontsleep
+"June 2nd!..don't sleep!"	"June 2nd!don't sleep!"	june2nddontsleep
 "June 4th (Permission To Land)"	"June 4th Permission To Land"	june4thpermissiontoland
 "June Tune"	"June Tune"	junetune
 "June Tunes"	"June Tunes"	junetunes
@@ -20380,7 +20380,7 @@ Jungle	Jungle	jungle
 Junglepussy	Junglepussy	junglepussy
 "Junglepussy Self-Release"	"Junglepussy Self-Release"	junglepussyselfrelease
 JunieFunk	JunieFunk	juniefunk
-"Junior Boy's Own"	"Junior Boys Own"	juniorboysown
+"Junior Boy's Own"	"Junior Boy's Own"	juniorboysown
 "Junior Boys Own Records"	"Junior Boys Own"	juniorboysown
 "Junior Wize Production"	"Junior Wize Production"	juniorwizeproduction
 Junk	Junk	junk
@@ -20406,7 +20406,7 @@ Just	Just	just
 "Just Another Beat"	"Just Another Beat"	justanotherbeat
 "Just For Laughs"	"Just For Laughs"	justforlaughs
 "Just For The Hell Of It"	"Just For The Hell Of It"	justforhellofit
-"just isn't music"	"just isnt"	justisnt
+"just isn't music"	"just isn't"	justisnt
 "Just Jam"	"Just Jam"	justjam
 "Just Keep Dreaming"	"Just Keep Dreaming"	justkeepdreaming
 "Just Mary"	"Just Mary"	justmary
@@ -20421,7 +20421,7 @@ Just	Just	just
 "JUST SUNSHINE"	"JUST SUNSHINE"	justsunshine
 "Just This"	"Just This"	justthis
 "Just Us, Universal"	"Just Us Universal"	justusuniversal
-"Just'In "	JustIn	justin
+"Just'In "	Just'In	justin
 Justice	Justice	justice
 "Justin Garner LLC"	"Justin Garner"	justingarner
 "Justin Jay"	"Justin Jay"	justinjay
@@ -21072,7 +21072,7 @@ KNDD	KNDD	kndd
 "Knee Deep In Sound"	"Knee Deep In Sound"	kneedeepinsound
 "Knee Deep Records"	"Knee Deep"	kneedeep
 Knekelhuis	Knekelhuis	knekelhuis
-"Knekelhuis ‎– KH009"	"Knekelhuis ‎– KH009"	knekelhuiskh009
+"Knekelhuis ‎– KH009"	"Knekelhuis – KH009"	knekelhuiskh009
 knifepunch	knifepunch	knifepunch
 "Knights & Shephard, Inc."	"Knights & Shephard"	knightsshephard
 KnightWerk	KnightWerk	knightwerk
@@ -21217,7 +21217,7 @@ Kraze	Kraze	kraze
 "Kreative Kollective / Fme Recordings LLC."	"Kreative Kollective / Fme"	kreativekollectivefme
 Kreshendo	Kreshendo	kreshendo
 "Krewella Music LLC"	Krewella	krewella
-"Krikk’E Kasteddu"	"Krikk’E Kasteddu"	krikkekasteddu
+"Krikk’E Kasteddu"	"Krikk'E Kasteddu"	krikkekasteddu
 "Kringer Records"	Kringer	kringer
 kris	kris	kris
 "Kris Yute"	"Kris Yute"	krisyute
@@ -21234,7 +21234,7 @@ KROQ	KROQ	kroq
 KRS	KRS	krs
 "Krudas Cubensi"	"Krudas Cubensi"	krudascubensi
 Krunk	Krunk	krunk
-"Krush'd Candy"	"Krushd Candy"	krushdcandy
+"Krush'd Candy"	"Krush'd Candy"	krushdcandy
 Kryptox	Kryptox	kryptox
 KS	KS	ks
 Kscope	Kscope	kscope
@@ -21274,7 +21274,7 @@ Kunsthall	Kunsthall	kunsthall
 "Kunsthall Produktionen"	"Kunsthall Produktionen"	kunsthallproduktionen
 Kuroma	Kuroma	kuroma
 kuromi	kuromi	kuromi
-"Kuroneko ‎"	"Kuroneko ‎"	kuroneko
+"Kuroneko ‎"	Kuroneko	kuroneko
 "Kush Arora Publishing"	"Kush Arora"	kusharora
 KUTX	KUTX	kutx
 Kvadro	Kvadro	kvadro
@@ -21312,12 +21312,12 @@ L.I.E.S.	LIES	lies
 "L.I.E.S. Records"	LIES	lies
 "L.O.V.E. Ltd"	LOVE	love
 L.W.	LW	lw
-"L'age d'or"	"Lage dor"	lagedor
-L'Agentur	LAgentur	lagentur
-"L'Appareil-Photo Bis"	"LAppareil-Photo Bis"	lappareilphotobis
-"L'Illustration Musicale"	"LIllustration Musicale"	lillustrationmusicale
-L'Imperatrice	LImperatrice	limperatrice
-"L'Orange Music "	LOrange	lorange
+"L'age d'or"	"L'age d'or"	lagedor
+L'Agentur	L'Agentur	lagentur
+"L'Appareil-Photo Bis"	"L'Appareil-Photo Bis"	lappareilphotobis
+"L'Illustration Musicale"	"L'Illustration Musicale"	lillustrationmusicale
+L'Imperatrice	L'Imperatrice	limperatrice
+"L'Orange Music "	L'Orange	lorange
 L+R	L+R	lr
 "L+R Records"	L+R	lr
 L2	L2	l2
@@ -21395,7 +21395,7 @@ L2	L2	l2
 "La Vida es un mus Discos Punk"	"La Vida es un mus Discos Punk"	lavidaesunmusdiscospunk
 "La Vide es un Mus"	"La Vide es un Mus"	lavideesunmus
 "La Vide Es Un Mus Disco"	"La Vide Es Un Mus Disco"	lavideesunmusdisco
-"La Vie d'Artiste Music"	"La Vie dArtiste"	laviedartiste
+"La Vie d'Artiste Music"	"La Vie d'Artiste"	laviedartiste
 "La Visa Es Un Mus"	"La Visa Es Un Mus"	lavisaesunmus
 "La Voce Del Padrone"	"La Voce Del Padrone"	lavocedelpadrone
 "La Volta Ros"	"La Volta Ros"	lavoltaros
@@ -21403,7 +21403,7 @@ L2	L2	l2
 "La-La Land"	"La-La Land"	lalaland
 "La-La Land Records"	"La-La Land"	lalaland
 La-Ti-Da	La-Ti-Da	latida
-"LA's Fine"	"LAs Fine"	lasfine
+"LA's Fine"	"LA's Fine"	lasfine
 LAAPS	LAAPS	laaps
 lab	lab	lab
 "LAB 344"	"LAB 344"	lab344
@@ -21411,8 +21411,8 @@ lab	lab	lab
 "Lab Records"	Lab	lab
 "lab records ltd"	lab	lab
 "LAB records ltd."	LAB	lab
-Lab'Oratoire	LabOratoire	laboratoire
-"Lab'oratorie / Under Cover"	"Laboratorie / Under Cover"	laboratorieundercover
+Lab'Oratoire	Lab'Oratoire	laboratoire
+"Lab'oratorie / Under Cover"	"Lab'oratorie / Under Cover"	laboratorieundercover
 Label	Label	label
 "Label Bleu"	"Label Bleu"	labelbleu
 "label fandango"	"label fandango"	labelfandango
@@ -21598,7 +21598,7 @@ Launder	Launder	launder
 "Laura Misch"	"Laura Misch"	lauramisch
 Lauren	Lauren	lauren
 "Lauren / Asian Man"	"Lauren / Asian Man"	laurenasianman
-"Lauren O'Connell"	"Lauren OConnell"	laurenoconnell
+"Lauren O'Connell"	"Lauren O'Connell"	laurenoconnell
 "Lauren Records"	Lauren	lauren
 "Lauren Records / Rally Records"	"Lauren Records / Rally"	laurenrecordsrally
 "Lauren Ruth Ward"	"Lauren Ruth Ward"	laurenruthward
@@ -21651,8 +21651,8 @@ Lazybird	Lazybird	lazybird
 Lazyeyes	Lazyeyes	lazyeyes
 LC	LC	lc
 LCA	LCA	lca
-"Lci d'ailleurs"	"Lci dailleurs"	lcidailleurs
-"lci, d'ailleurs"	"lci dailleurs"	lcidailleurs
+"Lci d'ailleurs"	"Lci d'ailleurs"	lcidailleurs
+"lci, d'ailleurs"	"lci d'ailleurs"	lcidailleurs
 "LCR ltd"	LCR	lcr
 LD	LD	ld
 LDN	LDN	ldn
@@ -21738,7 +21738,7 @@ Ledge	Ledge	ledge
 "Lee Moses"	"Lee Moses"	leemoses
 "Lee Noble"	"Lee Noble"	leenoble
 "Lee Rogers"	"Lee Rogers"	leerogers
-"Lee's Records"	Lees	lees
+"Lee's Records"	Lee's	lees
 "Leesta Vall Sound Recordings"	"Leesta Vall Sound"	leestavallsound
 LeFace	LeFace	leface
 Lefse	Lefse	lefse
@@ -21818,10 +21818,10 @@ leo	leo	leo
 "Les Disques Bongo Joe / Sofa"	"Les Disques Bongo Joe / Sofa"	lesdisquesbongojoesofa
 "Les Disques De Crepuscle"	"Les Disques De Crepuscle"	lesdisquesdecrepuscle
 "Les disques du crépuscule"	"Les disques du crépuscule"	lesdisquesducrepuscule
-"Les Disques Du Soleil Et De L'Acier "	"Les Disques Du Soleil Et De LAcier"	lesdisquesdusoleiletdelacier
+"Les Disques Du Soleil Et De L'Acier "	"Les Disques Du Soleil Et De L'Acier"	lesdisquesdusoleiletdelacier
 "Les Disques Motors"	"Les Disques Motors"	lesdisquesmotors
 "Les Disques Victo Socan"	"Les Disques Victo Socan"	lesdisquesvictosocan
-"Les Editions De La Rue De L'Ouest"	"Les Editions De La Rue De LOuest"	leseditionsdelaruedelouest
+"Les Editions De La Rue De L'Ouest"	"Les Editions De La Rue De L'Ouest"	leseditionsdelaruedelouest
 "Les Films 13"	"Les Films 13"	lesfilms13
 "les fleurs"	"les fleurs"	lesfleurs
 "Les Fleurs Records"	"Les Fleurs"	lesfleurs
@@ -21839,18 +21839,18 @@ Lesstalk	Lesstalk	lesstalk
 "Lester Osbourne Ltd"	"Lester Osbourne"	lesterosbourne
 "Let Me Hear It Limited"	"Let Me Hear It"	letmehearit
 "Let Me Hear It Ltd."	"Let Me Hear It"	letmehearit
-"Let's Buy Happiness"	"Lets Buy Happiness"	letsbuyhappiness
-"Let's Eat Grandma"	"Lets Eat Grandma"	letseatgrandma
-"Let's Gig"	"Lets Gig"	letsgig
-"Let's Go Swimming"	"Lets Go Swimming"	letsgoswimming
-"Let's Make That Happen"	"Lets Make That Happen"	letsmakethathappen
-"Let's Pet Puppies"	"Lets Pet Puppies"	letspetpuppies
-"Let's Play House"	"Lets Play House"	letsplayhouse
-"Let's Pretend"	"Lets Pretend"	letspretend
-"Let's Pretend records"	"Lets Pretend"	letspretend
-"Let's Pretend Records 2019"	"Lets Pretend"	letspretend
-"Let's Rock"	"Lets Rock"	letsrock
-"Let's Rock! Records"	"Lets Rock!"	letsrock
+"Let's Buy Happiness"	"Let's Buy Happiness"	letsbuyhappiness
+"Let's Eat Grandma"	"Let's Eat Grandma"	letseatgrandma
+"Let's Gig"	"Let's Gig"	letsgig
+"Let's Go Swimming"	"Let's Go Swimming"	letsgoswimming
+"Let's Make That Happen"	"Let's Make That Happen"	letsmakethathappen
+"Let's Pet Puppies"	"Let's Pet Puppies"	letspetpuppies
+"Let's Play House"	"Let's Play House"	letsplayhouse
+"Let's Pretend"	"Let's Pretend"	letspretend
+"Let's Pretend records"	"Let's Pretend"	letspretend
+"Let's Pretend Records 2019"	"Let's Pretend"	letspretend
+"Let's Rock"	"Let's Rock"	letsrock
+"Let's Rock! Records"	"Let's Rock!"	letsrock
 Lethal	Lethal	lethal
 "Leticia Pelliccione"	"Leticia Pelliccione"	leticiapelliccione
 "Letra Rec"	"Letra Rec"	letrarec
@@ -21958,12 +21958,12 @@ Lifestyle	Lifestyle	lifestyle
 "Liga Mexicana del Bass"	"Liga Mexicana del Bass"	ligamexicanadelbass
 Ligature	Ligature	ligature
 "Light in the Attic"	"Light in the Attic"	lightinattic
-"Light In The Attic ('68)"	"Light In The Attic 68"	lightinattic68
+"Light In The Attic ('68)"	"Light In The Attic '68"	lightinattic68
 "Light In The Attic (1971/2016)"	"Light In The Attic"	lightinattic
 "Light In The Attic (1974)"	"Light In The Attic"	lightinattic
 "Light In The Attic (1975/2018)"	"Light In The Attic"	lightinattic
 "Light In The Attic (1981/2021)"	"Light In The Attic"	lightinattic
-"Light In The Attic (OG '68)"	"Light In The Attic OG 68"	lightinatticog68
+"Light In The Attic (OG '68)"	"Light In The Attic OG '68"	lightinatticog68
 "Light in the Attic 2017"	"Light in the Attic"	lightinattic
 "Light in the Attic Records"	"Light in the Attic"	lightinattic
 "Light In The Attic Records / LHI"	"Light In The Attic Records / LHI"	lightinatticrecordslhi
@@ -22012,18 +22012,18 @@ Lightsleepers	Lightsleepers	lightsleepers
 "Lil Peep"	"Lil Peep"	lilpeep
 "lil pot o honey"	"lil pot o honey"	lilpotohoney
 "lil pot o money"	"lil pot o money"	lilpotomoney
-"lil pot o' money"	"lil pot o money"	lilpotomoney
+"lil pot o' money"	"lil pot o' money"	lilpotomoney
 "Lil Rod Productions"	"Lil Rod"	lilrod
 "Lil Seyi"	"Lil Seyi"	lilseyi
 "Lil Slugger"	"Lil Slugger"	lilslugger
 "Lil Slugger Records"	"Lil Slugger"	lilslugger
 "Lil Texas"	"Lil Texas"	liltexas
-"Lil' Beethoven"	"Lil Beethoven"	lilbeethoven
-"Lil' Butta Records"	"Lil Butta"	lilbutta
-"Lil' Chief"	"Lil Chief"	lilchief
-"Lil' Chief Records"	"Lil Chief"	lilchief
-"Lil' Joe Records"	"Lil Joe"	liljoe
-"Lil' Man / Interscope Records"	"Lil Man / Interscope"	lilmaninterscope
+"Lil' Beethoven"	"Lil' Beethoven"	lilbeethoven
+"Lil' Butta Records"	"Lil' Butta"	lilbutta
+"Lil' Chief"	"Lil' Chief"	lilchief
+"Lil' Chief Records"	"Lil' Chief"	lilchief
+"Lil' Joe Records"	"Lil' Joe"	liljoe
+"Lil' Man / Interscope Records"	"Lil' Man / Interscope"	lilmaninterscope
 "Lila Downs"	"Lila Downs"	liladowns
 "Lilac Records"	Lilac	lilac
 "Lilac Sky"	"Lilac Sky"	lilacsky
@@ -22096,8 +22096,8 @@ Lion	Lion	lion
 "Lion Productions (1979, 2021)"	"Lion Productions 1979"	lionproductions1979
 "Lion Productions, LLC"	Lion	lion
 "Lion Records"	Lion	lion
-"Lion's Drums"	"Lions Drums"	lionsdrums
-"Lion's Share Records"	"Lions Share"	lionsshare
+"Lion's Drums"	"Lion's Drums"	lionsdrums
+"Lion's Share Records"	"Lion's Share"	lionsshare
 "Lion/Light in the Attic 2012 (OG ~1976)"	"Lion/Light in the Attic 2012 OG ~1976"	lionlightinattic2012og1976
 "Lions Gate Entertainment"	"Lions Gate"	lionsgate
 "Lions Gate Records, Inc."	"Lions Gate"	lionsgate
@@ -22124,7 +22124,7 @@ LisaSawyer63	LisaSawyer63	lisasawyer63
 "LisaSawyer63, LLC"	LisaSawyer63	lisasawyer63
 "Lisbon Lux"	"Lisbon Lux"	lisbonlux
 "Lisbon Lux Records"	"Lisbon Lux"	lisbonlux
-Lissy's	Lissys	lissys
+Lissy's	Lissy's	lissys
 "LISTEN TO THE KIDS"	"LISTEN TO THE KIDS"	listentokids
 Listenable	Listenable	listenable
 listener	listener	listener
@@ -22308,8 +22308,8 @@ Locket	Locket	locket
 "Locket Records"	Locket	locket
 Lockets	Lockets	lockets
 "Lockin Out"	"Lockin Out"	lockinout
-"Lockin' Out"	"Lockin Out"	lockinout
-"Lockin' Out Records"	"Lockin Out"	lockinout
+"Lockin' Out"	"Lockin' Out"	lockinout
+"Lockin' Out Records"	"Lockin' Out"	lockinout
 "Loco Tranquilo"	"Loco Tranquilo"	locotranquilo
 LocoBop	LocoBop	locobop
 "Locus Amoenus"	"Locus Amoenus"	locusamoenus
@@ -22417,7 +22417,7 @@ Lonerism	Lonerism	lonerism
 "long ass song"	"long ass song"	longasssong
 "Long Beach Records"	"Long Beach"	longbeach
 "Long Beach Records Europe"	"Long Beach Records Europe"	longbeachrecordseurope
-"long hair don't care"	"long hair dont care"	longhairdontcare
+"long hair don't care"	"long hair don't care"	longhairdontcare
 "Long Island Electrical Systems)"	"Long Island Electrical Systems"	longislandelectricalsystems
 "Long Lane"	"Long Lane"	longlane
 "Long Live Death"	"Long Live Death"	longlivedeath
@@ -22479,7 +22479,7 @@ Loop-D-Loop	Loop-D-Loop	loopdloop
 "LootBag Records"	LootBag	lootbag
 "Lord Huron"	"Lord Huron"	lordhuron
 "LORD JAH-MONTE OGBON"	"LORD JAH-MONTE OGBON"	lordjahmonteogbon
-"Lord’s Child."	"Lord’s Child"	lordschild
+"Lord’s Child."	"Lord's Child"	lordschild
 "Lore Records"	Lore	lore
 Lorelei	Lorelei	lorelei
 "Loretta Lynn Enterprises Inc., under exclusive license to Sony Music Entertainment"	"Sony Music"	sonymusic
@@ -22688,7 +22688,7 @@ LSMFN	LSMFN	lsmfn
 LSRA	LSRA	lsra
 LSTNGT	LSTNGT	lstngt
 "LSW Records"	LSW	lsw
-"Lt's Pretend Records"	"Lts Pretend"	ltspretend
+"Lt's Pretend Records"	"Lt's Pretend"	ltspretend
 "Ltd, W/Lbl"	"Ltd W/Lbl"	ltdwlbl
 LTM	LTM	ltm
 "LTM 2012 (Factory 1983)"	"LTM 2012 Factory"	ltm2012factory
@@ -22712,7 +22712,7 @@ Lucia	Lucia	lucia
 "Lucid Haus"	"Lucid Haus"	lucidhaus
 "Lucid Monday"	"Lucid Monday"	lucidmonday
 LucidHaus	LucidHaus	lucidhaus
-"Lucien Nunn's Classic Bad 45's"	"Lucien Nunns Classic Bad 45s"	luciennunnsclassicbad45s
+"Lucien Nunn's Classic Bad 45's"	"Lucien Nunn's Classic Bad 45's"	luciennunnsclassicbad45s
 "Lucille Furs"	"Lucille Furs"	lucillefurs
 "Lucinda Chua"	"Lucinda Chua"	lucindachua
 Lucki	Lucki	lucki
@@ -22807,9 +22807,9 @@ Luttrell	Luttrell	luttrell
 LUV	LUV	luv
 "Luv Luv Luv Records"	"Luv Luv Luv"	luvluvluv
 "Luv N Haight"	"Luv N Haight"	luvnhaight
-"Luv N' Haight	"	"Luv N Haight"	luvnhaight
-"Luv N' Haight"	"Luv N Haight"	luvnhaight
-"Luv N’ Haight"	"Luv N’ Haight"	luvnhaight
+"Luv N' Haight	"	"Luv N' Haight"	luvnhaight
+"Luv N' Haight"	"Luv N' Haight"	luvnhaight
+"Luv N’ Haight"	"Luv N' Haight"	luvnhaight
 "Luv Shack Records"	"Luv Shack"	luvshack
 "Lux Interior Disques"	"Lux Interior Disques"	luxinteriordisques
 "Lux Prima"	"Lux Prima"	luxprima
@@ -22872,11 +22872,11 @@ M.Katz	MKatz	mkatz
 m.o.o.n.r.u.n.	moonrun	moonrun
 "M.T.U. Records"	MTU	mtu
 M.Z.G.P.	MZGP	mzgp
-M'Lady	MLady	mlady
-M'Lady's	MLadys	mladys
-"M'lady's Records"	Mladys	mladys
-"M'lady's Records, Water Wing Records"	"Mladys Records Water Wing"	mladysrecordswaterwing
-M'Ladys	MLadys	mladys
+M'Lady	M'Lady	mlady
+M'Lady's	M'Lady's	mladys
+"M'lady's Records"	M'lady's	mladys
+"M'lady's Records, Water Wing Records"	"M'lady's Records Water Wing"	mladysrecordswaterwing
+M'Ladys	M'Ladys	mladys
 m/a	m/a	ma
 M&O	M&O	mo
 M&S	M&S	ms
@@ -22891,12 +22891,12 @@ M80	M80	m80
 M83	M83	m83
 "M83 Recording Inc."	"M83 Recording"	m83recording
 "M83 Recordings"	M83	m83
-"Ma'am Records"	Maam	maam
+"Ma'am Records"	Ma'am	maam
 Ma3azef	Ma3azef	ma3azef
 "Mabson Enterprises"	"Mabson Enterprises"	mabsonenterprises
 "Mac Demarco"	"Mac Demarco"	macdemarco
 "Mac Gregor"	"Mac Gregor"	macgregor
-"Mac's Record Label"	Macs	macs
+"Mac's Record Label"	Mac's	macs
 "Macadam Mambo"	"Macadam Mambo"	macadammambo
 Mace	Mace	mace
 MacGregor	MacGregor	macgregor
@@ -22963,7 +22963,7 @@ Macro	Macro	macro
 "Madame Gold Records"	"Madame Gold"	madamegold
 Madator	Madator	madator
 Maddog	Maddog	maddog
-"Maddy O'Neal"	"Maddy ONeal"	maddyoneal
+"Maddy O'Neal"	"Maddy O'Neal"	maddyoneal
 "Made Decent"	"Made Decent"	madedecent
 "Made in Etaly, Brioche Musicali"	"Made in Etaly Brioche Musicali"	madeinetalybriochemusicali
 "Made in the Shed"	"Made in the Shed"	madeinshed
@@ -22990,9 +22990,9 @@ MADMUSE	MADMUSE	madmuse
 Madrigal	Madrigal	madrigal
 "Mae Powell"	"Mae Powell"	maepowell
 Maestro	Maestro	maestro
-"Maestro's Records"	Maestros	maestros
+"Maestro's Records"	Maestro's	maestros
 Maesu	Maesu	maesu
-"Maeta's World Music"	"Maetas World"	maetasworld
+"Maeta's World Music"	"Maeta's World"	maetasworld
 Maeve	Maeve	maeve
 Mafia	Mafia	mafia
 "Mafia (1972)"	Mafia	mafia
@@ -23122,7 +23122,7 @@ major	major	major
 "Major Muzik"	"Major Muzik"	majormuzik
 "Major Muzik Yapim"	"Major Muzik Yapim"	majormuzikyapim
 "Major Styles Ent."	"Major Styles Ent"	majorstylesent
-"Major Tom's Records"	"Major Toms"	majortoms
+"Major Tom's Records"	"Major Tom's"	majortoms
 Majora	Majora	majora
 Majordomo	Majordomo	majordomo
 "Majordomo Records"	Majordomo	majordomo
@@ -23236,9 +23236,9 @@ MaMuse	MaMuse	mamuse
 "Man Recordings"	Man	man
 "Man Recordings UG"	"Man Recordings UG"	manrecordingsug
 "Man-Woman Together, Now!, Inc."	"Man-Woman Together Now!"	manwomantogethernow
-"Man's Ruin"	"Mans Ruin"	mansruin
-"Man's Ruin Records"	"Mans Ruin"	mansruin
-"Man’s Ruin"	"Man’s Ruin"	mansruin
+"Man's Ruin"	"Man's Ruin"	mansruin
+"Man's Ruin Records"	"Man's Ruin"	mansruin
+"Man’s Ruin"	"Man's Ruin"	mansruin
 Mana	Mana	mana
 MANA#1	MANA#1	mana1
 "MANAFEST VISION MEDIA LLC."	"MANAFEST VISION MEDIA"	manafestvisionmedia
@@ -23248,7 +23248,7 @@ Manata	Manata	manata
 "Manata Ltd"	Manata	manata
 "Manatee Commune"	"Manatee Commune"	manateecommune
 "Manchester Popfest"	"Manchester Popfest"	manchesterpopfest
-"Manchester’s Box Bedroom Rebels"	"Manchester’s Box Bedroom Rebels"	manchestersboxbedroomrebels
+"Manchester’s Box Bedroom Rebels"	"Manchester's Box Bedroom Rebels"	manchestersboxbedroomrebels
 Mandible	Mandible	mandible
 "Mandible Records"	Mandible	mandible
 Mandragorae	Mandragorae	mandragorae
@@ -23416,7 +23416,7 @@ Mark	Mark	mark
 "Mark Ronson under exclusive license to Sony Music Entertainment UK Limited"	"Sony Music Entertainment UK"	sonymusicentertainmentuk
 "Mark Ronson, Sony Music Entertainment UK Limited"	"Mark Ronson Sony Music Entertainment UK"	markronsonsonymusicentertainmentuk
 "Mark Ronson, Sony, UK Limited"	"Mark Ronson Sony UK"	markronsonsonyuk
-"Mark's Music"	Marks	marks
+"Mark's Music"	Mark's	marks
 "Market Square"	"Market Square"	marketsquare
 "Market Square Recordings"	"Market Square"	marketsquare
 "Market Square Records"	"Market Square"	marketsquare
@@ -23455,7 +23455,7 @@ Marsh-Marigold	Marsh-Marigold	marshmarigold
 "marshall teller records"	"marshall teller"	marshallteller
 Marsol	Marsol	marsol
 "Martha Wainwright"	"Martha Wainwright"	marthawainwright
-"Martha's Music"	Marthas	marthas
+"Martha's Music"	Martha's	marthas
 "Martians Go Home"	"Martians Go Home"	martiansgohome
 "Martianship Music Company"	"Martianship Music Company"	martianshipmusiccompany
 "Martin Gonzalez"	"Martin Gonzalez"	martingonzalez
@@ -23467,7 +23467,7 @@ Maru	Maru	maru
 "MARUTENN BOOKS"	"MARUTENN BOOKS"	marutennbooks
 Marvel	Marvel	marvel
 "Mary Joy"	"Mary Joy"	maryjoy
-"Mary Margaret O'Hara"	"Mary Margaret OHara"	marymargaretohara
+"Mary Margaret O'Hara"	"Mary Margaret O'Hara"	marymargaretohara
 "Marz Léon"	"Marz Léon"	marzleon
 "mas tropical"	"mas tropical"	mastropical
 "Masare Records"	Masare	masare
@@ -23480,7 +23480,7 @@ Masego	Masego	masego
 "Mashamug Music Publishing"	Mashamug	mashamug
 "Mashed Potatos"	"Mashed Potatos"	mashedpotatos
 Mashit	Mashit	mashit
-"Mashrou' Leila"	"Mashrou Leila"	mashrouleila
+"Mashrou' Leila"	"Mashrou' Leila"	mashrouleila
 masked	masked	masked
 mass	mass	mass
 "Mass Appeal"	"Mass Appeal"	massappeal
@@ -23593,7 +23593,7 @@ Matterhorn	Matterhorn	matterhorn
 "matthew cutler"	"matthew cutler"	matthewcutler
 "Matthew Heyer"	"Matthew Heyer"	matthewheyer
 "Matthews Southern Comfort"	"Matthews Southern Comfort"	matthewssoutherncomfort
-"Matthews' Southern Comfort"	"Matthews Southern Comfort"	matthewssoutherncomfort
+"Matthews' Southern Comfort"	"Matthews' Southern Comfort"	matthewssoutherncomfort
 "Mattress Recordings"	Mattress	mattress
 "Matty Unlimited"	Matty	matty
 "Matues Records"	Matues	matues
@@ -23609,7 +23609,7 @@ mau5trap	mau5trap	mau5trap
 "Mauley G"	"Mauley G"	mauleyg
 "Maurice Jarre"	"Maurice Jarre"	mauricejarre
 "Maurice Uzzan"	"Maurice Uzzan"	mauriceuzzan
-"Mauricio's Room"	"Mauricios Room"	mauriciosroom
+"Mauricio's Room"	"Mauricio's Room"	mauriciosroom
 "Maus Haus"	"Maus Haus"	maushaus
 Maverick	Maverick	maverick
 "Maverick (1992)"	Maverick	maverick
@@ -23718,7 +23718,7 @@ MCMXCV	MCMXCV	mcmxcv
 "MCMXCV / bettersounds"	"MCMXCV / bettersounds"	mcmxcvbettersounds
 "McNett Records"	McNett	mcnett
 McQueen	McQueen	mcqueen
-McSweeney's	McSweeneys	mcsweeneys
+McSweeney's	McSweeney's	mcsweeneys
 "MCV Records"	MCV	mcv
 "Md Decent"	"Md Decent"	mddecent
 "MD Just Halloween"	"MD Just Halloween"	mdjusthalloween
@@ -23801,7 +23801,7 @@ Megalith	Megalith	megalith
 Megamagomusic	Megamagomusic	megamagomusic
 "Megan Gage"	"Megan Gage"	megangage
 "Megan Thee Stallion"	"Megan Thee Stallion"	megantheestallion
-"Megaphone / Knock 'Em Dead"	"Megaphone / Knock Em Dead"	megaphoneknockemdead
+"Megaphone / Knock 'Em Dead"	"Megaphone / Knock 'Em Dead"	megaphoneknockemdead
 Megaphonic	Megaphonic	megaphonic
 "Megaphonic Records"	Megaphonic	megaphonic
 MegaStorm	MegaStorm	megastorm
@@ -23868,7 +23868,7 @@ Melody	Melody	melody
 "Melody Dungeon Music"	"Melody Dungeon"	melodydungeon
 "Melody Maker"	"Melody Maker"	melodymaker
 "Melody Parker"	"Melody Parker"	melodyparker
-"Melody's Echo Chamber"	"Melodys Echo Chamber"	melodysechochamber
+"Melody's Echo Chamber"	"Melody's Echo Chamber"	melodysechochamber
 "Melofaktur UG"	"Melofaktur UG"	melofakturug
 "Melon Computer"	"Melon Computer"	meloncomputer
 Melorman	Melorman	melorman
@@ -24150,10 +24150,10 @@ MiCasaSuCasa	MiCasaSuCasa	micasasucasa
 MICHELLE	MICHELLE	michelle
 "Mickey Melchionado"	"Mickey Melchionado"	mickeymelchionado
 "Mickey Mickey Rourke"	"Mickey Mickey Rourke"	mickeymickeyrourke
-"Mickey Murphy's Daughter"	"Mickey Murphys Daughter"	mickeymurphysdaughter
-"Mickey Murphy's Daughter Limited"	"Mickey Murphys Daughter"	mickeymurphysdaughter
-"Mickey Murphy's Daughter Ltd u/l Loaded Recs, BMG"	"Mickey Murphys Daughter Ltd u/l Loaded Recs BMG"	mickeymurphysdaughterltdulloadedrecsbmg
-"Micky Murphy's Daughter"	"Micky Murphys Daughter"	mickymurphysdaughter
+"Mickey Murphy's Daughter"	"Mickey Murphy's Daughter"	mickeymurphysdaughter
+"Mickey Murphy's Daughter Limited"	"Mickey Murphy's Daughter"	mickeymurphysdaughter
+"Mickey Murphy's Daughter Ltd u/l Loaded Recs, BMG"	"Mickey Murphy's Daughter Ltd u/l Loaded Recs BMG"	mickeymurphysdaughterltdulloadedrecsbmg
+"Micky Murphy's Daughter"	"Micky Murphy's Daughter"	mickymurphysdaughter
 Micmac	Micmac	micmac
 "Micmac Records"	Micmac	micmac
 "Micol Cazzell"	"Micol Cazzell"	micolcazzell
@@ -24509,9 +24509,9 @@ Mo	Mo	mo
 "Mo Wax Labels Ltd"	"Mo Wax Labels"	mowaxlabels
 "Mo Wax Recordings"	"Mo Wax"	mowax
 "Mo-Soul Records"	Mo-Soul	mosoul
-"Mo' Wax"	"Mo Wax"	mowax
-"Mo' Wax Records"	"Mo Wax"	mowax
-Mo'Wax	MoWax	mowax
+"Mo' Wax"	"Mo' Wax"	mowax
+"Mo' Wax Records"	"Mo' Wax"	mowax
+Mo'Wax	Mo'Wax	mowax
 "MOA Productions"	MOA	moa
 "Moabit Music"	Moabit	moabit
 "Moabit Musik"	"Moabit Musik"	moabitmusik
@@ -24617,7 +24617,7 @@ Mogora	Mogora	mogora
 Mohawk	Mohawk	mohawk
 Mohawk!	Mohawk!	mohawk
 "Mohogani Music"	Mohogani	mohogani
-"Moi J'Connais Records"	"Moi JConnais"	moijconnais
+"Moi J'Connais Records"	"Moi J'Connais"	moijconnais
 "Moiss Music"	Moiss	moiss
 MOJO	MOJO	mojo
 "Mojo Records"	Mojo	mojo
@@ -24820,7 +24820,7 @@ Monumentum	Monumentum	monumentum
 "Mood Hut Music"	"Mood Hut"	moodhut
 "Mood Hut Records"	"Mood Hut"	moodhut
 "Mood Mosaic"	"Mood Mosaic"	moodmosaic
-"Mood Records ‎"	"Mood Records ‎"	moodrecords
+"Mood Records ‎"	Mood	mood
 moodbymatteo	moodbymatteo	moodbymatteo
 Moodfamily	Moodfamily	moodfamily
 Moodgadget	Moodgadget	moodgadget
@@ -25351,7 +25351,7 @@ Mushroom	Mushroom	mushroom
 MusicandPower	MusicandPower	musicandpower
 Musicaphon	Musicaphon	musicaphon
 Musicariad	Musicariad	musicariad
-"Musician's Corner / Tone Tree Music"	"Musicians Corner / Tone Tree"	musicianscornertonetree
+"Musician's Corner / Tone Tree Music"	"Musician's Corner / Tone Tree"	musicianscornertonetree
 MuSick	MuSick	musick
 "MuSick Recordings"	MuSick	musick
 Musickeria	Musickeria	musickeria
@@ -25467,7 +25467,7 @@ mxmtoon	mxmtoon	mxmtoon
 "my bebey records"	"my bebey"	mybebey
 "my bebey records / independently popular"	"my bebey records / independently popular"	mybebeyrecordsindependentlypopular
 "my bebey records / independently popular."	"my bebey records / independently popular"	mybebeyrecordsindependentlypopular
-"My Dad's Records"	"My Dads"	mydads
+"My Dad's Records"	"My Dad's"	mydads
 "my dark room"	"my dark room"	mydarkroom
 "My Favorite Robot"	"My Favorite Robot"	myfavoriterobot
 "My Favorite Robot Records"	"My Favorite Robot"	myfavoriterobot
@@ -25495,7 +25495,7 @@ MYNGA	MYNGA	mynga
 Myor	Myor	myor
 "Myor Massiv"	"Myor Massiv"	myormassiv
 Myor)	Myor	myor
-"Myra's Child"	"Myras Child"	myraschild
+"Myra's Child"	"Myra's Child"	myraschild
 Myself&Others	Myself&Others	myselfothers
 Myspace	Myspace	myspace
 "myspace.com/Hobocopmusic [self release]"	"myspacecom/Hobocopmusic self release"	myspacecomhobocopmusicselfrelease
@@ -25535,7 +25535,7 @@ N.E.W.S.	NEWS	news
 N.O.T.E.	NOTE	note
 n.VA	nVA	nva
 "N.W.A. Music Group"	NWA	nwa
-n'a	na	na
+n'a	n'a	na
 n/	n	n
 n/a	n/a	na
 "N/A import"	"N/A import"	nimport
@@ -25618,7 +25618,7 @@ Nang	Nang	nang
 "Nang (UK)"	"Nang UK"	nanguk
 "Nang Records"	Nang	nang
 "Nano Records"	Nano	nano
-"Nanophonica ‎"	"Nanophonica ‎"	nanophonica
+"Nanophonica ‎"	Nanophonica	nanophonica
 Napalm	Napalm	napalm
 "Napalm Records"	Napalm	napalm
 "Nappy boy Konvict Jive"	"Nappy boy Konvict Jive"	nappyboykonvictjive
@@ -25728,7 +25728,7 @@ Ndeya	Ndeya	ndeya
 NDYD	NDYD	ndyd
 "NDYD Disqo"	"NDYD Disqo"	ndyddisqo
 NE-HI	NE-HI	nehi
-"Ne'astra Music"	Neastra	neastra
+"Ne'astra Music"	Ne'astra	neastra
 NE4LIFEnt	NE4LIFEnt	ne4lifent
 Neana	Neana	neana
 "Near Dark"	"Near Dark"	neardark
@@ -25824,11 +25824,11 @@ Neopolitan	Neopolitan	neopolitan
 "NEOS Music"	NEOS	neos
 "Neovinyl Recordings"	Neovinyl	neovinyl
 "Nepenthe Music and Publishing"	"Nepenthe Music and"	nepenthemusicand
-"Neptune's Room"	"Neptunes Room"	neptunesroom
+"Neptune's Room"	"Neptune's Room"	neptunesroom
 "Nerang Recordings"	Nerang	nerang
 "Nerang Records"	Nerang	nerang
 "Nero Schwarz"	"Nero Schwarz"	neroschwarz
-"Nero's Neptune"	"Neros Neptune"	nerosneptune
+"Nero's Neptune"	"Nero's Neptune"	nerosneptune
 Neroli	Neroli	neroli
 Nerv	Nerv	nerv
 Nervous	Nervous	nervous
@@ -26118,7 +26118,7 @@ Nicey	Nicey	nicey
 "Nicey Music"	Nicey	nicey
 "Nicey Music 2017"	Nicey	nicey
 "Nicey Records"	Nicey	nicey
-"Niche 'n' Bump"	"Niche n Bump"	nichenbump
+"Niche 'n' Bump"	"Niche 'n' Bump"	nichenbump
 "Nicholas Britell"	"Nicholas Britell"	nicholasbritell
 "Nicholas Heck"	"Nicholas Heck"	nicholasheck
 "nicholas valentini"	"nicholas valentini"	nicholasvalentini
@@ -26281,7 +26281,7 @@ NNA	NNA	nna
 "NNA Tapes"	"NNA Tapes"	nnatapes
 nnt	nnt	nnt
 No	No	no
-"No 'Label' "	"No Label"	nolabel
+"No 'Label' "	"No 'Label"	nolabel
 "No ""Label"""	"No Label"	nolabel
 "No Accident In Paradise"	"No Accident In Paradise"	noaccidentinparadise
 "No Agreements"	"No Agreements"	noagreements
@@ -26327,7 +26327,7 @@ No	No	no
 "No Idea"	"No Idea"	noidea
 "no idea how to pronounce the band name"	"no idea how to pronounce the band name"	noideahowtopronouncebandname
 "No Idea Records"	"No Idea"	noidea
-"No Idea's Original"	"No Ideas Original"	noideasoriginal
+"No Idea's Original"	"No Idea's Original"	noideasoriginal
 "No Kings"	"No Kings"	nokings
 "No Label"	"No Label"	nolabel
 "no label (2004)"	"no label"	nolabel
@@ -26398,9 +26398,9 @@ No.	No	no
 "No. 6 Records"	"No 6"	no6
 "No. 6/Teen Beat"	"No 6/Teen Beat"	no6teenbeat
 "No. 6/TeenBeat"	"No 6/TeenBeat"	no6teenbeat
-"No3 ‎"	"No3 ‎"	no3
+"No3 ‎"	No3	no3
 "Noah Gurley"	"Noah Gurley"	noahgurley
-"Noah's Ark VOF"	"Noahs Ark VOF"	noahsarkvof
+"Noah's Ark VOF"	"Noah's Ark VOF"	noahsarkvof
 "Noba Records"	Noba	noba
 Noble	Noble	noble
 "noble & brite"	"noble & brite"	noblebrite
@@ -26409,10 +26409,10 @@ Noble	Noble	noble
 "noble ID"	"noble ID"	nobleid
 "Nobody Gets It"	"Nobody Gets It"	nobodygetsit
 "nobody walks in L.A."	"nobody walks in LA"	nobodywalksinla
-"Nobody's Baby"	"Nobodys Baby"	nobodysbaby
-"Nobody's Babyb"	"Nobodys Babyb"	nobodysbabyb
-"Nobody's Bizzness"	"Nobodys Bizzness"	nobodysbizzness
-"Nobody's Bizzness GmbH"	"Nobodys Bizzness GmbH"	nobodysbizznessgmbh
+"Nobody's Baby"	"Nobody's Baby"	nobodysbaby
+"Nobody's Babyb"	"Nobody's Babyb"	nobodysbabyb
+"Nobody's Bizzness"	"Nobody's Bizzness"	nobodysbizzness
+"Nobody's Bizzness GmbH"	"Nobody's Bizzness GmbH"	nobodysbizznessgmbh
 "Nobuto Suda"	"Nobuto Suda"	nobutosuda
 Nocera	Nocera	nocera
 "Noctilux Collective"	"Noctilux Collective"	noctiluxcollective
@@ -26505,7 +26505,7 @@ Nonesuch	Nonesuch	nonesuch
 "Nonesuch/Nonesuch Records"	Nonesuch/Nonesuch	nonesuchnonesuch
 Nonlocal	Nonlocal	nonlocal
 "Nonlocal Forecas"	"Nonlocal Forecas"	nonlocalforecas
-"Nonlocal Research ‎/ Psychic Sounds"	"Nonlocal Research ‎/ Psychic Sounds"	nonlocalresearchpsychicsounds
+"Nonlocal Research ‎/ Psychic Sounds"	"Nonlocal Research / Psychic Sounds"	nonlocalresearchpsychicsounds
 Nonplace	Nonplace	nonplace
 "Nonplus Records"	Nonplus	nonplus
 Nonprofit	Nonprofit	nonprofit
@@ -26591,7 +26591,7 @@ Nostromo	Nostromo	nostromo
 "Not on a Label"	"Not on a Label"	notonlabel
 "Not On ALbum"	"Not On ALbum"	notonalbum
 "Not On Label"	"Not On Label"	notonlabel
-"Not On Label ‎– LM0978"	"Not On Label ‎– LM0978"	notonlabellm0978
+"Not On Label ‎– LM0978"	"Not On Label – LM0978"	notonlabellm0978
 "Not On Label (Justin Strauss Self-released)"	"Not On Label Justin Strauss Self-released"	notonlabeljustinstraussselfreleased
 "Not On Label (Sade) LD006"	"Not On Label Sade LD006"	notonlabelsadeld006
 "Not On Label (Self-released)"	"Not On Label Self-released"	notonlabelselfreleased
@@ -26629,7 +26629,7 @@ Notown	Notown	notown
 nourish.	nourish	nourish
 Nous	Nous	nous
 "Nous Disques]"	"Nous Disques"	nousdisques
-"Nous'klaer Audio"	"Nousklaer Audio"	nousklaeraudio
+"Nous'klaer Audio"	"Nous'klaer Audio"	nousklaeraudio
 "Nouvelle Ecole/Pop Korn/Believe Recordings"	"Nouvelle Ecole/Pop Korn/Believe"	nouvelleecolepopkornbelieve
 "Nova Lotus"	"Nova Lotus"	novalotus
 "Nova Posta Vinyl"	"Nova Posta Vinyl"	novapostavinyl
@@ -26743,7 +26743,7 @@ Numero	Numero	numero
 "Numero Group (1982/2021)"	Numero	numero
 "Numero Group (2001)"	Numero	numero
 "Numero Group (2019)"	Numero	numero
-"Numero Group (80's/2020)"	"Numero Group 80s/2020"	numerogroup80s2020
+"Numero Group (80's/2020)"	"Numero Group 80's/2020"	numerogroup80s2020
 "Numero Group 050"	"Numero Group 050"	numerogroup050
 "Numero Group 2019"	Numero	numero
 "Numero Records"	Numero	numero
@@ -26795,7 +26795,7 @@ O-Genesis	O-Genesis	ogenesis
 O-Music	O-Music	omusic
 O-tone	O-tone	otone
 "O.C. Smith"	"OC Smith"	ocsmith
-O'Flynn	OFlynn	oflynn
+O'Flynn	O'Flynn	oflynn
 O(n)	On	on
 O/Quarto	O/Quarto	oquarto
 OAK	OAK	oak
@@ -27012,7 +27012,7 @@ Oklou	Oklou	oklou
 Okra	Okra	okra
 Okraina	Okraina	okraina
 Oktaf	Oktaf	oktaf
-"OL' SPORT"	"OL SPORT"	olsport
+"OL' SPORT"	"OL' SPORT"	olsport
 Old	Old	old
 "Old Bear"	"Old Bear"	oldbear
 "Old Blackberry Way"	"Old Blackberry Way"	oldblackberryway
@@ -27217,8 +27217,8 @@ Onizuka	Onizuka	onizuka
 "Only The Family Entertainment"	"Only The Family"	onlyfamily
 "Only The Highest"	"Only The Highest"	onlyhighest
 "Onomatopoeia Records"	Onomatopoeia	onomatopoeia
-"Ont' Sofa"	"Ont Sofa"	ontsofa
-"Ont' Sofa Records"	"Ont Sofa"	ontsofa
+"Ont' Sofa"	"Ont' Sofa"	ontsofa
+"Ont' Sofa Records"	"Ont' Sofa"	ontsofa
 OnThe	OnThe	onthe
 "OnThe Records"	OnThe	onthe
 "Onto Entertainment"	Onto	onto
@@ -27267,7 +27267,7 @@ OPENERS	OPENERS	openers
 Ophelia	Ophelia	ophelia
 "Opilec Music"	Opilec	opilec
 Opine	Opine	opine
-"OpM - Other People's Money"	"OpM - Other Peoples Money"	opmotherpeoplesmoney
+"OpM - Other People's Money"	"OpM - Other People's Money"	opmotherpeoplesmoney
 Opplett	Opplett	opplett
 "Opposite Number"	"Opposite Number"	oppositenumber
 Opposition	Opposition	opposition
@@ -27418,7 +27418,7 @@ OST	OST	ost
 "Ostgut Ton"	"Ostgut Ton"	ostgutton
 Ostinato	Ostinato	ostinato
 "Ostinato Records"	Ostinato	ostinato
-"Ostra Discos ‎"	"Ostra Discos ‎"	ostradiscos
+"Ostra Discos ‎"	"Ostra Discos"	ostradiscos
 "ostrum Records"	ostrum	ostrum
 "Osvaldo Pugliese"	"Osvaldo Pugliese"	osvaldopugliese
 "Otake Records"	Otake	otake
@@ -27442,7 +27442,7 @@ Other	Other	other
 "Other People (2019)"	"Other People"	otherpeople
 "Other People LLC"	"Other People"	otherpeople
 "Other People Records"	"Other People"	otherpeople
-"Other People's Music"	"Other Peoples"	otherpeoples
+"Other People's Music"	"Other People's"	otherpeoples
 "Other Peoples Music"	"Other Peoples"	otherpeoples
 "Other Voices"	"Other Voices"	othervoices
 "Other Voices Records"	"Other Voices"	othervoices
@@ -27500,7 +27500,7 @@ Outcross	Outcross	outcross
 "Outer District"	"Outer District"	outerdistrict
 "Outer Himalayan Records"	"Outer Himalayan"	outerhimalayan
 "Outer Limit"	"Outer Limit"	outerlimit
-"Outer Limit's Lounge"	"Outer Limits Lounge"	outerlimitslounge
+"Outer Limit's Lounge"	"Outer Limit's Lounge"	outerlimitslounge
 "Outer Limits"	"Outer Limits"	outerlimits
 "Outer Limits Lounge"	"Outer Limits Lounge"	outerlimitslounge
 "Outer Limits Lounge Recording"	"Outer Limits Lounge Recording"	outerlimitsloungerecording
@@ -28234,7 +28234,7 @@ Pentimento	Pentimento	pentimento
 "Pentimento Music Group"	Pentimento	pentimento
 "Penultimate Press"	"Penultimate Press"	penultimatepress
 People	People	people
-"People Don't Buy Records"	"People Dont Buy"	peopledontbuy
+"People Don't Buy Records"	"People Don't Buy"	peopledontbuy
 "People Eating Fruit"	"People Eating Fruit"	peopleeatingfruit
 "People Eating Fruit Records"	"People Eating Fruit"	peopleeatingfruit
 "People In A Position To Know"	"People In A Position To Know"	peopleinpositiontoknow
@@ -28244,8 +28244,8 @@ People	People	people
 "People Person Collective"	"People Person Collective"	peoplepersoncollective
 "People Records"	People	people
 "People Under the Stairs"	"People Under the Stairs"	peopleunderstairs
-"People's Champ"	"Peoples Champ"	peopleschamp
-"People's Potential Unlimited"	"Peoples Potential"	peoplespotential
+"People's Champ"	"People's Champ"	peopleschamp
+"People's Potential Unlimited"	"People's Potential"	peoplespotential
 "Peoples Potential Unlimited"	"Peoples Potential"	peoplespotential
 Pepita	Pepita	pepita
 "Pepper Records"	Pepper	pepper
@@ -28340,7 +28340,7 @@ Petaluma	Petaluma	petaluma
 "Petaluma Records"	Petaluma	petaluma
 "Petbrook Limited"	Petbrook	petbrook
 Petcord	Petcord	petcord
-"Pete's Random Hoppin' Songs: Tape by Juliette"	"Petes Random Hoppin Songs Tape by Juliette"	petesrandomhoppinsongstapebyjuliette
+"Pete's Random Hoppin' Songs: Tape by Juliette"	"Pete's Random Hoppin' Songs Tape by Juliette"	petesrandomhoppinsongstapebyjuliette
 "peter Braatz"	"peter Braatz"	peterbraatz
 "Peter Cottontale"	"Peter Cottontale"	petercottontale
 "Peter Cruseder Records"	"Peter Cruseder"	petercruseder
@@ -28404,7 +28404,7 @@ Pharaway	Pharaway	pharaway
 "Phase One Network, Inc & Entertainment One U.S."	"Phase One Network Inc & Entertainment One US"	phaseonenetworkincentertainmentoneus
 "Phase One Records"	"Phase One"	phaseone
 Phases	Phases	phases
-"Phat 'N' Phunky"	"Phat N Phunky"	phatnphunky
+"Phat 'N' Phunky"	"Phat 'N' Phunky"	phatnphunky
 "Phat Hip Hop Jams"	"Phat Hip Hop Jams"	phathiphopjams
 "Phat Kat Music"	"Phat Kat"	phatkat
 "Phat n Phunky"	"Phat n Phunky"	phatnphunky
@@ -28458,7 +28458,7 @@ Phillip	Phillip	phillip
 Phillips	Phillips	phillips
 "Phillips (1966)"	Phillips	phillips
 "Phillips (reissue)"	"Phillips reissue"	phillipsreissue
-"phillips dusty groove"	"phillips dusty groove"	phillipsdustygroove
+"phillips dusty groove"	"phillips dusty groove"	phillipsdustygroove
 Philly	Philly	philly
 "Philly Groove"	"Philly Groove"	phillygroove
 "Philly Groove (1971)"	"Philly Groove"	phillygroove
@@ -28792,7 +28792,7 @@ Plateau	Plateau	plateau
 "Plath Records"	Plath	plath
 "Platino Records"	Platino	platino
 "platinum / wrecking crew"	"platinum / wrecking crew"	platinumwreckingcrew
-"Platinum City, Luv N' Haight"	"Platinum City Luv N Haight"	platinumcityluvnhaight
+"Platinum City, Luv N' Haight"	"Platinum City Luv N' Haight"	platinumcityluvnhaight
 "Platinum Classic"	"Platinum Classic"	platinumclassic
 Plato	Plato	plato
 "Platon Records"	Platon	platon
@@ -29133,7 +29133,7 @@ Poom	Poom	poom
 "Poom - Grand Musique Management"	"Poom - Grand Musique Management"	poomgrandmusiquemanagement
 "Poon Village"	"Poon Village"	poonvillage
 Poor	Poor	poor
-"Poor Gentlemen's Records"	"Poor Gentlemens"	poorgentlemens
+"Poor Gentlemen's Records"	"Poor Gentlemen's"	poorgentlemens
 "Poor Man"	"Poor Man"	poorman
 "Poor Man / Palo Santo"	"Poor Man / Palo Santo"	poormanpalosanto
 "Poor Man Records"	"Poor Man"	poorman
@@ -29205,7 +29205,7 @@ Porchlight	Porchlight	porchlight
 "Pork Recordings"	Pork	pork
 Porous	Porous	porous
 "Port Arthur"	"Port Arthur"	portarthur
-"Port O'Brien"	"Port OBrien"	portobrien
+"Port O'Brien"	"Port O'Brien"	portobrien
 Portafonico	Portafonico	portafonico
 "Portage Garage Sounds"	"Portage Garage Sounds"	portagegaragesounds
 Portait	Portait	portait
@@ -29269,7 +29269,7 @@ Postmark	Postmark	postmark
 POSTURE	POSTURE	posture
 postwar	postwar	postwar
 "Pot Luck"	"Pot Luck"	potluck
-"pot o' money"	"pot o money"	potomoney
+"pot o' money"	"pot o' money"	potomoney
 "Potato King"	"Potato King"	potatoking
 "Potion Records"	Potion	potion
 "Potions Music"	Potions	potions
@@ -29301,7 +29301,7 @@ PoweredByCMB/Triiibe	PoweredByCMB/Triiibe	poweredbycmbtriiibe
 PPU	PPU	ppu
 "PR Records"	PR	pr
 Pr-jkts	Pr-jkts	prjkts
-"pr'formance / bart&baker music"	"prformance / bart&baker"	prformancebartbaker
+"pr'formance / bart&baker music"	"pr'formance / bart&baker"	prformancebartbaker
 Pr0files	Pr0files	pr0files
 Practical	Practical	practical
 "Practical (2018)"	Practical	practical
@@ -29655,7 +29655,7 @@ Public	Public	public
 "Public House Recordings"	"Public House"	publichouse
 "Public House Sound Recordings"	"Public House Sound"	publichousesound
 "Public Housin' "	"Public Housin"	publichousin
-"Public Housin' / EMPIRE"	"Public Housin / EMPIRE"	publichousinempire
+"Public Housin' / EMPIRE"	"Public Housin' / EMPIRE"	publichousinempire
 "Public Information"	"Public Information"	publicinformation
 "Public Posession"	"Public Posession"	publicposession
 "Public Possesion"	"Public Possesion"	publicpossesion
@@ -29941,7 +29941,7 @@ R.F.K.	RFK	rfk
 "R.I.P. Society"	"RIP Society"	ripsociety
 "R.I.S.E. Music"	RISE	rise
 "R.L. Kelly"	"RL Kelly"	rlkelly
-R'COUP'D	RCOUPD	rcoupd
+R'COUP'D	R'COUP'D	rcoupd
 "R/C Records"	R/C	rc
 "R&B Discs"	"R&B Discs"	rbdiscs
 "R&B Division"	"R&B Division"	rbdivision
@@ -30087,7 +30087,7 @@ Rainman	Rainman	rainman
 Rainych	Rainych	rainych
 "Raised By Records"	"Raised By"	raisedby
 "Raised By The Internet"	"Raised By The Internet"	raisedbyinternet
-"Raison D'etre"	"Raison Detre"	raisondetre
+"Raison D'etre"	"Raison D'etre"	raisondetre
 RAK	RAK	rak
 "RAK Records"	RAK	rak
 "Raka Music"	Raka	raka
@@ -30108,8 +30108,8 @@ Ram	Ram	ram
 "Ram Records"	Ram	ram
 "RAM Records Ltd"	RAM	ram
 "RAM Records Ltd."	RAM	ram
-"Ram's Horn"	"Rams Horn"	ramshorn
-"Ram's Horn (Netherlands)"	"Rams Horn Netherlands"	ramshornnetherlands
+"Ram's Horn"	"Ram's Horn"	ramshorn
+"Ram's Horn (Netherlands)"	"Ram's Horn Netherlands"	ramshornnetherlands
 "Rama Lama"	"Rama Lama"	ramalama
 Ramble	Ramble	ramble
 Ramco	Ramco	ramco
@@ -30132,7 +30132,7 @@ Ramseur	Ramseur	ramseur
 "Ramseur Records"	Ramseur	ramseur
 "Ramsey Sound"	"Ramsey Sound"	ramseysound
 "ramuntcho matta"	"ramuntcho matta"	ramuntchomatta
-"Ramzzzs ‎"	"Ramzzzs ‎"	ramzzzs
+"Ramzzzs ‎"	Ramzzzs	ramzzzs
 "Ran Music"	Ran	ran
 Ranch	Ranch	ranch
 "Ranch Jams"	"Ranch Jams"	ranchjams
@@ -30149,7 +30149,7 @@ Randy	Randy	randy
 "Randy Feuer"	"Randy Feuer"	randyfeuer
 "Randy Newman was young?????"	"Randy Newman was young?????"	randynewmanwasyoung
 "Randy Records"	Randy	randy
-Randy's	Randys	randys
+Randy's	Randy's	randys
 "Ransom Crew LTD"	"Ransom Crew"	ransomcrew
 "Ransom Music Group"	Ransom	ransom
 "Ransom Note"	"Ransom Note"	ransomnote
@@ -30287,7 +30287,7 @@ Rawthentic	Rawthentic	rawthentic
 "Razor and Tie Recordings"	"Razor and Tie"	razortie
 "Razor Crew Records"	"Razor Crew"	razorcrew
 "Razor N Tape"	"Razor N Tape"	razorntape
-"Razor N' Tape"	"Razor N Tape"	razorntape
+"Razor N' Tape"	"Razor N' Tape"	razorntape
 "Razor Recordings"	Razor	razor
 "Razor Records"	Razor	razor
 "Razor sharp records"	"Razor sharp"	razorsharp
@@ -30382,7 +30382,7 @@ RCA	RCA	rca
 "RCA, Murderecords"	"RCA Murderecords"	rcamurderecords
 "RCA, Rough Trade"	"RCA Rough Trade"	rcaroughtrade
 "RCA, Sony"	"RCA Sony"	rcasony
-"RCA/Beggar's Banquet"	"RCA/Beggars Banquet"	rcabeggarsbanquet
+"RCA/Beggar's Banquet"	"RCA/Beggar's Banquet"	rcabeggarsbanquet
 RCA/BMG	RCA/BMG	rcabmg
 "RCA/BMG Heritage"	"RCA/BMG Heritage"	rcabmgheritage
 "RCA/BMG Music"	RCA/BMG	rcabmg
@@ -30419,8 +30419,8 @@ REACT!	REACT!	react
 Reaction	Reaction	reaction
 "Reaction Records"	Reaction	reaction
 "Read Mix Records"	"Read Mix"	readmix
-"Reader's Digest"	"Readers Digest"	readersdigest
-"Reader's Digest Music"	"Readers Digest"	readersdigest
+"Reader's Digest"	"Reader's Digest"	readersdigest
+"Reader's Digest Music"	"Reader's Digest"	readersdigest
 "Reading Past Bedtime 2019"	"Reading Past Bedtime"	readingpastbedtime
 "Ready Mix Records"	"Ready Mix"	readymix
 "Ready Set Go!"	"Ready Set Go!"	readysetgo
@@ -30567,7 +30567,7 @@ red	red	red
 "Red Brick Songs"	"Red Brick Songs"	redbricksongs
 "Red Bull"	"Red Bull"	redbull
 "Red Bull Media House"	"Red Bull Media House"	redbullmediahouse
-"Red Bull Radio's C.L.A.W. – Collaborative Legions of Artful Womxn"	"Red Bull Radios CLAW – Collaborative Legions of Artful Womxn"	redbullradiosclawcollaborativelegionsofartfulwomxn
+"Red Bull Radio's C.L.A.W. – Collaborative Legions of Artful Womxn"	"Red Bull Radio's CLAW – Collaborative Legions of Artful Womxn"	redbullradiosclawcollaborativelegionsofartfulwomxn
 "Red Bull Records"	"Red Bull"	redbull
 "Red Bull Records Inc"	"Red Bull"	redbull
 "Red Bull Records INC."	"Red Bull"	redbull
@@ -31218,7 +31218,7 @@ Rix	Rix	rix
 "Rizatek Records"	Rizatek	rizatek
 "RJ Records"	RJ	rj
 "RJ Records Inc"	RJ	rj
-"RJ's Electrical Connections"	"RJs Electrical Connections"	rjselectricalconnections
+"RJ's Electrical Connections"	"RJ's Electrical Connections"	rjselectricalconnections
 Rjctnation	Rjctnation	rjctnation
 "RKM, Vogue"	"RKM Vogue"	rkmvogue
 "RKS Recordings"	RKS	rks
@@ -31251,7 +31251,7 @@ Roar!	Roar!	roar
 "Rob The Rich Records"	"Rob The Rich"	robrich
 "Rob The Rich/Caroline"	"Rob The Rich/Caroline"	robrichcaroline
 "Rob The Rich/Caroline Records"	"Rob The Rich/Caroline"	robrichcaroline
-"Rob's House Records"	"Robs House"	robshouse
+"Rob's House Records"	"Rob's House"	robshouse
 "Robba Coatta"	"Robba Coatta"	robbacoatta
 "Robbins Entertainment"	Robbins	robbins
 "Robbins Entertainment LLC"	Robbins	robbins
@@ -31300,7 +31300,7 @@ Rocafella	Rocafella	rocafella
 "Roche Musique"	"Roche Musique"	rochemusique
 Rocinante	Rocinante	rocinante
 Rock	Rock	rock
-"Rock 'n Roll Records"	"Rock n Roll"	rocknroll
+"Rock 'n Roll Records"	"Rock 'n Roll"	rocknroll
 "Rock & Rock Inc."	"Rock & Rock"	rockrock
 "Rock & Roll Classics"	"Rock & Roll Classics"	rockrollclassics
 "Rock A Fella"	"Rock A Fella"	rockfella
@@ -31310,7 +31310,7 @@ Rock	Rock	rock
 "Rock Action Records"	"Rock Action"	rockaction
 "Rock Action Records 2017"	"Rock Action"	rockaction
 "Rock Against Racism"	"Rock Against Racism"	rockagainstracism
-"Rock and Roll Didn't Come from New York!"	"Rock and Roll Didnt Come from New York!"	rockrolldidntcomefromnewyork
+"Rock and Roll Didn't Come from New York!"	"Rock and Roll Didn't Come from New York!"	rockrolldidntcomefromnewyork
 "rock and roll records"	"rock and roll"	rockroll
 "Rock Balade"	"Rock Balade"	rockbalade
 "Rock Candy Records"	"Rock Candy"	rockcandy
@@ -31331,7 +31331,7 @@ Rock	Rock	rock
 "Rock-a- Fella"	"Rock-a- Fella"	rockafella
 Rock-a-Fella	Rock-a-Fella	rockafella
 Rock-O-Rama	Rock-O-Rama	rockorama
-"Rock'n'Roll Circus"	"RocknRoll Circus"	rocknrollcircus
+"Rock'n'Roll Circus"	"Rock'n'Roll Circus"	rocknrollcircus
 "Rockabilly Records"	Rockabilly	rockabilly
 Rockafella	Rockafella	rockafella
 Rockathan	Rockathan	rockathan
@@ -31356,8 +31356,8 @@ Rocketstar	Rocketstar	rocketstar
 "Rocketstar Recordings"	Rocketstar	rocketstar
 "Rockin the Blues"	"Rockin the Blues"	rockinblues
 "Rockin Up Work"	"Rockin Up Work"	rockinupwork
-"ROCKIN' HORSE RECORDS"	"ROCKIN HORSE"	rockinhorse
-"Rockin’ House"	"Rockin’ House"	rockinhouse
+"ROCKIN' HORSE RECORDS"	"ROCKIN' HORSE"	rockinhorse
+"Rockin’ House"	"Rockin' House"	rockinhouse
 "Rocking Records"	Rocking	rocking
 "RockLee Productions"	RockLee	rocklee
 Rockridge	Rockridge	rockridge
@@ -31477,7 +31477,7 @@ ROSECHYLD	ROSECHYLD	rosechyld
 Rosehardt	Rosehardt	rosehardt
 ROSEHIP	ROSEHIP	rosehip
 "Rosemary Fairweather"	"Rosemary Fairweather"	rosemaryfairweather
-Rosemary's	Rosemarys	rosemarys
+Rosemary's	Rosemary's	rosemarys
 Rosemont	Rosemont	rosemont
 "rosetta records"	rosetta	rosetta
 Rosewater	Rosewater	rosewater
@@ -31504,7 +31504,7 @@ Rothmans	Rothmans	rothmans
 "Rotten City Records"	"Rotten City"	rottencity
 "Rotten Records"	Rotten	rotten
 "Rottenman Editions"	"Rottenman Editions"	rottenmaneditions
-"Rotter's Golf Club (UK)"	"Rotters Golf Club UK"	rottersgolfclubuk
+"Rotter's Golf Club (UK)"	"Rotter's Golf Club UK"	rottersgolfclubuk
 "Rotters Golf Club"	"Rotters Golf Club"	rottersgolfclub
 "rottun recordings"	rottun	rottun
 "Rottun Records"	Rottun	rottun
@@ -31543,8 +31543,8 @@ Rothmans	Rothmans	rothmans
 "Rough Trade/DGC"	"Rough Trade/DGC"	roughtradedgc
 "Rough Trade/Rather"	"Rough Trade/Rather"	roughtraderather
 "Rough Trade/Sire"	"Rough Trade/Sire"	roughtradesire
-"Rough Trade/What's Your Rupture"	"Rough Trade/Whats Your Rupture"	roughtradewhatsyourrupture
-"Rough Trade/What's Your Rupture?"	"Rough Trade/Whats Your Rupture?"	roughtradewhatsyourrupture
+"Rough Trade/What's Your Rupture"	"Rough Trade/What's Your Rupture"	roughtradewhatsyourrupture
+"Rough Trade/What's Your Rupture?"	"Rough Trade/What's Your Rupture?"	roughtradewhatsyourrupture
 roughshod	roughshod	roughshod
 "Rought Trade"	"Rought Trade"	roughttrade
 Roughtrade	Roughtrade	roughtrade
@@ -31588,8 +31588,8 @@ Roxbury	Roxbury	roxbury
 "roy music"	roy	roy
 "Roy Records"	Roy	roy
 "Roy Records LLC"	Roy	roy
-"Roy's Boys"	"Roys Boys"	roysboys
-"Roy's Boys LLC"	"Roys Boys"	roysboys
+"Roy's Boys"	"Roy's Boys"	roysboys
+"Roy's Boys LLC"	"Roy's Boys"	roysboys
 Roya	Roya	roya
 "Royal Bait"	"Royal Bait"	royalbait
 "Royal Cream / BMG"	"Royal Cream / BMG"	royalcreambmg
@@ -31685,7 +31685,7 @@ Rudimental	Rudimental	rudimental
 Rudimentary	Rudimentary	rudimentary
 "Rudimentary Records"	Rudimentary	rudimentary
 "Rudy De Anda"	"Rudy De Anda"	rudydeanda
-"Rue '66"	"Rue 66"	rue66
+"Rue '66"	"Rue '66"	rue66
 "Ruelle Music"	Ruelle	ruelle
 "Rüf Kutz"	"Rüf Kutz"	rufkutz
 "Ruff Draft"	"Ruff Draft"	ruffdraft
@@ -32103,7 +32103,7 @@ Sanjam	Sanjam	sanjam
 "Sans Soucis"	"Sans Soucis"	sanssoucis
 Sansu	Sansu	sansu
 "santa dog"	"santa dog"	santadog
-"Santa's Out Of Rehab"	"Santas Out Of Rehab"	santasoutofrehab
+"Santa's Out Of Rehab"	"Santa's Out Of Rehab"	santasoutofrehab
 "Santiago Ferreira"	"Santiago Ferreira"	santiagoferreira
 Santuary	Santuary	santuary
 "Santurary Records"	Santurary	santurary
@@ -32973,7 +32973,7 @@ shore	shore	shore
 "Shoreline Gold"	"Shoreline Gold"	shorelinegold
 "Short Fuse Management, LLC"	"Short Fuse Management"	shortfusemanagement
 "Short Fuse Managment, LLC"	"Short Fuse Managment"	shortfusemanagment
-"short hair don't care"	"short hair dont care"	shorthairdontcare
+"short hair don't care"	"short hair don't care"	shorthairdontcare
 "Short Stop Records"	"Short Stop"	shortstop
 "Short Stuff"	"Short Stuff"	shortstuff
 "Short Stuff Records"	"Short Stuff"	shortstuff
@@ -33023,7 +33023,7 @@ Shut-In	Shut-In	shutin
 "Shutter Records"	Shutter	shutter
 Shutups	Shutups	shutups
 "Shy Kids"	"Shy Kids"	shykids
-"Si Vous Connaissez Quelque Chose de Pire Qu'un Vampire (Le Vampire)"	"Si Vous Connaissez Quelque Chose de Pire Quun Vampire Le Vampire"	sivousconnaissezquelquechosedepirequunvampirelevampire
+"Si Vous Connaissez Quelque Chose de Pire Qu'un Vampire (Le Vampire)"	"Si Vous Connaissez Quelque Chose de Pire Qu'un Vampire Le Vampire"	sivousconnaissezquelquechosedepirequunvampirelevampire
 "Siam Ese Squids"	"Siam Ese Squids"	siamesesquids
 "Siamese Squid"	"Siamese Squid"	siamesesquid
 "Siamese Squids"	"Siamese Squids"	siamesesquids
@@ -33189,7 +33189,7 @@ Sin	Sin	sin
 "Sin Dude Records"	"Sin Dude"	sindude
 "Sin Futuro Records"	"Sin Futuro"	sinfuturo
 "Sin Record Company"	Sin	sin
-"Since '93/RCA Records"	"Since 93/RCA"	since93rca
+"Since '93/RCA Records"	"Since '93/RCA"	since93rca
 "Since 93"	"Since 93"	since93
 "Since I Left You"	"Since I Left You"	sinceileftyou
 "Sincere Soul Records"	"Sincere Soul"	sinceresoul
@@ -33208,7 +33208,7 @@ Sinderlyn)	Sinderlyn	sinderlyn
 Sinetone	Sinetone	sinetone
 "Sinetone AMR"	"Sinetone AMR"	sinetoneamr
 "Sing Sing Records"	"Sing Sing"	singsing
-"Sing The 80's"	"Sing The 80s"	sing80s
+"Sing The 80's"	"Sing The 80's"	sing80s
 "Sing the Die Song"	"Sing the Die Song"	singdiesong
 "Sing, Eunuchs!"	"Sing Eunuchs!"	singeunuchs
 Singapore	Singapore	singapore
@@ -33236,7 +33236,7 @@ SINSBLFE	SINSBLFE	sinsblfe
 "Sinsekye Record Co"	Sinsekye	sinsekye
 "Sinus Music"	Sinus	sinus
 "Sinus Records"	Sinus	sinus
-"siobhan bonny-o'rourke"	"siobhan bonny-orourke"	siobhanbonnyorourke
+"siobhan bonny-o'rourke"	"siobhan bonny-o'rourke"	siobhanbonnyorourke
 "Siouxsie and The Banshees"	"Siouxsie and The Banshees"	siouxsiebanshees
 "Sip City Records"	"Sip City"	sipcity
 "Sir Lloyd Music"	"Sir Lloyd"	sirlloyd
@@ -33376,7 +33376,7 @@ SKG	SKG	skg
 "SKG Music, LLC."	SKG	skg
 "Skin Graft"	"Skin Graft"	skingraft
 "Skin Graft Records"	"Skin Graft"	skingraft
-"Skinny's Own"	"Skinnys Own"	skinnysown
+"Skinny's Own"	"Skinny's Own"	skinnysown
 Skinshape	Skinshape	skinshape
 "Skinshape (2017)"	Skinshape	skinshape
 Skint	Skint	skint
@@ -33507,7 +33507,7 @@ Slimstyle	Slimstyle	slimstyle
 "Slimstyle Recording Co."	Slimstyle	slimstyle
 "Slimstyle Recording Corp 2018"	"Slimstyle Recording"	slimstylerecording
 Slip	Slip	slip
-"Slip 'N Slide / Def Jam Records"	"Slip N Slide / Def Jam"	slipnslidedefjam
+"Slip 'N Slide / Def Jam Records"	"Slip 'N Slide / Def Jam"	slipnslidedefjam
 "Slip N Slide"	"Slip N Slide"	slipnslide
 "Slip N Slide Records"	"Slip N Slide"	slipnslide
 "Slip N Slide/Atlantic"	"Slip N Slide/Atlantic"	slipnslideatlantic
@@ -33674,7 +33674,7 @@ SMG	SMG	smg
 SMI	SMI	smi
 "Smile B.V.B.A"	"Smile BVBA"	smilebvba
 "Smile Recordings"	Smile	smile
-"Smilin' Ears"	"Smilin Ears"	smilinears
+"Smilin' Ears"	"Smilin' Ears"	smilinears
 "Smiling C"	"Smiling C"	smilingc
 Smino	Smino	smino
 "smith hyde productions"	"smith hyde"	smithhyde
@@ -33701,7 +33701,7 @@ Smog	Smog	smog
 "Smoked Out"	"Smoked Out"	smokedout
 "Smoked Out Music"	"Smoked Out"	smokedout
 "Smokin Sessions"	"Smokin Sessions"	smokinsessions
-"Smokin' Needles"	"Smokin Needles"	smokinneedles
+"Smokin' Needles"	"Smokin' Needles"	smokinneedles
 "Smoking Room"	"Smoking Room"	smokingroom
 "Smoking Room + Carnalismo Records"	"Smoking Room + Carnalismo"	smokingroomcarnalismo
 "smooch music inc"	smooch	smooch
@@ -33773,7 +33773,7 @@ Snowstorm	Snowstorm	snowstorm
 "So Good Music"	"So Good"	sogood
 "So Knee"	"So Knee"	soknee
 "So Low"	"So Low"	solow
-"So Real International, Can't Stop Won't Stop"	"So Real International Cant Stop Wont Stop"	sorealinternationalcantstopwontstop
+"So Real International, Can't Stop Won't Stop"	"So Real International Can't Stop Won't Stop"	sorealinternationalcantstopwontstop
 "So Recordings"	So	so
 "So Recordings / Silva Screen Recordings Ltd."	"So Recordings / Silva Screen"	sorecordingssilvascreen
 "So Sensation Records"	"So Sensation"	sosensation
@@ -34068,7 +34068,7 @@ Sonotec	Sonotec	sonotec
 Sonoton	Sonoton	sonoton
 "Sonoton / APM Music"	"Sonoton / APM"	sonotonapm
 "Sonoton Music"	Sonoton	sonoton
-"Sons D'Africa"	"Sons DAfrica"	sonsdafrica
+"Sons D'Africa"	"Sons D'Africa"	sonsdafrica
 "Sons of Vesta"	"Sons of Vesta"	sonsofvesta
 Sonshine	Sonshine	sonshine
 Sony	Sony	sony
@@ -34627,9 +34627,9 @@ Spineform	Spineform	spineform
 spinifex	spinifex	spinifex
 Spinnin	Spinnin	spinnin
 "Spinnin Records"	Spinnin	spinnin
-"Spinnin' Deep"	"Spinnin Deep"	spinnindeep
+"Spinnin' Deep"	"Spinnin' Deep"	spinnindeep
 "Spinnin' Records"	Spinnin	spinnin
-Spinnin’	Spinnin’	spinnin
+Spinnin’	Spinnin	spinnin
 "spinning records.com"	"spinning recordscom"	spinningrecordscom
 "Spinning Top"	"Spinning Top"	spinningtop
 "Spinning Top / Marathon Artists / Interscope"	"Spinning Top / Marathon Artists / Interscope"	spinningtopmarathonartistsinterscope
@@ -34644,7 +34644,7 @@ SpinninRecords.com	SpinninRecordscom	spinninrecordscom
 SpinninRecords.nl	SpinninRecordsnl	spinninrecordsnl
 Spinnup	Spinnup	spinnup
 "Spinny Nights"	"Spinny Nights"	spinnynights
-"Spinout Records ‎"	"Spinout Records ‎"	spinoutrecords
+"Spinout Records ‎"	Spinout	spinout
 Spinster	Spinster	spinster
 "Spintonic Recordings"	Spintonic	spintonic
 "Spiral Electric"	"Spiral Electric"	spiralelectric
@@ -34731,10 +34731,10 @@ Spruck	Spruck	spruck
 "Spud Cannon Productions"	"Spud Cannon"	spudcannon
 "Spudner Records"	Spudner	spudner
 Spunk	Spunk	spunk
-"Spunk / Cheatin' Heart"	"Spunk / Cheatin Heart"	spunkcheatinheart
+"Spunk / Cheatin' Heart"	"Spunk / Cheatin' Heart"	spunkcheatinheart
 "Spunk 2017"	Spunk	spunk
 "Spunk Records"	Spunk	spunk
-"Spunk/Cheatin' Heart"	"Spunk/Cheatin Heart"	spunkcheatinheart
+"Spunk/Cheatin' Heart"	"Spunk/Cheatin' Heart"	spunkcheatinheart
 "Spunkey Monkey Music"	"Spunkey Monkey"	spunkeymonkey
 "Spunky Monkey"	"Spunky Monkey"	spunkymonkey
 "Spunky Monkey Music"	"Spunky Monkey"	spunkymonkey
@@ -34807,7 +34807,7 @@ SST	SST	sst
 "SST (1982)"	SST	sst
 "SST Records"	SST	sst
 st	st	st
-"St Vitus' Dance"	"St Vitus Dance"	stvitusdance
+"St Vitus' Dance"	"St Vitus' Dance"	stvitusdance
 "st. cait"	"st cait"	stcait
 "St. Clair"	"St Clair"	stclair
 "St. Ives"	"St Ives"	stives
@@ -34991,8 +34991,8 @@ Stem	Stem	stem
 Step-Forward	Step-Forward	stepforward
 "Steph Wells"	"Steph Wells"	stephwells
 "Stephanie Burd"	"Stephanie Burd"	stephanieburd
-"Stephanie's Mix"	"Stephanies Mix"	stephaniesmix
-"Stephanie's Mix (the first one)"	"Stephanies Mix the first one"	stephaniesmixfirstone
+"Stephanie's Mix"	"Stephanie's Mix"	stephaniesmix
+"Stephanie's Mix (the first one)"	"Stephanie's Mix the first one"	stephaniesmixfirstone
 "Stephen Bishop"	"Stephen Bishop"	stephenbishop
 "Stephen Day"	"Stephen Day"	stephenday
 "Stephen Fasano"	"Stephen Fasano"	stephenfasano
@@ -35019,8 +35019,8 @@ Stereoseven	Stereoseven	stereoseven
 "Stereotypes Music"	Stereotypes	stereotypes
 "Sterile Records"	Sterile	sterile
 "Stern Africa"	"Stern Africa"	sternafrica
-"Stern's Music "	Sterns	sterns
-"Stern’s Music"	Stern’s	sterns
+"Stern's Music "	Stern's	sterns
+"Stern’s Music"	Stern's	sterns
 "Sterns Africa"	"Sterns Africa"	sternsafrica
 "Sterns Edits"	"Sterns Edits"	sternsedits
 "Sterns Music"	Sterns	sterns
@@ -35109,8 +35109,8 @@ Stone	Stone	stone
 "Stone Throws Record"	"Stone Throws Record"	stonethrowsrecord
 "Stone Woman"	"Stone Woman"	stonewoman
 "Stone Woman Music"	"Stone Woman"	stonewoman
-"Stone'd Records"	Stoned	stoned
-"Stone's Throw"	"Stones Throw"	stonesthrow
+"Stone'd Records"	Stone'd	stoned
+"Stone's Throw"	"Stone's Throw"	stonesthrow
 "Stoneface Muzik"	"Stoneface Muzik"	stonefacemuzik
 "Stones Throw"	"Stones Throw"	stonesthrow
 "Stones Throw (2004)"	"Stones Throw"	stonesthrow
@@ -35153,7 +35153,7 @@ Straight	Straight	straight
 "Straight Lines Are Fine"	"Straight Lines Are Fine"	straightlinesarefine
 "Straight Records"	Straight	straight
 Straight3	Straight3	straight3
-"Straker's Records"	Strakers	strakers
+"Straker's Records"	Straker's	strakers
 "Strakton ltd"	Strakton	strakton
 "Strand Records"	Strand	strand
 "Stranded Rekords"	"Stranded Rekords"	strandedrekords
@@ -35498,7 +35498,7 @@ Suicide	Suicide	suicide
 "Suicide Squeeze!"	"Suicide Squeeze!"	suicidesqueeze
 suitcase	suitcase	suitcase
 "Suite 102"	"Suite 102"	suite102
-"Suitor's Club"	"Suitors Club"	suitorsclub
+"Suitor's Club"	"Suitor's Club"	suitorsclub
 SUKHUMVIT	SUKHUMVIT	sukhumvit
 "SUKI Records"	SUKI	suki
 sulatron	sulatron	sulatron
@@ -35519,7 +35519,7 @@ Sumerian	Sumerian	sumerian
 "Summer Peaks"	"Summer Peaks"	summerpeaks
 "Summer Salt"	"Summer Salt"	summersalt
 "Summer Steps"	"Summer Steps"	summersteps
-"Summer's Over"	"Summers Over"	summersover
+"Summer's Over"	"Summer's Over"	summersover
 "Summerchill Records"	Summerchill	summerchill
 "Summers Girls, LLC"	"Summers Girls"	summersgirls
 "Summers Records"	Summers	summers
@@ -35745,7 +35745,7 @@ Suretone/Geffen	Suretone/Geffen	suretonegeffen
 "Surfdog Records"	Surfdog	surfdog
 "Surfer Rosie"	"Surfer Rosie"	surferrosie
 "Surfin Ki Records"	"Surfin Ki"	surfinki
-"Surfin'ki Records"	Surfinki	surfinki
+"Surfin'ki Records"	Surfin'ki	surfinki
 Surprise	Surprise	surprise
 Surreal	Surreal	surreal
 "surrender all"	"surrender all"	surrenderall
@@ -35754,7 +35754,7 @@ Survival	Survival	survival
 "Survival Records"	Survival	survival
 "Suryakant Sawhney"	"Suryakant Sawhney"	suryakantsawhney
 SusannaSonata	SusannaSonata	susannasonata
-"Suss'd Records"	Sussd	sussd
+"Suss'd Records"	Suss'd	sussd
 Sussex	Sussex	sussex
 "Sussex Records"	Sussex	sussex
 Susstones	Susstones	susstones
@@ -35996,12 +35996,12 @@ Tabb	Tabb	tabb
 Tabu	Tabu	tabu
 "Tabu Records"	Tabu	tabu
 "Tactical Records"	Tactical	tactical
-"Tad's "	Tads	tads
-"Tad's International "	Tads	tads
-"Tad's Record"	"Tads Record"	tadsrecord
-"Tad's Record Inc"	"Tads Record"	tadsrecord
-"Tad's Record Inc."	"Tads Record"	tadsrecord
-"Tad's Records"	Tads	tads
+"Tad's "	Tad's	tads
+"Tad's International "	Tad's	tads
+"Tad's Record"	"Tad's Record"	tadsrecord
+"Tad's Record Inc"	"Tad's Record"	tadsrecord
+"Tad's Record Inc."	"Tad's Record"	tadsrecord
+"Tad's Records"	Tad's	tads
 "Tads Records"	Tads	tads
 "Taeko Ohnuki"	"Taeko Ohnuki"	taekoohnuki
 Tafelmusik	Tafelmusik	tafelmusik
@@ -36063,7 +36063,7 @@ Talkbox	Talkbox	talkbox
 Talkie	Talkie	talkie
 "Talkin Loud"	"Talkin Loud"	talkinloud
 "Talkin Loud'"	"Talkin Loud"	talkinloud
-"Talkin' Loud"	"Talkin Loud"	talkinloud
+"Talkin' Loud"	"Talkin' Loud"	talkinloud
 "Talking Heads Tours under Parlophone"	"Talking Heads Tours under Parlophone"	talkingheadstoursunderparlophone
 "Talking House"	"Talking House"	talkinghouse
 "Talkshow Records"	Talkshow	talkshow
@@ -36174,7 +36174,7 @@ Tartelet	Tartelet	tartelet
 Tartown	Tartown	tartown
 TASHA	TASHA	tasha
 "taste and tone"	"taste and tone"	tastetone
-"Taste of '96"	"Taste of 96"	tasteof96
+"Taste of '96"	"Taste of '96"	tasteof96
 "Taste Rec"	"Taste Rec"	tasterec
 "tasty morels"	"tasty morels"	tastymorels
 "Tasty Morsals"	"Tasty Morsals"	tastymorsals
@@ -36287,7 +36287,7 @@ Teichiku	Teichiku	teichiku
 "Teichiku Records Co. LTD"	Teichiku	teichiku
 "Teikoku Gramophone Co., LTD"	"Teikoku Gramophone"	teikokugramophone
 "Teka Music"	Teka	teka
-"TEKK DJ'S"	"TEKK DJS"	tekkdjs
+"TEKK DJ'S"	"TEKK DJ'S"	tekkdjs
 Teklife	Teklife	teklife
 "teklife recordings"	teklife	teklife
 Teklife)	Teklife	teklife
@@ -36513,10 +36513,10 @@ thankyubilliejoe.bandcamp.com	thankyubilliejoebandcampcom	thankyubilliejoebandca
 "That Kind of Music"	"That Kind of"	thatkindof
 "That Philly Sound"	"That Philly Sound"	thatphillysound
 "That Summer Feeling"	"That Summer Feeling"	thatsummerfeeling
-"That's Cool Records"	"Thats Cool"	thatscool
-"THAT's NASTY / Human Re Sources"	"THATs NASTY / Human Re Sources"	thatsnastyhumanresources
-"THAT'S NASTY/Human Re Sources"	"THATS NASTY/Human Re Sources"	thatsnastyhumanresources
-"That's Why There's Chocolate And Vanilla (2005)"	"Thats Why Theres Chocolate And Vanilla"	thatswhythereschocolatevanilla
+"That's Cool Records"	"That's Cool"	thatscool
+"THAT's NASTY / Human Re Sources"	"THAT's NASTY / Human Re Sources"	thatsnastyhumanresources
+"THAT'S NASTY/Human Re Sources"	"THAT'S NASTY/Human Re Sources"	thatsnastyhumanresources
+"That's Why There's Chocolate And Vanilla (2005)"	"That's Why There's Chocolate And Vanilla"	thatswhythereschocolatevanilla
 THD	THD	thd
 "THD, Radius"	"THD Radius"	thdradius
 "the 1056"	the	the
@@ -36605,7 +36605,7 @@ THD	THD	thd
 "The Cadiz Recording Co 2012"	"The Cadiz"	cadiz
 "The Cafeteria Line"	"The Cafeteria Line"	cafeterialine
 "the CAlvin Johnson?"	"the CAlvin Johnson?"	calvinjohnson
-"The Cat's Miaow"	"The Cats Miaow"	catsmiaow
+"The Cat's Miaow"	"The Cat's Miaow"	catsmiaow
 "The Century Family"	"The Century Family"	centuryfamily
 "The Century Family, Inc."	"The Century Family"	centuryfamily
 "The Champagne School"	"The Champagne School"	champagneschool
@@ -36658,7 +36658,7 @@ THD	THD	thd
 "The Death Of Rave"	"The Death Of Rave"	deathofrave
 "The Decoders"	"The Decoders"	decoders
 "The Deep End"	"The Deep End"	deepend
-"The Def Jam box tells a story of a sound, a movement, and a lifestyle. Filled with a veritable who's who of hip-hop (3rd Bass, LL Cool J, Public Enemy, Slick Rick, EPMD, Beastie Boys) and som"	"The Def Jam box tells a story of a sound a movement and a lifestyle Filled with a veritable whos who of hip-hop 3rd Bass LL Cool J Public Enemy Slick Rick EPMD Beastie Boys and som"	defjamboxtellsstoryofsoundmovementlifestylefilledwithveritablewhoswhoofhiphop3rdbassllcooljpublicenemyslickrickepmdbeastieboyssom
+"The Def Jam box tells a story of a sound, a movement, and a lifestyle. Filled with a veritable who's who of hip-hop (3rd Bass, LL Cool J, Public Enemy, Slick Rick, EPMD, Beastie Boys) and som"	"The Def Jam box tells a story of a sound a movement and a lifestyle Filled with a veritable who's who of hip-hop 3rd Bass LL Cool J Public Enemy Slick Rick EPMD Beastie Boys and som"	defjamboxtellsstoryofsoundmovementlifestylefilledwithveritablewhoswhoofhiphop3rdbassllcooljpublicenemyslickrickepmdbeastieboyssom
 "The Def Jam Island Music Group"	"The Def Jam Island"	defjamisland
 "The Demento Society"	"The Demento Society"	dementosociety
 "The Den Records"	"The Den"	den
@@ -36668,7 +36668,7 @@ THD	THD	thd
 "The Diabolical Liberties"	"The Diabolical Liberties"	diabolicalliberties
 "The Digital U Creative Group LLC"	"The Digital U Creative"	digitalucreative
 "The Dip"	"The Dip"	dip
-"The Disappointed's Love Letter"	"The Disappointeds Love Letter"	disappointedsloveletter
+"The Disappointed's Love Letter"	"The Disappointed's Love Letter"	disappointedsloveletter
 "The Dodos"	"The Dodos"	dodos
 "The Dogon Lights"	"The Dogon Lights"	dogonlights
 "The Dogon Society"	"The Dogon Society"	dogonsociety
@@ -36723,7 +36723,7 @@ THD	THD	thd
 "The Flashbulb"	"The Flashbulb"	flashbulb
 "The Flat Five"	"The Flat Five"	flatfive
 "The Flenser"	"The Flenser"	flenser
-"The Florist's Mum"	"The Florists Mum"	floristsmum
+"The Florist's Mum"	"The Florist's Mum"	floristsmum
 "The Flower Shop"	"The Flower Shop"	flowershop
 "The Foreign Exchange Music"	"The Foreign Exchange"	foreignexchange
 "The Foundation"	"The Foundation"	foundation
@@ -36896,7 +36896,7 @@ THD	THD	thd
 "The Organic Music Society"	"The Organic Music Society"	organicmusicsociety
 "The Original Crooks and Nannies"	"The Original Crooks and Nannies"	originalcrooksnannies
 "The Orwells"	"The Orwells"	orwells
-"The Other People’s Money Company"	"The Other People’s Money Company"	otherpeoplesmoneycompany
+"The Other People’s Money Company"	"The Other People's Money Company"	otherpeoplesmoneycompany
 "The Other Peoples Money"	"The Other Peoples Money"	otherpeoplesmoney
 "The Other Planet"	"The Other Planet"	otherplanet
 "The Other Son"	"The Other Son"	otherson
@@ -36965,7 +36965,7 @@ THD	THD	thd
 "The Seshen"	"The Seshen"	seshen
 "The Shadow Cabinet;"	"The Shadow Cabinet"	shadowcabinet
 "The Shankles"	"The Shankles"	shankles
-"The She's"	"The Shes"	shes
+"The She's"	"The She's"	shes
 "The Ship"	"The Ship"	ship
 "The Show That Never Ends"	"The Show That Never Ends"	showthatneverends
 "The Sign"	"The Sign"	sign
@@ -37162,7 +37162,7 @@ Thievery	Thievery	thievery
 "things we like"	"things we like"	thingswelike
 "Think Beat Records"	"Think Beat"	thinkbeat
 "Think Differently Music"	"Think Differently"	thinkdifferently
-"Think It's A Game Entertainment"	"Think Its A Game"	thinkitsgame
+"Think It's A Game Entertainment"	"Think It's A Game"	thinkitsgame
 "Think Progressive"	"Think Progressive"	thinkprogressive
 "Think Thought Records"	"Think Thought"	thinkthought
 Thinner	Thinner	thinner
@@ -37215,7 +37215,7 @@ Thirteen	Thirteen	thirteen
 "Thirty Twenty Four Music LLC"	"Thirty Twenty Four"	thirtytwentyfour
 "Thirty Year Records]"	"Thirty Year"	thirtyyear
 "ThirtyOne Recordings"	ThirtyOne	thirtyone
-"This Ain't Bristol"	"This Aint Bristol"	thisaintbristol
+"This Ain't Bristol"	"This Ain't Bristol"	thisaintbristol
 "this album killed disco"	"this album killed disco"	thisalbumkilleddisco
 "This Compilation"	"This Compilation"	thiscompilation
 "This compilation (P), Sony Music Entertainment UK Limited"	"This compilation P Sony Music Entertainment UK"	thiscompilationpsonymusicentertainmentuk
@@ -37270,11 +37270,11 @@ Thizz	Thizz	thizz
 Thizzlamic	Thizzlamic	thizzlamic
 "Thizzlamic Records"	Thizzlamic	thizzlamic
 "THJ Sound"	"THJ Sound"	thjsound
-"Thomas D'Arcy Music"	"Thomas DArcy"	thomasdarcy
+"Thomas D'Arcy Music"	"Thomas D'Arcy"	thomasdarcy
 "Thomas Mayer"	"Thomas Mayer"	thomasmayer
 "Thomas McLean"	"Thomas McLean"	thomasmclean
 "Thompson Sound"	"Thompson Sound"	thompsonsound
-"Thor's Rubber Hammer"	"Thors Rubber Hammer"	thorsrubberhammer
+"Thor's Rubber Hammer"	"Thor's Rubber Hammer"	thorsrubberhammer
 "Thorns Backtrack Archive Series"	"Thorns Backtrack Archive Series"	thornsbacktrackarchiveseries
 "Thorp Records"	Thorp	thorp
 "Those Poor Bastards"	"Those Poor Bastards"	thosepoorbastards
@@ -37416,7 +37416,7 @@ Tiger	Tiger	tiger
 "Tiger Style/Last Affair"	"Tiger Style/Last Affair"	tigerstylelastaffair
 "tiger sushi"	"tiger sushi"	tigersushi
 "Tiger Tone"	"Tiger Tone"	tigertone
-"Tiger's Milk"	"Tigers Milk"	tigersmilk
+"Tiger's Milk"	"Tiger's Milk"	tigersmilk
 Tigerbass	Tigerbass	tigerbass
 Tigerbeat	Tigerbeat	tigerbeat
 "Tigerbeat 6"	"Tigerbeat 6"	tigerbeat6
@@ -37532,7 +37532,7 @@ Tinnitorturous	Tinnitorturous	tinnitorturous
 "tiny mix"	"tiny mix"	tinymix
 "Tiny Ogre"	"Tiny Ogre"	tinyogre
 "Tiny Shed"	"Tiny Shed"	tinyshed
-"Tiny Sticks/M&T Inc ‎"	"Tiny Sticks/M&T Inc ‎"	tinysticksmtinc
+"Tiny Sticks/M&T Inc ‎"	"Tiny Sticks/M&T"	tinysticksmt
 "Tiny Telephone"	"Tiny Telephone"	tinytelephone
 "Tiny Victories"	"Tiny Victories"	tinyvictories
 "Tio Series"	"Tio Series"	tioseries
@@ -37583,7 +37583,7 @@ TNeck	TNeck	tneck
 "TNeck Records"	TNeck	tneck
 TNeck/CBS	TNeck/CBS	tneckcbs
 "TNR.066 Brasil 2014. Todos os direitos reservados. Transfusão Noise Records"	"TNR066 Brasil 2014 Todos os direitos reservados Transfusão Noise"	tnr066brasil2014todososdireitosreservadostransfusaonoise
-"TO PERFORM WOOGIE STAGE @LiB'18"	"TO PERFORM WOOGIE STAGE @LiB18"	toperformwoogiestagelib18
+"TO PERFORM WOOGIE STAGE @LiB'18"	"TO PERFORM WOOGIE STAGE @LiB'18"	toperformwoogiestagelib18
 "To The Stars..."	"To The Stars"	tostars
 "To The Top Gang"	"To The Top Gang"	totopgang
 "To The Wedding"	"To The Wedding"	towedding
@@ -37855,13 +37855,13 @@ Touch	Touch	touch
 "Touch and Go!"	"Touch and Go!"	touchgo
 "Touch From A Distance"	"Touch From A Distance"	touchfromdistance
 "Touch n Go (1997)"	"Touch n Go"	touchngo
-"Touch n' Go"	"Touch n Go"	touchngo
+"Touch n' Go"	"Touch n' Go"	touchngo
 "Touch Sensitive"	"Touch Sensitive"	touchsensitive
 "Touch Sensitive (1983/2020)"	"Touch Sensitive"	touchsensitive
 "Touch The Sky"	"Touch The Sky"	touchsky
 "Touch Touch Publishing"	"Touch Touch"	touchtouch
 Touch&Go	Touch&Go	touchgo
-"Touchin' Base"	"Touchin Base"	touchinbase
+"Touchin' Base"	"Touchin' Base"	touchinbase
 "Touching Bass"	"Touching Bass"	touchingbass
 "Touchstone Pictures"	"Touchstone Pictures"	touchstonepictures
 Touchtheplants	Touchtheplants	touchtheplants
@@ -37887,7 +37887,7 @@ Towhead	Towhead	towhead
 "Toy Soldier Records"	"Toy Soldier"	toysoldier
 "Toy Tonics"	"Toy Tonics"	toytonics
 "Toy Tronics"	"Toy Tronics"	toytronics
-"Toy's Factory"	"Toys Factory"	toysfactory
+"Toy's Factory"	"Toy's Factory"	toysfactory
 TOYITOYI	TOYITOYI	toyitoyi
 "Toys Have Powers/999 Deathkult"	"Toys Have Powers/999 Deathkult"	toyshavepowers999deathkult
 "Toytronic Ltd."	Toytronic	toytronic
@@ -38151,7 +38151,7 @@ Triplecrown	Triplecrown	triplecrown
 triplej	triplej	triplej
 "Tripp Tapes"	"Tripp Tapes"	tripptapes
 "Trippin n Rhythm Records"	"Trippin n Rhythm"	trippinnrhythm
-"Trippin' n Rhythm Records"	"Trippin n Rhythm"	trippinnrhythm
+"Trippin' n Rhythm Records"	"Trippin' n Rhythm"	trippinnrhythm
 "tripple crown records"	"tripple crown"	tripplecrown
 "Trippy Ass Techno LLC"	"Trippy Ass Techno"	trippyasstechno
 "Trippy Ass Technologies"	"Trippy Ass Technologies"	trippyasstechnologies
@@ -38223,7 +38223,7 @@ Troubleman	Troubleman	troubleman
 "Troubleman Unlimited (2003)"	Troubleman	troubleman
 "Troubleman Unlimited Records"	"Troubleman Unlimited"	troublemanunlimited
 "Trouser Trout Records"	"Trouser Trout"	trousertrout
-"‎Trout As Lubrication Records"	"‎Trout As Lubrication"	troutaslubrication
+"‎Trout As Lubrication Records"	"Trout As Lubrication"	troutaslubrication
 "Trout Records"	Trout	trout
 "Trova Industrias Musicales S.A."	"Trova Industrias Musicales SA"	trovaindustriasmusicalessa
 TRU	TRU	tru
@@ -38284,7 +38284,7 @@ Truth	Truth	truth
 "truth music"	truth	truth
 "Truth Radio"	"Truth Radio"	truthradio
 "Truth Records"	Truth	truth
-"Truth's Sound"	"Truths Sound"	truthssound
+"Truth's Sound"	"Truth's Sound"	truthssound
 truthandsoulrecords	truthandsoulrecords	truthandsoulrecords
 TRX	TRX	trx
 "Try before you buy!"	"Try before you buy!"	trybeforeyoubuy
@@ -38482,7 +38482,7 @@ Twist	Twist	twist
 "Twisted Nerve/XL Records"	"Twisted Nerve/XL"	twistednervexl
 "TWISTED Records, Inc."	TWISTED	twisted
 "Twisted Village"	"Twisted Village"	twistedvillage
-"Twistin' Rumble"	"Twistin Rumble"	twistinrumble
+"Twistin' Rumble"	"Twistin' Rumble"	twistinrumble
 "Twistworthy Records"	Twistworthy	twistworthy
 twitter.com/7hesaint	twittercom/7hesaint	twittercom7hesaint
 Twitty	Twitty	twitty
@@ -38536,7 +38536,7 @@ Tzadik	Tzadik	tzadik
 "Tzadik (2000)"	Tzadik	tzadik
 "Tzadik Records"	Tzadik	tzadik
 TZR	TZR	tzr
-"U Don't Deserve This Beautiful Art"	"U Dont Deserve This Beautiful Art"	udontdeservethisbeautifulart
+"U Don't Deserve This Beautiful Art"	"U Don't Deserve This Beautiful Art"	udontdeservethisbeautifulart
 "U Know Me"	"U Know Me"	uknowme
 "U Know Me Records"	"U Know Me"	uknowme
 "U OK?"	"U OK?"	uok
@@ -38701,7 +38701,7 @@ Unchikun	Unchikun	unchikun
 "Unchikun Records"	Unchikun	unchikun
 "Uncle Chris"	"Uncle Chris"	unclechris
 "Uncle Jam"	"Uncle Jam"	unclejam
-"Uncle Jazzy's Favorite"	"Uncle Jazzys Favorite"	unclejazzysfavorite
+"Uncle Jazzy's Favorite"	"Uncle Jazzy's Favorite"	unclejazzysfavorite
 "Uncle Louie Music Group"	"Uncle Louie"	unclelouie
 "Uncle M"	"Uncle M"	unclem
 "Uncle M Music"	"Uncle M"	unclem
@@ -39139,7 +39139,7 @@ Uproar	Uproar	uproar
 "Upset The Rhythm!"	"Upset The Rhythm!"	upsetrhythm
 "Upset The Rythm"	"Upset The Rythm"	upsetrythm
 "Upset! The Rhythm"	"Upset! The Rhythm"	upsetrhythm
-"Upset! The Rhythm ‎(2020)"	"Upset! The Rhythm ‎2020"	upsetrhythm2020
+"Upset! The Rhythm ‎(2020)"	"Upset! The Rhythm"	upsetrhythm
 "Upset! The Rhythm 2011"	"Upset! The Rhythm"	upsetrhythm
 "Upset! The Rhythm 2014"	"Upset! The Rhythm"	upsetrhythm
 Upsetter	Upsetter	upsetter
@@ -39197,7 +39197,7 @@ USA	USA	usa
 usa?	usa?	usa
 uschod	uschod	uschod
 "Usedbinpop Music"	Usedbinpop	usedbinpop
-"usin' chopsticks"	"usin chopsticks"	usinchopsticks
+"usin' chopsticks"	"usin' chopsticks"	usinchopsticks
 "USM Japan"	"USM Japan"	usmjapan
 USON	USON	uson
 Usonian	Usonian	usonian
@@ -39449,7 +39449,7 @@ Versicolor	Versicolor	versicolor
 Versoulife	Versoulife	versoulife
 Verst	Verst	verst
 Versus	Versus	versus
-"Vertical Form ‎– VFORM006CD"	"Vertical Form ‎– VFORM006CD"	verticalformvform006cd
+"Vertical Form ‎– VFORM006CD"	"Vertical Form – VFORM006CD"	verticalformvform006cd
 Vertigo	Vertigo	vertigo
 "Vertigo (1973)"	Vertigo	vertigo
 "Vertigo / Capital, div of Universal Music"	"Vertigo / Capital div of Universal"	vertigocapitaldivofuniversal
@@ -39701,7 +39701,7 @@ Vision	Vision	vision
 "Vision Recordings"	Vision	vision
 "Vision Records"	Vision	vision
 "Vision Sound/Mad Decent"	"Vision Sound/Mad Decent"	visionsoundmaddecent
-"Vision's Express Records ‎"	"Visions Express Records ‎"	visionsexpressrecords
+"Vision's Express Records ‎"	"Vision's Express"	visionsexpress
 "Visionary Music Group"	Visionary	visionary
 "Visionary Records"	Visionary	visionary
 Visioneers	Visioneers	visioneers
@@ -40858,8 +40858,8 @@ Voiceprint	Voiceprint	voiceprint
 "Void Records"	Void	void
 Voidstar	Voidstar	voidstar
 VOITAX	VOITAX	voitax
-"Voix De L'Orient"	"Voix De LOrient"	voixdelorient
-"Voix de l'Orient (1977)"	"Voix de lOrient"	voixdelorient
+"Voix De L'Orient"	"Voix De L'Orient"	voixdelorient
+"Voix de l'Orient (1977)"	"Voix de l'Orient"	voixdelorient
 Vök	Vök	vok
 "Vok Netwerk"	"Vok Netwerk"	voknetwerk
 "Vok under license to Nettwerk Music Group Inc"	Nettwerk	nettwerk
@@ -40995,7 +40995,7 @@ WA	WA	wa
 "WAA Industry / Future Classic"	"WAA Industry / Future Classic"	waaindustryfutureclassic
 Waaga	Waaga	waaga
 "Waaga Records"	Waaga	waaga
-Wackie's	Wackies	wackies
+Wackie's	Wackie's	wackies
 Wackies	Wackies	wackies
 "wacky productions unlimited"	wacky	wacky
 "Wacky Wacko"	"Wacky Wacko"	wackywacko
@@ -41023,8 +41023,8 @@ Wajang	Wajang	wajang
 Wakaan	Wakaan	wakaan
 "Waldoxy Records"	Waldoxy	waldoxy
 "walk away"	"walk away"	walkaway
-"Walk Don't Walk Limited"	"Walk Dont Walk"	walkdontwalk
-"Walk Don't Walk Ltd"	"Walk Dont Walk"	walkdontwalk
+"Walk Don't Walk Limited"	"Walk Don't Walk"	walkdontwalk
+"Walk Don't Walk Ltd"	"Walk Don't Walk"	walkdontwalk
 "Walk In Cold"	"Walk In Cold"	walkincold
 "Walk of Sound"	"Walk of Sound"	walkofsound
 "walk tall recordings"	"walk tall"	walktall
@@ -41102,7 +41102,7 @@ Warner	Warner	warner
 "Warner Borthers"	"Warner Borthers"	warnerborthers
 "warner bos"	"warner bos"	warnerbos
 "Warner Bro"	"Warner Bro"	warnerbro
-"Warner Bro's"	"Warner Bros"	warnerbros
+"Warner Bro's"	"Warner Bro's"	warnerbros
 "Warner Brod"	"Warner Brod"	warnerbrod
 "Warner Bros"	"Warner Bros"	warnerbros
 "Warner Bros (1960)"	"Warner Bros"	warnerbros
@@ -41372,7 +41372,7 @@ WBR	WBR	wbr
 "We Belong"	"We Belong"	webelong
 "We Buy Gold"	"We Buy Gold"	webuygold
 "We Buy Gold Records"	"We Buy Gold"	webuygold
-"We Can't Be Stopped"	"We Cant Be Stopped"	wecantbestopped
+"We Can't Be Stopped"	"We Can't Be Stopped"	wecantbestopped
 "We Did It"	"We Did It"	wedidit
 "we got this music"	"we got this"	wegotthis
 "We Had Our Time"	"We Had Our Time"	wehadourtime
@@ -41397,8 +41397,8 @@ WBR	WBR	wbr
 "We Were Never Being Boring"	"We Were Never Being Boring"	wewereneverbeingboring
 "We Were Never Being Boring Collective"	"We Were Never Being Boring Collective"	wewereneverbeingboringcollective
 WE.THE.BUNDU	WETHEBUNDU	wethebundu
-"We're Trying Records"	"Were Trying"	weretrying
-"We’re Gonna Make It Big Someday / SVE Productions"	"We’re Gonna Make It Big Someday / SVE"	weregonnamakeitbigsomedaysve
+"We're Trying Records"	"We're Trying"	weretrying
+"We’re Gonna Make It Big Someday / SVE Productions"	"We're Gonna Make It Big Someday / SVE"	weregonnamakeitbigsomedaysve
 WEA	WEA	wea
 "WEA Filipacchi Music"	"WEA Filipacchi"	weafilipacchi
 "WEA Internacional"	"WEA Internacional"	weainternacional
@@ -41431,7 +41431,7 @@ Wedidit	Wedidit	wedidit
 WeDoItRight	WeDoItRight	wedoitright
 "Wee Pop!"	"Wee Pop!"	weepop
 "Wee Rock Records"	"Wee Rock"	weerock
-"Weebl's Stuff Records"	"Weebls Stuff"	weeblsstuff
+"Weebl's Stuff Records"	"Weebl's Stuff"	weeblsstuff
 Weed	Weed	weed
 "Weed Demon"	"Weed Demon"	weeddemon
 "Week of Wonders"	"Week of Wonders"	weekofwonders
@@ -41588,20 +41588,20 @@ Whales	Whales	whales
 "What we call Records"	"What we call"	whatwecall
 "What We Should Be Doing"	"What We Should Be Doing"	whatweshouldbedoing
 "What? Records"	What?	what
-"What's for Breakfase"	"Whats for Breakfase"	whatsforbreakfase
-"What's for Breakfast"	"Whats for Breakfast"	whatsforbreakfast
-"What's for Breakfast?"	"Whats for Breakfast?"	whatsforbreakfast
-"What's for Breakfast? Records"	"Whats for Breakfast?"	whatsforbreakfast
-"What's Your Rupture"	"Whats Your Rupture"	whatsyourrupture
-"What's Your Rupture?"	"Whats Your Rupture?"	whatsyourrupture
-"What's Your Rupture? 2015"	"Whats Your Rupture?"	whatsyourrupture
-"What's Your Rupture?/Rough Trade"	"Whats Your Rupture?/Rough Trade"	whatsyourruptureroughtrade
-"What's Yr Rupture? "	"Whats Yr Rupture?"	whatsyrrupture
-"What’s Your Rupture?"	"What’s Your Rupture?"	whatsyourrupture
+"What's for Breakfase"	"What's for Breakfase"	whatsforbreakfase
+"What's for Breakfast"	"What's for Breakfast"	whatsforbreakfast
+"What's for Breakfast?"	"What's for Breakfast?"	whatsforbreakfast
+"What's for Breakfast? Records"	"What's for Breakfast?"	whatsforbreakfast
+"What's Your Rupture"	"What's Your Rupture"	whatsyourrupture
+"What's Your Rupture?"	"What's Your Rupture?"	whatsyourrupture
+"What's Your Rupture? 2015"	"What's Your Rupture?"	whatsyourrupture
+"What's Your Rupture?/Rough Trade"	"What's Your Rupture?/Rough Trade"	whatsyourruptureroughtrade
+"What's Yr Rupture? "	"What's Yr Rupture?"	whatsyrrupture
+"What’s Your Rupture?"	"What's Your Rupture?"	whatsyourrupture
 "Whatever Productions"	Whatever	whatever
 "Whatever Records"	Whatever	whatever
 "Whatever Tapes"	"Whatever Tapes"	whatevertapes
-"Whatever's Clever"	"Whatevers Clever"	whateversclever
+"Whatever's Clever"	"Whatever's Clever"	whateversclever
 Whatevski	Whatevski	whatevski
 "Whats Your Rupture"	"Whats Your Rupture"	whatsyourrupture
 "Wheels of Soul"	"Wheels of Soul"	wheelsofsoul
@@ -41611,13 +41611,13 @@ Whelmed	Whelmed	whelmed
 "When We Dip XYZ"	"When We Dip XYZ"	whenwedipxyz
 "When You Laugh - Japanese Edition Bonus Track"	"When You Laugh - Japanese Edition Bonus Track"	whenyoulaughjapaneseeditionbonustrack
 "where are the strawberries"	"where are the strawberries"	wherearestrawberries
-"Where It's At Is Where You Are"	"Where Its At Is Where You Are"	whereitsatiswhereyouare
-"Where It's At Is Where You Are 2014"	"Where Its At Is Where You Are"	whereitsatiswhereyouare
-"Where It’s At Is Where You Are"	"Where It’s At Is Where You Are"	whereitsatiswhereyouare
+"Where It's At Is Where You Are"	"Where It's At Is Where You Are"	whereitsatiswhereyouare
+"Where It's At Is Where You Are 2014"	"Where It's At Is Where You Are"	whereitsatiswhereyouare
+"Where It’s At Is Where You Are"	"Where It's At Is Where You Are"	whereitsatiswhereyouare
 "Where Its At Is Where You Are"	"Where Its At Is Where You Are"	whereitsatiswhereyouare
 "Where To Now?"	"Where To Now?"	wheretonow
 "Where To Now? Records"	"Where To Now?"	wheretonow
-"Where's My Contact? Records"	"Wheres My Contact?"	wheresmycontact
+"Where's My Contact? Records"	"Where's My Contact?"	wheresmycontact
 "Wheredidigo Records"	Wheredidigo	wheredidigo
 "Which? Records"	Which?	which
 "which?/cherry red"	"which?/cherry red"	whichcherryred
@@ -41688,8 +41688,8 @@ Whizeagle	Whizeagle	whizeagle
 "Who Can You Trust? Records"	"Who Can You Trust?"	whocanyoutrust
 "who knows"	"who knows"	whoknows
 "Who Put a Bee in My Trash?"	"Who Put a Bee in My Trash?"	whoputbeeinmytrash
-"Who's Susan"	"Whos Susan"	whossusan
-"Who's Susan V.O.F."	"Whos Susan VOF"	whossusanvof
+"Who's Susan"	"Who's Susan"	whossusan
+"Who's Susan V.O.F."	"Who's Susan VOF"	whossusanvof
 "Whoa Dad!"	"Whoa Dad!"	whoadad
 "Whoa Oh Records"	"Whoa Oh"	whoaoh
 "Whoah oh"	"Whoah oh"	whoahoh
@@ -41699,7 +41699,7 @@ whok.org	whokorg	whokorg
 "whomp records"	whomp	whomp
 "Whooping Crane"	"Whooping Crane"	whoopingcrane
 "Whooping Crane Records"	"Whooping Crane"	whoopingcrane
-"Whst's Your Rupture"	"Whsts Your Rupture"	whstsyourrupture
+"Whst's Your Rupture"	"Whst's Your Rupture"	whstsyourrupture
 "Whu Else and The Purple Line"	"Whu Else and The Purple Line"	whuelsepurpleline
 "why are you okay"	"why are you okay"	whyareyouokay
 "Why baby why?"	"Why baby why?"	whybabywhy
@@ -41865,8 +41865,8 @@ Winter	Winter	winter
 "Winter D. Records"	"Winter D"	winterd
 "Winter McQuinn"	"Winter McQuinn"	wintermcquinn
 "winter pockets publishing"	"winter pockets"	winterpockets
-"Winter's Diary"	"Winters Diary"	wintersdiary
-"Winter's Diary / WD Records / EMPIRE"	"Winters Diary / WD Records / EMPIRE"	wintersdiarywdrecordsempire
+"Winter's Diary"	"Winter's Diary"	wintersdiary
+"Winter's Diary / WD Records / EMPIRE"	"Winter's Diary / WD Records / EMPIRE"	wintersdiarywdrecordsempire
 Wired	Wired	wired
 "Wired Records"	Wired	wired
 Wires	Wires	wires
@@ -41958,9 +41958,9 @@ Wolverine	Wolverine	wolverine
 "Wolves of Hades"	"Wolves of Hades"	wolvesofhades
 Wolvserpent	Wolvserpent	wolvserpent
 WOM	WOM	wom
-"Woman's Wax Works"	"Womans Wax Works"	womanswaxworks
+"Woman's Wax Works"	"Woman's Wax Works"	womanswaxworks
 Womanproducer	Womanproducer	womanproducer
-"Women's Wax Works"	"Womens Wax Works"	womenswaxworks
+"Women's Wax Works"	"Women's Wax Works"	womenswaxworks
 WOMMUSIC	WOMMUSIC	wommusic
 Wondaland	Wondaland	wondaland
 "Wondaland Records"	Wondaland	wondaland
@@ -42024,7 +42024,7 @@ Work	Work	work
 "Work Song"	"Work Song"	worksong
 "Workers Playtime"	"Workers Playtime"	workersplaytime
 "workin on my......."	"workin on my"	workinonmy
-"workin' on "	"workin on"	workinon
+"workin' on "	"workin' on"	workinon
 "Working Order"	"Working Order"	workingorder
 "Works / PIAS"	"Works / PIAS"	workspias
 "Works Progress"	"Works Progress"	worksprogress
@@ -42068,7 +42068,7 @@ Workshop	Workshop	workshop
 "World Town"	"World Town"	worldtown
 "World Village"	"World Village"	worldvillage
 "World Wide Ent."	"World Wide Ent"	worldwideent
-"World's Fair"	"Worlds Fair"	worldsfair
+"World's Fair"	"World's Fair"	worldsfair
 "worlds greatest dad"	"worlds greatest dad"	worldsgreatestdad
 "Worldwide Massmedia"	"Worldwide Massmedia"	worldwidemassmedia
 "Worldwide Music Group"	Worldwide	worldwide
@@ -42155,7 +42155,7 @@ WXPN	WXPN	wxpn
 "Wye Oak"	"Wye Oak"	wyeoak
 WYLD	WYLD	wyld
 Wyldest	Wyldest	wyldest
-"Wyldwood ‎"	"Wyldwood ‎"	wyldwood
+"Wyldwood ‎"	Wyldwood	wyldwood
 WYR?	WYR?	wyr
 WZRD	WZRD	wzrd
 "Wzrdry Recordings"	Wzrdry	wzrdry
@@ -42266,7 +42266,7 @@ Y	Y	y
 "Y2 Music"	Y2	y2
 Y4K	Y4K	y4k
 "Ya Basta"	"Ya Basta"	yabasta
-"ya'lls porch"	"yalls porch"	yallsporch
+"ya'lls porch"	"ya'lls porch"	yallsporch
 yabrassypeltier.bandcamp.com	yabrassypeltierbandcampcom	yabrassypeltierbandcampcom
 Yaeji	Yaeji	yaeji
 "Yahweh Records"	Yahweh	yahweh
@@ -42307,7 +42307,7 @@ YDLMIER	YDLMIER	ydlmier
 "Ye Olde Records"	"Ye Olde"	yeolde
 "Yea-Ming and The Rumours"	"Yea-Ming and The Rumours"	yeamingrumours
 "Yeah Right! Records"	"Yeah Right!"	yeahright
-"Yeah Yeah Yeah's"	"Yeah Yeah Yeahs"	yeahyeahyeahs
+"Yeah Yeah Yeah's"	"Yeah Yeah Yeah's"	yeahyeahyeahs
 "Yeah Yeah Yeahs"	"Yeah Yeah Yeahs"	yeahyeahyeahs
 "Year 0001"	Year	year
 "Year 001"	"Year 001"	year001
@@ -42426,7 +42426,7 @@ yoniwolf.bandcamp.com	yoniwolfbandcampcom	yoniwolfbandcampcom
 "Yonks Records"	Yonks	yonks
 "Yoodoo Park"	"Yoodoo Park"	yoodoopark
 York	York	york
-"York's Records ‎"	"Yorks Records ‎"	yorksrecords
+"York's Records ‎"	York's	yorks
 "Yoruba Records"	Yoruba	yoruba
 Yoshimoto	Yoshimoto	yoshimoto
 "Yoshitoshi Recordings"	Yoshitoshi	yoshitoshi
@@ -42444,10 +42444,10 @@ Yotanka	Yotanka	yotanka
 "you should be too busy dancing"	"you should be too busy dancing"	youshouldbetoobusydancing
 "You Too Can Woo"	"You Too Can Woo"	youtoocanwoo
 "You Tube"	"You Tube"	youtube
-"You're too busy dancing to care about what record label this is on."	"Youre too busy dancing to care about what record label this is on"	youretoobusydancingtocareaboutwhatrecordlabelthisison
-"You've Changed "	"Youve Changed"	youvechanged
-"You've Changed Records"	"Youve Changed"	youvechanged
-"You’ve Changed Records"	"You’ve Changed"	youvechanged
+"You're too busy dancing to care about what record label this is on."	"You're too busy dancing to care about what record label this is on"	youretoobusydancingtocareaboutwhatrecordlabelthisison
+"You've Changed "	"You've Changed"	youvechanged
+"You've Changed Records"	"You've Changed"	youvechanged
+"You’ve Changed Records"	"You've Changed"	youvechanged
 Young	Young	young
 "Young Adult Recordings"	"Young Adult"	youngadult
 "Young Adults"	"Young Adults"	youngadults
@@ -42478,8 +42478,8 @@ Young	Young	young
 "Young Gods"	"Young Gods"	younggods
 "Young Gods Records"	"Young Gods"	younggods
 "Young Heavy Souls"	"Young Heavy Souls"	youngheavysouls
-"Young Mary's Record Co."	"Young Marys"	youngmarys
-"Young Mary's Record Company"	"Young Marys"	youngmarys
+"Young Mary's Record Co."	"Young Mary's"	youngmarys
+"Young Mary's Record Company"	"Young Mary's"	youngmarys
 "young money"	"young money"	youngmoney
 "Young Money / Cash Money"	"Young Money / Cash Money"	youngmoneycashmoney
 "Young Money Cash Money Republic"	"Young Money Cash Money Republic"	youngmoneycashmoneyrepublic
@@ -42567,7 +42567,7 @@ YSMG	YSMG	ysmg
 Yucatan	Yucatan	yucatan
 "Yucatan Records"	Yucatan	yucatan
 Yuk-Fu	Yuk-Fu	yukfu
-"Yuko Kawai = 河合夕子* - Fujiyama Paradise = フジヤマ・パラダイス ‎(LP, Album)	Epic/Sony"	"Yuko Kawai = 河合夕子* - Fujiyama Paradise = フジヤマ・パラダイス ‎LP Album Epic/Sony"	yukokawaihehexizifujiyamaparadisefujiyamaparadaisulpalbumepicsony
+"Yuko Kawai = 河合夕子* - Fujiyama Paradise = フジヤマ・パラダイス ‎(LP, Album)	Epic/Sony"	"Yuko Kawai = 河合夕子* - Fujiyama Paradise = フジヤマ・パラダイス LP Album Epic/Sony"	yukokawaihehexizifujiyamaparadisefujiyamaparadaisulpalbumepicsony
 YulaVerse	YulaVerse	yulaverse
 Yuletide	Yuletide	yuletide
 Yum	Yum	yum
@@ -42622,7 +42622,7 @@ Zappa	Zappa	zappa
 "Zappa Records"	Zappa	zappa
 "Zappa Records/Rykodisc"	"Zappa Records/Rykodisc"	zapparecordsrykodisc
 "Zappruder Records"	Zappruder	zappruder
-"Zay's Land with the Nu Wave SOUND"	"Zays Land with the Nu Wave SOUND"	zayslandwithnuwavesound
+"Zay's Land with the Nu Wave SOUND"	"Zay's Land with the Nu Wave SOUND"	zayslandwithnuwavesound
 "Zbigniew Preisner"	"Zbigniew Preisner"	zbigniewpreisner
 ZE	ZE	ze
 "ZE (1981)"	ZE	ze
@@ -42770,7 +42770,7 @@ Zoo	Zoo	zoo
 "Zoo On Mars Entertainment"	"Zoo On Mars"	zooonmars
 "Zoo Records"	Zoo	zoo
 "Zoocru Inc"	Zoocru	zoocru
-"Zooey Records ‎"	"Zooey Records ‎"	zooeyrecords
+"Zooey Records ‎"	Zooey	zooey
 Zoom	Zoom	zoom
 "Zoom Lens"	"Zoom Lens"	zoomlens
 "Zoom Music"	Zoom	zoom
