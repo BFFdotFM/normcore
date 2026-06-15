@@ -71,6 +71,16 @@ final class NormcoreTest extends TestCase {
     $this->assertEquals('', Normcore::keyRecordLabelName('-'));
   }
 
+  public function testPreservesZeroResultThroughPipeline() : void {
+    # empty('0') is true in PHP, so the pipeline must not discard a transform that
+    # legitimately reduces a string to '0'.
+    $this->assertEquals('0', Normcore::cleanTrackTitle('0'));
+    $this->assertEquals('0', Normcore::keyTrackTitle('0'));
+    # The contributor strip correctly reduces this to '0' (previously the '0' was
+    # discarded by empty(), leaving the feat. credit to leak into the key as '0featx').
+    $this->assertEquals('0', Normcore::keyTrackTitle('0 (feat. X)'));
+  }
+
   public function testKeyFlattensStylisticCharacters() : void {
     $this->assertEquals('asaprocky', Normcore::keyArtistName('A$AP Rocky'));
     $this->assertEquals('tydollasign', Normcore::keyArtistName('Ty Dolla $ign'));

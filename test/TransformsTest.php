@@ -22,8 +22,25 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('Sigur Ros - ()', Transforms::normalizeUnicode('Sigur Rós - ()'));
   }
 
+  public function testUnicodeNormalizationLeavesAsciiUntouched(): void {
+    # The ASCII fast-path must be output-identical to the ICU transliteration it skips:
+    # trim whitespace, but otherwise pass the bytes through unchanged.
+    $this->assertEquals('Domino Records', Transforms::normalizeUnicode('  Domino Records  '));
+    $this->assertEquals('R.E.M.', Transforms::normalizeUnicode('R.E.M.'));
+    $this->assertEquals('Godspeed You! Black Emperor', Transforms::normalizeUnicode('Godspeed You! Black Emperor'));
+    $this->assertEquals('', Transforms::normalizeUnicode(''));
+  }
+
   public function testStylisticFlatteningRemovesAmbiguouslyDecorativeCharacters(): void {
     $this->assertEquals('…And you will know us by the trail of dead', Transforms::normalizeStylisticCharacters('...And you will know us by the trail of dead'));
+  }
+
+  public function testStylisticFlatteningCollapsesLongDotRuns(): void {
+    # Four+ dots must collapse to a single ellipsis, not an ellipsis plus leftover dots.
+    $this->assertEquals('Wait…', Transforms::normalizeStylisticCharacters('Wait....'));
+    $this->assertEquals('Wait…', Transforms::normalizeStylisticCharacters('Wait......'));
+    # Two dots are not an ellipsis and stay untouched.
+    $this->assertEquals('Wait..', Transforms::normalizeStylisticCharacters('Wait..'));
   }
 
   public function testStylisticNormalizationConvergesInconsistentRepresentations(): void {
@@ -69,6 +86,12 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('and', Transforms::filterRedundantWords('the and'), 'Transform stripped even when resultant string was empty');
     $this->assertEquals('night at opera', Transforms::filterRedundantWords('A night at the opera'));
     $this->assertEquals('Hand That Feeds', Transforms::filterRedundantWords('The Hand That Feeds'));
+
+    # A redundant word at the very end of a string is intentionally retained, so names
+    # that are ONLY redundant words don't collapse to empty. (Relies on the trailing \s,
+    # which is why these key to a non-empty value — see filterRedundantWords.)
+    $this->assertEquals('Sufjan and', Transforms::filterRedundantWords('Sufjan and'));
+    $this->assertEquals('the', Transforms::filterRedundantWords('the the'));
   }
 
   public function testDiscardsFeaturedGuestArtists(): void {
@@ -83,6 +106,11 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('Concord Music Group, Inc.', Transforms::discardLicensingBlurb('A&M Records Under Exclusive License to Concord Music Group, Inc.'));
     $this->assertEquals('Concord Music Group, Inc.', Transforms::discardLicensingBlurb('A&M Records Under License to Concord Music Group, Inc.'));
     $this->assertEquals('A&M Records', Transforms::discardLicensingBlurb('A&M Records Under License from Concord Music Group, Inc.'));
+
+    # Must not split on an incidental ' . ' or double space — the old empty alternative
+    # degraded the pattern to /\s\.?\s/ and dropped everything before the gap.
+    $this->assertEquals('Heavenly . Recordings', Transforms::discardLicensingBlurb('Heavenly . Recordings'));
+    $this->assertEquals('Foo  Bar', Transforms::discardLicensingBlurb('Foo  Bar'));
   }
 
   public function testRemoveTrailingYear() : void {

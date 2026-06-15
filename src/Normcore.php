@@ -107,7 +107,9 @@ class Normcore {
     # Perform transforms, which will be applied so long as the returned string is not empty
     $transformed = array_reduce($transforms, function($inputString, $function) {
       $newVal = Transforms::$function($inputString);
-      if (!empty($newVal)) {
+      # Keep the transformed value unless it blanked the string. Compare against '' rather
+      # than empty(), since empty('0') is true and would discard a legitimate '0' result.
+      if ($newVal !== '') {
         return $newVal;
       } else {
         return $inputString;
@@ -136,7 +138,8 @@ class Normcore {
       }
       self::$analysis[$function][] = $execTime;
 
-      if (!empty($newVal)) {
+      # Mirror transform(): keep the value unless it blanked the string (see note there).
+      if ($newVal !== '') {
         return $newVal;
       } else {
         return $inputString;
