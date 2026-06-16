@@ -71,6 +71,51 @@ final class RecordLabelCleanTest extends TestCase {
     $this->assertEquals('Craft', Normcore::cleanRecordLabelName('R.E.M./Athens L.L.C., Under exclusive license to Craft Recordings. Distributed by Concord.'));
   }
 
+  public function testDiscardsStreamingMetadataNoise() : void {
+    $this->assertEquals('Rhino', Normcore::cleanRecordLabelName('℗ 1969 Rhino Entertainment, a Warner Music Group Company'));
+    $this->assertEquals('Atlantic', Normcore::cleanRecordLabelName('℗ 1969 Atlantic Recording Corporation, a Warner Music Group Company. Marketed by Rhino Entertainment Company, a Warner Music Group Company.'));
+    $this->assertEquals('Extra Term Audio', Normcore::cleanRecordLabelName('℗ 1982 2020 The Estate of Jeffrey Lee Pierce, under Exclusive License to Extra Term Audio LLC for the United States'));
+    $this->assertEquals('Elektra', Normcore::cleanRecordLabelName('℗ 1983 Elektra Entertainment, manufactured and marketed by Rhino Entertainment Company, a Warner Music Group company'));
+    $this->assertEquals('ABKCO Music & Records', Normcore::cleanRecordLabelName('℗ 1987 ABKCO Music & Records, Inc.'));
+    $this->assertEquals('AMDISCS Futures Reserve Label', Normcore::cleanRecordLabelName('℗ 2014 AMDISCS: Futures Reserve Label. www.amdiscs.com'));
+    $this->assertEquals('Anthology', Normcore::cleanRecordLabelName('℗ 2014 Kemado Records, Inc. d/b/a Anthology Recordings'));
+    $this->assertEquals('Bonsound', Normcore::cleanRecordLabelName('℗ 2021 Laurence-Anne, under exclusive licence to Bonsound'));
+    $this->assertEquals('Mute', Normcore::cleanRecordLabelName('℗ 2021 Mute Records Ltd., a BMG Company'));
+    $this->assertEquals('XXIM', Normcore::cleanRecordLabelName('℗ 2021 XXIM Records, a label of Sony Music Entertainment'));
+    $this->assertEquals('Sony Music', Normcore::cleanRecordLabelName('℗ Originally released 1967. All rights reserved by Sony Music Entertainment'));
+    $this->assertEquals('Sony Music', Normcore::cleanRecordLabelName('℗ Originally Released 1965, 1966, 1967, 1968, 1969, 1970, 1971 (P) 2003 Sony Music Entertainment Inc.'));
+    $this->assertEquals('Arista', Normcore::cleanRecordLabelName('℗ This compilation (P) 2011 Arista Records, LLC'));
+    $this->assertEquals('Western Vinyl', Normcore::cleanRecordLabelName('℗ Western Vinyl'));
+    $this->assertEquals('Atlantic', Normcore::cleanRecordLabelName('2017 Atlantic Recording Corporation for the US and WEA International Inc. for the world outside of the US. A Warner Music Group Company'));
+    $this->assertEquals('Geffen', Normcore::cleanRecordLabelName('A Geffen Records Release; ℗ 1966 UMG Recordings, Inc.'));
+    $this->assertEquals('Motown', Normcore::cleanRecordLabelName('A Motown Records Release; This Compilation ℗ 2006 UMG Recordings, Inc.'));
+    $this->assertEquals('A&M', Normcore::cleanRecordLabelName('An A&M Records Release; ℗ 1969 UMG Recordings, Inc.'));
+    # Leading copyright runs mixing glyphs, &/and connectors and annotated year runs.
+    $this->assertEquals('Rough Trade', Normcore::cleanRecordLabelName('(P) & (C) 2010 Rough Trade Records'));
+    $this->assertEquals('Potion', Normcore::cleanRecordLabelName('(P) and © Potion Records'));
+    $this->assertEquals('Warner', Normcore::cleanRecordLabelName('(P) and Warner Records UK Limited'));
+    $this->assertEquals('Alfa', Normcore::cleanRecordLabelName('℗ 1978(2) 1982(1,3-10) Alfa Music, Inc.'));
+    # The leading-year scaffolding strip must not eat into a DistroKid catalogue id, which
+    # handleDistroKidLabels still needs to recognise.
+    $this->assertEquals('Self Released', Normcore::cleanRecordLabelName('℗ 2019 1150200 Records DK'));
+    # Stacked country + incorporation suffixes ("Ltd. (UK)", "llc USA").
+    $this->assertEquals('Polydor', Normcore::cleanRecordLabelName('℗ 2006 Polydor Ltd. (UK)'));
+    $this->assertEquals('Numan', Normcore::cleanRecordLabelName('Numan music llc USA'));
+    # Article-less corporate "division of" clause.
+    $this->assertEquals('Asylum', Normcore::cleanRecordLabelName('Asylum Records UK, division of Warner Music Uk Ltd'));
+    # "International" is part of the name, not an organisational suffix.
+    $this->assertEquals('Amnesty International', Normcore::cleanRecordLabelName('Amnesty International USA'));
+    # Territory clauses with "for"/"in" and optional article must not orphan a preposition.
+    $this->assertEquals('Mute Artists', Normcore::cleanRecordLabelName('Little Idiot under exclusive license to Mute Artists for USA'));
+    $this->assertEquals('Interscope', Normcore::cleanRecordLabelName('XL Recordings Ltd., under exclusive license to Interscope Records in the USA'));
+    # "u/l" abbreviation of "under licence to".
+    $this->assertEquals('Sony', Normcore::cleanRecordLabelName('Mark Ronson u/l to Sony UK'));
+    # Licensing is resolved before the corporate-parent strip, so a licensee clause that
+    # itself contains "Group"/"Company" still yields the licensee, not the licensor.
+    $this->assertEquals('Concord', Normcore::cleanRecordLabelName('A&M Records, Under Exclusive License to Concord Music Group, Inc.'));
+    $this->assertEquals('Loma Vista', Normcore::cleanRecordLabelName('2017 PH Recordings, LLC. Under exclusive license to Loma Vista Recordings. Distributed by Concord Music Group, Inc.'));
+  }
+
   public function testPreservesUnicodeNames() : void {
     $this->assertEquals('Δισκογραφικός Συνεταιρισμός Καλλιτεχνών', Normcore::cleanRecordLabelName('Δισκογραφικός Συνεταιρισμός Καλλιτεχνών'));
     $this->assertEquals('有限会社尾島事務所', Normcore::cleanRecordLabelName('有限会社尾島事務所'));

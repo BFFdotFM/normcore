@@ -58,14 +58,32 @@ class Normcore {
       'removeControlCharacters',
       'trimWhitespace',
       'normalizeQuoteCharacters',
+      # Strip streaming-metadata legal/presentational clauses first, so the end-anchored
+      # suffix strippers below can then reach the real label name.
+      'discardCopyrightScaffolding',
+      'discardDistributionClause',
+      'discardDoingBusinessAs',
+      'discardTerritory',
+      'discardTrailingUrl',
       'handleDistroKidLabels',
+      # Licensing must run BEFORE discardCorporateParent: the licensee (the real label)
+      # follows "under licen[cs]e to …", and that clause can itself contain
+      # "Group"/"Company" which the article-less corporate-parent rule would otherwise
+      # eat first (e.g. "A&M Records, Under Exclusive License to Concord Music Group").
       'discardLicensingBlurb',
+      'discardCorporateParent',
       'removeTrailingYear',
       'discardCopyright',
       'removePhrasePunctuation',
       'discardIncorporation',
+      'discardCountrySuffixes',
+      # Second incorporation pass: a trailing country can hide an incorporation suffix
+      # behind it (e.g. "Polydor Ltd. (UK)", "Numan music llc USA"); once the country is
+      # gone the exposed "Ltd"/"llc" needs stripping too.
+      'discardIncorporation',
       'discardOrganizationGroup',
       'discardLabelNameRedundancies',
+      'discardCountrySuffixes',
       'discardYearPrefix',
       'trimPunctuation'
     ));

@@ -143,6 +143,10 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('Concord Music Group, Inc.', Transforms::discardLicensingBlurb('A&M Records Under License to Concord Music Group, Inc.'));
     $this->assertEquals('A&M Records', Transforms::discardLicensingBlurb('A&M Records Under License from Concord Music Group, Inc.'));
 
+    # "u/l" abbreviates "under licen[cs]e to" and may omit the trailing "to".
+    $this->assertEquals('Sony', Transforms::discardLicensingBlurb('Mark Ronson u/l to Sony'));
+    $this->assertEquals('Sony', Transforms::discardLicensingBlurb('Kinks u/l Sony'));
+
     # Must not split on an incidental ' . ' or double space — the old empty alternative
     # degraded the pattern to /\s\.?\s/ and dropped everything before the gap.
     $this->assertEquals('Heavenly . Recordings', Transforms::discardLicensingBlurb('Heavenly . Recordings'));
@@ -174,6 +178,74 @@ final class TransformsTest extends TestCase {
     $this->assertEquals('Flower Moon', Transforms::discardYearPrefix('℗ 2001 Flower Moon'));
     $this->assertEquals('Sony Music', Transforms::discardYearPrefix('℗ Originally Released 1958 1959 Sony Music'));
     $this->assertEquals('Sony Music', Transforms::discardYearPrefix('℗ Originally Released 1966 Sony Music'));
+    # A lone leading copyright glyph with no year is still removed.
+    $this->assertEquals('Western Vinyl', Transforms::discardYearPrefix('℗ Western Vinyl'));
+    $this->assertEquals('Sub Pop', Transforms::discardYearPrefix('© Sub Pop'));
+  }
+
+  public function testDiscardCopyrightScaffolding() : void {
+    $this->assertEquals('Arista Records, LLC', Transforms::discardCopyrightScaffolding('This compilation (P) 2011 Arista Records, LLC'));
+    $this->assertEquals('Sony Music Entertainment', Transforms::discardCopyrightScaffolding('All rights reserved by Sony Music Entertainment'));
+    $this->assertEquals('Sony Music Entertainment Inc.', Transforms::discardCopyrightScaffolding('Originally Released 1965, 1966, 1967, 1968, 1969, 1970, 1971 (P) 2003 Sony Music Entertainment Inc.'));
+    # A name with no scaffolding is untouched.
+    $this->assertEquals('Western Vinyl', Transforms::discardCopyrightScaffolding('Western Vinyl'));
+    # Leading copyright run mixing glyphs, &/and connectors and annotated year runs.
+    $this->assertEquals('Rough Trade Records', Transforms::discardCopyrightScaffolding('(P) & (C) 2010 Rough Trade Records'));
+    $this->assertEquals('Potion Records', Transforms::discardCopyrightScaffolding('(P) and © Potion Records'));
+    $this->assertEquals('Warner Records UK Limited', Transforms::discardCopyrightScaffolding('(P) and Warner Records UK Limited'));
+    $this->assertEquals('Alfa Music, Inc.', Transforms::discardCopyrightScaffolding('℗ 1978(2) 1982(1,3-10) Alfa Music, Inc.'));
+  }
+
+  public function testDiscardCorporateParent() : void {
+    $this->assertEquals('Rhino Entertainment', Transforms::discardCorporateParent('Rhino Entertainment, a Warner Music Group Company'));
+    $this->assertEquals('Mute Records Ltd.', Transforms::discardCorporateParent('Mute Records Ltd., a BMG Company'));
+    $this->assertEquals('XXIM Records', Transforms::discardCorporateParent('XXIM Records, a label of Sony Music Entertainment'));
+    $this->assertEquals('Def Jam Recordings', Transforms::discardCorporateParent('Def Jam Recordings, a division of UMG Recordings, Inc.'));
+    # The article is optional: an article-less ", division of …" clause is also discarded.
+    $this->assertEquals('Asylum Records UK', Transforms::discardCorporateParent('Asylum Records UK, division of Warner Music Uk Ltd'));
+    # Names that merely contain Company/Label without a comma lead-in are preserved.
+    $this->assertEquals('Not On Label', Transforms::discardCorporateParent('Not On Label'));
+    $this->assertEquals('The Beautiful Music Company', Transforms::discardCorporateParent('The Beautiful Music Company'));
+    $this->assertEquals('The Only Label In The World', Transforms::discardCorporateParent('The Only Label In The World'));
+  }
+
+  public function testDiscardDistributionClause() : void {
+    $this->assertEquals('Elektra Entertainment', Transforms::discardDistributionClause('Elektra Entertainment, manufactured and marketed by Rhino Entertainment Company, a Warner Music Group company'));
+    $this->assertEquals('Elektra Entertainment', Transforms::discardDistributionClause('Elektra Entertainment, Marketed by Rhino Entertainment Company'));
+    $this->assertEquals('Geffen Records', Transforms::discardDistributionClause('A Geffen Records Release; ℗ 1966 UMG Recordings, Inc.'));
+    $this->assertEquals('A&M Records', Transforms::discardDistributionClause('An A&M Records Release; ℗ 1969 UMG Recordings, Inc.'));
+    # A name with no distribution clause is untouched.
+    $this->assertEquals('Western Vinyl', Transforms::discardDistributionClause('Western Vinyl'));
+  }
+
+  public function testDiscardDoingBusinessAs() : void {
+    $this->assertEquals('Anthology Recordings', Transforms::discardDoingBusinessAs('Kemado Records, Inc. d/b/a Anthology Recordings'));
+    $this->assertEquals('Western Vinyl', Transforms::discardDoingBusinessAs('Western Vinyl'));
+  }
+
+  public function testDiscardTerritory() : void {
+    $this->assertEquals('Extra Term Audio LLC', Transforms::discardTerritory('Extra Term Audio LLC for the United States'));
+    $this->assertEquals('Atlantic Recording Corporation', Transforms::discardTerritory('Atlantic Recording Corporation for the US and WEA International'));
+    # The preposition (for/in) and article are both flexible, so no stray "for"/"in the"
+    # is orphaned when the country word is stripped downstream.
+    $this->assertEquals('Mute Artists', Transforms::discardTerritory('Mute Artists for USA'));
+    $this->assertEquals('Interscope Records', Transforms::discardTerritory('Interscope Records in the USA'));
+    $this->assertEquals('Domino', Transforms::discardTerritory('Domino'));
+  }
+
+  public function testDiscardCountrySuffixes() : void {
+    $this->assertEquals('Atlantic', Transforms::discardCountrySuffixes('Atlantic UK'));
+    $this->assertEquals('Beggars', Transforms::discardCountrySuffixes('Beggars Japan'));
+    $this->assertEquals('Caroline', Transforms::discardCountrySuffixes('Caroline France'));
+    # Only a trailing country word is removed; one mid-name is left alone.
+    $this->assertEquals('UK Garage', Transforms::discardCountrySuffixes('UK Garage'));
+  }
+
+  public function testDiscardTrailingUrl() : void {
+    $this->assertEquals('AMDISCS: Futures Reserve Label', Transforms::discardTrailingUrl('AMDISCS: Futures Reserve Label. www.amdiscs.com'));
+    $this->assertEquals('Marseille Figs', Transforms::discardTrailingUrl('Marseille Figs https://marseillefigs.org'));
+    # No URL — including a name with internal punctuation — is untouched.
+    $this->assertEquals('Mom+Pop', Transforms::discardTrailingUrl('Mom+Pop'));
   }
 
   public function testDiscardIncorporation() : void {
@@ -204,9 +276,11 @@ final class TransformsTest extends TestCase {
      $this->assertEquals('The Label', Transforms::discardOrganizationGroup('The Label Music'));
      $this->assertEquals('The Label', Transforms::discardOrganizationGroup('The Label Music Group'));
      $this->assertEquals('The Label', Transforms::discardOrganizationGroup('The Label Music Publishing'));
-     $this->assertEquals('The Label', Transforms::discardOrganizationGroup('The Label International'));
      $this->assertEquals('The Label', Transforms::discardOrganizationGroup('The Label Entertainment'));
      $this->assertEquals('The Label', Transforms::discardOrganizationGroup('The Label Entertainment Group'));
+     # "International" is NOT a discarded suffix — in the crowd data it is part of the name
+     # (e.g. "Philadelphia International", "Amnesty International").
+     $this->assertEquals('Philadelphia International', Transforms::discardOrganizationGroup('Philadelphia International'));
   }
 
   public function testDiscardLabelNameRedundancies() : void {

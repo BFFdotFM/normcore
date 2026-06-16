@@ -72,6 +72,33 @@ final class RecordLabelKeyTest extends TestCase {
     $this->assertEquals('craft', Normcore::keyRecordLabelName('R.E.M./Athens L.L.C., Under exclusive license to Craft Recordings. Distributed by Concord.'));
   }
 
+  public function testDiscardsStreamingMetadataNoise() : void {
+    $this->assertEquals('rhino', Normcore::keyRecordLabelName('℗ 1969 Rhino Entertainment, a Warner Music Group Company'));
+    $this->assertEquals('atlantic', Normcore::keyRecordLabelName('℗ 1969 Atlantic Recording Corporation, a Warner Music Group Company. Marketed by Rhino Entertainment Company, a Warner Music Group Company.'));
+    $this->assertEquals('abkcomusicrecords', Normcore::keyRecordLabelName('℗ 1987 ABKCO Music & Records, Inc.'));
+    $this->assertEquals('anthology', Normcore::keyRecordLabelName('℗ 2014 Kemado Records, Inc. d/b/a Anthology Recordings'));
+    $this->assertEquals('bonsound', Normcore::keyRecordLabelName('℗ 2021 Laurence-Anne, under exclusive licence to Bonsound'));
+    $this->assertEquals('mute', Normcore::keyRecordLabelName('℗ 2021 Mute Records Ltd., a BMG Company'));
+    $this->assertEquals('xxim', Normcore::keyRecordLabelName('℗ 2021 XXIM Records, a label of Sony Music Entertainment'));
+    $this->assertEquals('sonymusic', Normcore::keyRecordLabelName('℗ Originally released 1967. All rights reserved by Sony Music Entertainment'));
+    $this->assertEquals('arista', Normcore::keyRecordLabelName('℗ This compilation (P) 2011 Arista Records, LLC'));
+    $this->assertEquals('westernvinyl', Normcore::keyRecordLabelName('℗ Western Vinyl'));
+    $this->assertEquals('geffen', Normcore::keyRecordLabelName('A Geffen Records Release; ℗ 1966 UMG Recordings, Inc.'));
+    $this->assertEquals('motown', Normcore::keyRecordLabelName('A Motown Records Release; This Compilation ℗ 2006 UMG Recordings, Inc.'));
+    $this->assertEquals('am', Normcore::keyRecordLabelName('An A&M Records Release; ℗ 1969 UMG Recordings, Inc.'));
+    $this->assertEquals('roughtrade', Normcore::keyRecordLabelName('(P) & (C) 2010 Rough Trade Records'));
+    $this->assertEquals('potion', Normcore::keyRecordLabelName('(P) and © Potion Records'));
+    $this->assertEquals('warner', Normcore::keyRecordLabelName('(P) and Warner Records UK Limited'));
+    $this->assertEquals('alfa', Normcore::keyRecordLabelName('℗ 1978(2) 1982(1,3-10) Alfa Music, Inc.'));
+    $this->assertEquals('polydor', Normcore::keyRecordLabelName('℗ 2006 Polydor Ltd. (UK)'));
+    $this->assertEquals('numan', Normcore::keyRecordLabelName('Numan music llc USA'));
+    $this->assertEquals('asylum', Normcore::keyRecordLabelName('Asylum Records UK, division of Warner Music Uk Ltd'));
+    $this->assertEquals('amnestyinternational', Normcore::keyRecordLabelName('Amnesty International USA'));
+    $this->assertEquals('muteartists', Normcore::keyRecordLabelName('Little Idiot under exclusive license to Mute Artists for USA'));
+    $this->assertEquals('interscope', Normcore::keyRecordLabelName('XL Recordings Ltd., under exclusive license to Interscope Records in the USA'));
+    $this->assertEquals('sony', Normcore::keyRecordLabelName('Mark Ronson u/l to Sony UK'));
+  }
+
   public function testConvertsUnicodeNamesToAscii() : void {
     $this->assertEquals('diskographikossynetairismoskallitechnon', Normcore::keyRecordLabelName('Δισκογραφικός Συνεταιρισμός Καλλιτεχνών'));
     $this->assertEquals('youxianhuisheweidaoshiwusuo', Normcore::keyRecordLabelName('有限会社尾島事務所'));
